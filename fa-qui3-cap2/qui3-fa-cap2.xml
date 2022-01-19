@@ -1,0 +1,903 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <p class="general-text">
+    <titulo_cap_texto>Coeficiente de solubilidade</titulo_cap_texto>
+    <imagem>
+      <imagem>&lt;I001-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">A mistura de água e sal é uma mistura homogênea, caracterizada por uma única fase. Já a mistura de água e areia é uma mistura heterogênea, caracterizada por mais de uma fase. </p>
+    <p class="quote">[...] </p>
+    <p class="quote">Podemos ainda observar, na cozinha da nossa casa, que há limite para dissolver o açúcar e o sal na água. Quando exageramos na quantidade, a água ou o suco ficam turvos, porque o açúcar ou o sal não se dissolveram totalmente. A quantidade de substância que se dissolve em determinada quantidade de solvente varia muito, em função das características das substâncias envolvidas e da compatibilidade entre elas (soluto e solvente). Quando a água é o solvente, algumas substâncias possuem solubili-dade infinita, ou seja, misturam-se em qualquer proporção com a água. Outras possuem solubilidade limitada; outras, insolúveis.  </p>
+    <p class="quote">[...] </p>
+    <p class="quote-source">
+      SANTANA, K.; LIMA E. R.
+      <i>Utilização de uma atividade experimental para discutir conceitos sobre a solubilidade.</i>
+      Universidade Federal de Sergipe. Itabaiana, 2013. Disponível em: &lt;https://www.google.com/search?q=UTILIZA%C3%87%C3%83O+DE+UMA+ATIVIDADE+EXPERIMENTAL+PARA+DISCUTIR+CONCEITOS+SOBRE+A+SOLUBILIDADE&amp;oq=UTILIZA%C3%87%C3%83O+DE+UMA+ATIVIDADE+EXPERIMENTAL+PARA+DISCUTIR+CONCEITOS+SOBRE+A+SOLUBILIDADE&amp;aqs=chrome..69i57.301j0j9&amp;sourceid=chrome&amp;ie=UTF-8#&gt;. Acesso em: 12 jul. 2021.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <texto_bullets>&#8226;	Quanto de açúcar é preciso para tornar a água turva? </texto_bullets>
+    <texto_bullets>&#8226;	É possível transformar uma solução saturada em insaturada sem alterar as quantidades de soluto e de solvente? </texto_bullets>
+    <texto_bullets>
+      &#8226;	Além da água, que outro solvente tem a capacidade de dissolver muitas substâncias?
+      <exercicios_linhas></exercicios_linhas>
+    </texto_bullets>
+    <boxe_02_texto>
+      Neste capítulo, serão abordadas as habilidades EM13CNT101, EM13CNT203 e EM13CNT307.
+      <exercicios_linhas></exercicios_linhas>
+    </boxe_02_texto>
+    <titulo1>	Solubilidade </titulo1>
+    <p class="general-text">Quando falamos sobre solubilidade, estamos nos referindo à quan-tidade de um soluto a ser dissolvido por certa quantidade de solvente sob temperatura constante. Ao prepararmos achocolatado para beber em um copo com aproximadamente 300  mL de leite, podemos adicionar diferentes quantidades de achocolatado em pó. A depender da massa de achocolatado adicionada, a bebida poderá apresentar uma quantidade de sólido no fundo do copo. Quando isso acontece, significa que adicionamos mais sólido do que aquela quantidade de leite conseguia dissolver naquela temperatura; então, para eliminar esse excesso, temos duas alternativas: adicionar mais leite ou alterar a temperatura da solução. </p>
+    <p class="general-text">
+      Chamamos de
+      <b>coeficiente de solubilidade</b>
+      o máximo de soluto que é dissolvido por uma quantidade definida de solvente (na maioria dos casos, definimos a quantidade de solvente em 100 g) a dada temperatura.
+    </p>
+    <p class="general-text">
+      Formamos uma solução
+      <b>insaturada</b>
+      quando adicionamos menor quantidade de soluto do que aquela que o solvente é capaz de dissolver a dada temperatura. Essa solução será homogênea e não apresentará corpo de chão.
+    </p>
+    <p class="general-text">
+      Se adicionarmos exatamente a quantidade de soluto possível de ser dissolvida pelo solvente naquela temperatura, ou seja, se adicionarmos uma massa de soluto igual àquela indicada em seu coeficiente de solubilidade, produziremos uma solução
+      <b>saturada</b>
+      e homogênea, sem a presença de precipitado.
+    </p>
+    <imagem>
+      <imagem>&lt;F001-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Não é possível afirmar se uma solução é saturada ou insaturada a olho nu. </p>
+    <p class="img-credit">Turtle Rock Scientific/Science Source/Fotoarena</p>
+    <p class="general-text">
+      Em determinadas situações, quando adicionamos mais soluto do que o solvente é capaz de dissolver, podemos formar uma solução
+      <b>supersaturada</b>
+      . Essa solução é instável, e eventualmente o excesso de soluto tende a cristalizar, formando corpo de chão, que precipita no fundo do recipiente. Após a precipitação, a solução resultante se encontra saturada, como é o caso do achocolatado que citamos.
+    </p>
+    <imagem>
+      <imagem>&lt;F002-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Uma solução supersa-turada tem aspecto homogêneo, mas o soluto dissolvido tende a cristalizar e precipitar. </p>
+    <p class="img-credit">Turtle Rock Scientific/Science Source/Fotoarena</p>
+    <p class="general-text">A temperatura é um fator que afeta o coeficiente de solubilidade das substâncias; por isso, é preciso saber a temperatura em que o sistema se encontra para classificar a solução. </p>
+    <p class="general-text">
+      <boxe_17>
+        <boxe_17_titulo1>Fique ligado!</boxe_17_titulo1>
+        <boxe_17_texto>
+          Podemos determinar facilmente a massa de precipitado em uma solução. Para isso, basta conhecer a massa total de soluto que foi adicionada ao solvente e o
+          <b>coeficiente de solubilidade</b>
+          na temperatura adequada: se adicionarmos 40 g de NaC
+          <simbolos>&#8467;</simbolos>
+          a 100 g de água a 20
+          <simbolos>°</simbolos>
+          C
+          <simbolos>&#8211;</simbolos>
+          sendo o valor do coeficiente de solubilidade do cloreto de sódio nessa temperatura 36 g NaC
+          <simbolos>&#8467;</simbolos>
+          /100 g H
+          <sub></sub>
+          <sub>2</sub>
+          O
+          <simbolos>&#8211;</simbolos>
+          , a massa de precipitado será a quantidade de sal adicionada (40 g) menos o coeficiente de solubilidade (36 g), ou seja, 40 g
+          <simbolos>&#8211;</simbolos>
+          36 g
+          <simbolos>=</simbolos>
+          4 g.
+        </boxe_17_texto>
+      </boxe_17>
+    </p>
+    <secao_01>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <p class="exercicio-text ml">
+        1	Sabendo que o coeficiente de solubilidade do cloreto de amônio (NH
+        <sub>4</sub>
+        C
+        <simbolos>&#8467;</simbolos>
+        ) é de 37,2 g/100 g de H
+        <sub>2</sub>
+        O a 20
+        <simbolos>°</simbolos>
+        C e de 55,2 g/100 g de H
+        <sub>2</sub>
+        O a 60
+        <simbolos>°</simbolos>
+        C, uma solução com 200 g de água e 110,4 g de cloreto de amônio a 20
+        <simbolos>°</simbolos>
+        C é considerada saturada ou insaturada? E a 60
+        <simbolos>°</simbolos>
+        C?
+      </p>
+      <titulo3>
+        <b>Resolução:</b>
+      </titulo3>
+      <p class="exercicio-text">
+        A 20
+        <simbolos>°</simbolos>
+        C:
+      </p>
+      <p class="exercicio-text">
+        100 g água --------- 37,2 g NH
+        <sub>4</sub>
+        C
+        <simbolos>&#8467;</simbolos>
+      </p>
+      <p class="exercicio-text">
+        200 g água ---------
+        <i>x</i>
+      </p>
+      <p class="exercicio-text">
+        <i>x</i>
+        <simbolos>=</simbolos>
+        74,4 g NH
+        <sub>4</sub>
+        C
+        <simbolos>&#8467;</simbolos>
+      </p>
+      <p class="exercicio-text">110,4 g foram adicionados, mas apenas 74,4 g são dissolvidos, então a solução é saturada com corpo de fundo. </p>
+      <p class="exercicio-text">
+        A massa de corpo de fundo que precipita é:110,4 g
+        <simbolos>&#8211;</simbolos>
+        74,4 g
+        <simbolos>=</simbolos>
+        36 g
+      </p>
+      <p class="exercicio-text">
+        A 60
+        <simbolos>°</simbolos>
+        C:
+      </p>
+      <p class="exercicio-text">
+        100 g água --------- 55,2 g NH
+        <sub>4</sub>
+        C
+        <simbolos>&#8467;</simbolos>
+      </p>
+      <p class="exercicio-text">
+        200 g água ---------
+        <i>y</i>
+      </p>
+      <p class="exercicio-text">
+        <i>y</i>
+        <simbolos>=</simbolos>
+        110,4 g NH
+        <sub>4</sub>
+        C
+        <simbolos>&#8467;</simbolos>
+      </p>
+      <p class="exercicio-text">110,4 g foram adicionados, e 110,4 g são dissolvidos, então a solução é saturada sem corpo de fundo.</p>
+    </secao_01>
+    <p class="general-text">Até agora, tratamos de soluções em que o soluto é sólido e o solvente é líquido, mas sabemos que o soluto também pode ser um gás ou um líquido. Quando desejamos dissolver um gás em um solvente líquido, precisamos prestar atenção não só na temperatura, mas também na pressão do sistema. </p>
+    <p class="general-text">O aumento de pressão causa maior solubilidade do gás em um líquido; já a diminuição de pressão diminui a solubilidade desse gás no líquido. A temperatura, por sua vez, age de maneira contrária na solubilidade: o aquecimento gera diminuição da solubilidade dos gases, enquanto temperaturas mais baixas aumentam a solubilidade destes. </p>
+    <p class="general-text">
+      A pressão não aumenta nem diminui a solubilidade de sólidos em líquidos; nesses casos, é a temperatura que tem grande influência. Na maioria das vezes, o aumento da temperatura do sistema causa aumento na solubilidade do sólido, principalmente se este for uma substância iônica. Quando esse comportamento ocorre, a dissolução é
+      <b>endotérmica</b>
+      , ou seja, favorecida pelo aquecimento. No entanto, também existem substâncias que apresentam diminuição do coeficiente de solubilidade com o aumento da temperatura. Nesse caso, a dissolução é
+      <b>exotérmica</b>
+      , ou seja, prejudicada pelo aumento da temperatura.
+    </p>
+    <p class="general-text">Com essas informações, é possível construir curvas de solubilidade, que demonstram o comportamento da solubilidade com a variação da temperatura, como mostra o gráfico a seguir. </p>
+    <grafico_titulo>Solubilidade do gás oxigênio em água a várias temperaturas, na pressão atmosférica de 1 atm (760 mmHg) </grafico_titulo>
+    <imagem>
+      <imagem>&lt;LUMEN_2021_2S_L3_QUI_&lt;I001.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">O gráfico mostra que o aumento de temperatura diminui a solubilidade de gás oxigênio em água. Por isso, o aquecimento global é algo tão danoso, pois modifica os padrões de circulação dos oceanos e contribui para a perda de oxigênio na água. </p>
+    <p class="quote-source">
+      Fonte: FIORUCCI, A. BENEDETTI E. A importância do oxigênio dissolvido em sistemas aquáticos.
+      <i>Química Nova na Escola</i>
+      , n
+      <simbolos>°</simbolos>
+      . 22, nov. 2005. Disponível em: &lt;http://qnesc. sbq.org.br/online/qnesc22/a02.png&gt;&gt;. Acesso em: 20 maio 2021.
+    </p>
+    <secao_02>
+      <secao_15_titulo1>Aplicando conhecimentos </secao_15_titulo1>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        Considerando que o coeficiente de solubilidade da sacarose (C
+        <sub>12</sub>
+        H
+        <sub>22</sub>
+        O
+        <sub>11</sub>
+        ), a 30
+        <simbolos>°</simbolos>
+        C, é 220 g/100 g de H
+        <sub>2</sub>
+        O, quanto de açúcar devemos adicionar a 250 mL de água para que a solução seja considerada saturada? Dados: densidade da água
+        <simbolos>=</simbolos>
+        1 g/mL.
+      </p>
+      <p class="exercicio-text ml"></p>
+      <item_lista>
+        <b>a)	</b>
+        450 g
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        500 g
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        550 g
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        600 g
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        650 g
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        A solubilidade do gás carbônico (CO
+        <sub>2</sub>
+        ) em água depende das condições de pressão e de temperatura do sistema. Se observarmos dois lagos, ambos sob a mesma pressão atmosférica, porém um a 15
+        <simbolos>°</simbolos>
+        C de temperatura e outro a 30
+        <simbolos>°</simbolos>
+        C, em qual dos dois haverá maior quantidade de CO
+        <sub>2</sub>
+        dissolvido?
+      </p>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        Observe o gráfico para responder ao que se pede.
+      </p>
+      <p class="exercicio-text ml">
+        <imagem>&lt;I003-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+      </p>
+      <p class="exercicio-text ml">
+        Foi preparada uma solução saturada de nitrato de potássio e água a 50
+        <simbolos>°</simbolos>
+        C, com massa total igual a 500 g. Se essa solução sofrer diminuição da temperatura para 30
+        <simbolos>°</simbolos>
+        C, qual será a massa do precipitado formado?
+      </p>
+      <p class="exercicio-text ml"></p>
+      <exercicios_linhas></exercicios_linhas>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        Qual é a diferença entre uma solução supersaturada e uma solução saturada com corpo de chão?
+      </p>
+      <exercicios_linhas></exercicios_linhas>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>Unicamp 2021</b>
+        A forma cristalina de um fármaco é fundamental para seu uso como medicamento. Assim, a indústria farmacêutica, após a síntese de determinado fármaco, deve verificar se ele se apresenta como uma única forma cristalina ou se é uma mistura polimórfica. Uma das formas de purificar um fármaco nessas condições é utilizar um processo de recristalização: dissolução do material sintetizado, seguida da cristalização da substância desejada. Observe na tabela abaixo os dados de solubilidade em água de uma dada forma de insulina. A partir dessas informações, caso se queira purificar uma amostra dessa insulina, seria recomendado dissolver essa amostra em quantidade suficiente de água
+      </p>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="2">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="103.65">
+          <tabela_gravata3>
+            Temperatura (
+            <simbolos>°</simbolos>
+            C)
+          </tabela_gravata3>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="110.78307086614173">
+          <tabela_gravata3>
+            Solubilidade (mg
+            <b>?</b>
+            mL&#8211;1)
+          </tabela_gravata3>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="103.65">
+          <tabela_texto_geral>15</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="110.78307086614173">
+          <tabela_texto_geral>0,30</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="103.65">
+          <tabela_texto_geral>25</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="110.78307086614173">
+          <tabela_texto_geral>0,63</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="103.65">
+          <tabela_texto_geral>35</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="110.78307086614173">
+          <tabela_texto_geral>0,92</tabela_texto_geral>
+        </Cell>
+      </Table>
+      <item_lista>
+        <b>a)	</b>
+        a 35
+        <simbolos>°</simbolos>
+        C e resfriar lentamente a solução até 15 
+        <simbolos>°</simbolos>
+        C, promover uma filtração a 15
+        <simbolos>°</simbolos>
+        C e recuperar o sólido; toda a insulina seria recuperada.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        a 15
+        <simbolos>°</simbolos>
+        C e aquecer lentamente a solução até 35
+        <simbolos>°</simbolos>
+        C, promover uma filtração a 35
+        <simbolos>°</simbolos>
+        C e recuperar o sólido; uma parte da insulina permaneceria em solução.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        a 35
+        <simbolos>°</simbolos>
+        C e resfriar lentamente a solução até 15
+        <simbolos>°</simbolos>
+        C, promover uma filtração a 15
+        <simbolos>°</simbolos>
+        C e recuperar o sólido; uma parte da insulina permaneceria em solução.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        a 15
+        <simbolos>°</simbolos>
+        C e aquecer lentamente a solução até 35 
+        <simbolos>°</simbolos>
+        C, promover uma filtração a 35
+        <simbolos>°</simbolos>
+        C e recuperar o sólido; toda a insulina seria recuperada.
+      </item_lista>
+    </secao_02>
+    <secao_01>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        <b>Unesp 2017</b>
+        A 20
+        <simbolos>°</simbolos>
+        C, a solubilidade do açúcar comum (C
+        <sub>12</sub>
+        H
+        <sub>22</sub>
+        O
+        <sub>11</sub>
+        , massa molar
+        <simbolos>=</simbolos>
+        342 g/mol) em água é cerca de 2,0 kg/L, enquanto a do sal comum (NaC
+        <simbolos>&#8467;</simbolos>
+        , massa molar
+        <simbolos>=</simbolos>
+        58,5 g/mol) é cerca de 0,35 kg/L. A comparação de iguais volumes de soluções saturadas dessas duas substâncias permite afirmar corretamente que, em relação à quantidade total em mol de íons na solução de sal, a quantidade total em mol de moléculas de soluto dissolvidas na solução de açúcar é, aproximadamente,
+      </p>
+      <item_lista>
+        <b>a)	</b>
+        a mesma.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        6 vezes maior.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        6 vezes menor.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        a metade.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        o triplo.
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>UFRGS 2017</b>
+        Observe o gráfico e a tabela abaixo, que representam a curva de solubilidade aquosa (em gramas de soluto por 100 g de água) do nitrato de potássio e do nitrato de sódio em função da temperatura.
+      </p>
+      <imagem>
+        <imagem>&lt;I004-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+      </imagem>
+      <p class="exercicio-text ml"></p>
+      <p class="exercicio-text ml">
+        <Story>
+          <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="3">
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="53.85826771653543">
+              <Tabela_gravata1>
+                T (
+                <b>°</b>
+                C)
+              </Tabela_gravata1>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.03740157480321">
+              <Tabela_gravata1>KNO</Tabela_gravata1>
+              <sub>3</sub>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.03740157480321">
+              <Tabela_gravata1>NaNO</Tabela_gravata1>
+              <sub>3</sub>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="53.85826771653543">
+              <tabela_texto_geral>60</tabela_texto_geral>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.03740157480321">
+              <tabela_texto_geral>115</tabela_texto_geral>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.03740157480321">
+              <tabela_texto_geral>125</tabela_texto_geral>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="53.85826771653543">
+              <tabela_texto_geral>65</tabela_texto_geral>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.03740157480321">
+              <tabela_texto_geral>130</tabela_texto_geral>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.03740157480321">
+              <tabela_texto_geral>130</tabela_texto_geral>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="53.85826771653543">
+              <tabela_texto_geral>75</tabela_texto_geral>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.03740157480321">
+              <tabela_texto_geral>160</tabela_texto_geral>
+            </Cell>
+            <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.03740157480321">
+              <tabela_texto_geral>140</tabela_texto_geral>
+            </Cell>
+          </Table>
+        </Story>
+      </p>
+      <p class="exercicio-text ml">
+        Assinale a alternativa que preenche corretamente as lacunas do enunciado a seguir, na ordem em que aparecem. A curva A diz respeito ao ________, e a curva B, ao _________. Considerando duas soluções aquosas saturadas e sem precipitado, uma de KNO
+        <sub>3</sub>
+        e outra de NaNO
+        <sub>3</sub>
+        , a 65
+        <simbolos>°</simbolos>
+        C, o efeito da diminuição da temperatura acarretará a precipitação de ___________.
+      </p>
+      <p class="exercicio-text ml"></p>
+      <item_lista>
+        <b>a)	</b>
+        Nitrato de potássio &#8211; nitrato de sódio &#8211; nitrato de potássio
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Nitrato de potássio &#8211; nitrato de sódio &#8211; nitrato de sódio
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Nitrato de sódio &#8211; nitrato de potássio &#8211; nitrato de sódio
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Nitrato de sódio &#8211; nitrato de potássio &#8211; ambas
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Nitrato de potássio &#8211; nitrato de sódio &#8211; ambas
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>Mackenzie-SP 2017</b>
+        A tabela abaixo mostra a solubilidade do sal X, em 100 g de água, em função da temperatura.
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="11">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.86614173228347">
+            <Tabela_gravata1>
+              Temperatura(
+              <b>°</b>
+              C)
+            </Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>0</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>10</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>20</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>30</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>40</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>50</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>60</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>70</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>80</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>90</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.86614173228347">
+            <Tabela_gravata1>Massa (g) sal X 100 g de água</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>16</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>18</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>21</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>24</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>28</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>32</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>37</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>43</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>50</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="15.874015748031496">
+            <tabela_texto_geral>58</tabela_texto_geral>
+          </Cell>
+        </Table>
+      </p>
+      <p class="exercicio-text ml">Com base nos resultados obtidos, foram feitas as seguintes afirmativas: </p>
+      <exercicio_item_romano>
+        <p class="exercicio-text ml"></p>
+        <b>I.	</b>
+        A solubilização do sal X, em água, é exotérmica.
+        <b>II.	</b>
+        Ao preparar-se uma solução saturada do sal X, a 60
+        <simbolos>°</simbolos>
+        C, em 200 g de água e resfriá-la, sob agitação até 10
+        <simbolos>°</simbolos>
+        C, serão precipitados 19 g desse sal.
+        <b>III.	</b>
+        Uma solução contendo 90 g de sal e 300 g de água, a 50
+        <simbolos>°</simbolos>
+        C, apresentará precipitado.
+      </exercicio_item_romano>
+      <p class="exercicio-text ml">Assim, analisando-se as afirmativas acima, é correto dizer que </p>
+      <p class="exercicio-text ml"></p>
+      <item_lista>
+        <b>a)	</b>
+        Nenhuma das afirmativas está certa.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Apenas a afirmativa II está certa.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Apenas as afirmativas II e III estão certas.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Apenas as afirmativas I e III estão certas.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Todas as afirmativas estão certas.
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        <b>Unicid-SP 2017</b>
+        O gráfico apresenta as solubilidades dos sais A, B, C, D, E e F em função da temperatura.
+      </p>
+      <imagem>
+        <imagem>&lt;I005-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+      </imagem>
+      <p class="quote-source">(www.preuniversitycourses.com. Adaptado.) </p>
+      <item_lista>
+        <b>a)	</b>
+        Indique o sal cuja solubilidade em água é menos afetada pelo aumento de temperatura.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Considere uma solução preparada com 33 g dosal B em 50 g de água, a 40
+        <simbolos>°</simbolos>
+        C. A mistura resultante apresenta corpo de fundo? Justifique sua resposta.
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>IME-RJ 2017</b>
+        A figura a seguir representa as curvas de solubilidade de duas substâncias A e B.
+      </p>
+      <imagem>
+        <imagem>&lt;I007-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+      </imagem>
+      <p class="exercicio-text ml">Com base nela, pode-se afirmar que: </p>
+      <p class="exercicio-text ml"></p>
+      <item_lista>
+        <b>a)	</b>
+        No ponto 1, as soluções apresentam a mesma temperatura, mas as solubilidades de A e B são diferentes.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        A solução da substância A está supersaturada no ponto 2.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        As soluções são instáveis no ponto 3.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        As curvas de solubilidade não indicam mudanças na estrutura dos solutos.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        A solubilidade da substância B segue o perfil esperado para a solubilidade de gases em água.
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        <b>Fasm-SP 2016</b>
+        Analise o gráfico que representa a solubilidade do CO
+        <sub>2</sub>
+        (massa molar 44 g/mol) em água à pressão 1 atm.
+      </p>
+      <imagem>
+        <imagem>&lt;I009-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+      </imagem>
+      <p class="quote-source">
+        (
+        <i>Química Nova na Escola</i>
+        , vol. 35, 2013.)
+      </p>
+      <p class="quote-source"></p>
+      <item_lista>
+        <b>a)	</b>
+        A dissolução do gás carbônico em água é um processo endotérmico ou exotérmico? Justifique sua resposta.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Calcule a quantidade de gás carbônico, em mol, dissolvida em 1 litro de água, a 10
+        <simbolos>°</simbolos>
+        C e a 1 atm, saturada com este gás. Apresente os cálculos efetuados.
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>7	</secao_exercicio_numerador>
+        <b>UEG-GO </b>
+        Uma solução foi preparada a 30
+        <simbolos>°</simbolos>
+        C pela dissolução de 80 g de um sal inorgânico hipotético em 180 g de água. A solubilidade dessa substância se modifica com a variação da temperatura, conforme a tabela a seguir.
+      </p>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="2">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307085">
+          <Tabela_gravata1>
+            Temperatura (
+            <b>°</b>
+            C)
+          </Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307085">
+          <Tabela_gravata1>Solubilidade (g/100 g de água)</Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307085">
+          <tabela_texto_geral>20</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307085">
+          <tabela_texto_geral>32</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307085">
+          <tabela_texto_geral>30</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307085">
+          <tabela_texto_geral>46</tabela_texto_geral>
+        </Cell>
+      </Table>
+      <p class="exercicio-text ml">
+        Se a solução for resfriada para 20
+        <simbolos>°</simbolos>
+        C, a massa, em gramas, do sal que irá precipitar será igual a
+      </p>
+      <p class="exercicio-text ml"></p>
+      <item_lista>
+        <b>a)	</b>
+        48
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        28
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        22,4
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        13,8
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>8	</secao_exercicio_numerador>
+        <b>Uema </b>
+        Um aluno do ensino médio, ao utilizar argumento criativo para classificar uma solução com base em seu coeficiente de solubilidade, apresentou a seguinte resposta:
+      </p>
+      <p class="exercicio-text ml"></p>
+      <exercicio_citado>
+       <p class="exercicio-text ml">&#8220;Solução insaturada &#8211; limonada com pouco açúcar. </p>
+       <p class="exercicio-text ml">Solução saturada &#8211; açúcar na medida certa, sente-se um suco de limão adocicado. </p>
+       <p class="exercicio-text ml">Solução supersaturada &#8211; uma limonada em que não se sente mais o gosto do limão, só do açúcar&#8221;. </p>
+        A professora explicou que o coeficiente de solubilidade varia de acordo com o soluto, com a quantidade de solvente e com a temperatura em que se encontra a solução, fazendo uso do gráfico abaixo, cuja curva mostra a quantidade máxima de soluto dissolvido para uma dada temperatura.
+      </exercicio_citado>
+     <p class="exercicio-text ml"></p>
+      <p class="quote-source">Fonte: Disponível em: &lt;https://br.answers.yahoo.com/question/index?qid=20090217092126AAVruYV&gt;. Acesso em: 18 set. 2014. </p>
+      <imagem>
+        <imagem>&lt;I010-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+      </imagem>
+      <p class="exercicio-text ml">
+        <p class="exercicio-text ml">Analise o gráfico utilizado pela professora e explique, com base no conceito do aluno, as situações representadas pelas soluções A e B. Justifique cada situação. </p>
+        <secao_exercicio_numerador>9	</secao_exercicio_numerador>
+        <b>UFRGS </b>
+        Um experimento é realizado em duas etapas.
+      </p>
+      <p class="exercicio-text ml">
+        <p class="exercicio-text ml">
+          Etapa 1: A 200 mL de água destilada contidos em um copo são adicionadas quantidades crescentes de NaC
+          <simbolos>&#8467;</simbolos>
+          . Essa mistura é agitada intensa e vigorosamente, até que se observe a precipitação de cristais de NaC
+          <simbolos>&#8467;</simbolos>
+          que não mais solubilizam.
+        </p>
+        <p class="exercicio-text ml">
+          Etapa 2: À mistura obtida na etapa 1 são acrescentados alguns cristais de KMnO
+          <sub>4</sub>
+          . Após algum tempo, observa-se que a fase líquida adquire uma coloração violácea característica do permanganato de potássio.
+        </p>
+        A análise desse experimento permite concluir que:
+      </p>
+      <item_lista>
+        <p class="exercicio-text ml"></p>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          A fase líquida obtida ao final da etapa 2 é uma solução supersaturada.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>b)	</b>
+          O NaC
+          <simbolos>&#8467;</simbolos>
+          e o KMnO
+          <sub>4</sub>
+          devem apresentar os mesmos valores de coeficiente de solubilidade.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          A solubilização do KMnO
+          <sub>4</sub>
+          na etapa 2 só foi possível porque a solução líquida obtida na etapa 1 estava insaturada.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>d)	</b>
+          A solução líquida obtida na etapa 1, embora esteja saturada de NaC
+          <simbolos>&#8467;</simbolos>
+          , ainda mantém a possibilidade de solubilizar KMnO
+          <sub>4</sub>
+          .
+        </secao_exercicio_item>
+        <b>e)	</b>
+        A fase líquida obtida ao final da etapa 2 não pode ser considerada uma solução, porque foram utilizados dois solutos com propriedades diferentes.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>10	</secao_exercicio_numerador>
+        <b>EBMSP-BA 2017</b>
+        O conhecimento da solubilidade de sais em água é importante para a realização de atividades em laboratórios e nos procedimentos médicos que envolvam a utilização desses compostos químicos. A dissolução dessas substâncias químicas em água é influenciada pela temperatura, como mostra o gráfico que apresenta as curvas de solubilidade do nitrato de potássio, KNO
+        <sub>3</sub>
+        , do cromato de potássio K
+        <sub>2</sub>
+        CrO
+        <sub>4</sub>
+        , do cloreto de sódio, NaC
+        <simbolos>&#8467;</simbolos>
+        , e do sulfato de cério, CeSO
+        <sub>4</sub>
+        .
+      </p>
+      <imagem>
+        <imagem>&lt;I006-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+      </imagem>
+      <p class="exercicio-text ml">A análise do gráfico permite afirmar: </p>
+      <item_lista>
+        <b>a)	</b>
+        O processo de dissolução dos sais constituídos pelos metais alcalinos, em água, é endotérmico.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        A mistura de 120 g de cromato de potássio com 200 g de água forma uma solução saturada a 60
+        <simbolos>°</simbolos>
+        C.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        O coeficiente de solubilidade do sulfato de cério aumenta com o aquecimento do sistema aquoso.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        A solubilidade do nitrato de potássio é maior do que a do cromato de potássio a temperatura de 20 
+        <simbolos>°</simbolos>
+        C
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        O nitrato de potássio e o cloreto de sódio apresentam o mesmo coeficiente de solubilidade a 40 
+        <simbolos>°</simbolos>
+        C.
+      </item_lista>
+      <p class="exercicio-text ml">
+        <secao_exercicio_numerador>11	</secao_exercicio_numerador>
+        <b>Acafe-SC 2016</b>
+        O cloreto de potássio é um sal que adicionado ao cloreto de sódio é vendido comercialmente como &#8220;sal light&#8221;, com baixo teor de sódio. Dezoito gramas de cloreto de potássio estão dissolvidos em 200 g de água e armazenados em um frasco aberto sob temperatura constante de 60
+        <simbolos>°</simbolos>
+        C.
+        <p class="exercicio-text ml">
+          Dados: Considere a solubilidade do cloreto de potássio a 60
+          <simbolos>°</simbolos>
+          C igual a 45 g/100 g de água.
+        </p>
+        Qual a massa mínima e aproximada de água que deve ser evaporada para iniciar a cristalização do soluto?
+      </p>
+      <p class="exercicio-text ml"></p>
+      <item_lista>
+        <b>a)	</b>
+        160 g
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        120 g
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        40 g
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        80 g
+      </item_lista>
+      <secao_exercicio_numerador>12	</secao_exercicio_numerador>
+      <b>UCS-RS 2016</b>
+      Curvas de solubilidade, como as representadas no gráfico abaixo, descrevem como os coeficientes de solubilidade de substâncias químicas, em um determinado solvente, variam em função da temperatura.
+      <imagem>
+        <imagem>&lt;I008-2020-EM-QUI-1S-L2-FA-U5-C17.png&gt;</imagem>
+      </imagem>
+      <p class="quote-source">
+        Fonte: BRADY, James E.; RUSSEL, Joel W.; HOLUM, John R.
+        <i>Química: a matéria e suas transformações</i>
+        . 3. ed. LTC: Rio de Janeiro, V. 1, 2002, p. 385.
+      </p>
+      <p class="exercicio-text ml">Considerando as informações apresentadas pelo gráfico acima, assinale a alternativa correta. </p>
+      <p class="exercicio-text ml"></p>
+      <item_lista>
+        <b>a)	</b>
+        Todas as substâncias químicas são sais, com exceção da sacarose.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        O aumento da temperatura de 10
+        <simbolos>°</simbolos>
+        C para 40
+        <simbolos>°</simbolos>
+        C favorece a solubilização do sulfato de cério (III) em água.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        A massa de nitrato de amônio que permanece em solução, quando a temperatura da água é reduzida de 80
+        <simbolos>°</simbolos>
+        C para 40
+        <simbolos>°</simbolos>
+        C, é de aproximadamente 100 g.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        A dissolução do iodeto de sódio em água é endotérmica.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        A 0
+        <simbolos>°</simbolos>
+        C, todas as substâncias químicas são insolúveis em água.
+      </item_lista>
+    </secao_01>
+  </p>
+</Root>

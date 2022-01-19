@@ -1,0 +1,2117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <Root>
+    <titulo_cap_texto>Processos com soluções </titulo_cap_texto>
+    <imagem>
+      <imagem>&lt;F001-2020-EM-QUI-1S-L2-FA-U5-C19.png&gt;</imagem>
+    </imagem>
+   <p class="img-credit">SUKJAI PHOTO/Shutterstock.com </p>
+    <imagem>
+      <imagem>&lt;F002-2020-EM-QUI-1S-L2-FA-U5-C19.png&gt;</imagem>
+    </imagem>
+    <imagem>
+      <imagem>&lt;F003-2020-EM-QUI-1S-L2-FA-U5-C19.png&gt;</imagem>
+    </imagem>
+   <p class="img-credit">СергейМарков/iStockphoto.com; CAP53/iStockphoto.com </p>
+    <p class="img-subtitle">Imagens (de cima para baixo e da esquerda para a direita): 1. Titulação; 2. Mistura de soluções; 3. Profissional de Química observando erlenmeyer após o ponto de viragem em uma titulação.</p>
+    <p class="quote">[...] </p>
+    <p class="quote">No século I a.C., a rainha egípcia Cleópatra apostou com seu amante, o general romano Marco Antônio, que ela poderia dar o jantar mais caro da história. Na hora marcada, tudo o que havia sobre a mesa era uma taça cheia de vinagre. Cleópatra retirou cuidadosamente seus brincos de pérolas, esmagou-os e jogou os restos na vasilha, onde se dissolveram. A rainha egípcia não só ganhou a aposta com essa mistura de pérola e vinagre como inventou um novo produto: os suplementos de cálcio. </p>
+    <p class="quote">[...] </p>
+    <p class="quote-source">
+      KENSKI, Rafael. &#8220;Que mistura: as histórias curiosas da química&#8221;.
+      <i>Superinteressante</i>
+      , 30 set. 2002. Abril Comunicações S. A. Disponível em: &lt;https://super.abril.com.br/ciencia/que-mistura-as-historias-curiosas-da-quimica/&gt;. Acesso em: 3 ago. 2021.
+    </p>
+    <texto_bullets>&#8226;	Como é possível descobrir a concentração da solução de pérola e vinagre? </texto_bullets>
+    <texto_bullets>&#8226;	Como descobrir a quantidade de vinagre que devemos adicionar à solução caso desejemos um suplemento de cálcio mais diluído? </texto_bullets>
+    <boxe_02_texto> Neste capítulo, serão abordadas as habilidades EM13CNT101 e EM13CNT301. </boxe_02_texto>
+    <titulo1>	Diluição </titulo1>
+   <p class="general-text">Diluir soluções consiste em adicionar mais solvente a uma solução já existente. Os reagentes químicos de laboratório são vendidos em determinada concentração, como o ácido sulfúrico, por exemplo, que é vendido na forma de solução com 16 mol/L. Se desejarmos utilizar uma solução desse ácido com 1 mol/L, será necessário realizar uma diluição.</p>
+   <p class="general-text">
+      Como a quantidade de matéria do soluto não se altera durante a diluição, podemos afirmar que:
+      <i>n</i>
+      <sub>soluto antes</sub>
+      <simbolos>=</simbolos>
+      <i>n</i>
+      <sub>soluto depois</sub>
+      .
+   </p>
+   <p class="general-text">
+      Sabemos que: quantidade de matéria
+      <simbolos>=</simbolos>
+      molaridade
+      <simbolos>·</simbolos>
+      volume, então:
+   </p>
+   <p class="general-text">
+       <simbolos>&#625;</simbolos>
+      <sub>i</sub>
+      <simbolos>·</simbolos>
+      <i>V</i>
+      <sub>i</sub>
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <sub>f</sub>
+      <simbolos>·</simbolos>
+      <i>V</i>
+   </p>
+    <sub>
+      f
+      <boxe_17>
+        <boxe_17_titulo1>Fique ligado!</boxe_17_titulo1>
+        <boxe_17_texto>
+          Após a diluição, o volume da solução aumenta, e a concentração diminui, porém
+          <b>a quantidade de soluto (em quantidade de matéria ou em massa) continua a mesma</b>
+          .
+        </boxe_17_texto>
+      </boxe_17>
+    </sub>
+   <p class="general-text">
+      Vamos acompanhar o exemplo: para realizar um experimento, um químico precisa de 50 mL de solução de ácido nítrico (HNO
+      <sub>3</sub>
+      ) com concentração de 0,5 mol/L, mas ele dispõe apenas do ácido concentrado, com 14,5 mol/L. Que volume do ácido concentrado deverá ser diluído?
+   </p>
+   <p class="general-text">
+       <simbolos>&#625;</simbolos>
+      <sub>i</sub>
+      <simbolos>·</simbolos>
+      <i>V</i>
+      <sub>i</sub>
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <sub>f</sub>
+      <simbolos>·</simbolos>
+      <i>V</i>
+      <sub>f</sub>
+   </p>
+   <p class="general-text">
+      14,5
+      <simbolos>·</simbolos>
+      <i>V</i>
+      <sub>i</sub>
+      <simbolos>=</simbolos>
+      0,5
+      <simbolos>·</simbolos>
+      50
+      <simbolos>~</simbolos>
+      <i>V</i>
+      <sub>i</sub>
+      <simbolos>=</simbolos>
+      1,7 mL
+   </p>
+    <boxe_17>
+      <boxe_17_titulo1>Fique ligado!</boxe_17_titulo1>
+      <boxe_17_texto>
+        <i>V</i>
+        <sub>f</sub>
+        <simbolos>=</simbolos>
+        <i>V</i>
+        <sub>i</sub>
+        <simbolos>+</simbolos>
+        <i>V</i>
+      </boxe_17_texto>
+      <sub>solvente adicionado</sub>
+    </boxe_17>
+   <p class="general-text">Isso significa que devemos adicionar uma quantidade suficiente de água ao volume de 1,7 mL de ácido para obter 50 mL de solução.</p>
+    <secao_01>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+      Uma massa de 0,5 g de um ácido orgânico de massa molar 100 g/mol é colocada em um balão volumétrico com capacidade de 500 mL e, em seguida, completa-se com água. Qual é a concentração em mol/L dessa solução?
+      <titulo3>Resolução: </titulo3>
+      <p class="exercicio-text ml">
+
+        Quantidade de matéria do ácido (
+        <i>n</i>
+        )
+        <simbolos>=</simbolos>
+        <imagem>001_math.png</imagem>
+        <simbolos>=</simbolos>
+        0,005 mol; volume completado
+        <simbolos>=</simbolos>
+        500 mL
+        <simbolos>=</simbolos>
+        0,5 L
+      </p>
+
+      <p class="exercicio-text ml">
+
+         <simbolos>&#625;</simbolos>
+        <simbolos>=</simbolos>
+        <imagem>&lt;002_math.png&gt;</imagem>
+        <simbolos>=</simbolos>
+        0,01 mol/L
+      </p>
+
+    </secao_01>
+    <titulo1>	Misturas </titulo1>
+   <p class="general-text">Existem dois tipos de misturas de soluções: 1) quando misturamos duas soluções de mesmo soluto; 2) quando misturamos duas soluções de solutos diferentes. No primeiro caso, conseguimos calcular a nova concentração facilmente: basta somar as quantidades de soluto de cada uma e dividir pela soma dos volumes das soluções.</p>
+   <p class="general-text">
+      Para exemplificar esse primeiro caso, vamos considerar uma solução de bicarbonato de sódio (NaHCO
+      <sub>3</sub>
+      ) de 40 mL e 0,5 mol/L e outra solução também de bicarbonato de sódio, porém com volume de 60 mL e concentração de 0,8 mol/L. Qual será a concentração da mistura dessas soluções?
+   </p>
+   <p class="general-text">Primeiro, calculamos a quantidade de soluto na solução de 0,5 mol/L:</p>
+   <p class="general-text">
+      <i>n </i>
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <simbolos>·</simbolos>
+      <i>V</i>
+   </p>
+   <p class="general-text">
+      <i>n</i>
+      <simbolos>=</simbolos>
+      0,5
+      <simbolos>·</simbolos>
+      0,04
+      <simbolos>=</simbolos>
+      0,02 mol de NaHCO
+      <sub>3 </sub>
+   </p>
+   <p class="general-text">Depois, calculamos a quantidade de soluto na solução de 0,8 mol/L:</p>
+   <p class="general-text">
+      <i>n</i>
+      <simbolos>=</simbolos>
+      0,8
+      <simbolos>·</simbolos>
+      0,06
+      <simbolos>=</simbolos>
+      0,048 mol de NaHCO
+      <sub>3 </sub>
+   </p>
+   <p class="general-text">
+      Logo, a quantidade de soluto na mistura é 0,02
+      <simbolos>+</simbolos>
+      0,048
+      <simbolos>=</simbolos>
+      0,068 mol de NaHCO
+      <sub>3</sub>
+      ;
+      <sub></sub>
+      o volume total da mistura é 40 mL
+      <simbolos>+</simbolos>
+      60 mL
+      <simbolos>=</simbolos>
+      100 mL; e a concentração em quantidade de matéria da mistura é:
+   </p>
+   <p class="general-text">
+       <simbolos>&#625;</simbolos>
+      <simbolos>=</simbolos>
+      <imagem>&lt;003_math.png&gt;</imagem>
+      <simbolos>=</simbolos>
+      0,68 mol/L
+   </p>
+    <secao_01>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+      <b>UEL-PR 2016</b>
+      Cada um dos béqueres representados a seguir contém soluções aquosas com partículas de um determinado soluto. O soluto é o mesmo em todos os béqueres.
+      <imagem>
+        <imagem>&lt;I001-2020-EM-QUI-1S-L2-FA-U5-C19.png&gt;</imagem>
+      </imagem>
+      <texto_geral_exercicio>Com base nos conhecimentos sobre concentração de soluções, responda aos itens a seguir. </texto_geral_exercicio>
+      <exercicio_itens>
+        <b>a)	</b>
+        Quais soluções são as mais concentradas? Explique.
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>b)	</b>
+        Quando as soluções B e E são combinadas, a solução resultante terá a mesma concentração da solução contida no béquer A? Explique.
+      </exercicio_itens>
+      <titulo3>Resolução: </titulo3>
+      <p class="exercicio-text ml">
+
+        <b>a)</b>
+        Supondo que 1 mol do soluto corresponda à bolinha vermelha na imagem, podemos calcular a concentração de cada recipiente:
+      </p>
+
+      <p class="exercicio-text ml">
+
+        Recipiente A:
+         <simbolos>&#625;</simbolos>
+        <sub>A</sub>
+        <simbolos>=</simbolos>
+        <imagem>&lt;006_math.png&gt;</imagem>
+        <simbolos>=</simbolos>
+        24 mol/L
+      </p>
+
+      <p class="exercicio-text ml">
+
+        Recipiente B:
+         <simbolos>&#625;</simbolos>
+        <sub>B</sub>
+        <simbolos>=</simbolos>
+        <imagem>&lt;007_math.png&gt;</imagem>
+        <simbolos>=</simbolos>
+        12 mol/L
+      </p>
+
+      <p class="exercicio-text ml">
+
+        Recipiente C:
+         <simbolos>&#625;</simbolos>
+        <sub>C</sub>
+        <simbolos>=</simbolos>
+        <imagem>&lt;008_math.png&gt;</imagem>
+        <simbolos>=</simbolos>
+        16 mol/L
+      </p>
+
+      <p class="exercicio-text ml">
+
+        Recipiente D:
+         <simbolos>&#625;</simbolos>
+        <sub>D</sub>
+        <simbolos>=</simbolos>
+        <imagem>&lt;009_math.png&gt;</imagem>
+        <simbolos>=</simbolos>
+        6 mol/L
+      </p>
+
+      <p class="exercicio-text ml">
+
+        Recipiente E:
+         <simbolos>&#625;</simbolos>
+        <sub>E</sub>
+        <simbolos>=</simbolos>
+        <imagem>&lt;010_math.png&gt;</imagem>
+        <simbolos>=</simbolos>
+        24 mol/L
+      </p>
+
+      <p class="exercicio-text ml">
+
+        Recipiente F:
+         <simbolos>&#625;</simbolos>
+        <sub>F</sub>
+        <simbolos>=</simbolos>
+        <imagem>&lt;011_math.png&gt;</imagem>
+        <simbolos>=</simbolos>
+        16 mol/L
+      </p>
+
+      <p class="exercicio-text ml">
+	As soluções mais concentradas são A e E, com 24 mol/L.  </p>
+
+      <p class="exercicio-text ml">
+
+        <b>b)</b>
+        Recipiente B: 3 mol e 0,25 L; recipiente E: 6 mol e 0,25 L; recipiente B
+        <simbolos>+</simbolos>
+        E
+        <simbolos>:</simbolos>
+        3
+        <simbolos>+</simbolos>
+        6
+        <simbolos>=</simbolos>
+        9 mol; volume total
+        <simbolos>=</simbolos>
+        0,25 L
+        <simbolos>+</simbolos>
+        0,25 L
+        <simbolos>=</simbolos>
+        0,5 L.
+      </p>
+
+      <p class="exercicio-text ml">
+
+         <simbolos>&#625;</simbolos>
+
+        <simbolos>=</simbolos>
+        <simbolos>=</simbolos>
+        18 mol/L
+      </p>
+
+      <p class="exercicio-text ml">
+	A solução resultante não terá a mesma concentração que a solução A. </p>
+
+    </secao_01>
+    <titulo1>	Titulação </titulo1>
+   <p class="general-text">
+      Um problema recorrente para os químicos é a necessidade de descobrir a concentração de soluções que não foram devidamente identificadas. Para resolvê-lo, é comum fazer uso da técnica de
+      <b>titulação</b>
+      . Um dos tipos de titulação empregados serve para determinar a concentração de soluções ácidas ou básicas.
+   </p>
+   <p class="general-text">
+      No procedimento da titulação ácido-base, utiliza-se uma solução com concentração conhecida, chamada de
+      <b>titulante</b>
+      , a solução com concentração desconhecida, chamada de
+      <b>titulado</b>
+      , e um indicador ácido-base, que muda de cor em função do pH do meio. O titulante é colocado em uma bureta, e o titulado em um erlenmeyer com volume definido.
+   </p>
+   <p class="general-text">
+      A bureta controla o volume de titulante que será adicionado à solução-problema. Vamos supor que, na bureta, exista uma solução básica de KOH e, no erlenmeyer, uma solução ácida de HBr. Conforme adicionamos KOH ao HBr, a reação KOH(aq)
+      <simbolos>+</simbolos>
+      HBr(aq)
+       <simbolos>&#10141;</simbolos>
+
+      KBr(aq)
+      <simbolos>+</simbolos>
+      H
+      <sub>2</sub>
+      O(
+       <simbolos>&#8467;</simbolos>
+
+      ) vai acontecendo.
+   </p>
+   <p class="general-text">O fim da titulação é chamado de ponto de equivalência e ocorre quando a quantidade de matéria da base se iguala à quantidade de matéria do ácido. Esse ponto é identificado pela alteração de cor do indicador ácido-base.</p>
+   <p class="general-text">Vamos supor que 40 mL de HBr com concentração não conhecida tenha sido titulado com KOH 0,6 mol/L. Ao final da titulação, a bureta mostrou que foram gastos 26 mL da base. Qual é a concentração molar do HBr?</p>
+    <imagem>
+      <imagem>&lt;I002-2020-EM-QUI-1S-L2-FA-U5-C19.png&gt;</imagem>
+    </imagem>
+   <p class="general-text">
+      KOH(aq)
+      <simbolos>+</simbolos>
+      HBr(aq)
+       <simbolos>&#10141;</simbolos>
+
+      KBr(aq)
+      <simbolos>+</simbolos>
+      H
+      <sub>2</sub>
+      O(
+       <simbolos>&#8467;</simbolos>
+
+      )
+   </p>
+   <p class="general-text">
+       <simbolos>&#625;</simbolos>
+
+      <sub>KOH</sub>
+      <simbolos>=</simbolos>
+      0,6 mol/L
+       <simbolos>&#625;</simbolos>
+      <sub>HBr</sub>
+      <simbolos>=</simbolos>
+      ?
+   </p>
+   <p class="general-text">
+      <i>	V</i>
+      <sub>KOH</sub>
+      <simbolos>=</simbolos>
+      26 mL
+      <i>V</i>
+      <sub>HBr</sub>
+      <simbolos>=</simbolos>
+      40 mL
+   </p>
+   <p class="general-text"></texto_geral>
+   <p class="general-text">
+      Podemos afirmar que no fim da titulação
+      <i>n</i>
+      <sub>KOH</sub>
+      <simbolos>=</simbolos>
+      <i>n</i>
+      <sub>HBr</sub>
+   </p>
+   <p class="general-text"></texto_geral>
+   <p class="general-text">
+      <i>	n</i>
+      <sub>KOH</sub>
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <sub>KOH</sub>
+      <simbolos>·</simbolos>
+      <i>V</i>
+      <sub>KOH</sub>
+      <i>n</i>
+      <sub>HBr</sub>
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <sub>HBr</sub>
+      <simbolos>·</simbolos>
+      <i>V</i>
+      <sub>HBr </sub>
+   </p>
+   <p class="general-text">
+      <i>	n</i>
+      <sub>KOH</sub>
+      <simbolos>=</simbolos>
+      0,6
+      <simbolos>·</simbolos>
+      0,026	0,0156
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <sub>HBr</sub>
+      <simbolos>·</simbolos>
+      0,040
+   </p>
+   <p class="general-text">
+      <i>	n</i>
+      <sub>KOH</sub>
+      <simbolos>=</simbolos>
+      0,0156 mol
+       <simbolos>&#625;</simbolos>
+      <sub>HBr</sub>
+      <simbolos>=</simbolos>
+      0,39 mol/L
+   </p>
+   <p class="general-text"></texto_geral>
+   <p class="general-text">
+      Agora, vamos supor que a solução-problema seja a base Ca(OH)
+      <sub>2</sub>
+      , e o titulante seja o HC
+       <simbolos>&#8467;</simbolos>
+
+      . Temos 25 mL de Ca(OH)
+      <sub>2</sub>
+      no erlenmeyer e gastamos 12 mL de HC
+       <simbolos>&#8467;</simbolos>
+
+      1,5 mol/L para realizar a titulação. Qual será a concentração em quantidade de matéria da base?
+   </p>
+   <p class="general-text"></texto_geral>
+   <p class="general-text">
+      2 HC
+       <simbolos>&#8467;</simbolos>
+
+      (aq)
+      <simbolos>+</simbolos>
+      Ca(OH)
+      <sub>2</sub>
+      (aq)
+       <simbolos>&#10141;</simbolos>
+
+      CaC
+       <simbolos>&#8467;</simbolos>
+
+      <sub>2</sub>
+      (aq)
+      <simbolos>+</simbolos>
+      2 H
+      <sub>2</sub>
+      O(
+       <simbolos>&#8467;</simbolos>
+
+      )
+   </p>
+   <p class="general-text">
+       <simbolos>&#625;</simbolos>
+
+      <simbolos>=</simbolos>
+      1,5 mol/L
+       <simbolos>&#625;</simbolos>
+      <simbolos>=</simbolos>
+      ?
+   </p>
+   <p class="general-text">
+      <i>	V</i>
+      <simbolos>=</simbolos>
+      12 mL
+      <i>V</i>
+      <simbolos>=</simbolos>
+      25 mL
+   </p>
+   <p class="general-text"></texto_geral>
+   <p class="general-text">
+      Como a proporção é de 2:1, não podemos afirmar que a quantidade de matéria do ácido é igual à quantidade de matéria da base, mas sim o dobro. Então: 2
+      <simbolos>·</simbolos>
+      <i>n</i>
+      <sub>
+        HC
+         <simbolos>&#8467;</simbolos>
+
+      </sub>
+      <simbolos>=</simbolos>
+      <i>n</i>
+      <sub>Ca(OH)2</sub>
+      .
+   </p>
+   <p class="general-text"></texto_geral>
+   <p class="general-text">
+      <i>	n</i>
+      <sub>
+        HC
+         <simbolos>&#8467;</simbolos>
+
+      </sub>
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <simbolos>·</simbolos>
+      <i>V</i>
+      2 HC
+       <simbolos>&#8467;</simbolos>
+
+      1 Ca(OH)
+      <sub>2 </sub>
+   </p>
+   <p class="general-text">
+      <i>	n</i>
+      <sub>
+        HC
+         <simbolos>&#8467;</simbolos>
+
+      </sub>
+      <simbolos>=</simbolos>
+      1,5
+      <simbolos>·</simbolos>
+      0,012	0,018
+      <i>x</i>
+   </p>
+   <p class="general-text">
+      <i>	n</i>
+      <sub>
+        HC
+         <simbolos>&#8467;</simbolos>
+
+      </sub>
+      <simbolos>=</simbolos>
+      0,018 mol
+      <i>x</i>
+      <simbolos>=</simbolos>
+      0,009 mol
+   </p>
+   <p class="general-text">
+      <i>	n</i>
+      <sub>Ca(OH)2</sub>
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <simbolos>·</simbolos>
+      <i>V</i>
+   </p>
+   <p class="general-text">
+      0,009
+      <simbolos>=</simbolos>
+       <simbolos>&#625;</simbolos>
+      <simbolos>·</simbolos>
+      0,025
+   </p>
+   <p class="general-text">
+       <simbolos>&#625;</simbolos>
+
+      <simbolos>=</simbolos>
+      0,36 mol/L
+   </p>
+    <boxe_17>
+      Fique ligado!
+      <boxe_02_texto>Somente é possível afirmar que a quantidade de matéria do ácido será igual à quantidade de matéria da base quando a proporção na reação de neutralização for de 1:1.</boxe_02_texto>
+    </boxe_17>
+    <secao_01>
+      Questão resolvida
+      <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+      <b>UFSM-RS</b>
+      O leite de magnésia, usado como antiácido e laxante, contém em sua formulação o composto Mg(OH)
+      <sub>2</sub>
+      . A concentração de uma amostra de 10 mL de leite de magnésia que foi titulada com 12,5 mL de HC
+       <simbolos>&#8467;</simbolos>
+
+      0,5 mol/L é, em mol/L, de:
+      <exercicio_itens>
+        <b>a)	</b>
+        0,1
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>b)	</b>
+        0,3
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>c)	</b>
+        0,5
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>d)	</b>
+        0,6
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>e)	</b>
+        1,2
+      </exercicio_itens>
+      <titulo3>Resolução: </titulo3>
+      <p class="exercicio-text ml">
+Alternativa B </p>
+
+      <p class="exercicio-text ml">
+
+        Mg(OH)
+        <sub>2</sub>
+        (aq)
+        <simbolos>+</simbolos>
+        2 HC
+         <simbolos>&#8467;</simbolos>
+
+        (aq)
+         <simbolos>&#10141;</simbolos>
+
+        MgC
+         <simbolos>&#8467;</simbolos>
+
+        <sub>2</sub>
+        (aq)
+        <simbolos>+</simbolos>
+        2 H
+        <sub>2</sub>
+        O(
+         <simbolos>&#8467;</simbolos>
+
+        )
+      </p>
+
+      <p class="exercicio-text ml">
+Temos, então, a proporção de 1 base : 2 ácido. </p>
+
+      <p class="exercicio-text ml">
+Primeiro, calculamos a quantidade de matéria do ácido: </p>
+
+      <p class="exercicio-text ml">
+
+        <i>n</i>
+        <simbolos>=</simbolos>
+         <simbolos>&#625;</simbolos>
+        <simbolos>·</simbolos>
+        <i>V</i>
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <i>n</i>
+        <simbolos>=</simbolos>
+        0,5
+        <simbolos>·</simbolos>
+        0,0125
+        <simbolos>=</simbolos>
+        0,00625 mol
+      </p>
+
+      <p class="exercicio-text ml">
+Depois, descobrimos a quantidade de matéria da base utilizando a proporção: </p>
+
+      <p class="exercicio-text ml">
+
+        1 Mg(OH)
+        <sub>2</sub>
+        2 HC
+         <simbolos>&#8467;</simbolos>
+
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <i>	x</i>
+        0,00625
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <i>	x</i>
+        <simbolos>=</simbolos>
+        0,003125 mol Mg(OH)
+        <sub>2 </sub>
+      </p>
+
+      <p class="exercicio-text ml">
+Agora que temos a quantidade de matéria da base e o volume, podemos calcular a concentração: </p>
+
+      <p class="exercicio-text ml">
+
+        <i>n</i>
+        <simbolos>=</simbolos>
+         <simbolos>&#625;</simbolos>
+        <simbolos>·</simbolos>
+        <i>V</i>
+      </p>
+
+      <p class="exercicio-text ml">
+
+        0,003125
+        <simbolos>=</simbolos>
+         <simbolos>&#625;</simbolos>
+        <simbolos>·</simbolos>
+        0,010
+        <simbolos>~ M</simbolos>
+        <simbolos>=</simbolos>
+        0,3125 mol/L
+      </p>
+
+    </secao_01>
+    <boxe_20>
+      <secao_15_titulo1>Aplicando conhecimentos </secao_15_titulo1>
+      <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+      O cloreto de benzalcônio é um desinfetante que está à venda na forma concentrada e é usado na limpeza de locais onde vivem animais como cachorros e gatos. O frasco vendido tem concentração de 150  g/L e indica diluir 100 mL dessa solução em 5 litros de água para limpar o chão. Qual é a concentração do desinfetante após a diluição?
+      <secao_exercicio_item>
+        <b>a)	</b>
+        1,5 g/L
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        30 g/L
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        3 g/L
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        15 g/L
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        0,3 g/L
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+      Em um laboratório, é comum existirem frascos para o descarte de soluções químicas, evitando que cheguem aos esgotos, prejudicando o meio ambiente. Um técnico descartou, no mesmo frasco, 50 mL de uma solução 2 mol/L de HC
+       <simbolos>&#8467;</simbolos>
+
+      e 10 mL de outra solução também de HC
+       <simbolos>&#8467;</simbolos>
+
+      , mas com concentração 0,2 mol/L. Qual era a concentração da solução no recipiente de descarte?
+      <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+      Acidentalmente um aluno de Química derrubou 5 mL de uma solução de NaOH 0,1 mol/L em um frasco de ácido fluorídrico (HF) com 100 mL e concentração 0,1 mol/L. Qual é a concentração final do ácido nessa mistura?
+      <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+      Com o tempo, o rótulo de uma solução básica de Ca(OH)
+      <sub>2</sub>
+      descolou-se e foi perdido, assim sua concentração ficou desconhecida. Para fazer um novo rótulo, resolveu-se titular 25 mL da base com ácido clórico (HC
+       <simbolos>&#8467;</simbolos>
+
+      O
+      <sub>3</sub>
+      ), de concentração 0,5 mol/L, gastando-se 12 mL. Qual é a concentração da base?
+      <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+      <b>FICSAE-SP 2016</b>
+      Para determinar a pureza de uma amostra de ácido sulfúrico (H
+      <sub>2</sub>
+      SO
+      <sub>4</sub>
+      ), uma analista dissolveu 14 g do ácido em água até obter 100 mL de solução. A analista separou 10 mL dessa solução e realizou a titulação, utilizando fenolftaleína como indicador. A neutralização dessa alíquota foi obtida após a adição de 40 mL de uma solução aquosa de hidróxido de sódio (NaOH) de concentração 0,5 mol/L. O teor de pureza da amostra de ácido sulfúrico analisado é, aproximadamente,
+      <secao_exercicio_item>
+        <b>a)	</b>
+        18%
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        50%
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        70%
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        90%
+      </secao_exercicio_item>
+    </boxe_20>
+    <secao_03>
+      Consolidando saberes
+      <b>Mackenzie-SP 2018</b>
+      Em uma embalagem de 2 L de água sanitária, facilmente encontrada em supermercados, encontra-se a seguinte informação: &#8220;O teor de cloro ativo do produto varia de 2% a 2,5%  (m/V)&#8221;. Essa solução pode ser utilizada para tratamento de água de piscina nas concentrações de 1,0 a 2,0 mg de cloro ativo por litro; sendo que, acima de 2,0 mg de cloro ativo por litro, a água se torna irritante aos olhos. Em duas piscinas (A e B), de capacidades volumétricas diferentes, foram adicionados 2 L de água sanitária a cada uma delas. Desta forma, ocorreu a diluição da água sanitária na água contida em cada piscina, conforme descrito na tabela abaixo:
+      <secao_exercicio>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="2" aid:tcols="3">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086615"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086615">
+            <Tabela_gravata1>Piscina A</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086615">
+            <Tabela_gravata1>Piscina B</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086615">
+            <tabela_gravata3>Volume total de solução após a diluição</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086615">
+            <tabela_texto_geral>100.000 L</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="76.53543307086615">
+            <tabela_texto_geral>25.000 L</tabela_texto_geral>
+          </Cell>
+        </Table>
+      </secao_exercicio>
+      <secao_exercicio>Sendo assim, foram feitas as seguintes afirmações. </secao_exercicio>
+      <b>I.	</b>
+      Há de 20 a 25 g de cloro ativo por litro dessa solução comercial.
+      <b>II.	</b>
+      Na piscina A, a solução formada após a diluição seria irritante aos olhos do usuário dessa piscina.
+      <b>III.	</b>
+      Na piscina B, a solução formada após a diluição seria adequada ao tratamento de água.
+      <secao_exercicio>Das afirmações realizadas, </secao_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        Nenhuma é correta.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        São corretas, apenas, I e II.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        São corretas, apenas, II e III.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        São corretas, apenas, I e III.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        Todas são corretas.
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+      <b>EsPCEx-SP 2017</b>
+      Em uma aula prática de Química, o professor forneceu a um grupo de alunos 100 mL de uma solução aquosa de hidróxido de sódio de concentração 1,25 mol/L. Em seguida solicitou que os alunos realizassem um procedimento de diluição e transformassem essa solução inicial em uma solução final de concentração 0,05 mol/L. Para obtenção da concentração final nessa diluição, o volume de água destilada que deve ser adicionado é de
+      <secao_exercicio_item>
+        <b>a)	</b>
+        2400 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        2000 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        1200 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        700 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        200 mL
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+      <b>UEMG 2018</b>
+      Em um balão volumétrico, foram adicionados 60 mL de uma solução de HNO
+      <sub>3</sub>
+      de concentração desconhecida e 40 mL de solução de KOH 0,4 mol/L. A solução resultante se mostrou neutra. Qual a molaridade da solução de ácido nítrico?
+      <secao_exercicio_item>
+        <b>a)	</b>
+        0,1 mol/L
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        0,25 mol/L
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        0,4 mol/L
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        0,55 mol/L
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+      <b>UEM-PR 2017</b>
+      Um estudante tem à sua disposição no laboratório água destilada e as seguintes soluções:
+      <secao_exercicio>Frasco I &#8211; 300 mL de solução aquosa de NaOH a 5 mol/L </secao_exercicio>
+      <secao_exercicio>
+        Frasco II &#8211; 100 mL de solução aquosa de H
+        <sub>2</sub>
+        SO
+        <sub>4</sub>
+        a 1 mol/L
+      </secao_exercicio>
+      <secao_exercicio>
+        Frasco III &#8211; 100 mL de solução aquosa de H
+        <sub>2</sub>
+        SO
+        <sub>4</sub>
+        a 3 mol/L
+      </secao_exercicio>
+      <secao_exercicio>Assinale os procedimentos realizados corretamente pelo estudante. </secao_exercicio>
+      <p class="exercicio-text ml">
+
+        <b>01</b>
+        <b>.	</b>
+        Para preparar 500 mL de solução aquosa de NaOH a 0,1 mol/L, ele colocou 10 mL da solução do frasco I em um balão volumétrico e completou os 500 mL com água destilada.
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <b>02</b>
+        <b>.	</b>
+        Para preparar 500 mL de uma solução aquosa de NaOH a 2 mol/L, ele colocou 200 mL de água destilada e completou os 500 mL com a solução do frasco I.
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <b>04</b>
+        <b>.	</b>
+        Para neutralizar totalmente 20 mL da solução do frasco I, ele adicionou 50 mL da solução do frasco II.
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <b>08</b>
+        <b>.	</b>
+        Para preparar uma solução de H
+        <sub>2</sub>
+        SO
+        <sub>4</sub>
+        a 2 mol/L, ele misturou 100 mL da solução do frasco II com 100 mL da solução do frasco III.
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <b>16</b>
+        <b>.	</b>
+        Para preparar 100 mL de solução de concentração de íons H
+        <sub
+>+</sub
+>
+        a 1,5 mol/L, ele colocou 50 mL da solução do frasco III em um balão volumétrico e completou os 100 mL com água destilada.
+      </p>
+
+     <p class="general-text">
+        <b>Soma:</b>
+     </p>
+      <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+      <b>UFRGS 2018</b>
+      O soro fisiológico é uma solução aquosa 0,9% em massa de NaC
+       <simbolos>&#8467;</simbolos>
+
+      . Um laboratorista preparou uma solução contendo 3,6 g de NaC
+       <simbolos>&#8467;</simbolos>
+
+      em 20 mL de água. Qual volume aproximado de água será necessário adicionar para que a concentração corresponda à do soro fisiológico?
+      <secao_exercicio_item>
+        <b>a)	</b>
+        20 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        180 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        380 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        400 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        1000 mL
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+      <b>IME-RJ 2016</b>
+      Uma solução aquosa A, preparada a partir de ácido bromídrico, é diluída com água destilada até que sua concentração seja reduzida à metade. Em titulação, 50 mL da solução diluída consomem 40 mL de uma solução de hidróxido de potássio 0,25 mol/L. Determine a concentração da solução A, em g/L.
+      <secao_exercicio_numerador>7	</secao_exercicio_numerador>
+      <b>Unesp 2017</b>
+      A dipirona sódica monoidratada (massa molar
+      <simbolos>=</simbolos>
+      351 g/mol) é um fármaco amplamente utilizado como analgésico e antitérmico. De acordo com a Farmacopeia Brasileira, os comprimidos desse medicamento devem conter de 95% a 105% da quantidade do fármaco com solução de iodo (I
+      <sub>2</sub>
+      ) a 0,050 mol/L, utilizando amido como indicador, sendo que cada mol de iodo utilizado na titulação corresponde a um mol de dipirona sódica monoidratada. Uma solução aquosa foi preparada pela dissolução de um comprimido de dipirona sódica monoidratada, cuja bula declara conter 500 mg desse fármaco. Sabendo que a titulação dessa solução consumiu 28,45 mL de solução de iodo 0,050 mol/L, calcule o valor da massa de dipirona sódica monoidratada presente nesse comprimido e conclua se esse valor de massa está ou não dentro da faixa de porcentagem estabelecida na Farmacopeia Brasileira.
+      <secao_exercicio_numerador>8	</secao_exercicio_numerador>
+      <b>PUC-Rio 2016</b>
+      Uma solução aquosa de nitrato de prata (0,050 mol/L) é usada para se determinar, por titulação, a concentração de cloreto em uma amostra aquosa. Exatos 10 mL da solução titulan- te foram requeridos para reagir com os íons C
+       <simbolos>&#8467;</simbolos>
+
+      <sub
+></sub
+>
+      <sub
+>&#8211;</sub
+>
+      presentes em 50 mL de amostra. Assinale a concentração, em mol/L, de cloreto, considerando que nenhum outro íon na solução da amostra reagiria com o titulante.
+      <secao_exercicio>
+        Dados: Ag
+        <sub
+>+</sub
+>
+        <simbolos>+</simbolos>
+        C
+         <simbolos>&#8467;</simbolos>
+
+        <sub
+>&#8211;</sub
+>
+         <simbolos>&#10141;</simbolos>
+
+        AgC
+         <simbolos>&#8467;</simbolos>
+
+      </secao_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        0,005
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        0,010
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        0,025
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        0,050
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        0,100
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>9	</secao_exercicio_numerador>
+      <b>UEPG-PR 2016</b>
+      A titulação de uma amostra de calcário (carbonato de cálcio impuro), de massa 20 g, consome 100 mL de solução 72 g/L de ácido clorídrico. Sobre o assunto, assinale o que for correto. Dados: H
+      <simbolos>=</simbolos>
+      1 g/mol; Ca
+      <simbolos>=</simbolos>
+      40 g/mol; C
+      <simbolos>=</simbolos>
+      12 g/mol; O
+      <simbolos>=</simbolos>
+      16 g/mol; C
+       <simbolos>&#8467;</simbolos>
+
+      <simbolos>=</simbolos>
+      35,5 g/mol.
+      <p class="exercicio-text ml">
+
+        <b>01</b>
+        .	A fórmula do carbonato de cálcio é CaCO
+        <sub>3 </sub>
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <b>02</b>
+        <b>.</b>
+        A concentração do ácido clorídrico em mol/L é 2
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <b>04</b>
+        <b>.</b>
+        A porcentagem de pureza do calcário é 50%
+      </p>
+
+      <p class="exercicio-text ml">
+
+        <b>08</b>
+        <b>.</b>
+        O ácido clorídrico é um oxiácido considerado forte em meio aquoso
+      </p>
+
+     <p class="general-text">
+        <b>Soma:</b>
+     </p>
+      <secao_exercicio_numerador>10	</secao_exercicio_numerador>
+      <b>Uece 2016</b>
+      A titulação é um procedimento laboratorial que permite determinar a concentração desconhecida de uma substância a partir de uma substância de concentração conhecida. Em uma titulação representada pela equação: NaOH
+      <simbolos>+</simbolos>
+      HC
+       <simbolos>&#8467;</simbolos>
+
+       <simbolos>&#10141;</simbolos>
+
+      NaC
+       <simbolos>&#8467;</simbolos>
+
+      <simbolos>+</simbolos>
+      H
+      <sub>2</sub>
+      O, o equipamento usado para adicionar cuidadosamente o volume adequado da solução de NaOH é denominado:
+      <secao_exercicio_item>
+        <b>a)	</b>
+        Pipeta graduada
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        Proveta
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        Bureta
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        Pipeta volumétrica
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>11	</secao_exercicio_numerador>
+      <b>FCMMG 2017</b>
+      Tem-se observado que muitos médicos (e bons médicos) têm prescrito beber de manhã 2 gotas de Lugol, uma solução de iodo, na prevenção de uma série de enfermidades. Na preparação do Lugol, são misturados 2,5 g de iodo sólido; 5 g de iodeto de potássio e água destilada suficiente para se completar 50 mL. O iodeto de potássio é utilizado para dissolver o iodo devido à formação do íon I
+      <sub>3</sub>
+      <sub
+>&#8211;</sub
+>
+      . Dados: K
+      <simbolos>=</simbolos>
+      39; I
+      <simbolos>=</simbolos>
+      127
+      <secao_exercicio>Analisando o texto e considerando cada gota 0,05 mL, seria INCORRETO afirmar que: </secao_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        A quantidade de iodo molecular ingerida numa semana é cerca de 3,5
+        <simbolos>·</simbolos>
+        10
+        <sub
+>&#8211;2</sub
+>
+        g.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        A quantidade de mol de K
+        <sub
+>+</sub
+>
+        ingerida num dia seria de, aproximadamente, 6
+        <simbolos>·</simbolos>
+        10
+        <sub
+>&#8211;5</sub
+>
+        .
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        As interações existentes no íon I
+        <sub>3</sub>
+        <sub
+>&#8211;</sub
+>
+        formado são do tipo íon-dipolo induzido.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        As espécies químicas presentes no Lugol, solução a 5% (p/v), são iônicas.
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>12	</secao_exercicio_numerador>
+      <b>ITA-SP 2017</b>
+      Considere duas soluções, X e Y, de um mesmo soluto genérico. A solução X tem 49% em massa do soluto, enquanto a solução Y possui 8% em massa do mesmo soluto. Quer-se obter uma terceira solução, que tenha 20% em massa deste soluto, a partir da mistura de um volume
+      <i>V</i>
+      <sub>x</sub>
+      da solução X com um volume V
+      <sub>y</sub>
+      da solução Y. Considerando que todas as soluções envolvidas exibem comportamento ideal, assinale a opção que apresenta a razão V
+      <sub>x</sub>
+      /V
+      <sub>y</sub>
+      CORRETA.
+      <secao_exercicio_item>
+        <b>a)	</b>
+        <imagem>&lt;l03_u1_cap04_001.png&gt;</imagem>
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        <imagem>&lt;l03_u1_cap04_002.png&gt;</imagem>
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        <imagem>&lt;l03_u1_cap04_003.png&gt;</imagem>
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        <imagem>&lt;l03_u1_cap04_004.png&gt;</imagem>
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        <imagem>&lt;l03_u1_cap04_005.png&gt;</imagem>
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>13	</secao_exercicio_numerador>
+      <b>FICSAE 2016</b>
+      O náilon 6,6 e o poliestireno são polímeros que apresentam diversas aplicações na indústria. Um técnico misturou, inadvertidamente, amostras desses polímeros.
+      <secao_exercicio>
+        Dados: densidade do náilon 6,6
+        <simbolos>=</simbolos>
+        1,14 g
+        <simbolos>· </simbolos>
+        cm
+        <sub
+>&#8211;3</sub
+>
+        ; densidade do poliestireno
+        <simbolos>=</simbolos>
+        1,05 g
+        <simbolos>·</simbolos>
+        cm
+        <sub
+>&#8211;3</sub
+>
+        ; massa molar do NaC
+        <simbolos>L =</simbolos>
+        58,5 g
+        <simbolos>·</simbolos>
+        mol
+        <sub
+>&#8211;1</sub
+>
+      </secao_exercicio>
+      <secao_exercicio>
+        <imagem>&lt;LUMEN_2021_2S_L3_QUI_&lt;I002.png&gt;</imagem>
+      </secao_exercicio>
+      <secao_exercicio>
+        Conhecendo a densidade desses materiais, ele decidiu preparar uma solução aquosa de cloreto de sódio (NaC
+         <simbolos>&#8467;</simbolos>
+
+        ) para separar as amostras. Para tanto, ele utilizou um balão volumétrico de 5,0 L. A massa de NaC
+         <simbolos>&#8467;</simbolos>
+
+        adequada para essa preparação é
+      </secao_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        120 g.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        300 g.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        600 g.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        1 300 g.
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>14	</secao_exercicio_numerador>
+      <b>EsPCEx-SP 2017</b>
+      Em uma aula prática de química, o professor forneceu a um grupo de alunos 100 mL de uma solução aquosa de hidróxido de sódio de concentração 1,25 mol/L. Em seguida solicitou que os alunos realizassem um procedimento de diluição e transformassem essa solução inicial em uma solução final de concentração 0,05 mol/L. Para obtenção da concentração final nessa diluição, o volume de água destilada que deve ser adicionado é de
+      <secao_exercicio_item>
+        <b>a)	</b>
+        2400 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        2000 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        1200 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        700 mL
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        200 mL
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>15	</secao_exercicio_numerador>
+      <b>PUC-PR 2015</b>
+      O hidróxido de cálcio &#8211; Ca(OH)
+      <sub>2</sub>
+      &#8211;, também conhecido como cal hidratada ou cal extinta, trata-se de um importante insumo utilizado na indústria da construção civil. Para verificar o grau de pureza (em massa) de uma amostra de hidróxido de cálcio, um laboratorista pesou 5 gramas deste e dissolveu completamente em 200 mL de solução de ácido clorídrico 1 mol/L. O excesso de ácido foi titulado com uma solução de hidróxido de sódio 0,5 mol/L, na presença de fenolftaleína, sendo gastos 200 mL até completa neutralização. O grau de pureza da amostra analisada, expresso em porcentagem em massa, é de:
+      <secao_exercicio_item>
+        <b>a)	</b>
+        78%
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        82%
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        86%
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        90%
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        74%
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>16	</secao_exercicio_numerador>
+      <b>PUC-Rio 2015</b>
+      O volume de 25 mL de uma amostra aquosa de ácido oxálico (H
+      <sub>2</sub>
+      C
+      <sub>2</sub>
+      O
+      <sub>4</sub>
+      ) foi titulado com solução padrão 0,020 mol/L de KOH.
+      <secao_exercicio>
+        H
+        <sub>2</sub>
+        C
+        <sub>2</sub>
+        O
+        <sub>4</sub>
+        (aq)
+        <simbolos>+</simbolos>
+        2 OH
+        <sub
+>&#8211;</sub
+>
+        (aq)
+         <simbolos>&#10141;</simbolos>
+
+        C
+        <sub>2</sub>
+        O
+        <sub>4</sub>
+        <sub
+>2&#8211;</sub
+>
+        (aq)
+        <simbolos>+</simbolos>
+        2 H
+        <sub>2</sub>
+        O(
+         <simbolos>&#8467;</simbolos>
+
+        )
+      </secao_exercicio>
+      <secao_exercicio>A titulação alcançou o ponto de equivalência com 25 mL de solução titulante, assim, a concentração, em mol/L, de ácido oxálico na amostra original é igual a: </secao_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        1 · 10
+        <sub
+>&#8211;3 </sub
+>
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        2 · 10
+        <sub
+>&#8211;3 </sub
+>
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        1 · 10
+        <sub
+>&#8211;2 </sub
+>
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        2 · 10
+        <sub
+>&#8211;2 </sub
+>
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        1 · 10
+        <sub
+>&#8211;1 </sub
+>
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>17	</secao_exercicio_numerador>
+      <b>Unesp 2015</b>
+      Chama-se titulação a operação de laboratório realizada com a finalidade de determinar a concentração de uma substância em determinada solução, por meio do uso de outra solução de concentração conhecida. Para tanto, adiciona-se uma solução-padrão, gota a gota, a uma solução-problema (solução contendo uma substância a ser analisada) até o término da reação, evidenciada, por exemplo, com uma substância indicadora. Uma estudante realizou uma titulação ácido-base típica, titulando 25 mL de uma solução aquosa de Ca(OH)
+      <sub>2</sub>
+      e gastando 20 mL de uma solução padrão de HNO
+      <sub>3</sub>
+      de concentração igual a 0,10 mol/L.
+      <imagem>
+        <imagem>&lt;I003-2020-EM-QUI-1S-L2-FA-U5-C19.png&gt;</imagem>
+      </imagem>
+      <secao_exercicio>
+        Utilizando os dados do texto, apresente a equação balanceada de neutralização envol vida na titulação e calcule a concentração da solução de Ca(OH)
+        <sub>2</sub>
+        .
+      </secao_exercicio>
+      <secao_exercicio_numerador>18	</secao_exercicio_numerador>
+      <b>Mackenzie-SP 2016</b>
+      200 mL de uma solução aquosa de ácido sulfúrico de concentração igual a 1 mol/L foram misturados a 300 mL de uma solução aquosa de hidróxido de sódio de concentração igual a 2 mol/L. Após o final do processo químico ocorrido, é correto afirmar que:
+      <secao_exercicio_item>
+        <b>a)	</b>
+        A concentração do ácido excedente, na solução final, é de 0,4 mol/L.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        A concentração da base excedente, na solução final, é de 0,4 mol/L.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        A concentração do sal formado, na solução final, é de 0,2 mol/L.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        A concentração do sal formado, na solução final, é de 0,1 mol/L.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        Todo ácido e toda base foram consumidos.
+      </secao_exercicio_item>
+      <secao_exercicio_numerador>19	</secao_exercicio_numerador>
+      <b>UFRGS 2015</b>
+      A uma solução I saturada de K
+      <sub>2</sub>
+      Cr
+      <sub>2</sub>
+      O
+      <sub>7</sub>
+      de cor laranja é adicionada água pura até dobrar seu volume, mantendo-se a temperatura constante. A seguir, são adicionados alguns cristais de K
+      <sub>2</sub>
+      Cr
+      <sub>2</sub>
+      O
+      <sub>7</sub>
+      , sob agitação constante, até que ocorra o aparecimento de um precipitado de K
+      <sub>2</sub>
+      Cr
+      <sub>2</sub>
+      O
+      <sub>7</sub>
+      , obtendo-se a solução II, conforme esquematizado no desenho abaixo.
+      <imagem>
+        <imagem>&lt;I004-2020-EM-QUI-1S-L2-FA-U5-C19.png&gt;</imagem>
+      </imagem>
+      <secao_exercicio>
+        Considerando as concentrações de K
+        <sub>2</sub>
+        Cr
+        <sub>2</sub>
+        O
+        <sub>7</sub>
+        nessas soluções, pode-se afirmar que:
+      </secao_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        A concentração na solução I é o dobro da concentração na solução II.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        O precipitado é solubilizado quando se misturam as soluções I e II.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        A tonalidade laranja da solução I é mais intensa que a tonalidade laranja da solução II.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        A solução I deve apresentar maior ponto de ebulição que a solução II, quando considerados os efeitos coligativos.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        A concentração da solução I é igual à concentração da solução II.
+      </secao_exercicio_item>
+    </secao_03>
+    <secao_05>
+      <secao_05_titulo1>No Enem é assim</secao_05_titulo1>
+      As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também podem ser usadas como recurso para estudo.
+      <exercicio_enunciado>
+        <b>Unicamp 2021 </b>
+        O oxímetro é usado na triagem para a Covid-19. Acoplado ao dedo, ele emite luz em dois comprimentos de onda (660 nm e 940 nm) e mede a quantidade de luz absorvida (A) em cada caso. A partir disso, determina a concentração percentual de oxi-hemoglobina (HbO
+        <sub>2</sub>
+        ) e de desoxi-hemoglobina (Hb) no sangue. Valores entre 95 e 100% para HbO
+        <sub>2</sub>
+        indicam normalidade.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;LUMEN_2021_2S_L3_QUI_&lt;I003.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>
+        <secao_exercicio>
+          Simplificadamente, as quantidades de luz absorvidas em cada comprimento de onda (A) se relacionam matematicamente às concentrações [HbO
+          <sub>2</sub>
+          ] e [Hb] conforme as seguintes equações:
+        </secao_exercicio>
+        <secao_exercicio>
+          Hb(aq)
+          <simbolos>+</simbolos>
+          O
+          <sub>2</sub>
+          (aq)
+           <simbolos>&#10141;</simbolos>
+
+          HbO
+          <sub>2</sub>
+          (aq)
+        </secao_exercicio>
+        <secao_exercicio>
+          A (em 660 nm)
+          <simbolos>=</simbolos>
+          320 [HbO
+          <sub>2</sub>
+          ]
+          <simbolos>+</simbolos>
+          3227 [Hb]
+        </secao_exercicio>
+        <secao_exercicio>
+          A (em 940 nm)
+          <simbolos>=</simbolos>
+          1214 [HbO
+          <sub>2</sub>
+          ]
+          <simbolos>+</simbolos>
+          693 [Hb].
+        </secao_exercicio>
+        Considere que uma pessoa tenha chegado ao hospital com baixa saturação de O
+        <sub>2</sub>
+        no sangue e, depois de submetida à oxigenoterapia, começa a ter a saturação normalizada. Em relação às medidas iniciais, quando a saturação de O
+        <sub></sub>
+        <sub>2</sub>
+        começa a subir, a absorção de luz indicada pelo oxímetro
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        diminui em 660 nm e aumenta em 940 nm.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        aumenta em 660 nm e diminui em 940 nm.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        aumenta em ambos os comprimentos de onda
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        diminui em ambos os comprimentos de onda.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>Unicamp 2021 </b>
+        O aumento dos casos da Covid-19 provocou a escassez de álcool etílico em gel no comércio, o que fez a população buscar outros tipos de álcool para se prevenir. No entanto, as opções de álcool disponíveis não eram eficazes. O recomendado é o álcool 70
+        <simbolos>°</simbolos>
+        INPM (% massa/massa). As opções de álcool disponíveis comercialmente à época da escassez aparecem na tabela abaixo.
+      </exercicio_enunciado>
+      <secao_exercicio>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="2">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="84.85000000000001">
+            <Tabela_gravata1>Tipo de álcool</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="129.58307086614172">
+            <Tabela_gravata1>Concentração INPM (%massa/massa)</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="84.85000000000001">
+            <tabela_texto_geral>Absoluto</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="129.58307086614172">
+            <tabela_texto_geral>99,6</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="84.85000000000001">
+            <tabela_texto_geral>Hidratado</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="129.58307086614172">
+            <tabela_texto_geral>92,6</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="84.85000000000001">
+            <tabela_texto_geral>Combustível</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="129.58307086614172">
+            <tabela_texto_geral>92,5</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="84.85000000000001">
+            <tabela_texto_geral>Limpeza</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="129.58307086614172">
+            <tabela_texto_geral>46,0</tabela_texto_geral>
+          </Cell>
+        </Table>
+      </secao_exercicio>
+      <exercicio_enunciado>
+        Para produzir álcool 70
+        <simbolos>°</simbolos>
+        INPM a partir dos outros tipos disponíveis comercialmente, uma opção possível seria misturar
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        álcool para limpeza com álcool hidratado, utilizando maior quantidade de álcool para limpeza.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        álcool combustível com o álcool absoluto, utilizando maior quantidade de álcool combustível.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        álcool absoluto com álcool hidratado, utilizando maior quantidade de álcool absoluto.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        álcool para limpeza com álcool hidratado, utilizando maior quantidade de álcool hidratado.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>UCS-RS </b>
+        A solubilidade é uma propriedade física muito importante do ponto de vista biológico. Veja, por exemplo, o caso das vitaminas. Elas são indispensáveis à dieta alimentar, pois atuam na regulação de muitos processos vitais. O consumo excessivo de vitamina C parece não ser prejudicial ao organismo, pois qualquer excesso será eliminado pela urina, uma vez que ela é hidrossolúvel. O consumo excessivo de vitamina A, por outro lado, pode ser prejudicial, pois sendo lipossolúvel, ela acaba sendo retida pelo organismo, principalmente no fígado, produzindo dores de cabeça e insônia. As estruturas químicas das vitaminas A e C estão representadas a seguir.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;G-01.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>Em relação à solubilidade das vitaminas A e C, considere as proposições abaixo. </exercicio_enunciado>
+      <exercicio_item_romano>
+        <secao_exercicio></secao_exercicio>
+        <b>I.	</b>
+        Devido à presença de uma cadeia carbônica relativamente longa que apresenta caráter apolar acentuado, a vitamina A é praticamente insolúvel em água, apesar de ela conter um grupo hidroxila em sua estrutura química.
+        <b>II.	</b>
+        A vitamina C é hidrossolúvel, devido à presença de vários grupos hidroxila em sua estrutura química que podem interagir com as moléculas de água por meio de ligações de hidrogênio.
+        <b>III.	</b>
+        Se o coeficiente de solubilidade da vitamina C em água é igual a 330 g/L (a 25
+        <simbolos>°</simbolos>
+        C e 1 atm), uma solução aquosa de vitamina C com concentração igual a 100 g/L, nas mesmas condições de temperatura e pressão, encontra-se supersaturada.
+      </exercicio_item_romano>
+      <exercicio_enunciado>Das proposições acima </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        Apenas I está correta.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Apenas II está correta.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Apenas I e II estão corretas.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Apenas II e III estão corretas.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        I, II e III estão corretas.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        <b>Unioeste-PR 2018</b>
+        A recristalização é uma técnica de purificação de sólidos. Ela consiste na solubilização a quente do produto em um solvente adequado, filtração da solução para retirada dos contaminantes insolúveis e permite que a solução atinja a temperatura ambiente (20
+        <simbolos>°</simbolos>
+        C) para formação dos cristais purificados. Um produto X deve ser recristalizado. Estão disponíveis quatro solventes, A, B, C e D, e a curva de solubilidade de X nesses quatro solventes (em g soluto/100 mL de solvente) é mostrada abaixo.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;I006-2020-EM-QUI-1S-L2-FA-U5-C19.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>
+        De acordo com as informações, assinale a opção que apresenta o solvente mais adequado para a recristalização de X, na temperatura de 100
+        <simbolos>°</simbolos>
+        C, de forma a otimizar o rendimento deste procedimento.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        A
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        B
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        C
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        D
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Nenhum solvente é adequado
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>Enem 2017</b>
+        A toxicidade de algumas substâncias é normalmente representada por um índice conhecido como DL
+        <sub>50</sub>
+        (dose letal mediana). Ele representa a dosagem aplicada a uma população de seres vivos que mata 50% desses indivíduos e é normalmente medido utilizando-se ratos como cobaias, pode-se determinar o nível tolerável de contaminação de alimentos, para que possam ser consumidos de forma segura pelas pessoas. O quadro apresenta três pesticidas e suas toxicidades. A unidade mg/kg indica a massa da substância ingerida pela massa da cobaia.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+     <p class="general-text">
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="2">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+            <Tabela_gravata1>Pesticidas</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.38779527559058">
+            <Tabela_gravata1>
+              DL
+              <sub>50</sub>
+              (mg/kg)
+            </Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+            <tabela_gravata3>Diazinon</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.38779527559058">
+            <tabela_texto_geral>70</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+            <tabela_gravata3>Malation</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.38779527559058">
+            <tabela_texto_geral>1000</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+            <tabela_gravata3>Atrazina</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="81.38779527559058">
+            <tabela_texto_geral>3100</tabela_texto_geral>
+          </Cell>
+        </Table>
+     </p>
+      <exercicio_enunciado>
+        <secao_exercicio>Sessenta ratos, com massa de 200 g cada, foram divididos em três grupos de vinte. Três amostras de ração, contaminadas, cada uma delas com um dos pesticidas indicados no quadro, na concentração de 3 mg por grama de ração, foram administradas para cada grupo de cobaias. Cada rato consumiu 100 g de ração. </secao_exercicio>
+        Quais grupos terão uma mortalidade mínima de 10 ratos?
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        O grupo que se contaminou somente com atrazina.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        O grupo que se contaminou somente com diazinon.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Os grupos que se contaminaram com atrazina e malation.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Os grupos que se contaminaram com diazinon e malation.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Nenhum dos grupos contaminados com atrazina, diazinon e malation.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        <b>Enem 2017</b>
+        Um pediatra prescreveu um medicamento, na forma de suspensão oral, para uma criança pesando 16 kg. De acordo com o receituário, a posologia seria de 2 gotas por kg da criança, em cada dose. Ao adquirir o medicamento em uma farmácia, o responsável pela criança foi informado que o medicamento disponível continha o princípio ativo em uma concentração diferente daquela prescrita pelo médico, conforme mostrado no quadro.
+      </exercicio_enunciado>
+      <secao_exercicio>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="2">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="108.60039370078744">
+            <Tabela_gravata1>Medicamento</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="106.33267716535428">
+            <Tabela_gravata1>Concentração do princípio ativo  </Tabela_gravata1>
+            <Tabela_gravata1>(mg/gota)</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="108.60039370078744">
+            <tabela_gravata3>Prescrito</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="106.33267716535428">
+            <tabela_texto_geral>5,0</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="108.60039370078744">
+            <tabela_gravata3>Disponível comercialmente</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="106.33267716535428">
+            <tabela_texto_geral>4,0</tabela_texto_geral>
+          </Cell>
+        </Table>
+      </secao_exercicio>
+      <exercicio_enunciado>Quantas gotas do medicamento adquirido a criança deve ingerir de modo que mantenha a quantidade de princípio ativo receitada? </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        13
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        26
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        32
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        40
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        128
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>7	</secao_exercicio_numerador>
+        <b>Enem 2016</b>
+        O soro fisiológico é uma solução aquosa de cloreto de sódio comumente utilizada para higienização ocular, nasal, de ferimentos e de lentes de contato. Sua concentração é 0,90% em massa e densidade igual a 1 g/mL. Qual massa de NaC
+         <simbolos>&#8467;</simbolos>
+
+        , em grama, deverá ser adicionada à água para preparar 500 mL desse soro?
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        0,45
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        0,90
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        4,50
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        9
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        45
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>8	</secao_exercicio_numerador>
+        <b>Uece 2017</b>
+        O magnésio subministrado na forma de cloreto de magnésio tem papel importante para o fortalecimento dos músculos e nervos, função imunológica, reforça a estrutura óssea, regula os níveis de pressão arterial e o açúcar do sangue etc. A título experimental, um estudante de bioquímica preparou uma solução de cloreto de magnésio utilizando 200 g de água e 20 g de cloreto de magnésio que passou a ter densidade 1,1 g/mL. Para essa solução, a concentração em quantidade de matéria é, aproximadamente,
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        1,05 mol/L
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        1,20 mol/L
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        1,30 mol/L
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        1,50 mol/L
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>9	</secao_exercicio_numerador>
+        <b>UCS-RS 2015</b>
+        Desde criança, aprende-se que o consumo de água é vital para o corpo humano. Além de regular muitas funções, como a temperatura corporal e o bom funcionamento do sistema circulatório, ela também contribui para o transporte de nutrientes e é essencial para os processos fisiológicos e bioquímicos do corpo de um indivíduo. Com a busca crescente por bem-estar e qualidade de vida, o consumidor brasileiro está cada vez mais consciente de que, dentro da categoria água, a mineral natural é em geral benéfica para a saúde. O aumento do consumo do produto atesta essa tendência. Segundo dados da Associação Brasileira da Indústria de Águas Minerais, o mercado apresenta patamares de crescimento próximos a 20% ao ano. De acordo com especialistas, o crescimento do setor está relacionado a hábitos mais saudáveis dos brasileiros, que têm buscado reduzir a presença de bebidas açucaradas e com adoçantes nas refeições. O quadro abaixo apresenta as informações contidas em um rótulo de uma embalagem de 300 mL de uma água mineral natural comumente encontrada nas prateleiras de um supermercado.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="16" aid:tcols="2">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="226.7716535433071">
+          <Tabela_gravata1>
+            Características físico-químicas a 25
+            <b>°</b>
+            C
+          </Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>pH</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>5,45</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Condutividade elétrica</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>
+            455
+             <simbolos>&#625;</simbolos>
+            S/cm
+          </tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>
+            <b>Íons</b>
+          </tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>
+            <b>Composição química (mg/L) </b>
+          </tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Bicarbonato</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>258,88</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Potássio</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>30,52</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Sódio</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>30,17</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Cálcio</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>26,49</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Magnésio</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>11,21</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Sulfato</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>2,42</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Cloreto</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>1,38</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Nitrato</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>0,91</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Bário</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>0,35</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Fluoreto</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>0,11</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>Lítio</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="113.38582677165356">
+          <tabela_texto_geral>0,028</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="2" aid:ccolwidth="226.7716535433071">
+          <tabela_texto_geral>
+            <b>NÃO CONTÉM GLÚTEN</b>
+          </tabela_texto_geral>
+        </Cell>
+      </Table>
+      <secao_exercicio>Considerando as informações do enunciado e do quadro acima, assinale a alternativa correta. </secao_exercicio>
+      <item_lista>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          O ânion monovalente presente em menor quantidade em uma embalagem dessa água mineral é o NO
+          <sub>3</sub>
+          <sub
+>&#8211;</sub
+>
+          .
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>b)	</b>
+          O ponto de ebulição da água mineral em questão, ao nível do mar, é menor do que 100
+          <simbolos>°</simbolos>
+          C.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          A água mineral em questão conduz a corrente elétrica, devido à presença de vários íons em solução.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>d)	</b>
+          A massa de íons lítio presente em uma embalagem dessa água mineral é de 0,54 mg.
+        </secao_exercicio_item>
+        <b>e)	</b>
+        A água mineral em questão apresenta uma concentração hidrogeniônica igual a 1
+        <simbolos>·</simbolos>
+        10
+        <sub
+>&#8211;7</sub
+>
+        mol/L.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>10	</secao_exercicio_numerador>
+        <b>PUC-Minas 2015</b>
+        A 25
+        <simbolos>°</simbolos>
+        C é possível dissolver aproximadamente 6,25 mol de cloreto de sódio em um litro de água. É correto afirmar que a solubilidade do cloreto de sódio em água, em g/mL, é:
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        0,3656
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        36,56
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        0,4625
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        46,25
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>11	</secao_exercicio_numerador>
+        <b>Unigranrio-RJ 2017</b>
+        O estudo da concentração de soluções aquosas faz-se necessário em muitos ramos da indústria química, onde há necessidade de quantidades exatas de componentes químicos reacionais. Entre os ramos da indústria química que utilizam conhecimentos de concentrações podem ser citados o de tratamento de água e efluentes e a indústria cosmética. Um volume de 50 mL de uma solução de MgC
+         <simbolos>&#8467;</simbolos>
+
+        <sub>2</sub>
+        a 2 mol/L é diluído até 1 litro de volume final. Sabendo que soluções diluídas de MgC
+         <simbolos>&#8467;</simbolos>
+
+        <sub>2</sub>
+        são totalmente solúveis e dissociáveis, podemos afirmar que a concentração, em mol/L, de íons cloreto na nova solução após a diluição será de:
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        0,1
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        0,2
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        1,0
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        2,0
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        4,0
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>12	</secao_exercicio_numerador>
+        <b>UEG-GO 2016</b>
+        Uma solução estoque de hidróxido de sódio foi preparada pela dissolução de 4 g do soluto em água, obtendo-se ao final 100 mL e, posteriormente, determinado volume foi diluído para 250 mL obtendo-se uma nova solução de concentração igual a 0,15 mol/L. O volume diluído, em mL, da solução estoque, é aproximadamente:
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        26
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        37
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        50
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        75
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>13	</secao_exercicio_numerador>
+        <b>Enem 2015</b>
+        A hidroponia pode ser definida como uma técnica de produção de vegetais sem necessariamente a presença do solo. Uma das formas de implementação é manter as plantas com suas raízes suspensas em meio líquido, de onde retiram os nutrientes essenciais. Suponha que um produtor de rúcula hidropônica precise ajustar a concentração de íon nitrato (NO
+        <sub>3</sub>
+        <sub
+>&#8211;</sub
+>
+        ) para 0,009 mol/L em um tanque de 5000 litros e, para tanto, tem em mãos uma solução comercial nutritiva de nitrato de cálcio 90 g/L.
+        <secao_exercicio>As massas molares dos elementos N, O e Ca são iguais a 14, 16 e 40, respectivamente. </secao_exercicio>
+        Qual o valor mais próximo do volume da solução nutritiva, em litros, que o produtor deve adicionar ao tanque?
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        26
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        41
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        45
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        51
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        82
+      </item_lista>
+    </secao_05>
+  </Root>
+</Root>

@@ -1,0 +1,1543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <p class="general-text">
+    <titulo_cap_texto>Outras propriedades coligativas</titulo_cap_texto>
+    <imagem>
+      <imagem>&lt;F001-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">O etilenoglicol é utilizado como aditivo em sistemas de arrefecimento de automóveis, aumentando a temperatura de ebulição da água e diminuindo a temperatura de congelamento, além de evitar a corrosão do sistema. </p>
+    <p class="img-credit">SiNeeKan/Shutterstock.com </p>
+    <texto_citado_titulo>Sistema de arrefecimento </texto_citado_titulo>
+    <p class="quote">
+      <b>O que é? Para que serve? </b>
+    </p>
+    <p class="quote">
+      O sistema de arrefecimento é responsável por manter o carro a uma temperatura ideal de funcionamento &#8211; sempre na faixa dos 90
+      <simbolos>°</simbolos>
+      Celsius. [...] O sistema é composto por mangueiras, radiador, ventoinha, bomba d&#8217;água, vaso de expansão, válvula termostática e, no meio de tudo isso, um líquido, que deve ser composto 50% por água desmineralizada e 50% por aditivo a base de etilenoglicol. [...]
+    </p>
+    <p class="quote">
+      <b>Como funciona? </b>
+    </p>
+    <p class="quote">O líquido percorre a parte interna do motor, sem entrar em contato com seus componentes de combustão, até chegar ao radiador. Por lá, a mistura, que ficou quente, transfere o seu calor para o ar. Toda essa movimentação é feita através de mangueiras e quem controla esse fluxo é a válvula termostática: ela bloqueia a &#8220;água&#8221; quando o motor esfria e libera quando o motor ultrapassa determinada temperatura. Quem coloca o líquido em movimento pelo sistema é a bomba d&#8217;água. Quando o carro está desligado, todo o líquido fica alojado no vaso de expansão (que é a peça plástica que você usa para checar se o nível do líquido está correto). A ventoinha também ajuda a retirar o calor do motor, direcionando ar para dentro do motor exatamente como um ventilador. </p>
+    <p class="quote">[...] </p>
+    <p class="quote-source">
+      FERREIRA, Michelle. &#8220;Autoajuda: sistema de arrefecimento&#8221;.
+      <i>Revista Autoesporte</i>
+      , 1° maio 2015. Disponível em: &lt;https://autoesporte.globo.com/carros/colunistas/post-coluna/2015/05/autoajuda-sistema-de-arrefecimento.ghtml&gt;. Acesso em: 3 ago. 2021.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <texto_bullets>&#8226;	Por que, em países que enfrentam invernos rigorosos, é comum jogar sal de cozinha na neve que se deposita sobre calçadas e estradas? </texto_bullets>
+    <texto_bullets>
+      &#8226;	Você já deve ter provado algum doce em compota de frutas, como laranja, abóbora e figo. Nesses doces, a fruta costuma ter durailidade muito maior. Que propriedade coligativa explica esse processo?
+      <exercicios_linhas></exercicios_linhas>
+    </texto_bullets>
+    <boxe_02_texto>
+      Neste capítulo, serão abordadas as hailidades EM13CNT301, EM13CNT302 e EM13CNT306.
+      <exercicios_linhas></exercicios_linhas>
+    </boxe_02_texto>
+    <titulo1>	Tonoscopia </titulo1>
+    <p class="general-text">
+      A
+      <b>tonoscopia </b>
+      (ou
+      <b> tonometria</b>
+      )
+      <b></b>
+      é uma propriedade coligativa na qual observamos o abaixamento da pressão máxima de vapor de um líquido pela dissolução de um soluto não volátil, devido à queda da taxa de evaporação do solvente.
+    </p>
+    <p class="general-text">Observe as imagens a seguir para analisarmos o efeito da tonoscopia: </p>
+    <imagem>
+      <imagem>&lt;LUMEN_2021_2S_L3_QUI_&lt;I004.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">As moléculas de solvente estão representadas pelas esferas azuis, e as moléculas do soluto, pelas esferas laranjas.  </p>
+    <p class="general-text">No primeiro béquer, observamos que o solvente evapora conforme sua temperatura de ebulição é atingida, o que está representado na imagem pelas setas pretas.  </p>
+    <boxe_17>
+      <boxe_17_titulo1>Fique ligado!</boxe_17_titulo1>
+      <boxe_17_texto>
+        Um líquido entra em
+        <b>ebulição</b>
+        quando a pressão máxima de seu vapor (
+        <i>P</i>
+        <sub>vapor</sub>
+        ) se iguala à pressão externa (pressão atmosférica local).
+      </boxe_17_texto>
+    </boxe_17>
+    <p class="general-text">No segundo béquer, ocorreu adição de um soluto não volátil ao solvente, dificultando a sua evaporação, o que é representado pelo número menor de setas na segunda imagem.  </p>
+    <p class="general-text">No terceiro béquer, adicionou-se mais soluto (observe o aumento do número de bolinhas laranjas), deixando a solução mais concentrada e dificultando ainda mais a evaporação, novamente indicada pela redução no número de setas. Quanto maior a concentração do soluto, maior será o efeito coligativo causado e menor será a pressão de vapor da água. </p>
+    <p class="general-text">Esse fenômeno ocorre porque, em uma substância pura no estado líquido, a sua superfície apresenta apenas partículas dessa substância, e, com isso, a probailidade de escape dessas partículas para a fase gasosa é a mesma em toda a superfície. No entanto, ao se adicionar um soluto não volátil a esse líquido, a solução passa a ter partículas do soluto na superfície, o que diminui a probailidade de escape de partículas do solvente para a fase gasosa e reduz a pressão de vapor do solvente.  </p>
+    <boxe_17>
+      <boxe_17_titulo1>Fique ligado!</boxe_17_titulo1>
+      <boxe_17_texto>
+        A
+        <b>tonoscopia</b>
+        avalia a mudança da pressão de vapor de um solvente e de suas soluções a uma temperatura constante, enquanto a
+        <b>ebulioscopia</b>
+        avalia a mudança da temperatura de ebulição de um solvente e de suas soluções a uma pressão de vapor constante.
+      </boxe_17_texto>
+    </boxe_17>
+    <imagem>
+      <imagem>&lt;I002-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">
+      Diminuição da pressão de vapor do solvente puro (
+      <i>P</i>
+      <sub>0</sub>
+      ) com a adição de um soluto não volátil (
+      <i>P</i>
+      ).
+    </p>
+    <p class="general-text">
+      A tonoscopia pode ser observada quando adicionamos um soluto como o sal cloreto de sódio (NaC
+      <simbolos>&#8467;</simbolos>
+      ) na água. Com essa adição, a pressão máxima de vapor da água na solução passa a ser inferior à pressão máxima de vapor da água pura. As partículas de soluto dificultam o escape das moléculas de água do sistema, diminuindo o número de moléculas que passam para o estado gasoso em dado intervalo de tempo, reduzindo a pressão de vapor da água no recipiente.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <titulo1>	Ebulioscopia </titulo1>
+    <p class="general-text">
+      A
+      <b>ebulioscopia</b>
+      (ou
+      <b>ebuliometria</b>
+      ) é uma propriedade coligativa, na qual observamos a elevação da temperatura de ebulição de um líquido por meio da adição de um soluto não volátil. A presença do soluto torna o solvente menos volátil, como se o soluto &#8220;atrapalhasse&#8221; a ebulição do solvente.
+    </p>
+    <imagem>
+      <imagem>&lt;I003-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">
+      Aumento da temperatura de ebulição do solvente puro (
+      <i>P</i>
+      <sub>0</sub>
+      ) com a adição de um soluto não volátil (
+      <i>P</i>
+      ).
+    </p>
+    <p class="general-text">Observando o gráfico, é possível concluir que, em determinada temperatura, a pressão de vapor do solvente em uma solução com soluto não volátil é menor que a pressão de vapor do solvente puro. Esse fenômeno ocorre, porque a energia necessária para evaporar o solvente é maior na solução, uma vez que as partículas de soluto reduzem a probailidade de escape, ou seja, a evaporação das partículas de solvente. </p>
+    <titulo1>	Crioscopia </titulo1>
+    <p class="general-text">
+      A
+      <b>crioscopia</b>
+      (ou
+      <b>criometria</b>
+      ) é uma propriedade coligativa na qual observamos o abaixamento da temperatura de congelamento de um líquido por meio da adição de um soluto não volátil.
+    </p>
+    <p class="general-text">No gráfico abaixo, que representa o diagrama de fases da água, podemos observar que a curva referente à solução encontra-se abaixo do solvente puro.  </p>
+    <boxe_03>
+      <boxe_03_titulo1>Discussão em sala </boxe_03_titulo1>
+      <boxe_03_texto>Em janeiro de 2020, diversas reportagens foram feitas a respeito de um lote de cervejas de uma fábrica de Belo Horizonte após alguns casos de contaminação e, até mesmo, de morte de pessoas após sua ingestão. </boxe_03_texto>
+      <boxe_03_texto>
+        É comum a utilização de um líquido viscoso, que passa por uma serpentina, dentro ou fora dos tonéis de cerveja, para resfriar a beida. O procedimento não faz com que a beida congele, e esse líquido não entra em contato com a cerveja no processo de resfriamento. Utiliza-se o etilenoglicol (ou monoetilenoglicol, de fórmula HO
+        <simbolos>&#8211;</simbolos>
+        CH
+        <sub>2</sub>
+        <simbolos>&#8211;</simbolos>
+        CH
+        <sub>2</sub>
+        <simbolos>&#8211;</simbolos>
+        OH, cuja nomenclatura, segundo a IUPAC, é etano-1,2-diol) nesse processo de resfriamento. Resultados de análises também indicaram a presença de dietilenoglicol (de fórmula estrutural
+      </boxe_03_texto>
+      <boxe_03_texto>
+        HO
+        <simbolos>&#8211;</simbolos>
+        CH
+        <sub>2</sub>
+        <simbolos>&#8211;</simbolos>
+        CH
+        <sub>2</sub>
+        <simbolos>&#8211;</simbolos>
+        OCH
+        <sub>2</sub>
+        <simbolos>&#8211;</simbolos>
+        CH
+        <sub>2</sub>
+        <simbolos>&#8211;</simbolos>
+        OH
+      </boxe_03_texto>
+      <boxe_03_texto>
+        e nomenclatura, segundo a IUPAC, 2,2&#8217;-oxiisetan-1-ol) na cerveja, uma substância não utilizada em processos de resfriamento envolvendo alimentos. Ambos contêm o grupo etileno (
+        <simbolos>&#8211;</simbolos>
+        CH
+        <sub>2</sub>
+        <simbolos>&#8211;</simbolos>
+        CH
+        <sub>2</sub>
+        <simbolos>&#8211;</simbolos>
+        ), porém, no dietilenoglicol, ele ocorre duas vezes.
+      </boxe_03_texto>
+      <boxe_03_texto>Pesquise e traga suas anotações para discutir em sala: </boxe_03_texto>
+      <boxe_03_texto>Por que é necessária a adição de um anticongelante no processo? Para os seres humanos, quais são as principais consequências da ingestão dessas substâncias?</boxe_03_texto>
+    </boxe_03>
+    <imagem>
+      <imagem>&lt;I004-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <titulo1>	Osmometria  </titulo1>
+    <p class="general-text">
+      Para o entendimento da osmometria, primeiramente vamos definir o conceito de
+      <b>osmose</b>
+      : passagem de
+      <b>solvente</b>
+      do
+      <b>meio</b>
+      menos concentrado (
+      <b>hipotônico</b>
+      )
+      <b></b>
+      para o
+      <b>meio</b>
+      mais concentrado (
+      <b>hipertônico</b>
+      )
+      <b></b>
+      através de uma
+      <b>membrana semipermeável</b>
+      .
+      <b></b>
+      O meio hipotônico pode ser uma solução mais diluída ou apenas água. Haverá uma diminuição de volume nesse meio e um aumento de volume no meio hipertônico.
+    </p>
+    <p class="general-text">As membranas semipermeáveis recebem esse nome porque apresentam ação seletiva quanto ao tipo de substância que pode atravessá-las. Elas podem ser compostas de tecidos artificiais, como papel celofane e pergaminho, ou de tecidos orgânicos, como a membrana plasmática das células, a película do ovo de galinha, a bexiga urinária, entre outros.  </p>
+    <p class="general-text">Considere, como exemplo, o sistema abaixo, formado por soluções de água e sal e uma membrana semipermeável. Nele, há um movimento espontâneo mais acentuado de moléculas de água da esquerda para a direita até que as concentrações das soluções se igualam.  </p>
+    <imagem>
+      <imagem>&lt;LUMEN_2021_2S_L3_QUI_&lt;I005.png&gt;</imagem>
+    </imagem>
+    <imagem>
+      <imagem>&lt;I007-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">
+      Fenômeno da osmose: passagem de solvente do meio menos concentrado para o mais concentrado, sendo o meio menos concentrado (A) uma solução ou (B) apenas água. Observamos em (C) que os vasos têm a mesma altura quando a pressão está constante e, com a osmose, há uma diminuição de
+      <i>h</i>
+      <sub>1</sub>
+      , deixando
+      <i>p</i>
+      <sub>1</sub>
+      &gt;
+      <i>p</i>
+      .
+    </p>
+    <p class="general-text">A capacidade que cada solvente apresenta de atravessar uma membrana semipermeável está relacionada à sua pressão de vapor. Dados experimentais mostram que, quanto maior a pressão de vapor do solvente, maior será sua tendência de atravessar uma membrana semipermeável. </p>
+    <boxe_08>
+      <boxe_08_titulo1>Em iologia, vemos que...  </boxe_08_titulo1>
+      <boxe_08_texto>...a membrana plasmática das células é semipermeável, permitindo que ocorra osmose. Dessa forma, o soro fisiológico, utilizado em hospitais para aplicação intravenosa, deve ter concentração equivalente a uma solução de 0,9% de cloreto de sódio, a mesma pressão osmótica que o sangue e as hemácias, ou seja, uma solução isotônica.  </boxe_08_texto>
+      <boxe_08_texto>Qualquer desequilíbrio pode causar danos às hemácias: utilizando água destilada (meio hipotônico) ocorre grande entrada de água nas células, o que pode levar ao rompimento da membrana plasmática, processo conhecido como &#8220;lise&#8221; celular, e à morte da hemácia. Ao se empregar uma solução saturada de cloreto de sódio (meio hipertônico), no entanto, ocorre diminuição de volume, retração da célula e, provavelmente, a morte dela.</boxe_08_texto>
+    </boxe_08>
+    <exercicios_linhas></exercicios_linhas>
+    <imagem>
+      <imagem>&lt;F002-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Esquema dos efeitos da osmose em hemácias. </p>
+    <p class="img-credit">Naeblys/Shutterstock.com </p>
+    <secao_01>
+      <secao_01_titulo1>Questão resolvida </secao_01_titulo1>
+      <exercicio_enunciado>
+        <exercicio_enunciado>
+          1
+          <b>UFRGS </b>
+          Assinale a alternativa que preenche corretamente as lacunas do enunciado abaixo, na ordem em que aparecem.
+        </exercicio_enunciado>
+        Uma solução injetável foi preparada de modo inadequado, pois, ao entrar na corrente sanguínea, promoveu o inchamento e a ruptura dos glóbulos vermelhos. A solução é, portanto, __________ em relação ao soro sanguíneo, e a concentração de soluto é __________ àquela que deveria ter sido preparada.
+      </exercicio_enunciado>
+      <texto_exemplo></texto_exemplo>
+      <item_lista>
+        <b>a)	</b>
+        hipotônica &#8211; superior
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        hipotônica &#8211; inferior
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        isotônica &#8211; superior
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        hipertônica &#8211; superior
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        hipertônica &#8211; inferior
+      </item_lista>
+      <titulo3>
+        <b>Resolução: </b>
+      </titulo3>
+      <exercicio_resolvido>Alternativa B. </exercicio_resolvido>
+      <exercicio_resolvido>A solução hipotônica é menos concentrada e, consequentemente, sua pressão de vapor é maior.</exercicio_resolvido>
+    </secao_01>
+    <boxe_02>
+      <boxe_02_titulo1>MAIS </boxe_02_titulo1>
+      <boxe_03_titulo1>Ciência Explica &#8211; &quot;Por que os peixes de água salgada não sobrevivem em água doce?&quot;  ClickCiência UFSCar </boxe_03_titulo1>
+      <boxe_02_texto>
+        <boxe_03_texto>Um peixe que vive em água doce pode viver normalmente em água salgada? Assista ao vídeo para conferir a resposta.  </boxe_03_texto>
+        <boxe_03_texto>Disponível em: &lt;https://www.youtube.com/watch?v=Hs2xqVRMWds&gt;.  </boxe_03_texto>
+        <boxe_03_texto>Acesso em: 3 ago. 2021.</boxe_03_texto>
+      </boxe_02_texto>
+    </boxe_02>
+    <titulo2>Pressão osmótica </titulo2>
+    <p class="general-text">
+      A pressão osmótica (
+      <simbolos>π</simbolos>
+      ) é a pressão exercida sobre a solução mais concentrada para impedir que a osmose ocorra. Adapta-se um êmbolo ao vaso da solução para interromper a osmose.
+    </p>
+    <imagem>
+      <imagem>&lt;I008-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Esquema geral do funcionamento da pressão osmótica. </p>
+    <p class="general-text">
+      A
+      <b>osmometria</b>
+      estuda o aumento da pressão osmótica de um líquido, quando a ele é adicionado um soluto não volátil. Para calcular a pressão osmótica, utilizamos uma equação matemática proposta pelo químico neerlandês Jacobus Henricus van&#8217;t Hoff (1852-1911):
+    </p>
+    <texto_dialogo>
+      <p class="general-text">
+        <imagem>&lt;43_FBU11C24.png&gt;</imagem>
+        ou
+        <simbolos>π</simbolos>
+        =
+        <simbolos>ɱ</simbolos>
+        <simbolos>∙</simbolos>
+        <i>R </i>
+        <simbolos>∙</simbolos>
+        <i> T </i>
+        <simbolos>∙</simbolos>
+        <i> i</i>
+      </p>
+    </texto_dialogo>
+    <p class="general-text">Em que: </p>
+    <p class="general-text">
+      <simbolos>ɱ</simbolos>
+      : concentração em mol/L;
+    </p>
+    <p class="general-text">
+      <i>R</i>
+      : constante universal dos gases ideais;
+    </p>
+    <p class="general-text">
+      <i>T</i>
+      : temperatura (em K);
+    </p>
+    <p class="general-text">
+      <i>i</i>
+      : fator de Van&#8217;t Hoff ou fator de correção.
+    </p>
+    <p class="general-text">Segundo Van&#8217;t Hoff, a pressão osmótica, em soluções diluídas, é diretamente proporcional à concentração em mol/L da solução e à temperatura, assim como ocorre na equação dos gases perfeitos, proposta pelo engenheiro civil e físico-químico francês Benoît-Pierre-Émile Clapeyron (1799-1864). Veja: </p>
+    <p class="general-text">
+      <i>P </i>
+      <simbolos>∙</simbolos>
+      <i> V = n </i>
+      <simbolos>∙</simbolos>
+      <i> R </i>
+      <simbolos>∙</simbolos>
+      <i> T </i>
+    </p>
+    <p class="general-text">
+      Substituindo P por
+      <simbolos>π</simbolos>
+      , teremos
+    </p>
+    <p class="general-text">
+      <imagem>&lt;001_FBU11C24.png&gt;</imagem>
+      <simbolos>ɱ .</simbolos>
+      <i> R </i>
+      <simbolos>∙</simbolos>
+      <i> T</i>
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <boxe_04>
+      Experimento
+      <boxe_04_titulo1>Osmose  </boxe_04_titulo1>
+      <boxe_04_texto>O experimento tem como objetivo compreender o processo de osmose e a importância da ingestão do soro caseiro em casos de diarreia. </boxe_04_texto>
+      <boxe_04_titulo1>Materiais </boxe_04_titulo1>
+      <boxe_bullet>
+        <boxe_bullet>&#8226;	1 batata tipo inglesa;  </boxe_bullet>
+        <boxe_bullet>&#8226;	1 recipiente plástico de 250 mL (caneca de plástico);  </boxe_bullet>
+        <boxe_bullet>&#8226;	água destilada (vendida em farmácias);  </boxe_bullet>
+        <boxe_bullet>&#8226;	1 rolo de filme de PVC;  </boxe_bullet>
+        <boxe_bullet>&#8226;	1 copo plástico de café; </boxe_bullet>
+        <boxe_bullet>&#8226;	1 seringa hipodérmica esterilizada de 1 mL (vendida em farmácias);  </boxe_bullet>
+        <boxe_bullet>&#8226;	1 colher de chá;  </boxe_bullet>
+        <boxe_bullet>&#8226;	açúcar (cristal ou refinado);  </boxe_bullet>
+        <boxe_bullet>&#8226;	1 haste flexível sem o algodão nas pontas;  </boxe_bullet>
+        <boxe_bullet>&#8226;	corante alimentício vermelho.  </boxe_bullet>
+        Obs.: todos os materiais podem ser visualizados na figura a seguir.
+      </boxe_bullet>
+      <boxe_04_texto></boxe_04_texto>
+      <boxe_04_titulo1>Procedimento </boxe_04_titulo1>
+      <boxe_bullet>
+        <boxe_bullet>&#8226;	Tome a seringa e corte a sua ponta, de tal modo que ela possa ser usada como um fura-rolhas. </boxe_bullet>
+        <boxe_bullet>&#8226;	Faça um orifício em uma batata do tipo inglesa com o auxílio da seringa (fura-rolhas). Tome o devido cuidado para não romper o tubérculo. O orifício formado deve ter uma profundidade adequada, isto é, a metade do comprimento da haste flexível de plástico.  </boxe_bullet>
+        <boxe_bullet>&#8226;	Corte uma tira do filme de PVC de aproximadamente 30 cm de comprimento e 3 cm de largura.  </boxe_bullet>
+        <boxe_bullet>&#8226;	Pegue uma haste flexível, retire o algodão das pontas e envolva a parede central externa com o filme de PVC.  </boxe_bullet>
+        &#8226;	Dissolva em 30 mL de água, contidos em um copo plástico de café, uma colher de chá de açúcar (aproximadamente 3,5 g) e uma pequena quantidade do corante de alimento vermelho (aproximadamente 1,2 g). Transfira a solução para o orifício feito na batata.
+      </boxe_bullet>
+      <boxe_bullet></boxe_bullet>
+      <imagem>
+        <imagem>&lt;F004-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+      </imagem>
+      <p class="img-subtitle">Material necessário para o experimento de demonstração do processo de osmose. </p>
+      <p class="img-subtitle"></p>
+      <p class="img-credit">Dotta2 </p>
+      <boxe_bullet>
+        <boxe_bullet>&#8226;	Tampe o orifício com a haste flexível revestida com o filme de PVC. </boxe_bullet>
+        &#8226;	Coloque a batata em um copo contendo água de torneira (ou, preferencialmente, água destilada) e deixe em repouso de 3 a 6 h.
+      </boxe_bullet>
+      <boxe_bullet></boxe_bullet>
+      <p class="quote-source">VIEIRA, Heberth J.; FIGUEIREDO-FILHO, Luiz C. S. de; FATIBELLO-FILHO, Orlando. &#8220;Um experimento simples e de baixo custo para compreender a osmose&#8221;. Química Nova na Escola. São Paulo, n. 26, p. 41-2, nov. 2007. Disponível em: &lt;http://qnesc.sbq.org.br/online/qnesc26/v26a11.png&gt;&gt;. Acesso em: 3 ago. 2021. (Adapt.). </p>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        Como a ingestão de soro caseiro ajuda na contenção da diarreia?
+        <exercicios_linhas></exercicios_linhas>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        O que podemos observar após a realização do experimento?
+      </exercicio_enunciado>
+    </boxe_04>
+    <titulo3>
+      Fator de Van&#8217;t Hoff
+      <b></b>
+    </titulo3>
+    <p class="general-text">
+      Na equação proposta por Van&#8217;t Hoff, existe um fator de correção (representado por
+      <i>i</i>
+      ) que deve ser levado em conta quando temos uma solução.
+      <b>As propriedades coligativas dependem do número de partículas dispersas em solução</b>
+      .
+      <b></b>
+    </p>
+    <p class="general-text">
+      Assim, para
+      <b>soluções moleculares</b>
+      , sempre teremos uma única partícula dispersa (representada por
+      <i>q</i>
+      ; logo
+      <b>q = 1</b>
+      ) em solução, uma vez que não formam íons (exceto os ácidos).
+    </p>
+    <p class="general-text">Observe, por exemplo, o comportamento de uma solução de glicose em água: </p>
+    <imagem>
+      <imagem>&lt;002_FBU11C24.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">
+      Já para
+      <b>soluções iônicas</b>
+      , sempre teremos
+      <b>q &gt; 1</b>
+      , pois ocorre dissociação iônica quando a substância entra em contato com a água.
+    </p>
+    <p class="general-text">Observe, por exemplo, o comportamento de soluções de cloreto de sódio e cloreto de bário em água: </p>
+    <imagem>
+      <imagem>&lt;004_FBU11C24.png&gt;</imagem>
+    </imagem>
+    <imagem>
+      <imagem>&lt;005_FBU11C24.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">
+      Até agora, estamos considerando soluções que estão totalmente ionizadas, ou seja, que apresentam grau de ionização (
+      <simbolos>a</simbolos>
+      ) igual a 100%. No entanto, sabemos que, na prática, elas nem sempre estarão 100% ionizadas, o que interfere no fator de Van&#8217;t Hoff.
+    </p>
+    <p class="general-text">Vamos utilizar, como exemplo, uma solução de ácido sulfúrico 85% ionizada. Teremos: </p>
+    <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="4">
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678"></Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <imagem>&lt;047_FBU11C24.png&gt;</imagem>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <imagem>&lt;047_FBU11C24.png&gt;</imagem>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <imagem>&lt;047_FBU11C24.png&gt;</imagem>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <b>Início</b>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>100</tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>
+          <imagem>&lt;047_FBU11C24.png&gt;</imagem>
+          0
+        </tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>
+          <imagem>&lt;047_FBU11C24.png&gt;</imagem>
+          0
+        </tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <b>Ionização</b>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>85</tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>
+          2
+          <simbolos>∙</simbolos>
+          85
+        </tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>85</tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <b>Final</b>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>15</tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>170</tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.36220472440945">
+        <tabela_texto_geral>85</tabela_texto_geral>
+      </Cell>
+    </Table>
+    <p class="general-text">
+      Analisando a tabela, podemos concluir que, de cada 100 moléculas de H
+      <sub>2</sub>
+      SO
+      <sub>4</sub>
+      inicialmente utilizadas, 15 permanecem sem sofrer ionização, e 255 se ionizam, totalizando 270 partículas em solução aquosa, aumentando 2,7 vezes o efeito coligativo para essa solução, e não 3,0 vezes, como seria previsto para uma solução com grau de ionização 100%.
+    </p>
+    <p class="general-text">
+      Podemos generalizar uma fórmula para calcularmos o grau de ionização para moléculas que não estão 100% ionizadas. Admitindo uma molécula genérica como C
+      <sub>x</sub>
+      A
+      <sub>y</sub>
+      , teremos:
+    </p>
+    <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="4">
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678"></Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678"></Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678"></Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678"></Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <b>Início</b>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>1</tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>0</tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>0</tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <b>Ionização</b>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>
+          1 &#8211;
+          <simbolos>a</simbolos>
+        </tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>
+          x
+          <simbolos>∙</simbolos>
+          <simbolos>a</simbolos>
+        </tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>
+          y
+          <simbolos>∙</simbolos>
+          <simbolos>a</simbolos>
+        </tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <b>Final</b>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>
+          1 &#8211;
+          <simbolos>a</simbolos>
+        </tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>
+          x
+          <simbolos>∙</simbolos>
+          <simbolos>a</simbolos>
+        </tabela_texto_geral>
+      </Cell>
+      <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.69291338582678">
+        <tabela_texto_geral>
+          y
+          <simbolos>∙</simbolos>
+          <simbolos>a</simbolos>
+        </tabela_texto_geral>
+      </Cell>
+    </Table>
+    <p class="general-text">
+      O fator de correção (
+      <i>i</i>
+      ) de Van&#8217;t Hoff será:
+    </p>
+    <p class="general-text">
+      <i>i</i>
+      <simbolos> = </simbolos>
+      1
+      <simbolos> &#8211; α + </simbolos>
+      x
+      <simbolos>α + </simbolos>
+      y
+      <simbolos>a ~ </simbolos>
+      <i>i</i>
+      <simbolos> = </simbolos>
+      1
+      <simbolos>+ α</simbolos>
+      (
+      <simbolos>&#8211;</simbolos>
+      1
+      <simbolos>+</simbolos>
+      x
+      <simbolos>+</simbolos>
+      y) [1]
+    </p>
+    <p class="general-text">
+      Para esse composto genérico, admitimos
+      <i>q</i>
+      como:
+    </p>
+    <imagem>
+      <imagem>007_FBU11C24.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">Substituindo 2 em 1, teremos: </p>
+    <p class="general-text">
+      <Story>
+        <p class="general-text">
+          <i>i</i>
+          <simbolos> = </simbolos>
+          1
+          <simbolos>+ α</simbolos>
+          (
+          <i>q</i>
+          <simbolos> &#8211; </simbolos>
+          1)
+        </p>
+      </Story>
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <p class="general-text">
+      É possível comparar o efeito coligativo que duas ou mais soluções terão sobre um solvente analisando apenas o fator de correção de Van&#8217;t Hoff, desde que apresentem a mesma concentração em mol/L. Caso elas tenham concentrações diferentes, devemos encontrar um critério de comparação (representado por
+      <i>x</i>
+      ), que é obtido multiplicando-se o fator de correção de Van&#8217;t Hoff pela concentração em mol/L de cada solução. Veja:
+    </p>
+    <p class="general-text">
+      <Story>
+        <p class="general-text">
+          <i>x</i>
+          <simbolos>= M</simbolos>
+          <simbolos>∙ a</simbolos>
+        </p>
+      </Story>
+    </p>
+    <p class="general-text">
+      Quanto maior o valor de
+      <i>x</i>
+      , maior o efeito coligativo gerado, ou seja:
+    </p>
+    <texto_bullets>&#8226;	menor será a pressão de vapor da solução; </texto_bullets>
+    <texto_bullets>&#8226;	maior será a pressão osmótica da solução; </texto_bullets>
+    <texto_bullets>&#8226;	menor será a temperatura de congelamento da solução; </texto_bullets>
+    <texto_bullets>&#8226;	maior será a temperatura de ebulição da solução. </texto_bullets>
+    <titulo1>	Lei de Raoult para as propriedades coligativas  </titulo1>
+    <p class="general-text">O físico-químico francês François Marie Raoult (1830-1901) realizou diversos estudos relacionados às propriedades coligativas, criando leis representadas por equações matemáticas.  </p>
+    <p class="general-text">
+      Para a
+      <b>tonoscopia</b>
+      , Raoult afirma que
+      <b>o abaixamento relativo da pressão máxima de vapor de um líquido é aproximadamente igual à fração molar do soluto (X</b>
+      <sub>1</sub>
+      <b>)</b>
+      .
+    </p>
+    <imagem>
+      <imagem>&lt;I009-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Análise quantitativa do abaixamento da pressão máxima de vapor. </p>
+    <p class="general-text">No gráfico, temos: </p>
+    <texto_bullets>
+      <i>&#8226;	P</i>
+      <sub>0</sub>
+      : pressão máxima de vapor do solvente;
+    </texto_bullets>
+    <texto_bullets>
+      <i>&#8226;	P</i>
+      : pressão máxima de vapor da solução;
+    </texto_bullets>
+    <texto_bullets>
+      <simbolos>&#8226; Δ </simbolos>
+      <i>P</i>
+      <simbolos>=</simbolos>
+      <i>P</i>
+      <sub>0</sub>
+      <simbolos>&#8211;</simbolos>
+      <i>P</i>
+      : abaixamento absoluto da pressão máxima de vapor;
+    </texto_bullets>
+    <texto_bullets>
+      &#8226;
+      <imagem>&lt;009_FBU11C24.png&gt;</imagem>
+      (sendo a diferença sempre entre a maior e a menor pressão).
+    </texto_bullets>
+    <p class="general-text"></p>
+    <p class="general-text">Pelo enunciado da Lei de Raoult, teremos: </p>
+    <imagem>
+      <imagem>&lt;010_FBU11C24.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">
+      Quando a solução é bem diluída, a quantidade de matéria do soluto (
+      <i>n</i>
+      <sub>1</sub>
+      ) é pequena, e como
+      <i>n</i>
+      =
+      <i>n</i>
+      <sub>1</sub>
+      +
+      <i>n</i>
+      <sub>2</sub>
+      , podemos reduzir a
+      <i>n</i>
+      <simbolos>à</simbolos>
+      <i>n</i>
+      <sub>2</sub>
+      . Assim:
+    </p>
+    <imagem>
+      <imagem>&lt;013_FBU11C24_x.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">Multiplicando o numerador e o denominador por 1  000 e fazendo o arranjo dos termos, teremos: </p>
+    <imagem>
+      <imagem>&lt;014_FBU11C24_x.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">Na expressão, temos: </p>
+    <texto_bullets>
+      <i>&#8226;	K</i>
+      <sub>T</sub>
+      : constante tonoscópica;
+    </texto_bullets>
+    <texto_bullets>
+      <i>&#8226;	W</i>
+      : molalidade, sendo
+      <imagem>&lt;050_FBU11C24.png&gt;</imagem>
+      .
+    </texto_bullets>
+    <p class="general-text">Logo: </p>
+    <Story>
+      <p class="general-text">
+        <i>X</i>
+        <sub>1 </sub>
+        <simbolos>à </simbolos>
+        <i>K</i>
+        <sub>T</sub>
+        <simbolos>∙</simbolos>
+        <i>W</i>
+        ou
+        <simbolos>à</simbolos>
+        <i>K</i>
+        <sub>T</sub>
+        <simbolos>∙</simbolos>
+        <i>W</i>
+      </p>
+    </Story>
+    <p class="general-text">Observe que a constante tonoscópica depende da natureza do solvente e independe do tipo de partícula (soluto) dissolvida. O mesmo ocorre com a ebulioscopia e a crioscopia. </p>
+    <p class="general-text">
+      Para a
+      <b>ebulioscopia</b>
+      , teremos:
+    </p>
+    <imagem>
+      <imagem>&lt;I010-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Análise quantitativa da variação da temperatura de ebulição. </p>
+    <p class="general-text">
+      <simbolos></simbolos>
+    </p>
+    <p class="general-text">
+      <simbolos>
+        <Story>
+          <p class="general-text">
+            <simbolos>D</simbolos>
+            <i>T</i>
+            <sub>e</sub>
+            <simbolos>=</simbolos>
+            <i>K</i>
+            <sub>e</sub>
+            <simbolos>∙</simbolos>
+            <i>W</i>
+            <simbolos>∙</simbolos>
+            <i>i</i>
+          </p>
+        </Story>
+      </simbolos>
+    </p>
+    <p class="general-text">Sendo: </p>
+    <texto_bullets>
+      <simbolos>&#8226; Δ </simbolos>
+      <i>T</i>
+      <sub>e</sub>
+      : aumento da temperatura de ebulição (sendo a diferença sempre entre a maior e a menor temperatura);
+    </texto_bullets>
+    <texto_bullets>
+      <i>&#8226;	K</i>
+      <sub>e</sub>
+      : constante ebulioscópica;
+    </texto_bullets>
+    <texto_bullets>
+      <i>&#8226;	W</i>
+      : molalidade;
+    </texto_bullets>
+    <texto_bullets>
+      <i>&#8226;	i</i>
+      : fator de correção de Van&#8217;t Hoff.
+    </texto_bullets>
+    <p class="general-text">
+      Para a
+      <b>crioscopia</b>
+      , teremos:
+    </p>
+    <imagem>
+      <imagem>&lt;I011-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Análise quantitativa da variação da temperatura de congelamento. </p>
+    <p class="general-text"></p>
+    <p class="general-text">
+      <Story>
+        <p class="general-text">
+          <simbolos>D</simbolos>
+          <i>T</i>
+          <sub>c</sub>
+          <simbolos> = </simbolos>
+          <i>K</i>
+          <sub>c </sub>
+          <simbolos>∙ </simbolos>
+          <i>W</i>
+          <simbolos> ∙ </simbolos>
+          <i>i</i>
+        </p>
+      </Story>
+    </p>
+    <p class="general-text">Sendo: </p>
+    <texto_bullets>
+      <simbolos>&#8226; Δ </simbolos>
+      <i>T</i>
+      <sub>c</sub>
+      : diminuição da temperatura de congelamento (sendo a diferença sempre entre a maior e a menor temperatura);
+    </texto_bullets>
+    <texto_bullets>
+      <i>&#8226;	K</i>
+      <sub>c</sub>
+      : constante crioscópica;
+    </texto_bullets>
+    <texto_bullets>
+      <i>&#8226;	W</i>
+      : molalidade;
+    </texto_bullets>
+    <texto_bullets>
+      <i>&#8226;	i</i>
+      : fator de correção de Van&#8217;t Hoff.
+      <exercicios_linhas></exercicios_linhas>
+    </texto_bullets>
+    <secao_02>
+      <secao_02_titulo1>Aplicando conhecimentos </secao_02_titulo1>
+      <exercicio_enunciado>
+        <secao_15_titulo1></secao_15_titulo1>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        Explique quais são as propriedades coligativas envolvidas no sistema de arrefecimento de automóveis com etilenoglicol.
+        <exercicios_linhas></exercicios_linhas>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        Antigamente, uma prática comum para armazenar carnes era salgá-las. Explique o conceito envolvido e diga o nome da propriedade coligativa que explica a técnica utilizada.
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        Comparando três soluções, todas com a mesma concentração em mol/L, coloque-as em ordem crescente de temperatura de ebulição: C
+        <sub>12</sub>
+        H
+        <sub>22</sub>
+        O
+        <sub>11</sub>
+        , AgNO
+        <sub>3 </sub>
+        e MgBr
+        <sub>2</sub>
+        .
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        Comparando as mesmas soluções do exercício anterior, porém com concentrações diferentes: 0,1 mol/L, 0,5 mol/L e 0,8 mol/L, a ordem crescente de temperatura de ebulição seria a mesma?
+        <exercicios_linhas></exercicios_linhas>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>PUC-RS </b>
+        Tanto distúrios intestinais graves quanto a disputa em uma maratona podem levar a perdas importantes de água e eletrólitos pelo organismo. Considerando que essas situações exigem a reposição cuidadosa de substâncias, um dos modos de fazê-lo é por meio da ingestão de soluções isotônicas. Essas soluções:
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        contêm concentração molar de cloreto de sódio igual àquela encontrada no sangue.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        contêm massa de cloreto de sódio igual à massa de sacarose em dado volume.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        têm solvente com capacidade igual à do sangue para passar por uma membrana semipermeável.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        apresentam pressão osmótica igual à pressão atmosférica.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        apresentam pressão osmótica igual à da água.
+      </item_lista>
+    </secao_02>
+    <exercicios_linhas></exercicios_linhas>
+    <exercicios_linhas></exercicios_linhas>
+    <secao_03>
+      Consolidando saberes
+      <exercicio_enunciado>
+        <exercicio_enunciado>
+          <b>UFRGS 2017</b>
+          As figuras abaixo representam a variação da temperatura, em função do tempo, no resfriamento de água líquida e de uma solução aquosa de sal.
+        </exercicio_enunciado>
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;I016-2020-EM-QUI-2S-L2-FB-U11-C24.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>Considere as seguintes afirmações a respeito das figuras. </exercicio_enunciado>
+      <exercicio_item_romano>
+        <exercicio_enunciado></exercicio_enunciado>
+        <exercicio_item_romano>
+          <secao_exercicio></secao_exercicio>
+          <b>I.	</b>
+          A curva da direita representa o sistema de água e sal.
+          <b>II.	</b>
+          <i>T</i>
+          <sub>1</sub>
+          <simbolos>=</simbolos>
+          <i>T</i>
+          <sub>2</sub>
+          .
+          <b>III.	</b>
+          <i>T</i>
+          <sub>2 </sub>
+          é inferior a 0
+          <simbolos>°</simbolos>
+          C.
+        </exercicio_item_romano>
+      </exercicio_item_romano>
+      <exercicio_enunciado>Quais estão corretas? </exercicio_enunciado>
+      <exercicio_enunciado></exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        Apenas I.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Apenas II.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Apenas III.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Apenas I e III.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        I, II e III.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>Unicamp-SP 2017</b>
+        O etilenoglicol é uma substância muito solúvel em água, largamente utilizado como aditivo em radiadores de motores de automóveis, tanto em países frios como em países quentes.  Considerando a função principal de um radiador, pode-se inferir corretamente que:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        a solidificação de uma solução aquosa de etilenoglicol deve começar a uma temperatura mais elevada que a da água pura, e sua ebulição, a uma temperatura mais baixa que a da água pura.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        a solidificação de uma solução aquosa de etilenoglicol deve começar a uma temperatura mais baixa que a da água pura, e sua ebulição, a uma temperatura mais elevada que a da água pura.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        tanto a solidificação de uma solução aquosa de etilenoglicol quanto a sua ebulição devem começar em temperaturas mais baixas que as da água pura.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        tanto a solidificação de uma solução aquosa de etilenoglicol quanto a sua ebulição devem começar em temperaturas mais altas que as da água pura.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>Unicamp-SP 2021 </b>
+        Em 2020, o Brasil foi impactado com a notícia de que muitas pessoas haviam se contaminado ao ingerir cerveja. Como se apurou mais tarde, a beida havia sido contaminada por dietilenoglicol. O fabricante argumentou que havia comprado monoetilenoglicol, e que o dietilenoglicol chegou ao produto por contaminação ou por engano. A respeito desse episódio, pode-se afirmar que, se o dietilenoglicol, que estava dissolvido em água, fosse utilizado no sistema de
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        resfriamento na linha de produção de cerveja, esse material poderia ser substituído por etanol, mas não por sal de cozinha.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        aquecimento na linha de produção de cerveja, esse material poderia ser substituído por etanol.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        resfriamento na linha de produção de cerveja, esse material poderia ser substituído por sal de cozinha.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        aquecimento na linha de produção de cerveja, esse material poderia ser substituído por etanol, mas não por sal de cozinha.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        <b>Uece 2018</b>
+        O propanotriol, presente em alimentos industrializados, é também usado como umectante, solvente e amaciante. Utilizando-se a constante ebulioscópica da água 0,512
+        <simbolos>°</simbolos>
+        C
+        <simbolos>∙</simbolos>
+        kg/mol é correto afirmar que o ponto de ebulição de 18,4 g de propanotriol dissolvidos em 500 g de água é, aproximadamente,
+        <secao_exercicio>
+          <b>Dados:</b>
+          C
+          <simbolos>=</simbolos>
+          12; H
+          <simbolos>=</simbolos>
+          1; O
+          <simbolos>=</simbolos>
+          16.
+        </secao_exercicio>
+        <b>a)	</b>
+        100,14
+        <simbolos>°</simbolos>
+        C
+      </exercicio_enunciado>
+      <item_lista></item_lista>
+      <item_lista>
+        <b>b)	</b>
+        100,20
+        <simbolos>°</simbolos>
+        C
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        100,60
+        <simbolos>°</simbolos>
+        C
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        100,79
+        <simbolos>°</simbolos>
+        C
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>Unesp 2018</b>
+        A concentração de cloreto de sódio no soro fisiológico é 0,15 mol/L. Esse soro apresenta a mesma pressão osmótica que uma solução aquosa 0,15 mol/L de:
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        sacarose, C
+        <sub>12</sub>
+        H
+        <sub>22</sub>
+        O
+        <sub>11</sub>
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        sulfato de sódio, Na
+        <sub>2</sub>
+        SO
+        <sub>4 </sub>
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        sulfato de alumínio, A
+        <simbolos>&#8467;</simbolos>
+        <sub>2</sub>
+        (SO
+        <sub>4</sub>
+        )
+        <sub>3 </sub>
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        glicose, C
+        <sub>6</sub>
+        H
+        <sub>12</sub>
+        O
+        <sub>6 </sub>
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        cloreto de potássio, KC
+        <simbolos>&#8467; </simbolos>
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        <b>Cefet-MG </b>
+        O Mar Morto corresponde a uma grande extensão de águas localizadas entre Israel e a Jordânia e apresenta alto teor salino, em torno de 300 g de sal por litro de água, inviailizando a vida marinha. Essa característica é responsável pelo fato de suas propriedades serem distintas daquelas pertencentes à água pura, como, por exemplo,
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        maior pressão de vapor.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        menor pressão osmótica.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        maior temperatura de fusão.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        menor condutiilidade elétrica.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        maior temperatura de ebulição.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>7	</secao_exercicio_numerador>
+        <b>Uece 2016</b>
+        O soro fisiológico e a lágrima são soluções de cloreto de sódio a 0,9% em água, sendo isotônicos em relação às hemácias e a outros líquidos do organismo. Considerando a densidade absoluta da solução 1 g/mL a 27
+        <simbolos>°</simbolos>
+        C, a pressão osmótica do soro fisiológico será aproximadamente:
+      </exercicio_enunciado>
+      <secao_exercicio>
+        <b>Dados:</b>
+        Na
+        <simbolos>=</simbolos>
+        23; Cl
+        <simbolos>=</simbolos>
+        35,5;
+      </secao_exercicio>
+      <secao_exercicio>
+        R
+        <simbolos>=</simbolos>
+        0,082 atm
+        <simbolos>∙</simbolos>
+        L
+        <simbolos>∙</simbolos>
+        mol
+        <sobrescrito></sobrescrito>
+        <sobrescrito>&#8211;1</sobrescrito>
+        <simbolos>∙</simbolos>
+        K
+        <sobrescrito>&#8211;1</sobrescrito>
+        .
+      </secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        10,32 atm.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        15,14 atm.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        8,44 atm.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        7,57 atm.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>8	</secao_exercicio_numerador>
+        <b>Uece 2017</b>
+        O ponto de ebulição do etanol em determinadas condições é 78,22
+        <simbolos>°</simbolos>
+        C. Ao dissolver um pouco de fenol no etanol, um estudante de química produziu uma solução com ponto de ebulição 78,82
+        <simbolos>°</simbolos>
+        C, nas mesmas condições. Sabendo-se que o etanol tem
+        <i>K</i>
+        <sub></sub>
+        <sub>e</sub>
+        <simbolos>=</simbolos>
+        1,2
+        <simbolos>°</simbolos>
+        C
+        <simbolos>∙</simbolos>
+        mol
+        <simbolos>∙</simbolos>
+        kg
+        <sobrescrito>&#8211;1</sobrescrito>
+        pode-se afirmar corretamente que a molalidade da solução é:
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        0,25 M
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        0,30 M
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        0,50 M
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        0,60 M
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>9	</secao_exercicio_numerador>
+        <b>UFRGS 2019</b>
+        A água é fundamental para a vida conhecida na Terra, de modo que a busca de planetas haitáveis ou com vida normalmente envolve, entre outros aspectos, a procura pela existência de água. Considere as afirmações abaixo, a respeito da água na iosfera.
+      </exercicio_enunciado>
+      <exercicio_item_romano>
+        <b>I.	</b>
+        A água é decomposta em oxigênio e hidrogênio, através da respiração dos peixes.
+        <b>II.	</b>
+        A água do mar é inadequada ao consumo humano devido à sua alta pressão osmótica.
+        <b>III.	</b>
+        Águas quentes possuem maior quantidade dissolvida de gás carbônico.
+      </exercicio_item_romano>
+      <exercicio_enunciado>Quais estão corretas? </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        Apenas I.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Apenas II.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Apenas III.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Apenas II e III.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        I, II e III.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>10	</secao_exercicio_numerador>
+        <b>UFSC 2018</b>
+        Em relação às proposições abaixo, é correto afirmar que:
+      </exercicio_enunciado>
+      <exercicio_resolvido>
+        <b>01</b>
+        <b>.</b>
+        um alpinista no topo do Morro do Camirela precisará de mais energia para ferver a água contida em uma chaleira do que um turista que estiver nas areias da Praia de Jurerê, considerando-se volumes iguais de água.
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>02</b>
+        <b>.</b>
+        a água para cozimento do macarrão, se já estiver adicionada de sal de cozinha, entra em ebulição em uma temperatura maior do que a água pura.
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>04</b>
+        <b>.</b>
+        ao temperar com azeite de oliva uma salada com folhas úmidas pelo processo de lavagem, forma-se uma mistura homogênea entre a água retida na superfície das folhas e o azeite.
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>08</b>
+        <b>.</b>
+        a combustão de gasolina em um motor de automóvel é um fenômeno químico que representa uma reação exotérmica.
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>16</b>
+        <b>.</b>
+        o derretimento de uma barra de chocolate em um dia quente de verão é exemplo de uma transformação química.
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>32</b>
+        <b>.</b>
+        em um mesmo dia e sob as mesmas condições de temperatura e pressão amientes, a água potável de um reservatório aberto evapora a uma taxa maior do que a água do mar na Praia dos Ingleses.
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>64</b>
+        <b>.</b>
+        o odor característico do vinagre sentido ao se temperar uma salada é decorrente da transformação química sofrida pelas moléculas de ácido acético, que passam do estado líquido ao estado gasoso.
+      </exercicio_resolvido>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>11	</secao_exercicio_numerador>
+        <b>Udesc 2019</b>
+        Um aluno de química encontrou 5 frascos na bancada do laboratório. Os frascos seriam utilizados em um experimento sobre propriedades coligativas e apresentam descrições de acordo com a tabela abaixo:
+      </exercicio_enunciado>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="6" aid:tcols="2">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="68.15">
+          <Tabela_gravata1>Frasco</Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="128.9">
+          <Tabela_gravata1>Identificação</Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="68.15">
+          <tabela_gravata2>1</tabela_gravata2>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="128.9">
+          <tabela_texto_geral>Solução de HCl 0,1 mol/L</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="68.15">
+          <tabela_gravata2>2</tabela_gravata2>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="128.9">
+          <tabela_texto_geral>Solução de Glicose 0,5 mol/L</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="68.15">
+          <tabela_gravata2>3</tabela_gravata2>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="128.9">
+          <tabela_texto_geral>
+            Solução de MgCl
+            <sub>2</sub>
+            0,1 mol/L
+          </tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="68.15">
+          <tabela_gravata2>4</tabela_gravata2>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="128.9">
+          <tabela_texto_geral>Solução de KCl 0,2 mol/L</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="68.15">
+          <tabela_gravata2>5</tabela_gravata2>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="128.9">
+          <tabela_texto_geral>
+            Solução de CaCl
+            <sub>2</sub>
+            0,2 mol/L
+          </tabela_texto_geral>
+        </Cell>
+      </Table>
+      <exercicio_enunciado>Analisando a descrição dos frascos, o aluno chegou à conclusão de que a ordem crescente de temperatura de congelamento das soluções é:</exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <exercicio_itens>
+        <b>a)	</b>
+        2
+        <simbolos>&lt;</simbolos>
+        1
+        <simbolos>&lt;</simbolos>
+        4
+        <simbolos>&lt;</simbolos>
+        5
+        <simbolos>&lt;</simbolos>
+        3
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>b)	</b>
+        1
+        <simbolos>&lt;</simbolos>
+        3
+        <simbolos>&lt;</simbolos>
+        4
+        <simbolos>&lt;</simbolos>
+        2
+        <simbolos>&lt;</simbolos>
+        5
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>c)	</b>
+        1
+        <simbolos>&lt;</simbolos>
+        4
+        <simbolos>&lt;</simbolos>
+        5
+        <simbolos>&lt;</simbolos>
+        3
+        <simbolos>&lt;</simbolos>
+        2
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>d)	</b>
+        5
+        <simbolos>&lt;</simbolos>
+        2
+        <simbolos>&lt;</simbolos>
+        4
+        <simbolos>&lt;</simbolos>
+        3
+        <simbolos>&lt;</simbolos>
+        1
+      </exercicio_itens>
+      <exercicio_itens>
+        <b>e)	</b>
+        4
+        <simbolos>&lt;</simbolos>
+        5
+        <simbolos>&lt;</simbolos>
+        1
+        <simbolos>&lt;</simbolos>
+        3
+        <simbolos>&lt;</simbolos>
+        2
+      </exercicio_itens>
+    </secao_03>
+    <exercicios_linhas></exercicios_linhas>
+    <secao_05>
+      <secao_05_titulo1>No Enem é assim</secao_05_titulo1>
+      <secao_05_texto>As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também podem ser usadas como recurso para estudo.</secao_05_texto>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        <b>Enem 2017</b>
+        Na Idade Média, para elaborar preparados a partir de plantas produtoras de óleos essenciais, as coletas das espécies eram realizadas ao raiar do dia. Naquela época, essa prática era fundamentada misticamente pelo efeito mágico dos raios lunares, que seria anulado pela emissão dos raios solares. Com a evolução da ciência, foi comprovado que a coleta de algumas espécies ao raiar do dia garante a obtenção de material com maiores quantidades de óleos essenciais. A explicação científica que justifica essa prática se baseia na:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        volatilização das substâncias de interesse.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        polimerização dos óleos catalisada pela radiação solar.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        soluilização das substâncias de interesse pelo orvalho.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        oxidação do óleo pelo oxigênio produzido na fotossíntese.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        liberação das moléculas de óleo durante o processo de fotossíntese.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>Enem PPL 2018</b>
+        Beidas podem ser refrigeradas de modo mais rápido utilizando-se caixas de isopor contendo gelo e um pouco de sal grosso comercial. Nesse processo ocorre o derretimento do gelo com consequente formação de líquido e resfriamento das beidas. Uma interpretação equivocada, baseada no senso comum, relaciona esse efeito à grande capacidade do sal grosso de remover calor do gelo. Do ponto de vista científico, o resfriamento rápido ocorre em razão da:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        variação da soluilidade do sal.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        alteração da polaridade da água.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        elevação da densidade do líquido.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        modificação da viscosidade do líquido.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        diminuição da temperatura de fusão do líquido.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>Enem PPL 2019</b>
+        Em regiões desérticas, a obtenção de água potável não pode depender apenas da precipitação. Nesse sentido, portanto, sistemas para dessalinização da água do mar têm sido uma solução. Alguns desses sistemas consistem basicamente de duas câmaras (uma contendo água doce e outra contendo água salgada) separadas por uma membrana semipermeável. Aplicando-se pressão na câmara com água salgada, a água pura é forçada a passar através da membrana para a câmara contendo água doce. O processo descrito para a purificação da água é denominado
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <exercicio_enunciado>
+        <b>a)	</b>
+        filtração.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>b)	</b>
+        adsorção.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>c)	</b>
+        destilação.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>d)	</b>
+        troca iônica.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>e)	</b>
+        osmose reversa.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        <b>Famerp-SP 2020</b>
+        A tabela apresenta as pressões de vapor, à mesma temperatura, de três substâncias polares I, II e III.
+      </exercicio_enunciado>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="2">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <Tabela_gravata1>Substância</Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="150.23622047244095">
+          <Tabela_gravata1>Pressão de vapor (mmHg)</Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_gravata2>I</tabela_gravata2>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="150.23622047244095">
+          <tabela_texto_geral>60</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_gravata2>II</tabela_gravata2>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="150.23622047244095">
+          <tabela_texto_geral>200</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="62.362204724409445">
+          <tabela_gravata2>III</tabela_gravata2>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="150.23622047244095">
+          <tabela_texto_geral>260</tabela_texto_geral>
+        </Cell>
+      </Table>
+      <exercicio_enunciado>Considerando as informações fornecidas, pode-se afirmar que  </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        a substância II estará no estado gasoso à temperatura amiente.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        a substância III apresentará menor pressão de vapor em maior altitude.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        a substância I apresenta a maior intensidade de interações entre suas moléculas.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        a substância I apresentará maior temperatura de ebulição se for adicionada a ela certa quantidade da substância II.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        a substância III apresenta a maior temperatura de ebulição.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>Enem 2017</b>
+        Alguns tipos de dessalinizadores usam o processo de osmose reversa para obtenção de água potável a partir da água salgada. Nesse método, utiliza-se um recipiente contendo dois compartimentos separados por uma membrana semipermeável: em um deles coloca-se água salgada e no outro recolhe-se a água potável. A aplicação de pressão mecânica no sistema faz a água fluir de um compartimento para o outro. O movimento das moléculas de água através da membrana é controlado pela pressão osmótica e pela pressão mecânica aplicada. Para que ocorra esse processo é necessário que as resultantes das pressões osmótica e mecânica apresentem:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        mesmo sentido e mesma intensidade.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        sentidos opostos e mesma intensidade.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        sentidos opostos e maior intensidade da pressão osmótica.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        mesmo sentido e maior intensidade da pressão osmótica.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        sentidos opostos e maior intensidade da pressão mecânica.
+      </item_lista>
+    </secao_05>
+  </p>
+</Root> 

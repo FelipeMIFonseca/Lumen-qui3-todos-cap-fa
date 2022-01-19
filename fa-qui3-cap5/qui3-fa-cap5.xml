@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <p class="general-text">
+    <titulo_cap_texto>Pressão máxima de vapor</titulo_cap_texto>
+    <exercicios_linhas></exercicios_linhas>
+    <imagem>
+      <imagem>  &lt;F002-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">
+      Ao nível do mar, a água ferve a 100
+      <simbolos>º</simbolos>
+      C.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <p class="img-credit">
+      Steven Coling/Shutterstock.com
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <texto_citado_titulo>
+      Por que sai fumaça do chuveiro se a água não chega a 100
+      <simbolos>º</simbolos>
+      C?
+    </texto_citado_titulo>
+    <p class="quote">
+      Porque a água não precisa chegar a 100
+      <simbolos>º</simbolos>
+      C para passar para o estado gasoso. Se a água só virasse vapor a 100
+      <simbolos>º</simbolos>
+      C, nunca haveria chuva, pois rios, lagos e mares jamais entrariam em ebulição. O segredo é que, além da ebulição, a água pode passar do estado líquido para o gasoso por duas outras maneiras. A primeira é a calefação, uma mudança quase imediata de estado. Ela ocorre quando você joga água numa chapa quente, por exemplo. A segunda é a evaporação. Para evaporar, a água precisa estar só um pouco mais quente que o ar. É aí que entra o chuveiro: ele consegue gerar essa diferença de temperatura para fazer a água virar vapor. As gotinhas que caem a uma temperatura de pelo menos 20
+      <simbolos>º</simbolos>
+      C superior à do ambiente têm boas chances de evaporar. Só para exemplificar, num banho [...] quente, com temperatura média em torno dos 45
+      <simbolos>º</simbolos>
+      C, cerca de 10% da água se perde em forma de vapor. Em um chuveiro elétrico comum, isso significa que cerca de 1,5 litro passa para o estado gasoso durante uma ducha rápida de apenas cinco minutos.
+    </p>
+    <p class="quote">[...] </p>
+    <p class="quote-source">
+      TIÓ NETO, Fernando.
+      <i>Mundo Estranho</i>
+      . São Paulo, ed. 40, p. 38, jun. 2005. Abril Comunicações S. A. Disponível em: &lt;https://super.abril.com.br/mundo-estranho/por-que-sai-fumaca-do-chuveiro-se-a-agua-nao-chega-a-100-oc/&gt;. Acesso em: 24 jun. 2020.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <texto_bullets>&#8226;	A água entra em ebulição em São Paulo à mesma temperatura que na Cidade do México? </texto_bullets>
+    <texto_bullets>
+      &#8226;	O que é uma substância volátil?
+      <exercicios_linhas></exercicios_linhas>
+    </texto_bullets>
+    <boxe_02_texto>
+      Neste capítulo, serão abordadas as habilidades EM13CNT301, EM13CNT303 e EM13CNT306.
+      <exercicios_linhas></exercicios_linhas>
+    </boxe_02_texto>
+    <titulo1>	Sistemas dispersos </titulo1>
+    <p class="general-text">
+      Quando analisamos um sistema disperso, temos uma substância X formada por partículas que serão distribuídas uniformemente em toda a extensão de uma substância Y. As substâncias X e Y são denominadas, respectivamente,
+      <b>disperso</b>
+      e
+      <b>dispersante</b>
+      .
+    </p>
+    <imagem>&lt;F003-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    <p class="img-subtitle">Solução de água com sal. </p>
+    <p class="img-credit">Mariyana M/Shutterstock.com </p>
+    <p class="general-text">Os sistemas dispersos são classificados de acordo com o tamanho das partículas que os constituem, sendo: </p>
+    <texto_bullets>
+      <b>&#8226;	Soluções</b>
+      : sistemas formados por partículas (átomos, moléculas ou íons) com tamanho máximo de 1 nanômetro (nm) de diâmetro (1 nm
+      <simbolos>=</simbolos>
+      1 ∙ 10
+      <sub></sub>
+      <sub>&#8211;9</sub>
+      m); são misturas homogêneas. Exemplos: solução de água com sal, solução de água com álcool, ar filtrado (isento de poeira).
+    </texto_bullets>
+    <texto_bullets>
+      <b>&#8226;	Coloides (ou dispersões coloidais)</b>
+      : sistemas formados por partículas com tamanho entre 1 nm e 1000 nm de diâmetro; são misturas heterogêneas, cujas fases não são diferenciáveis a olho nu, devido ao tamanho das partículas. Exemplos: sangue (glóbulos, plaquetas e plasma), leite (gordura e água), gelatina (proteínas e água), tintas (pigmentos e solvente) e chantili (creme de leite e ar).
+    </texto_bullets>
+    <imagem>
+      <imagem>&lt;I001-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Composição do sangue, um coloide. </p>
+    <texto_bullets>
+      <b>&#8226;	Suspensões</b>
+      : sistemas formados por partículas com tamanho superior a 1000 nm de diâmetro; são misturas heterogêneas visíveis a olho nu. Exemplos: areia e água, água turva de uma represa e água e óleo.
+    </texto_bullets>
+    <p class="general-text">
+      Estudaremos, nesta unidade, algumas propriedades físicas da água e as modificações causadas quando é adicionado um soluto não volátil, formando uma solução. Entre essas propriedades, estão a temperatura de ebulição, a temperatura de congelamento e a pressão de vapor. Todas são classificadas como
+      <b>propriedades coligativas</b>
+      , pois são modificadas na presença de um soluto não volátil. Elas dependem apenas do número de partículas de soluto por molécula de solvente, e não da identidade do soluto.
+    </p>
+    <imagem>
+      <imagem>&lt;F004-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Lodo na água, um exemplo de suspensão. Na imagem, o lodo decantou com o repouso, pois é mais denso que a água. </p>
+    <p class="img-credit">
+      LPNkriengsak/Shutterstock.com
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <titulo1>	Mudanças de estado físico e diagrama de fases da água  </titulo1>
+    <p class="general-text">
+      Ao aquecermos água em uma panela, ela entra em
+      <b>ebulição</b>
+      a 100
+      <simbolos>º</simbolos>
+      C ao nível do mar, sob pressão de 1 atm, formando bolhas. Uma poça de água seca após um dia de sol devido à
+      <b>evaporação</b>
+      . Após o preparo de um hambúrguer, a água da torneira muda bruscamente de temperatura ao atingir a chapa quente, mudança de estado físico conhecida como
+      <b>calefação</b>
+      . Ebulição, evaporação e calefação são exemplos de
+      <b>vaporização</b>
+      , transformação de uma substância do estado líquido para o estado gasoso. Quando queremos reduzir a temperatura de uma bebida, podemos acrescentar gelo, produzido a partir da
+      <b>solidificação</b>
+      da água. Se demorarmos para utilizar o gelo, a água sofrerá
+      <b>fusão</b>
+      , passando para o estado líquido. Se um copo com água e gelo ficar exposto à temperatura ambiente, após certo intervalo de tempo, observaremos gotículas de água em seu exterior, consequência da
+      <b>condensação</b>
+      do vapor de água presente no ar. Observe o esquema abaixo para recordar as características da água nos três estados físicos da matéria e relembrar os nomes de todas as mudanças de estado físico da matéria:
+    </p>
+    <p class="general-text"></p>
+    <imagem>
+      <imagem>&lt;I002-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Características da água nos três estados físicos da matéria e nomenclatura das mudanças de estado. </p>
+    <p class="general-text">
+      O estado físico da água (assim como das demais substâncias puras) depende de dois fatores: pressão e temperatura. A água é gasosa acima de 100
+      <simbolos>º</simbolos>
+      C, sólida abaixo de 0
+      <simbolos>º</simbolos>
+      C e líquida nesse intervalo, considerando uma pressão atmosférica ao nível do mar (1 atm ou 760 mmHg). Alterando a pressão atmosférica, os valores das temperaturas de fusão e ebulição também serão alterados. Assim, analisando um
+      <b>diagrama de fases</b>
+      , podemos observar qual será o estado físico de uma substância quando submetida a determinados valores de pressão e temperatura. Veja:
+    </p>
+    <imagem>
+      <imagem>&lt;I003-2020-EM-QUI-2S-L2-FB-U11-C23_b.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Diagrama de fases da água. </p>
+    <p class="general-text">
+      Analisando o diagrama, observamos três regiões: a região cinza identifica o estado sólido; a região azul, o estado líquido; a região vermelha, o estado de vapor de água. Um ponto localizado na região azul do diagrama indica que a água estará no estado líquido; já se o ponto estiver sobre a curva A, pode indicar a mudança do estado sólido para o estado líquido (fusão) ou do estado líquido para o sólido (solidificação). Note, ainda, no diagrama, a existência de um ponto que indica as condições em que podem existir, simultaneamente, gelo, água líquida e vapor de água, denominado ponto triplo (T). Além disso, a linha que separa as fases líquida e gasosa não continua indefinidamente e finaliza no chamado
+      <b>ponto crítico</b>
+      . Nesse estado (fluido supercrítico), as propriedades da água tornam-se completamente diferentes.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <titulo1>	Temperatura de ebulição e pressão máxima de vapor  </titulo1>
+    <p class="general-text">Quando colocamos água em uma panela com tampa de vidro e a levamos ao fogo, observamos o conteúdo da panela facilmente pela tampa no início do aquecimento. Com o avanço do aquecimento, passamos a ter dificuldade em enxergar o conteúdo, porque gotículas de água estão distribuídas na tampa. Essas gotículas tendem a aumentar até chegarem a uma quantidade máxima.  </p>
+    <p class="general-text">
+      As gotículas surgem porque parte da água líquida mudou para o estado de vapor com o aquecimento, uma vez que a
+      <b>temperatura de ebulição</b>
+      da água foi atingida. Assim, podemos dizer que:
+    </p>
+    <imagem>
+      <imagem>&lt;I004-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">
+      Um líquido entra em ebulição quando
+      <i>P</i>
+      <sub></sub>
+      <sub>vapor</sub>
+      <simbolos>=</simbolos>
+      <i>P</i>
+      <sub>externa</sub>
+      .
+    </p>
+    <p class="general-text">
+      <Story>
+        Um líquido entra em ebulição quando a pressão máxima de seus vapores (P
+        <sub>vapor</sub>
+        ) se iguala à pressão externa (pressão atmosférica local). A pressão máxima de vapor de determinada substância é a maior pressão que seus vapores exercem em dada temperatura.
+      </Story>
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <p class="general-text">
+      Em determinado instante, o número de moléculas que passou para o estado gasoso se iguala ao número de moléculas no estado líquido por unidade de tempo. O sistema atinge um estado de
+      <b>equilíbrio dinâmico</b>
+      entre o líquido e seus vapores.
+    </p>
+    <p class="general-text">
+      Quando a quantidade de vapor dissolvido no ar atmosférico confinado atinge o seu valor máximo, damos o nome de
+      <b>pressão máxima de vapor</b>
+      à pressão parcial que é exercida por ele. Quanto maior for a pressão máxima de vapor de um líquido, mais
+      <b>volátil</b>
+      será o líquido, pois ele tende a evaporar facilmente.
+    </p>
+    <Glossario>
+      <Glossario>
+        <texto_gloss_titulo>
+          <b>Volátil:</b>
+          líquido com baixa temperatura de ebulição, passando facilmente para o estado gasoso em condições ambientes (25
+          <simbolos>º</simbolos>
+          C e 1 atm).
+        </texto_gloss_titulo>
+      </Glossario>
+    </Glossario>
+    <imagem>
+      <imagem>&lt;I005-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Equilíbrio dinâmico entre o líquido e seus vapores. </p>
+    <imagem>
+      <imagem>&lt;I006-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Esquema de um recipiente fechado, no qual coexistem em equilíbrio os estados líquido e vapor de água. </p>
+    <titulo2>Fatores que alteram a pressão máxima de vapor  </titulo2>
+    <p class="general-text">
+      A pressão máxima de vapor pode ser alterada pela temperatura e pela natureza do líquido. No entanto, ela
+      <b>não é alterada pela quantidade de líquido</b>
+      . Por exemplo, em um isqueiro a gás, o nível do líquido vai diminuindo conforme o uso do isqueiro, porém a pressão se mantém constante.
+    </p>
+    <titulo3>
+      <b>Influência da temperatura  </b>
+    </titulo3>
+    <p class="general-text">
+      A temperatura de ebulição de uma substância é influenciada pela pressão externa. Ao nível do mar (pressão de 760 mmHg ou 1 atm, como na cidade do Rio de Janeiro), a água ferve a 100
+      <simbolos>º</simbolos>
+      C. Em locais de maior altitude, a pressão exercida pela coluna de ar é menor, sendo menor sua temperatura de ebulição. Na cidade de São Paulo &#8211; localizada a 750 metros de altitude &#8211;, a água ferve por volta de 97,7
+      <simbolos>º</simbolos>
+      C; já na cidade de La Paz (Bolívia) &#8211; localizada a 3   600 metros de altitude &#8211;, a água entra em ebulição a 87
+      <simbolos>º</simbolos>
+      C; e no Monte Everest &#8211; localizado a 8   848 metros &#8211;, ela ferve a 71
+      <simbolos>º</simbolos>
+      C.
+    </p>
+    <imagem>
+      <imagem>&lt;I007-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Esquema que mostra a influência da altitude na pressão atmosférica. </p>
+    <p class="general-text">Assim, ao variar a pressão externa, a temperatura de ebulição do líquido também muda. Considerando a água, o gráfico da pressão máxima de vapor em função da temperatura pode ser representado da seguinte forma:  </p>
+    <imagem>
+      <imagem>&lt;I008-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Influência da altitude sobre à pressão de vapor e a temperatura de ebulição. </p>
+    <boxe_02>
+      MAIS
+      <boxe_02_titulo1>Como Funciona: A Panela de Pressão  </boxe_02_titulo1>
+      <boxe_02_texto>
+        <b>Oficiencia</b>
+      </boxe_02_texto>
+      <boxe_02_texto>O professor de física da UFSCar Luiz Antônio de Oliveira Nunes aborda nesse vídeo o princípio de funcionamento da panela de pressão. Ele também traz curiosidades sobre tipos de panela de pressão desde sua invenção. O vídeo mostra, ainda, uma experiência que envolve esse utensílio. </boxe_02_texto>
+      <boxe_02_texto>Disponível em: &lt;https://www.youtube.com/watch?v=MQUzdOh8JHc&gt;. Acesso em: 3 ago. 2021.</boxe_02_texto>
+    </boxe_02>
+    <p class="img-subtitle"></p>
+    <secao_01>
+      Questão resolvida
+      <exercicio_enunciado>
+        1
+        <b>UEL-PR </b>
+        Um estudante do Ensino Médio fez a seguinte pergunta ao professor: &#8220;É possível fazer a água entrar em ebulição em temperatura inferior à sua temperatura de ebulição normal (100
+        <simbolos>º</simbolos>
+        C)? Para responder ao aluno, o professor colocou água até a metade em um balão de fundo redondo e o aqueceu até a água entrar em ebulição. Em seguida, retirou o balão do aquecimento e o tampou com uma rolha, observando, após poucos segundos, o término da ebulição da água. Em seguida, virou o balão de cabeça para baixo e passou gelo na superfície do balão, conforme a figura ao lado.
+      </exercicio_enunciado>
+      <exercicio_enunciado>Após alguns segundos, a água entrou em ebulição com o auxílio do gelo. O aluno, perplexo, observou, experimentalmente, que sua pergunta tinha sido respondida. </exercicio_enunciado>
+      <item_lista>
+        <item_lista>
+          <texto_exemplo></texto_exemplo>
+          <exercicio_itens>
+            <b>a)	</b>
+            A partir do texto e da figura, explique o que provocou a ebulição da água com o auxílio do gelo.
+          </exercicio_itens>
+        </item_lista>
+        <item_lista>
+          <b>b)	</b>
+          O professor, mediante o interesse do aluno, utilizou o mesmo balão para fazer outro experimento. Esperou o balão resfriar até a temperatura de 25
+          <simbolos>º</simbolos>
+          C e acrescentou uma quantidade de um sal ao balão até saturar a solução, sem corpo de fundo. A massa da solução aquosa salina foi de 200 g e, com a evaporação total da solução, obteve-se um resíduo salino no fundo do balão de 50 g.
+        </item_lista>
+      </item_lista>
+      <item_lista></item_lista>
+      <exercicio_itens></exercicio_itens>
+      <exercicio_enunciado>
+        A partir do texto, determine a solubilidade do sal em g/100 g de H
+        <sub>2</sub>
+        O, na mesma temperatura analisada.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;I009-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+      </imagem>
+      <titulo3>
+        <b>Resolução: </b>
+      </titulo3>
+      <exercicio_resolvido>
+        <b>a)</b>
+        Ao retirar o balão do aquecimento e fechá-lo com a rolha, houve a interrupção da ebulição, pois a pressão interna do balão impede as moléculas de água de mudarem de estado físico. Quando o fundo do balão entra em contato com o gelo, ocorre redução da pressão interna, devido à condensação das moléculas de água. Isso permite que as moléculas no estado líquido passem para o estado de vapor, mesmo que a temperatura seja menor que 100 °C.
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>b) </b>
+        Teremos:
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        150 g de H
+        <sub>2</sub>
+        O		50 g de sal
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        100 g de H
+        <sub>2</sub>
+        O
+        <i>x</i>
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <i>x</i>
+        = 33,3 g
+      </exercicio_resolvido>
+    </secao_01>
+    <p class="general-text">
+      Assim, a água poderia ferver à temperatura ambiente desde que a pressão sobre ela diminua bastante.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <p class="general-text">
+      Nas panelas de pressão, a pressão interna é superior a 1 atm, e a água ferve em temperaturas superiores a 100
+      <simbolos>º</simbolos>
+      C. Assim, os alimentos ficam cozidos mais rapidamente. Esse tipo de panela apresenta uma borracha na tampa cuja função é vedar totalmente o sistema para que ele permaneça fechado, impedindo que o vapor de água formado no aquecimento escape para o exterior. Assim, a pressão interna da panela aumenta progressivamente até um limite no qual ela começa a empurrar a válvula com pino. Nesse instante, a pressão para de aumentar, pois o vapor formado em excesso passa a ser liberado por essa válvula.
+    </p>
+    <imagem>
+      <imagem>&lt;F007-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <imagem>
+      <imagem>&lt;I010-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">A panela de pressão atinge temperaturas elevadas acima da temperatura de ebulição da água, fazendo com que o alimento seja cozido mais rapidamente. </p>
+    <p class="img-credit">Javier Crespo/Shutterstock.com </p>
+    <titulo3>
+      <b>Influência da natureza do líquido  </b>
+    </titulo3>
+    <p class="general-text">Alguns líquidos evaporam mais rapidamente do que outros. Líquidos mais voláteis que a água evaporam mais facilmente, apresentando maior pressão de vapor e, ao considerar-se um gráfico da pressão máxima de vapor de água em função da temperatura, localizam-se acima da curva da água. Líquidos menos voláteis localizam-se abaixo da curva da água. Em um gráfico, basta traçarmos uma reta horizontal a partir da pressão atmosférica que encontraremos a temperatura de ebulição de uma substância. </p>
+    <imagem>
+      <imagem>&lt;I011-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">Variação da pressão de vapor em função da temperatura para diferentes substâncias. </p>
+    <p class="general-text">
+      As forças intermoleculares são determinantes na disposição dos líquidos no gráfico. Tanto o éter etílico (T.E.
+      <simbolos>=</simbolos>
+      35
+      <simbolos>º</simbolos>
+      C) quanto o álcool etílico (T.E.
+      <simbolos>=</simbolos>
+      78
+      <simbolos>º</simbolos>
+      C) são líquidos mais voláteis que a água (T.E.
+      <simbolos>=</simbolos>
+      100
+      <simbolos>º</simbolos>
+      C). No entanto, o éter apresenta interações intermoleculares do tipo dipolo permanente, que são menos intensas do que as ligações de hidrogênio presentes no álcool etílico. Quanto mais intensa for a interação intermolecular, mais fortemente as moléculas são atraídas umas pelas outras e menos volátil será o líquido. Observe que, no gráfico, à temperatura de 35
+      <simbolos>º</simbolos>
+      C, a água apresenta menor pressão de vapor, e o éter maior pressão de vapor.
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <secao_02>
+      <secao_15_titulo1>Aplicando conhecimentos </secao_15_titulo1>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        Identifique o estado físico ou a mudança de estado físico representada no diagrama de fases, nos pontos A, B, C, D e E, e indique o que representa o ponto T.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;I013-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        Quais são as três classificações dos sistemas dispersos? Dê duas características de cada um para diferenciá-los.
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>UFRGS 2018</b>
+        Observe o gráfico abaixo, referente à pressão de vapor de dois líquidos,
+        <b>A </b>
+        e
+        <b>B</b>
+        , em função da temperatura.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;I014-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>Considere as afirmações abaixo, sobre o gráfico. </exercicio_enunciado>
+      <exercicio_item_romano>
+        <secao_exercicio></secao_exercicio>
+        <b>I.	</b>
+        O líquido
+        <b>B </b>
+        é mais volátil que o líquido
+        <b>A</b>
+        .
+        <b>II.	</b>
+        A temperatura de ebulição de
+        <b>B</b>
+        , a uma dada pressão, será maior que a de
+        <b>A</b>
+        .
+        <b>III.	</b>
+        Um recipiente contendo somente o líquido
+        <b>A </b>
+        em equilíbrio com o seu vapor terá mais moléculas na fase vapor que o mesmo recipiente contendo somente o líquido
+        <b>B </b>
+        em equilíbrio com seu vapor, na mesma temperatura.
+      </exercicio_item_romano>
+      <exercicio_enunciado>Quais estão corretas?  </exercicio_enunciado>
+      <texto_geral_exercicio></texto_geral_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        Apenas I.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Apenas II.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Apenas III.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Apenas II e III.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        I, II e III.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        Uma moradora da cidade de Campinas, localizada no estado de São Paulo, foi passar férias na casa de um amigo que mora em La Paz, na Bolívia. Ao preparar seu café da manhã em Campinas, ela deixaria o ovo cozinhar por 3 minutos em água fervente para adquirir a consistência desejada. La Paz está localizada a 3 600 metros acima do nível do mar. A visitante deve deixar o ovo cozinhar por mais ou menos tempo em La Paz para que ele fique com a consistência à qual ela está acostumada? Justifique.
+      </exercicio_enunciado>
+    </secao_02>
+    <secao_03>
+      Consolidando saberes
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        <b>UEG-GO 2015</b>
+        As propriedades físicas dos líquidos podem ser comparadas a partir de um gráfico de pressão de vapor em função da temperatura, como mostrado no gráfico hipotético a seguir para as substâncias A, B, C e D. Segundo o gráfico, o líquido mais volátil será a substância:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        A
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        B
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        C
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        D
+      </item_lista>
+      <imagem>
+        <imagem>&lt;LUMEN_2021_2S_L3_QUI_E001-alt.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>Fuvest-SP 2020</b>
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;F009-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+      </imagem>
+      <p class="quote-source">Disponível em: &lt;https://www.boredpanda.com&gt;. </p>
+      <exercicio_enunciado>
+        <secao_exercicio>
+          Em Xangai, uma loja especializada em café oferece uma opção diferente para adoçar a bebida. A chamada
+          <i>sweet little rain </i>
+          consiste em uma xícara de café sobre a qual é pendurado um algodão-doce, material rico em sacarose, o que passa a impressão de existir uma nuvem pairando sobre o café, conforme ilustrado na imagem.
+        </secao_exercicio>
+        <secao_exercicio>O café quente é então adicionado na xícara e, passado um tempo, gotículas começam a pingar sobre a bebida, simulando uma chuva doce e reconfortante. A adição de café quente inicia o processo descrito, pois </secao_exercicio>
+        <secao_exercicio>
+          <b>Note e adote:</b>
+          Temperatura de fusão da sacarose à pressão ambiente
+          <simbolos>=</simbolos>
+          186
+          <simbolos>º</simbolos>
+          C;
+        </secao_exercicio>
+        Solubilidade da sacarose a 20
+        <simbolos>º</simbolos>
+        C
+        <simbolos>=</simbolos>
+        1,97 kg/L de água.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        a temperatura do café é suficiente para liquefazer a sacarose do algodão-doce, fazendo com que este goteje na forma de sacarose líquida.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        o vapor de água que sai do café quente irá condensar na superfície do algodão-doce, gotejando na forma de água pura.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        a sacarose que evapora do café quente condensa na superfície do algodão-doce e goteja na forma de uma solução de sacarose em água.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        o vapor de água encontra o algodão-doce e solubiliza a sacarose, que goteja na forma de uma solução de sacarose em água.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        o vapor de água encontra o algodão-doce e vaporiza a sacarose, que goteja na forma de uma solução de sacarose em água.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>PUC-RS 2016</b>
+        Quando se compara a água do mar com a água destilada, pode-se afirmar que a primeira, em relação à segunda, tem menor __________, mas maior __________.
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        densidade &#8211; ponto de ebulição
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        condutividade elétrica &#8211; densidade
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        pressão de vapor &#8211; condutividade elétrica
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        concentração de íons &#8211; ponto de ebulição
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        ponto de congelação &#8211; facilidade de vaporização do solvente
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        <b>Fasm-SP 2017</b>
+        Analise a tabela que apresenta a pressão de vapor a 100
+        <simbolos>º</simbolos>
+        C para três diferentes substâncias.
+      </exercicio_enunciado>
+      <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="2">
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.63379372660384">
+          <Tabela_gravata1>Substância</Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.79927713953788">
+          <Tabela_gravata1>Pressão de vapor (mmHg)</Tabela_gravata1>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.63379372660384">
+          <tabela_texto_geral>Butan-2-ol</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.79927713953788">
+          <tabela_texto_geral>790</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.63379372660384">
+          <tabela_texto_geral>Hexan-3-ol</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.79927713953788">
+          <tabela_texto_geral>495</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.63379372660384">
+          <tabela_texto_geral>Água</tabela_texto_geral>
+        </Cell>
+        <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.79927713953788">
+          <tabela_texto_geral>760</tabela_texto_geral>
+        </Cell>
+      </Table>
+      <item_lista>
+        <b>a)	</b>
+        Esboce, no gráfico abaixo, as curvas de pressão de vapor relativas aos álcoois apresentados na tabela. Qual dos dois álcoois é o mais volátil?
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <imagem>
+        <imagem>&lt;I022-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+      </imagem>
+      <item_lista>
+        <b>b)	</b>
+        Explique, de acordo com a relação entre as forças intermoleculares e os pontos de ebulição, por que o butan-2-ol apresenta maior pressão de vapor que o hexan-3-ol à mesma temperatura.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>Unesp</b>
+        Entre 6 e 23 de fevereiro aconteceram os Jogos Olímpicos de Inverno de 2014. Dentre as diversas modalidades esportivas, o
+        <i>curling</i>
+        é um jogo disputado entre duas equipes sobre uma pista de gelo, seu objetivo consiste em fazer com que uma pedra de granito em forma de disco fique o mais próximo de um alvo circular. Vassouras são utilizadas pelas equipes para varrer a superfície do gelo na frente da pedra, de modo a influenciar tanto sua direção como sua velocidade. A intensidade da fricção e a pressão aplicada pelos atletas durante o processo de varredura podem fazer com que a velocidade da pedra mude em até 20% devido à formação de uma película de água líquida entre a pedra e a pista. O gráfico apresenta o diagrama de fases da água.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <secao_exercicio>
+        <imagem>
+          <imagem>&lt;LUMEN_2022_2s_l3_qui_fa_u2_cap5_q001.png&gt;</imagem>
+        </imagem>
+      </secao_exercicio>
+      <p class="quote-source">(Tito Miragaia Peruzzo e Eduardo Leite do Canto. Química na abordagem do cotidiano, 2006. Adaptado.) </p>
+      <exercicio_enunciado>Com base nas informações constantes no texto e no gráfico, a seta que representa corretamente a transformação promovida pela varredura é a de número:</exercicio_enunciado>
+      <secao_exercicio>
+        <i></i>
+      </secao_exercicio>
+      <item_lista>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          3.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>b)	</b>
+          2.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          4.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>d)	</b>
+          1.
+        </secao_exercicio_item>
+        <b>e)	</b>
+        5.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        <b>Uece</b>
+        A panela de pressão, inventada pelo físico francês Denis Papin (1647-1712) é um extraordinário utensílio que permite o cozimento mais rápido dos alimentos, economizando combustível.
+      </exercicio_enunciado>
+      <exercicio_enunciado>Sobre a panela de pressão e seu funcionamento, pode-se afirmar corretamente que: </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        é uma aplicação prática da lei de Boyle-Mariotte.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        foi inspirada na lei de Dalton das pressões parciais.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        aumenta o ponto de ebulição da água contida nos alimentos.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        o vapor d&#8217;água represado catalisa o processo de cocção dos alimentos.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>7	</secao_exercicio_numerador>
+        <b>Fuvest-SP 2020</b>
+        Em supermercados, é comum encontrar alimentos chamados de liofilizados, como frutas, legumes e carnes. Alimentos liofilizados continuam próprios para consumo após muito tempo, mesmo sem refrigeração. O termo &#8220;liofilizado&#8221;, nesses alimentos, refere-se ao processo de congelamento e posterior desidratação por sublimação da água. Para que a sublimação da água ocorra, é necessária uma combinação de condições, como mostra o gráfico de pressão por temperatura, em que as linhas representam transições de fases.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;LUMEN_2022_2s_l3_qui_fa_u2_cap5_q002.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>Apesar de ser um processo que requer, industrialmente, uso de certa tecnologia, existem evidências de que os povos pré-colombianos que viviam nas regiões mais altas dos Andes conseguiam liofilizar alimentos, possibilitando estocá-los por mais tempo.</exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <exercicio_enunciado>Assinale a alternativa que explica como ocorria o processo de liofilização natural:</exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        A sublimação da água ocorria devido às baixas temperaturas e à alta pressão atmosférica nas montanhas.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Os alimentos, após congelados naturalmente nos períodos frios, eram levados para a parte mais baixa das montanhas, onde a pressão atmosférica era menor, o que possibilitava a sublimação.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Os alimentos eram expostos ao sol para aumentar a temperatura, e a baixa pressão atmosférica local favorecia a solidificação.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        As temperaturas eram baixas o suficiente nos períodos frios para congelar os alimentos, e a baixa pressão atmosférica nas altas montanhas possibilitava a sublimação.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Os alimentos, após congelados naturalmente, eram prensados para aumentar a pressão, de forma que a sublimação ocorresse.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>8	</secao_exercicio_numerador>
+        <b>Falbe-SP 2016</b>
+        O gráfico a seguir representa a pressão de vapor de quatro solventes em função da temperatura.
+      </exercicio_enunciado>
+      <imagem>
+        <imagem>&lt;LUMEN_2022_2s_l3_qui_fa_u2_cap5_q003.png&gt;</imagem>
+      </imagem>
+      <exercicio_enunciado>
+        <secao_exercicio>Ao analisar o gráfico foram feitas as seguintes observações: </secao_exercicio>
+        <secao_exercicio>Apesar de metanol e etanol apresentarem ligações de hidrogênio entre suas moléculas, o etanol tem maior temperatura de ebulição, pois sua massa molecular é maior do que a do metanol. </secao_exercicio>
+        <secao_exercicio>
+          É possível ferver a água a 60
+          <simbolos>º</simbolos>
+          C, caso essa substância esteja submetida uma pressão de 20 kPa.
+        </secao_exercicio>
+        <secao_exercicio>
+          Pode-se encontrar o dissulfeto de carbono no estado líquido a 50
+          <simbolos>º</simbolos>
+          C, caso esteja submetido a uma pressão de 120 kPa.
+        </secao_exercicio>
+        Pode-se afirmar que:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        somente as afirmações I e II estão corretas.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        somente as afirmações I e III estão corretas
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        somente as afirmações II e III estão corretas
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        todas as afirmações estão corretas.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>9	</secao_exercicio_numerador>
+        <b>UFRGS 2016</b>
+        Na gastronomia, empregam-se diversos conhecimentos provindos de diferentes áreas da química. Considere os conhecimentos químicos listados no bloco superior abaixo e os processos relacionados à produção e conservação de alimentos, listados no bloco inferior. Associe adequadamente o bloco inferior ao superior.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <exercicio_resolvido>
+        <b>1.</b>
+        Propriedades coligativas
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>2.</b>
+        Coloides
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>3.</b>
+        Emulsões
+      </exercicio_resolvido>
+      <exercicio_resolvido>
+        <b>4.</b>
+        Reversibilidade de reações
+      </exercicio_resolvido>
+      <exercicio_resolvido>( )	Produção de charque ( )	Preparo de gelatina ( )	Preparo de maionese</exercicio_resolvido>
+      <exercicio_enunciado>A sequência correta de preenchimento dos parênteses, de cima para baixo, é: </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <exercicio_enunciado>
+        <b>a)	</b>
+        1, 2 e 3.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>b)	</b>
+        1, 2 e 4.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>c)	</b>
+        2, 3 e 4.
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>d)	</b>
+        2, 1 e 3.
+      </exercicio_enunciado>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        3, 4 e 2.
+      </secao_exercicio_item>
+    </secao_03>
+    <secao_04>
+      Superação
+      <secao_exercicio>
+        <b>Unicamp-SP 2020</b>
+        O &#8220;Ebulidor de Franklin&#8221; é um brinquedo constituído de dois bulbos de vidro conectados por um tubo espiralado, preenchido com líquido colorido. Seu uso consiste em encostar a mão na base do bulbo inferior, fazendo com que o líquido seja aquecido e ascenda para o bulbo superior. Popularmente, a libido de uma pessoa é avaliada com base na quantidade de líquido que ascende. O sucesso de venda, obviamente, é maior quanto mais positivamente o brinquedo indicar uma &#8220;alta libido&#8221;. Abaixo apresenta-se um gráfico da pressão de vapor em função da temperatura para dois líquidos, A e B, que poderiam ser utilizados para preencher o &#8220;Ebulidor de Franklin&#8221;.
+      </secao_exercicio>
+      <imagem>
+        <imagem>&lt;F010-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+      </imagem>
+      <imagem>
+        <imagem>&lt;I025-2020-EM-QUI-2S-L2-FB-U11-C23.png&gt;</imagem>
+      </imagem>
+      <texto_geral_exercicio>Considerando essas informações, é correto afirmar que a pressão no interior do brinquedo  </texto_geral_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        não se altera durante o seu uso, e o ebulidor com o líquido A teria mais sucesso de vendas.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        aumenta durante o seu uso, e o ebulidor com o líquido A teria mais sucesso de vendas.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        não se altera durante o seu uso, e o ebulidor com o líquido B teria mais sucesso de vendas.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        aumenta durante o seu uso, e o ebulidor com o líquido B teria mais sucesso de vendas.
+      </secao_exercicio_item>
+    </secao_04>
+  </p>
+</Root>

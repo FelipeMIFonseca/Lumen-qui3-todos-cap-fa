@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <p class="general-text">
+    <titulo_cap_texto>Tipos de concentração </titulo_cap_texto>
+    <imagem>
+      <imagem>&lt;F004-2020-EM-QUI-1S-L2-FA-U5-C18.png&gt;</imagem>
+    </imagem>
+    <p class="img-credit">sanjeri/iStockphoto.com </p>
+    <imagem>
+      <imagem>&lt;F002-2020-EM-QUI-1S-L2-FA-U5-C18.png&gt;</imagem>
+    </imagem>
+    <p class="img-credit">rafapress/Shutterstock.com </p>
+    <p class="img-subtitle">Rótulos de produtos mostrando diferentes formas de representar a concentração das substâncias. </p>
+    <imagem>
+      <imagem>&lt;I003-2020-EM-QUI-1S-L2-FA-U5-C18.png&gt;</imagem>
+    </imagem>
+    <imagem>
+      <imagem>&lt;I002-2020-EM-QUI-1S-L2-FA-U5-C18.png&gt;</imagem>
+    </imagem>
+    <texto_citado_titulo>Dá para abastecer um carro com bebida alcoólica? </texto_citado_titulo>
+    <p class="quote">Não. Pelo menos não com as bebidas &#8220;normais&#8221; que a gente encontra por aí. Apesar de o álcool consumível ser do mesmo tipo do utilizado como combustível (o etanol), ele aparece numa concentração bem menor nas bebidas &#8211; o chamado teor alcoólico. No Brasil, o álcool vendido nos postos tem que ter pelo menos 92,6% de etanol. [Nenhuma bebida vendida] comercialmente no país chega nem perto dessa concentração. Com teores alcoólicos na faixa de 40%, bebidas como pinga, vodca e uísque têm mais água do que etanol em sua fórmula. E é justamente esse excesso de água que impede a combustão das bebidas nos pistões do motor. Por isso, o carro nem dá partida. </p>
+    <p class="quote">[...] </p>
+    <p class="quote-source">
+      BIANCHIN, Victor.
+      <i>Mundo Estranho</i>
+      , 1-
+      <sub>o</sub>
+      mar. 2009. Abril Comunicações S. A. Disponível em:
+      <imagem>&lt;https://super.abril.com.br/mundo-estranho/da-para-abastecer-um-carro-com-bebida-alcoolica/&gt;</imagem>
+      . Acesso em: 26 maio 2020.
+    </p>
+    <texto_bullets>&#8226;	Que tipo de concentração foi mencionado no texto? </texto_bullets>
+    <texto_bullets>&#8226;	Seria possível dar as mesmas informações sobre a quantidade de álcool no combustível e nas bebidas utilizando unidades diferentes? </texto_bullets>
+    <texto_bullets>&#8226;	Qual é a definição de concentração? </texto_bullets>
+    <boxe_02_texto> Neste capítulo, será abordada a habilidade EM13CNT101. </boxe_02_texto>
+    <titulo1>	Concentrações </titulo1>
+    <p class="general-text">Quando temos em mãos uma solução, é natural nos perguntarmos do que essa solução é feita e quais são as quantidades de solvente e soluto presentes nela. Essas informações são de suma importância e geralmente as encontramos em rótulos e embalagens de medicamentos, bebidas, produtos de limpeza e reagentes de laboratório. </p>
+    <p class="general-text">Na Química, podemos trabalhar com vários tipos de concentração e começamos este capítulo falando sobre a concentração comum. </p>
+    <imagem>
+      <imagem>&lt;F005-2020-EM-QUI-1S-L2-FA-U5-C18.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">A diferença na coloração dos sucos nos permite identificar, de maneira qualitativa, quando soluções têm concentrações diferentes. </p>
+    <p class="img-credit">PHOTO RESEARCHERS/Science Source/Fotoarena </p>
+    <p class="general-text">
+      <b>Concentração comum (</b>
+      <b><i>C</i></b>
+      <b> ): </b>
+      a concentração de uma solução pode ser determinada a partir da quantidade de soluto disponível em dado volume de solução. A quantidade de soluto é dada em massa e, por isso, podemos usar a seguinte fórmula:
+    </p>
+    <imagem>
+      <imagem>&lt;001_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text"></p>
+    <p class="general-text"></p>
+    <p class="general-text">
+      Assim, a unidade mais comum é g/L, mas também encontramos variações, como g/mL, g/cm
+      <sub>3</sub>
+      ou mg/L.
+    </p>
+    <p class="general-text">
+      Observe este exemplo: quando adicionamos 5 g de sal de cozinha (NaC
+      <simbolos>&#8467;</simbolos>
+      ) a um copo com água, obtendo uma solução cujo volume final é igual a 250 mL, a concentração, em g/L, é:
+    </p>
+    <imagem>
+      <imagem>&lt;002_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text"></p>
+    <p class="general-text">
+      Isso significa que, em 1 litro dessa solução, há 20 g de NaC
+      <simbolos>&#8467;</simbolos>
+      .
+    </p>
+    <p class="general-text"></p>
+    <p class="general-text">
+      <b>Concentração em quantidade de matéria (M):</b>
+      essa concentração é a mais utilizada na Química e nos diz qual é a quantidade de matéria (mol) de soluto que existe em determinado volume de solução. A unidade é dada em mol/L ou simplesmente M (que significa molar, embora essa notação não seja mais recomendada) e é calculada pela fórmula:
+    </p>
+    <imagem>
+      <b>M </b>
+      <imagem>&lt;003_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text"></p>
+    <imagem>
+      <imagem>&lt;003b_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">Logo, podemos dizer que: </p>
+    <p class="general-text">
+      <simbolos>M</simbolos>
+      <b></b>
+      <imagem></imagem>
+    </p>
+    <p class="general-text"></p>
+    <p class="general-text">
+      Aplicando em um exemplo: Qual a concentração em quantidade de matéria de uma solução preparada com 5 g de NaC
+      <simbolos>&#8467;</simbolos>
+      e cujo volume final é igual a 250 mL?
+    </p>
+    <imagem>
+      <imagem>&lt;006_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">
+      <simbolos>M</simbolos>
+      <imagem>
+        <imagem>&lt;007_QFBU5C18.png&gt;</imagem>
+      </imagem>
+    </p>
+    <p class="general-text">
+      Isso significa que 1 litro de solução contém 0,34 mol de NaC
+      <simbolos>&#8467;</simbolos>
+      .
+    </p>
+    <p class="general-text"></p>
+    <p class="general-text">
+      <b>Porcentagem em massa ou volume/Título (d): </b>
+      chamamos de título a quantidade de soluto (em grama ou em litro) para cada grama ou para cada litro de solução. A fórmula para calcular é:
+    </p>
+    <imagem>
+      <imagem>&lt;008_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">
+      Os valores obtidos podem estar em porcentagem ou sem unidade. Por exemplo, se temos 5 g de NaC
+      <simbolos>&#8467;</simbolos>
+      em 250 g de solução, o título será:
+    </p>
+    <imagem>
+      <imagem>&lt;008c_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">
+      Isso significa que 2% da solução são compostos por de NaC
+      <simbolos>&#8467;</simbolos>
+      .
+    </p>
+    <p class="general-text">
+      <b>Partes por milhão (ppm):</b>
+      essa maneira de expressar a concentração funciona bem quando temos pouquíssima quantidade de soluto em relação à quantidade de solução e significa que temos 1 parte de soluto para 10
+      <sub>6</sub>
+      partes de solução.
+    </p>
+    <p class="general-text">
+      Por exemplo, se temos 5 g de NaC
+      <simbolos>&#8467;</simbolos>
+      em 1 000 g de solução, temos 5 partes de soluto em 10
+      <sub></sub>
+      <sub>3</sub>
+      partes de solução, então:
+    </p>
+    <p class="general-text">
+      5 partes NaC
+      <simbolos>&#8467;</simbolos>
+      10
+      <sub>3</sub>
+      partes de solução
+    </p>
+    <p class="general-text">
+      <i>x</i>
+      10
+      <sub>6</sub>
+      partes de solução
+    </p>
+    <p class="general-text">
+      <i>	x</i>
+      <simbolos>=</simbolos>
+      5
+      <simbolos>∙</simbolos>
+      10
+      <sub>3</sub>
+      partes de NaC
+      <simbolos>&#8467;</simbolos>
+    </p>
+    <p class="general-text">
+      Temos 5
+      <simbolos>∙</simbolos>
+      10
+      <sub>3</sub>
+      ppm de NaC
+      <simbolos>&#8467;</simbolos>
+      na solução.
+    </p>
+    <p class="general-text">
+      <boxe_17>
+        Fique ligado!
+        <boxe_02_texto>
+          Em ppm,
+          <b>o soluto e a solução devem estar na mesma unidade</b>
+          para que a relação com &#8220;partes&#8221; possa ser feita.
+        </boxe_02_texto>
+      </boxe_17>
+    </p>
+    <p class="general-text">
+      <b>Molalidade (</b>
+      <i>W</i>
+      <b>):</b>
+      expressa a quantidade de matéria de soluto existente em cada quilograma de solvente. A unidade utilizada é o mol/kg ou molal. A fórmula para o cálculo da molalidade é:
+    </p>
+    <imagem>
+      <imagem>&lt;009_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text"></p>
+    <p class="general-text">Então: </p>
+    <imagem>
+      <imagem>&lt;011_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">
+      Aplicando em um exemplo: Qual é a concentração molal de uma solução que contém 5 g de NaC
+      <simbolos>&#8467;</simbolos>
+      e 250 g de água?
+    </p>
+    <imagem>
+      <imagem>&lt;012_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text">
+      <imagem>
+        <imagem>&lt;013_QFBU5C18.png&gt;</imagem>
+      </imagem>
+    </p>
+    <p class="general-text"></p>
+    <p class="general-text">
+      <b>Fração (em massa, em quantidade de matéria, em volume) (</b>
+      <b><i>X</i></b>
+      <b>):</b>
+      a fração indica a razão entre a quantidade de soluto e a de solução e pode ser expressa em função da massa, da quantidade de matéria ou do volume, desde que as quantidades de soluto e de solução estejam na mesma unidade. A fração não apresenta unidade, mas pode ser expressa em porcentagem.
+    </p>
+    <p class="general-text">
+      Utilizando o mesmo exemplo anterior, 5 g de NaC
+      <simbolos>&#8467;</simbolos>
+      e 250 g de água, formamos 255 g de solução, então a fração em massa será:
+    </p>
+    <imagem>
+      <imagem>&lt;016_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text"></p>
+    <p class="general-text">
+      Se temos 0,085 mol de NaC
+      <simbolos>&#8467;</simbolos>
+      e 14 mols de água, formamos 14,085 mols de solução, e a fração em quantidade de matéria será:
+    </p>
+    <imagem>
+      <imagem>&lt;014_QFBU5C18.png&gt;</imagem>
+    </imagem>
+    <p class="general-text"></p>
+    <p class="general-text">
+      E, ainda, se temos 2,31 mL de NaC
+      <simbolos>&#8467;</simbolos>
+      e 250 mL de água, temos 252,31 mL de solução, então a fração em volume será:
+    </p>
+    <imagem></imagem>
+    <p class="general-text"></p>
+    <boxe_02>
+      <boxe_02_titulo1>MAIS</boxe_02_titulo1>
+      <boxe_02_titulo2>O que determina a concentração de uma solução? </boxe_02_titulo2>
+      <boxe_02_texto>Nessa simulação criada pela Universidade do Colorado, você vai aprender sobre as relações entre quantidade de matéria de soluto e volume de solução em litros. Além disso, vai aprender como essas variáveis influenciam a concentração em quantidade de matéria fazendo ajustes na quantidade do soluto e no volume de solução, e alterando solutos para comparar diferentes compostos químicos em água. </boxe_02_texto>
+      <boxe_02_texto>
+        Disponível em:
+        <p class="quote-source">
+          <imagem>&lt;https://phet.colorado.edu/pt_BR/simulation/legacy/molarity&gt;</imagem>
+          .
+        </p>
+        Acesso em: 3 ago. 2021.
+      </boxe_02_texto>
+    </boxe_02>
+    <secao_01>
+      Questão resolvida
+      <exercicio_enunciado>1	O soro fisiológico utilizado em hospitais e vendido em farmácias para diversos fins consiste em uma solução aquosa de cloreto de sódio, geralmente comercializada em concentração 0,9%. Para preparar 2 litros dessa solução, qual é a massa de cloreto de sódio que deve ser adicionada à água? Considere a densidade do soro fisiológico igual a 1 g/mL. </exercicio_enunciado>
+      <titulo3>
+        <b>Resolução:</b>
+      </titulo3>
+      <p class="exercicio-text ml">A concentração de 0,9% de cloreto de sódio significa que, de toda a solução, 0,9% é referente ao sal, e 99,1% é referente à água. </p>
+      <p class="exercicio-text ml">2 litros de solução de soro fisiológico equivalem a 2  000 g de solução, visto que sua densidade é igual a 1 g/mL: </p>
+      <imagem>
+        <imagem>
+          <imagem>&lt;017_QFBU5C18.png&gt;</imagem>
+        </imagem>
+      </imagem>
+      <p class="exercicio-text ml"></p>
+      <p class="exercicio-text ml">Consideramos 2 000 g como 100%, ou seja, a massa total da solução. Dessa forma, temos: </p>
+      <p class="exercicio-text ml">2 000 g  100% </p>
+      <p class="exercicio-text ml">
+        <i>	x</i>
+        0,9%
+      </p>
+      <p class="exercicio-text ml">
+        <i>	x</i>
+        <simbolos>=</simbolos>
+        18 g de sal NaC
+        <simbolos>&#8467;</simbolos>
+      </p>
+      <p class="exercicio-text ml">Para preparar 2 litros de soro, são necessários 18 g de cloreto de sódio.</p>
+    </secao_01>
+    <secao_02>
+      <secao_02_titulo1>Aplicando conhecimentos </secao_02_titulo1>
+      <exercicio_enunciado>
+        <secao_15_titulo1></secao_15_titulo1>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        Um comprimido de paracetamol tem massa de 1,5 g, porém apenas 750 mg são do analgésico. Qual é a concentração de paracetamol no medicamento em ppm?
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        500 000 ppm.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        50 000 ppm.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        5 000 ppm.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        500 ppm.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        50 ppm.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        A embalagem de um suco em pó traz a informação de que 20 g do sólido rendem 2 litros da bebida. Qual é a fração, em porcentagem, do suco nessa solução?
+        <b>Dados:</b>
+        densidade da água
+        <simbolos>=</simbolos>
+        1 g/mL.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        1%
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        0,1%
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        10%
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        0,01%
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        1,5%
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        O camu-camu é uma fruta de cor vermelho-escura, do tamanho de uma jabuticaba e com uma das maiores concentrações de vitamina C. São aproximadamente 2 880 mg da vitamina para cada 102 mL da polpa da fruta. Sabendo que a vitamina C é o ácido ascórbico e que apresenta massa molar de 176 g/mol, qual é a sua concentração em quantidade de matéria nessa fruta?
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        0,24 mol/L.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        0,39 mol/L.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        0,5 mol/L.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        0,16 mol/L.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        0,61 mol/L.
+      </item_lista>
+      <secao_02_texto_citado>
+        <secao_exercicio_numerador></secao_exercicio_numerador>
+        <exercicio_enunciado>4	</exercicio_enunciado>
+        [...] o pintor era praticamente um químico [...]. O aspirante desse ofício tinha de aprender uma variedade enorme de receitas e conhecer as reações e propriedades de inúmeras substâncias para empregar esse conhecimento em seus processos artísticos.
+      </secao_02_texto_citado>
+      <p class="quote-source">Disponível em: &lt;http://www.cozinhadapintura.com/2010/09 /historia-da-tinta-oleo.html&gt;. Acesso em: 21 maio 2020. </p>
+      <exercicio_enunciado>
+        <secao_exercicio>
+          A tinta amarela era feita à base de cromato de chumbo(II), PbCrO
+          <sub></sub>
+          <sub>4</sub>
+          . O pigmento em pó era dissolvido em óleo para que os pintores o utilizassem em suas telas. Qual é a concentração de chumbo em mol/L em uma tinta preparada com 50 g de pigmento e 320 mL de óleo?
+        </secao_exercicio>
+        <b>Dados:</b>
+        massa molar do chumbo
+        <simbolos>=</simbolos>
+        207 g/mol; massa molar do cromato de chumbo(II)
+        <simbolos>=</simbolos>
+        323 g/mol.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        0,15 mol/L.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        0,5 mol/L.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        0,25 mol/L.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        0,3 mol/L.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        0,6 mol/L.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>Unesp 2021 </b>
+        O álcool isopropílico (CH
+        <sub>3</sub>
+        CH(OH)CH
+        <sub>3</sub>
+        ), entre outras aplicações, é empregado na limpeza de circuitos eletrônicos. Em um experimento, um estudante utilizou um frasco conta-gotas com álcool isopropílico a 20
+        <simbolos>°</simbolos>
+        C e verificou que eram necessárias 65 gotas desse álcool para perfazer o volume de 2 mL. Sabendo que a densidade do álcool isopropílico nessa temperatura é aproximadamente 0,8 g/mL, a quantidade desse álcool, em mol de moléculas, presente em cada gota é próxima de
+      </exercicio_enunciado>
+      <item_lista>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          1
+          <simbolos>∙</simbolos>
+          10
+          <sub>&#8211;</sub>
+          ² mol.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>b)	</b>
+          4
+          <simbolos>∙</simbolos>
+          10
+          <sub>&#8211;</sub>
+          ³ mol.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>c)	</b>
+          3
+          <simbolos>∙</simbolos>
+          10
+          <sub>&#8211;</sub>
+          ⁵ mol.
+        </secao_exercicio_item>
+        <secao_exercicio_item>
+          <b>d)	</b>
+          3
+          <simbolos>∙</simbolos>
+          10
+          <sub>&#8211;</sub>
+          ⁶ mol.
+        </secao_exercicio_item>
+        <b>e)	</b>
+        4
+        <simbolos>∙</simbolos>
+        10
+        <sub>&#8211;</sub>
+        ⁴ mol.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        <b>Uerj 2019</b>
+        Para a remoção de um esmalte, um laboratório precisa preparar 200 mL de uma solução aquosa de propanona na concentração de 0,2 mol/L. Admita que a densidade da propanona pura é igual a 0,8 kg/L.
+        <secao_exercicio>Nesse caso, o volume de propanona pura, em mililitros, necessário ao preparo da solução corresponde a: </secao_exercicio>
+        <b>Dados: </b>
+        C
+        <simbolos>=</simbolos>
+        12, H
+        <simbolos>=</simbolos>
+        1, O
+        <simbolos>=</simbolos>
+        16
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        2,9
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        3,6
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        5,8
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        6,7
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>Unifesp 2018</b>
+        Um volume de 100 mL de solução aquosa de sulfato de ferro(II) passou por um processo de evaporação lento e completo, obtendo-se 2,78 g de cristais de FeSO
+        <sub>4</sub>
+        <simbolos>∙</simbolos>
+        7 H
+        <sub>2</sub>
+        O.
+      </exercicio_enunciado>
+      <item_lista>
+        <secao_exercicio_item>
+          <b>a)	</b>
+          A solução aquosa de sulfato de ferro(II) é condutora de corrente elétrica? Justifique sua resposta.
+        </secao_exercicio_item>
+        <b>b)	</b>
+        Calcule a quantidade de sal hidratado, em mol, obtido após a evaporação. Determine a concentração inicial de FeSO
+        <sub>4</sub>
+        na solução, em mol/L, antes da evaporação.
+      </item_lista>
+      <secao_exercicio_item></secao_exercicio_item>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>Unesp 2018 </b>
+        De acordo com o Relatório Anual de 2016 da Qualidade de Água, publicado pela Sabesp, a concentração de cloro na água potável da rede de distribuição deve estar entre 0,2 mg/L, limite mínimo, e 5 mg/L, limite máximo.
+      </exercicio_enunciado>
+      <exercicio_enunciado>Considerando que a densidade da água potável seja igual à da água pura, calcula-se que o valor médio desses limites, expresso em partes por milhão, seja </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        5,2 ppm
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        18 ppm
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        2,6 ppm
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        26 ppm
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        1,8 ppm
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        <b>Uerj 2018</b>
+        Em análises metalúrgicas, emprega-se uma solução denominada nital, obtida pela solubilização do ácido nítrico em etanol. Um laboratório de análises metalúrgicas dispõe de uma solução aquosa de ácido nítrico com concentração de 60% m/m e densidade de 1,4 kg/L. O volume de 2 mL dessa solução é solubilizado em quantidade de etanol suficiente para obter 100 mL de solução nital. Com base nas informações, a concentração de ácido nítrico, em g/L, na solução nital é igual a:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        10,5
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        14
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        16,8
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        21,6
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>UPF-RS 2018</b>
+        O luminol é uma substância luminescente utilizada para a identificação de manchas de sangue em cenas de crimes. A sua luminescência pode ser testada utilizando uma série de reagentes, dentre os quais está o hidróxido de sódio aquoso em concentração 10%. Para que um perito possa preparar 250 mL de uma solução de hidróxido de sódio na concentração desejada para análise, quantos gramas de hidróxido de sódio são necessários?
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>a)	</b>
+        2,5 g
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>b)	</b>
+        0,25 g
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>c)	</b>
+        10 g
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>d)	</b>
+        0,10 g
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <b>e)	</b>
+        25 g
+      </exercicio_enunciado>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        <b>PUC-Campinas 2018</b>
+        Os xaropes são soluções concentradas de açúcar (sacarose). Em uma receita caseira, são utilizados 500 g de açúcar para cada 1,5 L de água. Nesse caso, a concentração mol/L de sacarose nesse xarope é de, aproximadamente,
+        <b>Dados:</b>
+        massa molar da sacarose
+        <simbolos>=</simbolos>
+        342 g/mol
+      </exercicio_enunciado>
+      <p class="general-text"></p>
+      <item_lista>
+        <b>a)	</b>
+        2,5
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        1,5
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        2,0
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        1,0
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        3,0
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>7	</secao_exercicio_numerador>
+        <b>UPE 2017</b>
+        De acordo com um comunicado emitido pela Academia Americana de Pediatria, em 2015, não existem problemas na higienização dos dentes dos bebês e das crianças com cremes dentais que contêm flúor em sua composição. No entanto, esses produtos devem apresentar uma concentração de flúor entre 0,054 e 0,13 (título em massa), para se obter uma proteção adequada contra as cáries. Foram realizados testes de qualidade relativos à presença do flúor nos seguintes cremes dentais recomendados para bebês e crianças:
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <secao_exercicio>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="6" aid:tcols="2">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.92913385826768">
+            <Tabela_gravata1>Creme dental</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.00393700787404">
+            <Tabela_gravata1>Concentração de flúor (ppm)</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.92913385826768">
+            <tabela_texto_geral>I</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.00393700787404">
+            <tabela_texto_geral>500</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.92913385826768">
+            <tabela_texto_geral>II</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.00393700787404">
+            <tabela_texto_geral>750</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.92913385826768">
+            <tabela_texto_geral>III</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.00393700787404">
+            <tabela_texto_geral>1000</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.92913385826768">
+            <tabela_texto_geral>IV</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.00393700787404">
+            <tabela_texto_geral>1350</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="70.92913385826768">
+            <tabela_texto_geral>V</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="144.00393700787404">
+            <tabela_texto_geral>1800</tabela_texto_geral>
+          </Cell>
+        </Table>
+      </secao_exercicio>
+      <exercicio_enunciado>Passaram, no teste de qualidade, apenas os cremes dentais </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        I e II.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        III e IV.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        II e III.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        III, IV e V.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        II, III e IV.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>8	</secao_exercicio_numerador>
+        <b>Uerj 2017</b>
+        Na análise de uma amostra da água de um reservatório, verificou-se a presença de dois contaminantes, nas seguintes concentrações:
+      </exercicio_enunciado>
+      <secao_exercicio>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="3" aid:tcols="2">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307093">
+            <Tabela_gravata1>Contaminante</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307093">
+            <Tabela_gravata1>Concentração (mg/L)</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307093">
+            <tabela_texto_geral>Benzeno</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307093">
+            <tabela_texto_geral>0,39</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307093">
+            <tabela_texto_geral>Metanal</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="107.46653543307093">
+            <tabela_texto_geral>0,40</tabela_texto_geral>
+          </Cell>
+        </Table>
+      </secao_exercicio>
+      <exercicio_enunciado>Em análises químicas, o carbono orgânico total é uma grandeza que expressa a concentração de carbono de origem orgânica em uma amostra. Assim, com base nos dados da tabela, a concentração de carbono orgânico total na amostra de água examinada, em mg/L, é igual a:</exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        0,16
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        0,36
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        0,52
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        0,72
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>9	</secao_exercicio_numerador>
+        <b>Imed-RS</b>
+        A concentração comum, cujo símbolo é ____, indica a razão entre a massa do _______ e o volume do ________. Assinale a alternativa que preenche, correta e respectivamente, as lacunas do trecho acima.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        T &#8211; soluto &#8211; solução
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        T &#8211; solução &#8211; soluto
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        C &#8211; soluto &#8211; solução
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        M &#8211; solução &#8211; solução
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        C &#8211; solução &#8211; soluto
+      </item_lista>
+    </secao_02>
+  </p>
+</Root>

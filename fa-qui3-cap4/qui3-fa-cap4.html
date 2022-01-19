@@ -1,0 +1,3379 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-quimica-d2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-quimica-d2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    4
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Processos com soluções
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/Abertura_Cap_4_fb.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">Imagens (de cima para baixo e da esquerda para a direita): 1. Titulação; 2. Mistura de soluções; 3. Profissional de Química observando erlenmeyer após o ponto de viragem em uma titulação.
+                        </p>
+                        <p class="img-credit">
+                            СергейМарков/iStockphoto.com; CAP53/iStockphoto.com
+                        </p>
+                        <p class="quote">[...] </p>
+                        <p class="quote">No século I a.C., a rainha egípcia Cleópatra apostou com seu amante, o general romano Marco Antônio, que ela poderia dar o jantar mais caro da história. Na hora marcada, tudo o que havia sobre a mesa era uma taça cheia de vinagre.
+                            Cleópatra retirou cuidadosamente seus brincos de pérolas, esmagou-os e jogou os restos na vasilha, onde se dissolveram. A rainha egípcia não só ganhou a aposta com essa mistura de pérola e vinagre como inventou um novo produto:
+                            os suplementos de cálcio. </p>
+                        <p class="quote">[...] </p>
+                        <p class="quote-source">
+                            KENSKI, Rafael. &#8220;Que mistura: as histórias curiosas da química&#8221;.
+                            <i>Superinteressante</i> , 30 set. 2002. Abril Comunicações S. A. Disponível em: &lt;https://super.abril.com.br/ciencia/que-mistura-as-historias-curiosas-da-quimica/&gt;. Acesso em: 3 ago. 2021.
+                        </p>
+
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    Como é possível descobrir a concentração da solução de pérola e vinagre?
+                                </li>
+                                <li class="general-text">
+                                    Como descobrir a quantidade de vinagre que devemos adicionar à solução caso desejemos um suplemento de cálcio mais diluído?
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie-hab">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT101
+                                </span> e
+                                <span class='boxe-06-texto'>
+                                  EM13CNT301
+                                </span>.</span>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="text-content-area">
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Diluição</h3>
+                        </div>
+
+                        <p class="general-text">Diluir soluções consiste em adicionar mais solvente a uma solução já existente. Os reagentes químicos de laboratório são vendidos em determinada concentração, como o ácido sulfúrico, por exemplo, que é vendido na forma de solução
+                            com 16 mol/L. Se desejarmos utilizar uma solução desse ácido com 1 mol/L, será necessário realizar uma diluição.</p>
+                        <p class="general-text">
+                            Como a quantidade de matéria do soluto não se altera durante a diluição, podemos afirmar que:
+                            <i>n</i>
+                            <sub>soluto antes</sub>
+                            <simbolos>=</simbolos>
+                            <i>n</i>
+                            <sub>soluto depois</sub> .
+                        </p>
+
+                        <p class="general-text">
+                            Sabemos que: quantidade de matéria
+                            <simbolos>=</simbolos>
+                            molaridade
+                            <simbolos>·</simbolos>
+                            volume, então:
+                        </p>
+                        <p class="general-text">
+                            <simbolos>&#625;</simbolos>
+                            <sub>i</sub>
+                            <simbolos>·</simbolos>
+                            <i>V</i>
+                            <sub>i</sub>
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <sub>f</sub>
+                            <simbolos>·</simbolos>
+                            <i>V</i><sub>f</sub>
+                        </p>
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-1' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-1' class='lbl-toggle-mat'>
+                        <div class='flex-icon'>
+                            <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                            <p class='collapsible-title'>Fique ligado!</p>
+                        </div>
+                        <div class='flex-icon'>
+                            <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                            <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                        </div>
+                    </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    Após a diluição, o volume da solução aumenta, e a concentração diminui, porém
+                                                    <b>a quantidade de soluto (em quantidade de matéria ou em massa) continua a mesma</b> .
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="general-text">
+                            Vamos acompanhar o exemplo: para realizar um experimento, um químico precisa de 50 mL de solução de ácido nítrico (HNO
+                            <sub>3</sub> ) com concentração de 0,5 mol/L, mas ele dispõe apenas do ácido concentrado, com 14,5 mol/L. Que volume do ácido concentrado deverá ser diluído?
+                        </p>
+                        <p class="general-text">
+                            <simbolos>&#625;</simbolos>
+                            <sub>i</sub>
+                            <simbolos>·</simbolos>
+                            <i>V</i>
+                            <sub>i</sub>
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <sub>f</sub>
+                            <simbolos>·</simbolos>
+                            <i>V</i>
+                            <sub>f</sub>
+                        </p>
+                        <p class="general-text">
+                            14,5
+                            <simbolos>·</simbolos>
+                            <i>V</i>
+                            <sub>i</sub>
+                            <simbolos>=</simbolos>
+                            0,5
+                            <simbolos>·</simbolos>
+                            50
+                            <simbolos>~</simbolos>
+                            <i>V</i>
+                            <sub>i</sub>
+                            <simbolos>=</simbolos>
+                            1,7 mL
+                        </p>
+
+
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-2' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-2' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    <i>V</i>
+                                                    <sub>f</sub>
+                                                    <simbolos>=</simbolos>
+                                                    <i>V</i>
+                                                    <sub>i</sub>
+                                                    <simbolos>+</simbolos>
+                                                    <i>V</i>
+                                                    </boxe_17_texto>
+                                                    <sub>solvente adicionado</sub>
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <p class="general-text">Isso significa que devemos adicionar uma quantidade suficiente de água ao volume de 1,7 mL de ácido para obter 50 mL de solução.</p>
+
+
+                        <div class="questao-resolvida">
+                            <div class=" flex-icon header-questao-resolvida">
+                                <img src="./assets/icons/06_BOXE_04.svg" class="icon-boxe"> Questão resolvida
+                            </div>
+
+
+
+                            <div class="flex-exercicios">
+                                <p class='exercicio-text'><b>1</b></p>
+                                <p class='exercicio-text'> Uma massa de 0,5 g de um ácido orgânico de massa molar 100 g/mol é colocada em um balão volumétrico com capacidade de 500 mL e, em seguida, completa-se com água. Qual é a concentração em mol/L dessa solução?</p>
+                            </div>
+
+                            <h3 class="titulo3">Resolução: </h3>
+                            <p class="exercicio-text ml"> Quantidade de matéria do ácido (
+                                <i>n</i> )
+                                <simbolos>=</simbolos>
+                                <img src="./assets/img/001_math.png" alt="imagem" class="img-littlee2">
+                                <simbolos>=</simbolos>
+                                0,005 mol; volume completado
+                                <simbolos>=</simbolos>
+                                500 mL
+                                <simbolos>=</simbolos>
+                                0,5 L</p>
+                            <p class="exercicio-text ml">
+                                <simbolos>&#625;</simbolos>
+                                <simbolos>=</simbolos>
+                                <img src="./assets/img/002_math.png" alt="imagem" class="img-littlee2">
+                                <simbolos>=</simbolos>
+                                0,01 mol/L
+                            </p>
+                        </div>
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Misturas</h3>
+                        </div>
+
+
+                        <p class="general-text">Existem dois tipos de misturas de soluções: 1) quando misturamos duas soluções de mesmo soluto; 2) quando misturamos duas soluções de solutos diferentes. No primeiro caso, conseguimos calcular a nova concentração facilmente: basta
+                            somar as quantidades de soluto de cada uma e dividir pela soma dos volumes das soluções.</p>
+                        <p class="general-text">
+                            Para exemplificar esse primeiro caso, vamos considerar uma solução de bicarbonato de sódio (NaHCO
+                            <sub>3</sub> ) de 40 mL e 0,5 mol/L e outra solução também de bicarbonato de sódio, porém com volume de 60 mL e concentração de 0,8 mol/L. Qual será a concentração da mistura dessas soluções?
+                        </p>
+                        <p class="general-text">Primeiro, calculamos a quantidade de soluto na solução de 0,5 mol/L:</p>
+                        <p class="general-text">
+                            <i>n </i>
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <simbolos>·</simbolos>
+                            <i>V</i>
+                        </p>
+                        <p class="general-text">
+                            <i>n</i>
+                            <simbolos>=</simbolos>
+                            0,5
+                            <simbolos>·</simbolos>
+                            0,04
+                            <simbolos>=</simbolos>
+                            0,02 mol de NaHCO
+                            <sub>3 </sub>
+                        </p>
+                        <p class="general-text">Depois, calculamos a quantidade de soluto na solução de 0,8 mol/L:</p>
+                        <p class="general-text">
+                            <i>n</i>
+                            <simbolos>=</simbolos>
+                            0,8
+                            <simbolos>·</simbolos>
+                            0,06
+                            <simbolos>=</simbolos>
+                            0,048 mol de NaHCO
+                            <sub>3 </sub>
+                        </p>
+                        <p class="general-text">
+                            Logo, a quantidade de soluto na mistura é 0,02
+                            <simbolos>+</simbolos>
+                            0,048
+                            <simbolos>=</simbolos>
+                            0,068 mol de NaHCO
+                            <sub>3</sub> ;
+                            <sub></sub> o volume total da mistura é 40 mL
+                            <simbolos>+</simbolos>
+                            60 mL
+                            <simbolos>=</simbolos>
+                            100 mL; e a concentração em quantidade de matéria da mistura é:
+                        </p>
+                        <p class="general-text">
+                            <simbolos>&#625;</simbolos>
+                            <simbolos>=</simbolos>
+                            <imagem>&lt;003_math.png&gt;</imagem>
+                            <simbolos>=</simbolos>
+                            0,68 mol/L
+                        </p>
+
+
+                        <div class="questao-resolvida">
+                            <div class=" flex-icon header-questao-resolvida">
+                                <img src="./assets/icons/06_BOXE_04.svg" class="icon-boxe"> Questão resolvida
+                            </div>
+
+                            <div class="flex-exercicios">
+                                <p class='exercicio-text'><b>1</b></p>
+                                <p class='exercicio-text'> <b>UEL-PR 2016</b> Cada um dos béqueres representados a seguir contém soluções aquosas com partículas de um determinado soluto. O soluto é o mesmo em todos os béqueres.</p>
+                            </div>
+                            <img src="./assets/img/I001-2020-EM-QUI-1S-L2-FA-U5-C19.png" alt="imagem" class="img-full-width">
+                            <p class="exercicio-text ml">Com base nos conhecimentos sobre concentração de soluções, responda aos itens a seguir. </p>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li> Quais soluções são as mais concentradas? Explique.</li>
+                                <li>Quando as soluções B e E são combinadas, a solução resultante terá a mesma concentração da solução contida no béquer A? Explique.</li>
+                            </ol>
+
+
+                            <h3 class="titulo3">Resolução: </h3>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li> Supondo que 1 mol do soluto corresponda à bolinha vermelha na imagem, podemos calcular a concentração de cada recipiente:</li>
+                                <p class="exercicio-text ml"> Recipiente A:
+                                    <simbolos>&#625;</simbolos>
+                                    <sub>A</sub>
+                                    <simbolos>=</simbolos>
+                                    <img src="./assets/img/006_math.png" alt="imagem" class="img-littlee2">
+                                    <simbolos>=</simbolos>
+                                    24 mol/L
+                                </p>
+                                <p class="exercicio-text ml">Recipiente B:
+                                    <simbolos>&#625;</simbolos>
+                                    <sub>B</sub>
+                                    <simbolos>=</simbolos>
+                                    <img src="./assets/img/007_math.png" alt="imagem" class="img-littlee2">
+                                    <simbolos>=</simbolos>
+                                    12 mol/L
+                                </p>
+                                <p class="exercicio-text ml">Recipiente C:
+                                    <simbolos>&#625;</simbolos>
+                                    <sub>C</sub>
+                                    <simbolos>=</simbolos>
+                                    <img src="./assets/img/008_math.png" alt="imagem" class="img-littlee2">
+                                    <simbolos>=</simbolos>
+                                    16 mol/L
+                                </p>
+                                <p class="exercicio-text ml"> Recipiente D:
+                                    <simbolos>&#625;</simbolos>
+                                    <sub>D</sub>
+                                    <simbolos>=</simbolos>
+                                    <img src="./assets/img/009_math.png" alt="imagem" class="img-littlee2">
+                                    <simbolos>=</simbolos>
+                                    6 mol/L
+
+                                </p>
+                                <p class="exercicio-text ml">Recipiente E:
+                                    <simbolos>&#625;</simbolos>
+                                    <sub>E</sub>
+                                    <simbolos>=</simbolos>
+                                    <img src="./assets/img/010_math.png" alt="imagem" class="img-littlee2">
+                                    <simbolos>=</simbolos>
+                                    24 mol/L
+                                </p>
+                                <p class="exercicio-text ml">Recipiente F:
+                                    <simbolos>&#625;</simbolos>
+                                    <sub>F</sub>
+                                    <simbolos>=</simbolos>
+                                    <img src="./assets/img/011_math.png" alt="imagem" class="img-littlee2">
+                                    <simbolos>=</simbolos>
+                                    16 mol/L
+                                </p>
+                                <p class="exercicio-text ml">As soluções mais concentradas são A e E, com 24 mol/L.</p>
+                                <li> Recipiente B: 3 mol e 0,25 L; recipiente E: 6 mol e 0,25 L; recipiente B
+                                    <simbolos>+</simbolos>
+                                    E
+                                    <simbolos>:</simbolos>
+                                    3
+                                    <simbolos>+</simbolos>
+                                    6
+                                    <simbolos>=</simbolos>
+                                    9 mol; volume total
+                                    <simbolos>=</simbolos>
+                                    0,25 L
+                                    <simbolos>+</simbolos>
+                                    0,25 L
+                                    <simbolos>=</simbolos>
+                                    0,5 L.</li>
+                                <p class="exercicio-text ml">
+                                    <simbolos> M</simbolos>
+                                    <simbolos>=</simbolos>
+                                    <img src="./assets/img/012_math.png" alt="imagem" class="img-littlee2">
+                                    <simbolos>=</simbolos>
+                                    18 mol/L</p>
+                                <p class="exercicio-text ml"> A solução resultante não terá a mesma concentração que a solução A.</p>
+                            </ol>
+
+                        </div>
+
+
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Titulação</h3>
+                        </div>
+
+                        <p class="general-text">
+                            Um problema recorrente para os químicos é a necessidade de descobrir a concentração de soluções que não foram devidamente identificadas. Para resolvê-lo, é comum fazer uso da técnica de
+                            <b>titulação</b> . Um dos tipos de titulação empregados serve para determinar a concentração de soluções ácidas ou básicas.
+                        </p>
+                        <p class="general-text">
+                            No procedimento da titulação ácido-base, utiliza-se uma solução com concentração conhecida, chamada de
+                            <b>titulante</b> , a solução com concentração desconhecida, chamada de
+                            <b>titulado</b> , e um indicador ácido-base, que muda de cor em função do pH do meio. O titulante é colocado em uma bureta, e o titulado em um erlenmeyer com volume definido.
+                        </p>
+                        <p class="general-text">
+                            A bureta controla o volume de titulante que será adicionado à solução-problema. Vamos supor que, na bureta, exista uma solução básica de KOH e, no erlenmeyer, uma solução ácida de HBr. Conforme adicionamos KOH ao HBr, a reação KOH(aq)
+                            <simbolos>+</simbolos>
+                            HBr(aq)
+                            <simbolos>&#10141;</simbolos>
+                            KBr(aq)
+                            <simbolos>+</simbolos>
+                            H
+                            <sub>2</sub> O(
+                            <simbolos>&#8467;</simbolos>
+                            ) vai acontecendo.
+                        </p>
+                        <p class="general-text">O fim da titulação é chamado de ponto de equivalência e ocorre quando a quantidade de matéria da base se iguala à quantidade de matéria do ácido. Esse ponto é identificado pela alteração de cor do indicador ácido-base.</p>
+                        <p class="general-text">Vamos supor que 40 mL de HBr com concentração não conhecida tenha sido titulado com KOH 0,6 mol/L. Ao final da titulação, a bureta mostrou que foram gastos 26 mL da base. Qual é a concentração molar do HBr?</p>
+
+                        <img src="./assets/img/I002-2020-EM-QUI-1S-L2-FA-U5-C19.png" alt="imagem" class="img-md">
+                        <p class="general-text">
+                            KOH(aq)
+                            <simbolos>+</simbolos>
+                            HBr(aq)
+                            <simbolos>&#10141;</simbolos>
+                            KBr(aq)
+                            <simbolos>+</simbolos>
+                            H
+                            <sub>2</sub> O(
+                            <simbolos>&#8467;</simbolos>
+                            )
+                        </p>
+                        <p class="general-text">
+                            <simbolos> &#625;</simbolos>
+                            <sub>KOH</sub>
+                            <simbolos>=</simbolos>
+                            0,6 mol/L
+                            <simbolos>&#625;</simbolos>
+                            <sub>HBr</sub>
+                            <simbolos>=</simbolos>
+                            ?
+                        </p>
+                        <p class="general-text">
+                            <i>	V</i>
+                            <sub>KOH</sub>
+                            <simbolos>=</simbolos>
+                            26 mL
+                            <i>V</i>
+                            <sub>HBr</sub>
+                            <simbolos>=</simbolos>
+                            40 mL
+                        </p>
+                        <p class="general-text">
+                            Podemos afirmar que no fim da titulação
+                            <i>n</i>
+                            <sub>KOH</sub>
+                            <simbolos>=</simbolos>
+                            <i>n</i>
+                            <sub>HBr</sub>
+                        </p>
+                        <p class="general-text">
+                            <i>	n</i>
+                            <sub>KOH</sub>
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <sub>KOH</sub>
+                            <simbolos>·</simbolos>
+                            <i>V</i>
+                            <sub>KOH</sub>
+                            <i>n</i>
+                            <sub>HBr</sub>
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <sub>HBr</sub>
+                            <simbolos>·</simbolos>
+                            <i>V</i>
+                            <sub>HBr </sub>
+                        </p>
+                        <p class="general-text">
+                            <i>	n</i>
+                            <sub>KOH</sub>
+                            <simbolos>=</simbolos>
+                            0,6
+                            <simbolos>·</simbolos>
+                            0,026 0,0156
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <sub>HBr</sub>
+                            <simbolos>·</simbolos>
+                            0,040
+                        </p>
+                        <p class="general-text">
+                            <i>	n</i>
+                            <sub>KOH</sub>
+                            <simbolos>=</simbolos>
+                            0,0156 mol
+                            <simbolos>&#625;</simbolos>
+                            <sub>HBr</sub>
+                            <simbolos>=</simbolos>
+                            0,39 mol/L
+                        </p>
+                        <p class="general-text">
+                            Agora, vamos supor que a solução-problema seja a base Ca(OH)
+                            <sub>2</sub> , e o titulante seja o HC
+                            <simbolos>&#8467;</simbolos>
+
+                            . Temos 25 mL de Ca(OH)
+                            <sub>2</sub> no erlenmeyer e gastamos 12 mL de HC
+                            <simbolos>&#8467;</simbolos>
+
+                            1,5 mol/L para realizar a titulação. Qual será a concentração em quantidade de matéria da base?
+                        </p>
+                        <p class="general-text">
+                            2 HC
+                            <simbolos>&#8467;</simbolos>
+
+                            (aq)
+                            <simbolos>+</simbolos>
+                            Ca(OH)
+                            <sub>2</sub> (aq)
+                            <simbolos>&#10141;</simbolos>
+
+                            CaC
+                            <simbolos>&#8467;</simbolos>
+
+                            <sub>2</sub> (aq)
+                            <simbolos>+</simbolos>
+                            2 H
+                            <sub>2</sub> O(
+                            <simbolos>&#8467;</simbolos>
+
+                            )
+                        </p>
+                        <p class="general-text">
+                            <simbolos>&#625;</simbolos>
+
+                            <simbolos>=</simbolos>
+                            1,5 mol/L
+                            <simbolos>&#625;</simbolos>
+                            <simbolos>=</simbolos>
+                            ?
+                        </p>
+                        <p class="general-text">
+                            <i>	V</i>
+                            <simbolos>=</simbolos>
+                            12 mL
+                            <i>V</i>
+                            <simbolos>=</simbolos>
+                            25 mL
+                        </p>
+                        <p class="general-text">
+                            Como a proporção é de 2:1, não podemos afirmar que a quantidade de matéria do ácido é igual à quantidade de matéria da base, mas sim o dobro. Então: 2
+                            <simbolos>·</simbolos>
+                            <i>n</i>
+                            <sub>
+                        HC
+                         <simbolos>&#8467;</simbolos>
+                
+                      </sub>
+                            <simbolos>=</simbolos>
+                            <i>n</i>
+                            <sub>Ca(OH)2</sub> .
+                        </p>
+                        <p class="general-text">
+                            <i>	n</i>
+                            <sub>
+                      HC
+                       <simbolos>&#8467;</simbolos>
+              
+                    </sub>
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <simbolos>·</simbolos>
+                            <i>V</i> 2 HC
+                            <simbolos>&#8467;</simbolos>
+
+                            1 Ca(OH)
+                            <sub>2 </sub>
+                        </p>
+                        <p class="general-text">
+                            <i>	n</i>
+                            <sub>
+                    HC
+                     <simbolos>&#8467;</simbolos>
+            
+                  </sub>
+                            <simbolos>=</simbolos>
+                            1,5
+                            <simbolos>·</simbolos>
+                            0,012 0,018
+                            <i>x</i>
+                        </p>
+
+                        <p class="general-text">
+                            <i>	n</i>
+                            <sub>
+                  HC
+                   <simbolos>&#8467;</simbolos>
+          
+                </sub>
+                            <simbolos>=</simbolos>
+                            0,018 mol
+                            <i>x</i>
+                            <simbolos>=</simbolos>
+                            0,009 mol
+                        </p>
+                        <p class="general-text">
+                            <i>	n</i>
+                            <sub>Ca(OH)2</sub>
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <simbolos>·</simbolos>
+                            <i>V</i>
+                        </p>
+                        <p class="general-text">
+                            0,009
+                            <simbolos>=</simbolos>
+                            <simbolos>&#625;</simbolos>
+                            <simbolos>·</simbolos>
+                            0,025
+                        </p>
+                        <p class="general-text">
+                            <simbolos>&#625;</simbolos>
+
+                            <simbolos>=</simbolos>
+                            0,36 mol/L
+                        </p>
+
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-3' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-3' class='lbl-toggle-mat'>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                              <p class='collapsible-title'>Fique ligado!</p>
+                          </div>
+                          <div class='flex-icon'>
+                              <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                              <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                          </div>
+                      </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    Somente é possível afirmar que a quantidade de matéria do ácido será igual à quantidade de matéria da base quando a proporção na reação de neutralização for de 1:1.
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class='questao-resolvida'>
+                            <div class='flex-icon header-questao-resolvida'>
+                                <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                            </div>
+
+
+                            <div class="flex-exercicios">
+                                <p class='exercicio-text'><b>1</b></p>
+                                <p class='exercicio-text'> <b>UFSM-RS</b> O leite de magnésia, usado como antiácido e laxante, contém em sua formulação o composto Mg(OH)
+                                    <sub>2</sub> . A concentração de uma amostra de 10 mL de leite de magnésia que foi titulada com 12,5 mL de HC
+                                    <simbolos>&#8467;</simbolos>
+
+                                    0,5 mol/L é, em mol/L, de:</p>
+                            </div>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li> 0,1</li>
+                                <li>0,3</li>
+                                <li>0,5</li>
+                                <li>0,6</li>
+                                <li>1,2</li>
+                            </ol>
+
+                            <h3 class="titulo3">Resolução: </h3>
+                            <p class="exercicio-text ml">
+                                Alternativa B </p>
+
+                            <p class="exercicio-text ml">
+
+                                Mg(OH)
+                                <sub>2</sub> (aq)
+                                <simbolos>+</simbolos>
+                                2 HC
+                                <simbolos>&#8467;</simbolos>
+
+                                (aq)
+                                <simbolos>&#10141;</simbolos>
+
+                                MgC
+                                <simbolos>&#8467;</simbolos>
+
+                                <sub>2</sub> (aq)
+                                <simbolos>+</simbolos>
+                                2 H
+                                <sub>2</sub> O(
+                                <simbolos>&#8467;</simbolos>
+
+                                )
+                            </p>
+
+                            <p class="exercicio-text ml">
+                                Temos, então, a proporção de 1 base : 2 ácido. </p>
+
+                            <p class="exercicio-text ml">
+                                Primeiro, calculamos a quantidade de matéria do ácido: </p>
+
+                            <p class="exercicio-text ml">
+
+                                <i>n</i>
+                                <simbolos>=</simbolos>
+                                <simbolos>&#625;</simbolos>
+                                <simbolos>·</simbolos>
+                                <i>V</i>
+                            </p>
+
+                            <p class="exercicio-text ml">
+
+                                <i>n</i>
+                                <simbolos>=</simbolos>
+                                0,5
+                                <simbolos>·</simbolos>
+                                0,0125
+                                <simbolos>=</simbolos>
+                                0,00625 mol
+                            </p>
+
+                            <p class="exercicio-text ml">
+                                Depois, descobrimos a quantidade de matéria da base utilizando a proporção: </p>
+
+                            <p class="exercicio-text ml">
+
+                                1 Mg(OH)
+                                <sub>2</sub> 2 HC
+                                <simbolos>&#8467;</simbolos>
+
+                            </p>
+
+                            <p class="exercicio-text ml">
+
+                                <i>	x</i> 0,00625
+                            </p>
+
+                            <p class="exercicio-text ml">
+
+                                <i>	x</i>
+                                <simbolos>=</simbolos>
+                                0,003125 mol Mg(OH)
+                                <sub>2 </sub>
+                            </p>
+
+                            <p class="exercicio-text ml">
+                                Agora que temos a quantidade de matéria da base e o volume, podemos calcular a concentração: </p>
+
+                            <p class="exercicio-text ml">
+
+                                <i>n</i>
+                                <simbolos>=</simbolos>
+                                <simbolos>&#625;</simbolos>
+                                <simbolos>·</simbolos>
+                                <i>V</i>
+                            </p>
+
+                            <p class="exercicio-text ml">
+
+                                0,003125
+                                <simbolos>=</simbolos>
+                                <simbolos>&#625;</simbolos>
+                                <simbolos>·</simbolos>
+                                0,010
+                                <simbolos>&#8658; &#625;</simbolos>
+                                <simbolos>=</simbolos>
+                                0,3125 mol/L
+                            </p>
+
+                        </div>
+
+
+                    </div>
+
+
+
+                    <!-- Predicting -->
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe"> Aplicando conhecimentos
+                        </div>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>1</b></p>
+                            <p class='exercicio-text'>O cloreto de benzalcônio é um desinfetante que está à venda na forma concentrada e é usado na limpeza de locais onde vivem animais como cachorros e gatos. O frasco vendido tem concentração de 150 g/L e indica diluir 100 mL
+                                dessa solução em 5 litros de água para limpar o chão. Qual é a concentração do desinfetante após a diluição?</p>
+                        </div>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>1,5 g/L</li>
+                            <li>30 g/L</li>
+                            <li>3 g/L</li>
+                            <li>15 g/L</li>
+                            <li>0,3 g/L</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>2</b></p>
+                            <p class='exercicio-text'>Em um laboratório, é comum existirem frascos para o descarte de soluções químicas, evitando que cheguem aos esgotos, prejudicando o meio ambiente. Um técnico descartou, no mesmo frasco, 50 mL de uma solução 2 mol/L de HC
+                                <simbolos>&#8467;</simbolos>
+
+                                e 10 mL de outra solução também de HC
+                                <simbolos>&#8467;</simbolos>
+
+                                , mas com concentração 0,2 mol/L. Qual era a concentração da solução no recipiente de descarte?</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>3</b></p>
+                            <p class='exercicio-text'> Acidentalmente um aluno de Química derrubou 5 mL de uma solução de NaOH 0,1 mol/L em um frasco de ácido fluorídrico (HF) com 100 mL e concentração 0,1 mol/L. Qual é a concentração final do ácido nessa mistura?</p>
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>4</b></p>
+                            <p class='exercicio-text'> Com o tempo, o rótulo de uma solução básica de Ca(OH)
+                                <sub>2</sub> descolou-se e foi perdido, assim sua concentração ficou desconhecida. Para fazer um novo rótulo, resolveu-se titular 25 mL da base com ácido clórico (HC
+                                <simbolos>&#8467;</simbolos>
+
+                                O
+                                <sub>3</sub> ), de concentração 0,5 mol/L, gastando-se 12 mL. Qual é a concentração da base?</p>
+                        </div>
+
+
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>5</b></p>
+                            <p class='exercicio-text'> <b>FICSAE-SP 2016</b> Para determinar a pureza de uma amostra de ácido sulfúrico (H
+                                <sub>2</sub> SO
+                                <sub>4</sub> ), uma analista dissolveu 14 g do ácido em água até obter 100 mL de solução. A analista separou 10 mL dessa solução e realizou a titulação, utilizando fenolftaleína como indicador. A neutralização dessa alíquota
+                                foi obtida após a adição de 40 mL de uma solução aquosa de hidróxido de sódio (NaOH) de concentração 0,5 mol/L. O teor de pureza da amostra de ácido sulfúrico analisado é, aproximadamente,</p>
+                        </div>
+
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>18%</li>
+                            <li>50%</li>
+                            <li>70%</li>
+                            <li>90%</li>
+                        </ol>
+
+
+                    </div>
+
+
+
+
+                    <div class="text-content-area">
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>1</b></p>
+                            <p class='exercicio-text'><b>Mackenzie-SP 2018</b> Em uma embalagem de 2 L de água sanitária, facilmente encontrada em supermercados, encontra-se a seguinte informação: &#8220;O teor de cloro ativo do produto varia de 2% a 2,5% (m/V)&#8221;. Essa solução
+                                pode ser utilizada para tratamento de água de piscina nas concentrações de 1,0 a 2,0 mg de cloro ativo por litro; sendo que, acima de 2,0 mg de cloro ativo por litro, a água se torna irritante aos olhos. Em duas piscinas
+                                (A e B), de capacidades volumétricas diferentes, foram adicionados 2 L de água sanitária a cada uma delas. Desta forma, ocorreu a diluição da água sanitária na água contida em cada piscina, conforme descrito na tabela abaixo:</p>
+                        </div>
+                        <img src="./assets/img/tabela.png" alt="imagem" class="img-md">
+                        <p class='exercicio-text ml'>Sendo assim, foram feitas as seguintes afirmações.</p>
+
+                        <ol class="questao-alternativas ml" type="I">
+                            <li> Há de 20 a 25 g de cloro ativo por litro dessa solução comercial.</li>
+                            <li>Na piscina A, a solução formada após a diluição seria irritante aos olhos do usuário dessa piscina.</li>
+                            <li>Na piscina B, a solução formada após a diluição seria adequada ao tratamento de água.</li>
+                        </ol>
+                        <p class='exercicio-text ml'>Das afirmações realizadas, </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Nenhuma é correta.</li>
+                            <li>São corretas, apenas, I e II.</li>
+                            <li>São corretas, apenas, II e III.</li>
+                            <li>São corretas, apenas, I e III.</li>
+                            <li>Todas são corretas.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>2</b></p>
+                            <p class='exercicio-text'> <b>EsPCEx-SP 2017</b> Em uma aula prática de Química, o professor forneceu a um grupo de alunos 100 mL de uma solução aquosa de hidróxido de sódio de concentração 1,25 mol/L. Em seguida solicitou que os alunos realizassem um
+                                procedimento de diluição e transformassem essa solução inicial em uma solução final de concentração 0,05 mol/L. Para obtenção da concentração final nessa diluição, o volume de água destilada que deve ser adicionado é de</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>2400 mL</li>
+                            <li>2000 mL</li>
+                            <li>1200 mL</li>
+                            <li>700 mL</li>
+                            <li>200 mL</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>3</b></p>
+                            <p class='exercicio-text'> <b>UEMG 2018</b> Em um balão volumétrico, foram adicionados 60 mL de uma solução de HNO
+                                <sub>3</sub> de concentração desconhecida e 40 mL de solução de KOH 0,4 mol/L. A solução resultante se mostrou neutra. Qual a molaridade da solução de ácido nítrico?</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>0,1 mol/L</li>
+                            <li>0,25 mol/L</li>
+                            <li> 0,4 mol/L</li>
+                            <li>0,55 mol/L</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>4</b></p>
+                            <p class='exercicio-text'><b>UEM-PR 2017</b> Um estudante tem à sua disposição no laboratório água destilada e as seguintes soluções:</p>
+                        </div>
+                        <p class='exercicio-text ml'>Frasco I &#8211; 300 mL de solução aquosa de NaOH a 5 mol/L </p>
+                        <p class='exercicio-text ml'>Frasco II &#8211; 100 mL de solução aquosa de H
+                            <sub>2</sub> SO
+                            <sub>4</sub> a 1 mol/L</p>
+                        <p class='exercicio-text ml'> Frasco III &#8211; 100 mL de solução aquosa de H
+                            <sub>2</sub> SO
+                            <sub>4</sub> a 3 mol/L</p>
+                        <p class='exercicio-text ml'>Assinale os procedimentos realizados corretamente pelo estudante. </p>
+
+                        <div class="flex-exercicios ml">
+                            <p class='exercicio-text'><b>01.</b></p>
+                            <p class='exercicio-text'> Para preparar 500 mL de solução aquosa de NaOH a 0,1 mol/L, ele colocou 10 mL da solução do frasco I em um balão volumétrico e completou os 500 mL com água destilada.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class='exercicio-text'><b>02.</b></p>
+                            <p class='exercicio-text'> Para preparar 500 mL de uma solução aquosa de NaOH a 2 mol/L, ele colocou 200 mL de água destilada e completou os 500 mL com a solução do frasco I.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class='exercicio-text'><b>04.</b></p>
+                            <p class='exercicio-text'> Para neutralizar totalmente 20 mL da solução do frasco I, ele adicionou 50 mL da solução do frasco II.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class='exercicio-text'><b>08.</b></p>
+                            <p class='exercicio-text'> Para preparar uma solução de H
+                                <sub>2</sub> SO
+                                <sub>4</sub> a 2 mol/L, ele misturou 100 mL da solução do frasco II com 100 mL da solução do frasco III.</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class='exercicio-text'><b>16.</b></p>
+                            <p class='exercicio-text'> Para preparar 100 mL de solução de concentração de íons H
+                                <sub>+</sub> a 1,5 mol/L, ele colocou 50 mL da solução do frasco III em um balão volumétrico e completou os 100 mL com água destilada.</p>
+                        </div>
+                        <div class="align-horizontal ml margin-top-1">
+                            <b>Soma:</b> <span class="fake-input-model"></span>
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"> <b>UFRGS 2018</b> O soro fisiológico é uma solução aquosa 0,9% em massa de NaC
+                                <simbolos>&#8467;</simbolos>
+
+                                . Um laboratorista preparou uma solução contendo 3,6 g de NaC
+                                <simbolos>&#8467;</simbolos>
+
+                                em 20 mL de água. Qual volume aproximado de água será necessário adicionar para que a concentração corresponda à do soro fisiológico?</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>20 mL</li>
+                            <li>180 mL</li>
+                            <li>380 mL</li>
+                            <li>400 mL</li>
+                            <li>1000 mL</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"> <b>IME-RJ 2016</b> Uma solução aquosa A, preparada a partir de ácido bromídrico, é diluída com água destilada até que sua concentração seja reduzida à metade. Em titulação, 50 mL da solução diluída consomem 40 mL de uma solução
+                                de hidróxido de potássio 0,25 mol/L. Determine a concentração da solução A, em g/L.</p>
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"><b>Unesp 2017</b> A dipirona sódica monoidratada (massa molar
+                                <simbolos>=</simbolos>
+                                351 g/mol) é um fármaco amplamente utilizado como analgésico e antitérmico. De acordo com a Farmacopeia Brasileira, os comprimidos desse medicamento devem conter de 95% a 105% da quantidade do fármaco com solução de iodo (I
+                                <sub>2</sub> ) a 0,050 mol/L, utilizando amido como indicador, sendo que cada mol de iodo utilizado na titulação corresponde a um mol de dipirona sódica monoidratada. Uma solução aquosa foi preparada pela dissolução de
+                                um comprimido de dipirona sódica monoidratada, cuja bula declara conter 500 mg desse fármaco. Sabendo que a titulação dessa solução consumiu 28,45 mL de solução de iodo 0,050 mol/L, calcule o valor da massa de dipirona
+                                sódica monoidratada presente nesse comprimido e conclua se esse valor de massa está ou não dentro da faixa de porcentagem estabelecida na Farmacopeia Brasileira.</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>8</b></p>
+                            <p class="exercicio-text"> <b>PUC-Rio 2016</b> Uma solução aquosa de nitrato de prata (0,050 mol/L) é usada para se determinar, por titulação, a concentração de cloreto em uma amostra aquosa. Exatos 10 mL da solução titulan- te foram requeridos para
+                                reagir com os íons C
+                                <simbolos>&#8467;</simbolos>
+
+                                <sub></sub>
+                                <sub>&#8211;</sub> presentes em 50 mL de amostra. Assinale a concentração, em mol/L, de cloreto, considerando que nenhum outro íon na solução da amostra reagiria com o titulante.</p>
+                        </div>
+                        <p class="exercicio-text ml">Dados: Ag
+                            <sub>+</sub>
+                            <simbolos>+</simbolos>
+                            C
+                            <simbolos>&#8467;</simbolos>
+
+                            <sub>&#8211;</sub>
+                            <simbolos>&#10141;</simbolos>
+                            AgC
+                            <simbolos>&#8467;</simbolos>
+                        </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>0,005</li>
+                            <li>0,010</li>
+                            <li>0,025</li>
+                            <li>0,050</li>
+                            <li>0,100</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>9</b></p>
+                            <p class="exercicio-text">
+                                < <b>UEPG-PR 2016</b>
+                                    A titulação de uma amostra de calcário (carbonato de cálcio impuro), de massa 20 g, consome 100 mL de solução 72 g/L de ácido clorídrico. Sobre o assunto, assinale o que for correto.
+                                    <br> Dados: H
+                                    <simbolos>=</simbolos>
+                                    1 g/mol; Ca
+                                    <simbolos>=</simbolos>
+                                    40 g/mol; C
+                                    <simbolos>=</simbolos>
+                                    12 g/mol; O
+                                    <simbolos>=</simbolos>
+                                    16 g/mol; C
+                                    <simbolos>&#8467;</simbolos>
+                                    <simbolos>=</simbolos>
+                                    35,5 g/mol.</p>
+                        </div>
+
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>01.</b></p>
+                            <p class="exercicio-text">A fórmula do carbonato de cálcio é CaCO
+                                <sub>3 </sub></p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>02.</b></p>
+                            <p class="exercicio-text">A concentração do ácido clorídrico em mol/L é 2</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>04.</b></p>
+                            <p class="exercicio-text"> A porcentagem de pureza do calcário é 50%</p>
+                        </div>
+                        <div class="flex-exercicios ml">
+                            <p class="exercicio-text"><b>08.</b></p>
+                            <p class="exercicio-text">O ácido clorídrico é um oxiácido considerado forte em meio aquoso</p>
+                        </div>
+                        <div class="align-horizontal ml margin-top-1">
+                            <b>Soma:</b> <span class="fake-input-model"></span>
+                        </div>
+
+
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>10</b></p>
+                            <p class="exercicio-text"><b>Uece 2016</b> A titulação é um procedimento laboratorial que permite determinar a concentração desconhecida de uma substância a partir de uma substância de concentração conhecida. Em uma titulação representada pela equação:
+                                NaOH
+                                <simbolos>+</simbolos>
+                                HC
+                                <simbolos>&#8467;</simbolos>
+
+                                <simbolos>&#10141;</simbolos>
+
+                                NaC
+                                <simbolos>&#8467;</simbolos>
+
+                                <simbolos>+</simbolos>
+                                H
+                                <sub>2</sub> O, o equipamento usado para adicionar cuidadosamente o volume adequado da solução de NaOH é denominado:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Pipeta graduada</li>
+                            <li>Proveta</li>
+                            <li>Bureta</li>
+                            <li> Pipeta volumétrica</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>11</b></p>
+                            <p class="exercicio-text"> <b>FCMMG 2017</b> Tem-se observado que muitos médicos (e bons médicos) têm prescrito beber de manhã 2 gotas de Lugol, uma solução de iodo, na prevenção de uma série de enfermidades. Na preparação do Lugol, são misturados 2,5
+                                g de iodo sólido; 5 g de iodeto de potássio e água destilada suficiente para se completar 50 mL. O iodeto de potássio é utilizado para dissolver o iodo devido à formação do íon I
+                                <sub>3</sub>
+                                <sub>&#8211;</sub> . Dados: K
+                                <simbolos>=</simbolos>
+                                39; I
+                                <simbolos>=</simbolos>
+                                127</p>
+                        </div>
+                        <p class="exercicio-text ml">Analisando o texto e considerando cada gota 0,05 mL, seria INCORRETO afirmar que: </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> A quantidade de iodo molecular ingerida numa semana é cerca de 3,5
+                                <simbolos>·</simbolos>
+                                10
+                                <sub>&#8211;2</sub> g.
+                            </li>
+                            <li>A quantidade de mol de K
+                                <sub>+</sub> ingerida num dia seria de, aproximadamente, 6
+                                <simbolos>·</simbolos>
+                                10
+                                <sub>&#8211;5</sub> .
+                            </li>
+                            <li> As interações existentes no íon I
+                                <sub>3</sub>
+                                <sub>&#8211;</sub> formado são do tipo íon-dipolo induzido.</li>
+                            <li>As espécies químicas presentes no Lugol, solução a 5% (p/v), são iônicas.</li>
+                        </ol>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>12</b></p>
+                            <p class="exercicio-text"> <b>ITA-SP 2017</b> Considere duas soluções, X e Y, de um mesmo soluto genérico. A solução X tem 49% em massa do soluto, enquanto a solução Y possui 8% em massa do mesmo soluto. Quer-se obter uma terceira solução, que tenha
+                                20% em massa deste soluto, a partir da mistura de um volume
+                                <i>V</i>
+                                <sub>x</sub> da solução X com um volume V
+                                <sub>y</sub> da solução Y. Considerando que todas as soluções envolvidas exibem comportamento ideal, assinale a opção que apresenta a razão V
+                                <sub>x</sub> /V
+                                <sub>y</sub> CORRETA.
+                            </p>
+                        </div>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li><img src="./assets/img/l03_u1_cap04_001.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/l03_u1_cap04_002.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/l03_u1_cap04_003.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/l03_u1_cap04_004.png" alt="imagem" class="img-littlee"></li>
+                            <li><img src="./assets/img/l03_u1_cap04_005.png" alt="imagem" class="img-littlee"></li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>13</b></p>
+                            <p class="exercicio-text"> <b>FICSAE 2016</b> O náilon 6,6 e o poliestireno são polímeros que apresentam diversas aplicações na indústria. Um técnico misturou, inadvertidamente, amostras desses polímeros.</p>
+                        </div>
+                        <p class="exercicio-text ml">Dados: densidade do náilon 6,6
+                            <simbolos>=</simbolos>
+                            1,14 g
+                            <simbolos>· </simbolos>
+                            cm
+                            <sub>&#8211;3</sub> ; densidade do poliestireno
+                            <simbolos>=</simbolos>
+                            1,05 g
+                            <simbolos>·</simbolos>
+                            cm
+                            <sub>&#8211;3</sub> ; massa molar do NaC
+                            <simbolos>L =</simbolos>
+                            58,5 g
+                            <simbolos>·</simbolos>
+                            mol
+                            <sub>&#8211;1</sub ></p> 
+                              <img src="./assets/img/LUMEN_2021_2S_L3_QUI_I002.png" alt="imagem" class="img-md">
+                              <p class="exercicio-text ml"> Conhecendo a densidade desses materiais, ele decidiu preparar uma solução aquosa de cloreto de sódio (NaC
+                                <simbolos>&#8467;</simbolos>                      
+                               ) para separar as amostras. Para tanto, ele utilizou um balão volumétrico de 5,0 L. A massa de NaC
+                                <simbolos>&#8467;</simbolos>                       
+                               adequada para essa preparação é</p>
+                                <ol class="questao-alternativas ml" type="a">
+                                  <li>120 g.</li>
+                                  <li>300 g.</li>
+                                  <li>600 g.</li>
+                                  <li>1 300 g.</li>
+                                </ol>
+
+                                <div class="flex-exercicios">
+                                  <p class="exercicio-text"><b>14</b></p>
+                                  <p class="exercicio-text"><b>EsPCEx-SP 2017</b>
+                                    Em uma aula prática de química, o professor forneceu a um grupo de alunos 100 mL de uma solução aquosa de hidróxido de sódio de concentração 1,25 mol/L. Em seguida solicitou que os alunos realizassem um procedimento de diluição e transformassem essa solução inicial em uma solução final de concentração 0,05 mol/L. Para obtenção da concentração final nessa diluição, o volume de água destilada que deve ser adicionado é de</p>
+                              </div>
+                              <ol class="questao-alternativas ml" type="a">
+                                <li>2400 mL</li>
+                                <li>2000 mL</li>
+                                <li>1200 mL</li>
+                                <li>700 mL</li>
+                                <li>200 mL</li>
+                            </ol>
+
+
+                            <div class="flex-exercicios">
+                              <p class="exercicio-text"><b>15</b></p>
+                              <p class="exercicio-text"> <b>PUC-PR 2015</b>
+                                O hidróxido de cálcio &#8211; Ca(OH)
+                                <sub>2</sub> &#8211;, também conhecido como cal hidratada ou cal extinta, trata-se de um importante insumo utilizado na indústria da construção civil. Para verificar o grau de pureza (em massa)
+                            de uma amostra de hidróxido de cálcio, um laboratorista pesou 5 gramas deste e dissolveu completamente em 200 mL de solução de ácido clorídrico 1 mol/L. O excesso de ácido foi titulado com uma solução de hidróxido de sódio
+                            0,5 mol/L, na presença de fenolftaleína, sendo gastos 200 mL até completa neutralização. O grau de pureza da amostra analisada, expresso em porcentagem em massa, é de:</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>78%</li>
+                        <li>82%</li>
+                        <li>86%</li>
+                        <li>90%</li>
+                        <li>74%</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>16</b></p>
+                        <p class="exercicio-text"><b>PUC-Rio 2015</b> O volume de 25 mL de uma amostra aquosa de ácido oxálico (H
+                            <sub>2</sub> C
+                            <sub>2</sub> O
+                            <sub>4</sub> ) foi titulado com solução padrão 0,020 mol/L de KOH.</p>
+                    </div>
+                    <p class="exercicio-text ml"> H
+                        <sub>2</sub> C
+                        <sub>2</sub> O
+                        <sub>4</sub> (aq)
+                        <simbolos>+</simbolos>
+                        2 OH
+                        <sub>&#8211;</sub> (aq)
+                        <simbolos>&#10141;</simbolos>
+                        C
+                        <sub>2</sub> O
+                        <sub>4</sub>
+                        <sub>2&#8211;</sub> (aq)
+                        <simbolos>+</simbolos>
+                        2 H
+                        <sub>2</sub> O(
+                        <simbolos>&#8467;</simbolos>
+                        )</p>
+                    <p class="exercicio-text ml">A titulação alcançou o ponto de equivalência com 25 mL de solução titulante, assim, a concentração, em mol/L, de ácido oxálico na amostra original é igual a: </p>
+
+                    <ol class="questao-alternativas ml" type="a">
+                        <li> 1 · 10
+                            <sub>&#8211;3 </sub></li>
+                        <li> 2 · 10
+                            <sub>&#8211;3 </sub></li>
+                        <li> 1 · 10
+                            <sub>&#8211;2 </sub></li>
+                        <li> 2 · 10
+                            <sub>&#8211;2 </sub></li>
+                        <li> 1 · 10
+                            <sub>&#8211;1 </sub></li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>17</b></p>
+                        <p class="exercicio-text"><b>Unesp 2015</b> Chama-se titulação a operação de laboratório realizada com a finalidade de determinar a concentração de uma substância em determinada solução, por meio do uso de outra solução de concentração conhecida. Para tanto,
+                            adiciona-se uma solução-padrão, gota a gota, a uma solução-problema (solução contendo uma substância a ser analisada) até o término da reação, evidenciada, por exemplo, com uma substância indicadora. Uma estudante realizou
+                            uma titulação ácido-base típica, titulando 25 mL de uma solução aquosa de Ca(OH)
+                            <sub>2</sub> e gastando 20 mL de uma solução padrão de HNO
+                            <sub>3</sub> de concentração igual a 0,10 mol/L.</p>
+                    </div>
+                    <img src="./assets/img/I003-2020-EM-QUI-1S-L2-FA-U5-C19.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml"> Utilizando os dados do texto, apresente a equação balanceada de neutralização envol vida na titulação e calcule a concentração da solução de Ca(OH)
+                        <sub>2</sub> .
+                    </p>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>18</b></p>
+                        <p class="exercicio-text"><b>Mackenzie-SP 2016</b> 200 mL de uma solução aquosa de ácido sulfúrico de concentração igual a 1 mol/L foram misturados a 300 mL de uma solução aquosa de hidróxido de sódio de concentração igual a 2 mol/L. Após o final do processo
+                            químico ocorrido, é correto afirmar que:</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>A concentração do ácido excedente, na solução final, é de 0,4 mol/L.</li>
+                        <li>A concentração da base excedente, na solução final, é de 0,4 mol/L.</li>
+                        <li>A concentração do sal formado, na solução final, é de 0,2 mol/L.</li>
+                        <li>A concentração do sal formado, na solução final, é de 0,1 mol/L.</li>
+                        <li> Todo ácido e toda base foram consumidos.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>19</b></p>
+                        <p class="exercicio-text"><b>UFRGS 2015</b> A uma solução I saturada de K
+                            <sub>2</sub> Cr
+                            <sub>2</sub> O
+                            <sub>7</sub> de cor laranja é adicionada água pura até dobrar seu volume, mantendo-se a temperatura constante. A seguir, são adicionados alguns cristais de K
+                            <sub>2</sub> Cr
+                            <sub>2</sub> O
+                            <sub>7</sub> , sob agitação constante, até que ocorra o aparecimento de um precipitado de K
+                            <sub>2</sub> Cr
+                            <sub>2</sub> O
+                            <sub>7</sub> , obtendo-se a solução II, conforme esquematizado no desenho abaixo.</p>
+                    </div>
+                    <img src="./assets/img/I004-2020-EM-QUI-1S-L2-FA-U5-C19.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml">Considerando as concentrações de K
+                        <sub>2</sub> Cr
+                        <sub>2</sub> O
+                        <sub>7</sub> nessas soluções, pode-se afirmar que:</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>A concentração na solução I é o dobro da concentração na solução II.</li>
+                        <li>O precipitado é solubilizado quando se misturam as soluções I e II.</li>
+                        <li>A tonalidade laranja da solução I é mais intensa que a tonalidade laranja da solução II.</li>
+                        <li>A solução I deve apresentar maior ponto de ebulição que a solução II, quando considerados os efeitos coligativos.</li>
+                        <li>A concentração da solução I é igual à concentração da solução II.</li>
+                    </ol>
+
+                </div>
+
+
+                <div class="text-content-area">
+                    <div class="flex-icon enem">
+                        <img src="./assets/icons/07_SECAO_05.svg" class="icon-boxe"> No enem é assim
+                    </div>
+                    <p class="general-text"> As questões selecionadas nesta seção são prioritariamente do Enem, mas questões de vestibulares diversos que apresentam características semelhantes aos itens do referido exame também podem ser usadas como recurso para estudo.</p>
+
+
+
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>1</b></p>
+                        <p class="exercicio-text"><b>Unicamp 2021 </b> O oxímetro é usado na triagem para a Covid-19. Acoplado ao dedo, ele emite luz em dois comprimentos de onda (660 nm e 940 nm) e mede a quantidade de luz absorvida (A) em cada caso. A partir disso, determina
+                            a concentração percentual de oxi-hemoglobina (HbO
+                            <sub>2</sub> ) e de desoxi-hemoglobina (Hb) no sangue. Valores entre 95 e 100% para HbO
+                            <sub>2</sub> indicam normalidade.</p>
+                    </div>
+                    <img src="./assets/img/LUMEN_2021_2S_L3_QUI_I003.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml"> Simplificadamente, as quantidades de luz absorvidas em cada comprimento de onda (A) se relacionam matematicamente às concentrações [HbO
+                        <sub>2</sub> ] e [Hb] conforme as seguintes equações:
+                        </secao_exercicio>
+                        <secao_exercicio>
+                            Hb(aq)
+                            <simbolos>+</simbolos>
+                            O
+                            <sub>2</sub> (aq)
+                            <simbolos>&#10141;</simbolos>
+
+                            HbO
+                            <sub>2</sub> (aq)
+                    </p>
+                    <p class="exercicio-text ml">A (em 660 nm)
+                        <simbolos>=</simbolos>
+                        320 [HbO
+                        <sub>2</sub> ]
+                        <simbolos>+</simbolos>
+                        3227 [Hb]</p>
+                    <p class="exercicio-text ml">A (em 940 nm)
+                        <simbolos>=</simbolos>
+                        1214 [HbO
+                        <sub>2</sub> ]
+                        <simbolos>+</simbolos>
+                        693 [Hb].</p>
+                    <p class="exercicio-text ml"> Considere que uma pessoa tenha chegado ao hospital com baixa saturação de O
+                        <sub>2</sub> no sangue e, depois de submetida à oxigenoterapia, começa a ter a saturação normalizada. Em relação às medidas iniciais, quando a saturação de O
+                        <sub></sub>
+                        <sub>2</sub> começa a subir, a absorção de luz indicada pelo oxímetro</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>diminui em 660 nm e aumenta em 940 nm.</li>
+                        <li>aumenta em 660 nm e diminui em 940 nm.</li>
+                        <li>aumenta em ambos os comprimentos de onda</li>
+                        <li>diminui em ambos os comprimentos de onda.</li>
+                    </ol>
+
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>2</b></p>
+                        <p class="exercicio-text"> <b>Unicamp 2021 </b> O aumento dos casos da Covid-19 provocou a escassez de álcool etílico em gel no comércio, o que fez a população buscar outros tipos de álcool para se prevenir. No entanto, as opções de álcool disponíveis não
+                            eram eficazes. O recomendado é o álcool 70
+                            <simbolos>°</simbolos>
+                            INPM (% massa/massa). As opções de álcool disponíveis comercialmente à época da escassez aparecem na tabela abaixo.</p>
+                    </div>
+                    <img src="./assets/img/tabelaenem.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml">Para produzir álcool 70
+                        <simbolos>°</simbolos>
+                        INPM a partir dos outros tipos disponíveis comercialmente, uma opção possível seria misturar</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li> álcool para limpeza com álcool hidratado, utilizando maior quantidade de álcool para limpeza.</li>
+                        <li>álcool combustível com o álcool absoluto, utilizando maior quantidade de álcool combustível.</li>
+                        <li>álcool absoluto com álcool hidratado, utilizando maior quantidade de álcool absoluto.</li>
+                        <li>álcool para limpeza com álcool hidratado, utilizando maior quantidade de álcool hidratado.</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>3</b></p>
+                        <p class="exercicio-text"> <b>UCS-RS </b> A solubilidade é uma propriedade física muito importante do ponto de vista biológico. Veja, por exemplo, o caso das vitaminas. Elas são indispensáveis à dieta alimentar, pois atuam na regulação de muitos processos
+                            vitais. O consumo excessivo de vitamina C parece não ser prejudicial ao organismo, pois qualquer excesso será eliminado pela urina, uma vez que ela é hidrossolúvel. O consumo excessivo de vitamina A, por outro lado, pode ser
+                            prejudicial, pois sendo lipossolúvel, ela acaba sendo retida pelo organismo, principalmente no fígado, produzindo dores de cabeça e insônia. As estruturas químicas das vitaminas A e C estão representadas a seguir.</p>
+                    </div>
+                    <img src="./assets/img/G-01.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml">>Em relação à solubilidade das vitaminas A e C, considere as proposições abaixo. </p>
+                    <ol class="questao-alternativas ml" type="I">
+                        <li>Devido à presença de uma cadeia carbônica relativamente longa que apresenta caráter apolar acentuado, a vitamina A é praticamente insolúvel em água, apesar de ela conter um grupo hidroxila em sua estrutura química.</li>
+                        <li>A vitamina C é hidrossolúvel, devido à presença de vários grupos hidroxila em sua estrutura química que podem interagir com as moléculas de água por meio de ligações de hidrogênio.</li>
+                        <li>Se o coeficiente de solubilidade da vitamina C em água é igual a 330 g/L (a 25
+                            <simbolos>°</simbolos>
+                            C e 1 atm), uma solução aquosa de vitamina C com concentração igual a 100 g/L, nas mesmas condições de temperatura e pressão, encontra-se supersaturada.</li>
+                    </ol>
+                    <p class="exercicio-text ml">Das proposições acima </p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>Apenas I está correta.</li>
+                        <li>Apenas II está correta.</li>
+                        <li>Apenas I e II estão corretas.</li>
+                        <li>Apenas II e III estão corretas.</li>
+                        <li>I, II e III estão corretas.</li>
+                    </ol>
+
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>4</b></p>
+                        <p class="exercicio-text"> <b>Unioeste-PR 2018</b> A recristalização é uma técnica de purificação de sólidos. Ela consiste na solubilização a quente do produto em um solvente adequado, filtração da solução para retirada dos contaminantes insolúveis e permite
+                            que a solução atinja a temperatura ambiente (20
+                            <simbolos>°</simbolos>
+                            C) para formação dos cristais purificados. Um produto X deve ser recristalizado. Estão disponíveis quatro solventes, A, B, C e D, e a curva de solubilidade de X nesses quatro solventes (em g soluto/100 mL de solvente) é mostrada abaixo.</p>
+                    </div>
+                    <img src="./assets/img/I006-2020-EM-QUI-1S-L2-FA-U5-C19.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml"> De acordo com as informações, assinale a opção que apresenta o solvente mais adequado para a recristalização de X, na temperatura de 100
+                        <simbolos>°</simbolos>
+                        C, de forma a otimizar o rendimento deste procedimento.</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>A</li>
+                        <li>B</li>
+                        <li>C</li>
+                        <li>D</li>
+                        <li>Nenhum solvente é adequado</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>5</b></p>
+                        <p class="exercicio-text"> <b>Enem 2017</b> A toxicidade de algumas substâncias é normalmente representada por um índice conhecido como DL
+                            <sub>50</sub> (dose letal mediana). Ele representa a dosagem aplicada a uma população de seres vivos que mata 50% desses indivíduos e é normalmente medido utilizando-se ratos como cobaias, pode-se determinar o nível tolerável
+                            de contaminação de alimentos, para que possam ser consumidos de forma segura pelas pessoas. O quadro apresenta três pesticidas e suas toxicidades. A unidade mg/kg indica a massa da substância ingerida pela massa da cobaia.</p>
+                    </div>
+                    <img src="./assets/img/tabelaenem2.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml">Sessenta ratos, com massa de 200 g cada, foram divididos em três grupos de vinte. Três amostras de ração, contaminadas, cada uma delas com um dos pesticidas indicados no quadro, na concentração de 3 mg por grama de ração, foram administradas
+                        para cada grupo de cobaias. Cada rato consumiu 100 g de ração. </p>
+                    <p class="exercicio-text ml">Quais grupos terão uma mortalidade mínima de 10 ratos?</p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>O grupo que se contaminou somente com atrazina.</li>
+                        <li>O grupo que se contaminou somente com diazinon.</li>
+                        <li>Os grupos que se contaminaram com atrazina e malation.</li>
+                        <li> Os grupos que se contaminaram com diazinon e malation.</li>
+                        <li> Nenhum dos grupos contaminados com atrazina, diazinon e malation.</li>
+                    </ol>
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>6</b></p>
+                        <p class="exercicio-text"> <b>Enem 2017</b> Um pediatra prescreveu um medicamento, na forma de suspensão oral, para uma criança pesando 16 kg. De acordo com o receituário, a posologia seria de 2 gotas por kg da criança, em cada dose. Ao adquirir o medicamento
+                            em uma farmácia, o responsável pela criança foi informado que o medicamento disponível continha o princípio ativo em uma concentração diferente daquela prescrita pelo médico, conforme mostrado no quadro.</p>
+                    </div>
+                    <img src="./assets/img/tabelaenem3.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml">Quantas gotas do medicamento adquirido a criança deve ingerir de modo que mantenha a quantidade de princípio ativo receitada? </p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>13</li>
+                        <li>26</li>
+                        <li>32</li>
+                        <li>40</li>
+                        <li>128</li>
+                    </ol>
+
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>7</b></p>
+                        <p class="exercicio-text"><b>Enem 2016</b> O soro fisiológico é uma solução aquosa de cloreto de sódio comumente utilizada para higienização ocular, nasal, de ferimentos e de lentes de contato. Sua concentração é 0,90% em massa e densidade igual a 1 g/mL.
+                            Qual massa de NaC
+                            <simbolos>&#8467;</simbolos>
+                            , em grama, deverá ser adicionada à água para preparar 500 mL desse soro?</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>0,45</li>
+                        <li>0,90</li>
+                        <li>4,50</li>
+                        <li>9</li>
+                        <li>45</li>
+                    </ol>
+
+
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>8</b></p>
+                        <p class="exercicio-text"><b>Uece 2017</b> O magnésio subministrado na forma de cloreto de magnésio tem papel importante para o fortalecimento dos músculos e nervos, função imunológica, reforça a estrutura óssea, regula os níveis de pressão arterial e o
+                            açúcar do sangue etc. A título experimental, um estudante de bioquímica preparou uma solução de cloreto de magnésio utilizando 200 g de água e 20 g de cloreto de magnésio que passou a ter densidade 1,1 g/mL. Para essa solução,
+                            a concentração em quantidade de matéria é, aproximadamente,</p>
+                    </div>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li>1,05 mol/L</li>
+                        <li>1,20 mol/L</li>
+                        <li>1,30 mol/L</li>
+                        <li>1,50 mol/L</li>
+                    </ol>
+
+                    <div class="flex-exercicios">
+                        <p class="exercicio-text"><b>9</b></p>
+                        <p class="exercicio-text"><b>UCS-RS 2015</b> Desde criança, aprende-se que o consumo de água é vital para o corpo humano. Além de regular muitas funções, como a temperatura corporal e o bom funcionamento do sistema circulatório, ela também contribui para
+                            o transporte de nutrientes e é essencial para os processos fisiológicos e bioquímicos do corpo de um indivíduo. Com a busca crescente por bem-estar e qualidade de vida, o consumidor brasileiro está cada vez mais consciente
+                            de que, dentro da categoria água, a mineral natural é em geral benéfica para a saúde. O aumento do consumo do produto atesta essa tendência. Segundo dados da Associação Brasileira da Indústria de Águas Minerais, o mercado apresenta
+                            patamares de crescimento próximos a 20% ao ano. De acordo com especialistas, o crescimento do setor está relacionado a hábitos mais saudáveis dos brasileiros, que têm buscado reduzir a presença de bebidas açucaradas e com adoçantes
+                            nas refeições. O quadro abaixo apresenta as informações contidas em um rótulo de uma embalagem de 300 mL de uma água mineral natural comumente encontrada nas prateleiras de um supermercado.</p>
+                    </div>
+                    <img src="./assets/img/tabelaenem4.png" alt="imagem" class="img-md">
+                    <p class="exercicio-text ml">Considerando as informações do enunciado e do quadro acima, assinale a alternativa correta. </p>
+                    <ol class="questao-alternativas ml" type="a">
+                        <li> O ânion monovalente presente em menor quantidade em uma embalagem dessa água mineral é o NO
+                            <sub>3</sub>
+                            <sub>&#8211;</sub> .
+                        </li>
+                        <li> O ponto de ebulição da água mineral em questão, ao nível do mar, é menor do que 100
+                            <simbolos>°</simbolos>
+                            C.</li>
+                        <li>A água mineral em questão conduz a corrente elétrica, devido à presença de vários íons em solução.</li>
+                        <li>A massa de íons lítio presente em uma embalagem dessa água mineral é de 0,54 mg.</li>
+                        <li>A água mineral em questão apresenta uma concentração hidrogeniônica igual a 1
+                            <simbolos>·</simbolos>
+                            10
+                            <sub>&#8211;7</sub >
+                        mol/L.</li>
+                </ol>
+
+
+
+                <div class="flex-exercicios">
+                  <p class="exercicio-text"><b>10</b></p>
+                  <p class="exercicio-text"><b>PUC-Minas 2015</b>
+                    A 25
+                    <simbolos>°</simbolos>
+                    C é possível dissolver aproximadamente 6,25 mol de cloreto de sódio em um litro de água. É correto afirmar que a solubilidade do cloreto de sódio em água, em g/mL, é:</p>
+                </div>
+                    <ol class="questao-alternativas ml" type="a">
+                      <li>0,3656</li>
+                      <li>36,56</li>
+                      <li>0,4625</li>
+                      <li>46,25</li>
+                  </ol>
+
+                  <div class="flex-exercicios">
+                    <p class="exercicio-text"><b>11</b></p>
+                    <p class="exercicio-text"> <b>Unigranrio-RJ 2017</b>
+                      O estudo da concentração de soluções aquosas faz-se necessário em muitos ramos da indústria química, onde há necessidade de quantidades exatas de componentes químicos reacionais. Entre os ramos da indústria química que utilizam conhecimentos de concentrações podem ser citados o de tratamento de água e efluentes e a indústria cosmética. Um volume de 50 mL de uma solução de MgC
+                       <simbolos>&#8467;</simbolos>
+              
+                      <sub>2</sub> a 2 mol/L é diluído até 1 litro de volume final. Sabendo que soluções diluídas de MgC
+                            <simbolos>&#8467;</simbolos>
+
+                            <sub>2</sub> são totalmente solúveis e dissociáveis, podemos afirmar que a concentração, em mol/L, de íons cloreto na nova solução após a diluição será de:</p>
+                </div>
+                <ol class="questao-alternativas ml" type="a">
+                    <li>0,1</li>
+                    <li>0,2</li>
+                    <li>1,0</li>
+                    <li>2,0</li>
+                    <li>4,0</li>
+                </ol>
+
+
+                <div class="flex-exercicios">
+                    <p class="exercicio-text"><b>12</b></p>
+                    <p class="exercicio-text"> <b>UEG-GO 2016</b> Uma solução estoque de hidróxido de sódio foi preparada pela dissolução de 4 g do soluto em água, obtendo-se ao final 100 mL e, posteriormente, determinado volume foi diluído para 250 mL obtendo-se uma nova solução
+                        de concentração igual a 0,15 mol/L. O volume diluído, em mL, da solução estoque, é aproximadamente:</p>
+                </div>
+                <ol class="questao-alternativas ml" type="a">
+                    <li>26</li>
+                    <li>37</li>
+                    <li>50</li>
+                    <li>75</li>
+                </ol>
+                <div class="flex-exercicios">
+                    <p class="exercicio-text"><b>13</b></p>
+                    <p class="exercicio-text"><b>Enem 2015</b> A hidroponia pode ser definida como uma técnica de produção de vegetais sem necessariamente a presença do solo. Uma das formas de implementação é manter as plantas com suas raízes suspensas em meio líquido, de onde
+                        retiram os nutrientes essenciais. Suponha que um produtor de rúcula hidropônica precise ajustar a concentração de íon nitrato (NO
+                        <sub>3</sub>
+                        <sub>&#8211;</sub >
+                  ) para 0,009 mol/L em um tanque de 5000 litros e, para tanto, tem em mãos uma solução comercial nutritiva de nitrato de cálcio 90 g/L.</p>
+            </div>
+            <p class="exercicio-text ml">As massas molares dos elementos N, O e Ca são iguais a 14, 16 e 40, respectivamente. </p>
+            <p class="exercicio-text ml"> Qual o valor mais próximo do volume da solução nutritiva, em litros, que o produtor deve adicionar ao tanque?</p>
+            <ol class="questao-alternativas ml" type="a">
+              <li>26</li>
+              <li>41</li>
+              <li>45</li>
+              <li>51</li>
+              <li>82</li>
+            </ol>
+
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- fim -->
+        </div>
+        </div>
+        </div>
+    </main>
+</body>
+
+</html>
+
+
+
+
+<p class='exercicio-text ml'></p>

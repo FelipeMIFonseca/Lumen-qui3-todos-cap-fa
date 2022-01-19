@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Root>
+  <p class="general-text">
+    <titulo_cap_texto>Dispersões </titulo_cap_texto>
+    <imagem>
+      <imagem>&lt;F002-2020-EM-QUI-1S-L2-FA-U5-C16.png&gt;</imagem>
+    </imagem>
+    <p class="img-credit">
+      SDI Productions/iStockphoto.com
+      <exercicios_linhas></exercicios_linhas>
+    </p>
+    <imagem>
+      <imagem>&lt;F004-2020-EM-QUI-1S-L2-FA-U5-C16.png&gt;</imagem>
+    </imagem>
+    <p class="img-subtitle">O sangue e os aerossóis são exemplos de dispersões coloidais. </p>
+    <p class="img-credit">Yevhenii Orlov/iStockphoto.com </p>
+    <p class="quote">[...] Os sistemas coloidais vêm sendo utilizados pelas civilizações desde os primórdios da humanidade. Os povos utilizaram géis de produtos naturais como alimento, dispersões de argilas para fabricação de utensílios de cerâmica e dispersões coloidais de pigmentos para decorar as paredes das cavernas com motivos de animais e de caça. </p>
+    <p class="quote">[...] </p>
+    <p class="quote">Sistemas coloidais estão presentes no cotidiano desde as primeiras horas do dia, na higiene pessoal &#8212; sabonete, xampu, pasta de dente e espuma ou creme de barbear &#8212;, maquiagem &#8212; cosméticos &#8212; e no café da manhã &#8212; leite, café, manteiga, cremes vegetais e geleias de frutas. No caminho para o trabalho, podemos enfrentar neblina, poluição do ar [...]. No almoço, temperos, cremes e maionese para saladas. [...] </p>
+    <fonte>
+      JAFELICCI JUNIOR, Miguel; VARANDA, Laudemir C.
+      <i>Química Nova na Escola</i>
+      . São Paulo, n. 9, p. 9, maio 1999. Disponível em: &lt;http://qnesc.sbq.org.br/online/qnesc09/quimsoc.pdf&gt;. Acesso em: 3 ago. 2021.
+      <exercicios_linhas></exercicios_linhas>
+    </fonte>
+    <texto_bullets>&#8226;	Você sabe qual é a definição de coloide? </texto_bullets>
+    <texto_bullets>&#8226;	Qual é a diferença entre um coloide e uma solução? </texto_bullets>
+    <texto_bullets>&#8226;	Toda dispersão é homogênea? </texto_bullets>
+    <boxe_02_texto>
+      Neste capítulo, serão abordadas as habilidades EM13CNT205 e EM13CNT307.
+      <exercicios_linhas></exercicios_linhas>
+    </boxe_02_texto>
+    <titulo1>	Soluções </titulo1>
+    <p class="general-text">
+      No livro 1, unidade 1, capítulo 4, aprendemos sobre as misturas e os métodos utilizados para separá-las, bem como os tipos de misturas e suas classificações. Uma
+      <b>dispersão</b>
+      nada mais é que uma mistura &#8211; a qual pode ser homogênea (apresenta apenas uma fase) ou heterogênea (com duas fases ou mais). Nas dispersões, ocorre a mistura entre um disperso e um dispersante, em que o disperso está em menor quantidade que o dispersante. Por exemplo, quando misturamos açúcar em água, ele é o disperso, e a água é o dispersante.
+    </p>
+    <p class="general-text">As dispersões recebem nomes diferentes de acordo com o tamanho das partículas que estão dispersas. As soluções, ou soluções verdadeiras, são aquelas em que as partículas têm tamanho menor que 1 nm. Um exemplo de solução é a mistura de água e açúcar. As dispersões coloidais são compostas de partículas que têm de 1 a 1  000 nm, como o creme de barbear. Já as suspensões têm partículas maiores que 1  000 nm, como a mistura de água e areia. </p>
+    <p class="general-text">
+      Já vimos que soluções são misturas homogêneas que podem ser constituídas de duas ou mais substâncias, mas apresentam apenas uma fase. Nas soluções, nomeamos seus componentes de
+      <b>solvente</b>
+      e
+      <b>soluto</b>
+      . O solvente é geralmente líquido e está em maior quantidade, já o soluto é geralmente sólido e está em menor quantidade. Isso, porém, não significa que uma solução não possa ser sólida ou gasosa. Por esse motivo, realizamos a classificação das soluções da seguinte maneira:
+    </p>
+    <imagem>&lt;solucoes_1.png&gt;</imagem>
+    <Glossario>
+      <boxe_02_texto>A natureza do soluto pode ser molecular ou iônica.</boxe_02_texto>
+    </Glossario>
+    <imagem>&lt;F005-2020-EM-QUI-1S-L2-FA-U5-C16.png&gt;</imagem>
+    <p class="img-subtitle">O efeito Tyndall acontece quando as partículas de uma dispersão coloidal interagem com a luz, ocasionando um efeito óptico. Observamos tal fenômeno, ao ver a poeira no ar devido a um raio de luz. Esse efeito também está presente quando enxergamos partículas no feixe de luz dos faróis do carro na neblina. </p>
+    <p class="img-credit">gopfaster/iStockphoto.com </p>
+    <titulo1>	Condução de corrente elétrica </titulo1>
+    <p class="general-text">
+      Sabemos que substâncias iônicas são formadas por cátions (
+      <simbolos>+</simbolos>
+      ) e ânions (
+      <simbolos>&#8211;</simbolos>
+      ), como o sal de cozinha (NaC
+      <simbolos>&#8467;</simbolos>
+      ), formado pelo cátion Na
+      <sub>+</sub>
+      e o ânion C
+      <simbolos>&#8467;</simbolos>
+      <sub>&#8211;</sub>
+      . Quando dissolvidas em água, essas substâncias liberam seus íons, e as cargas positivas e negativas ficam livres na solução. A presença dessas cargas torna a solução condutora de corrente elétrica, pois os ânions se movimentam no sentido de um polo positivo, enquanto os cátions caminham no sentido de um polo negativo, gerando, assim, um fluxo de cargas. A água por si só não contém os íons necessários em quantidade suficiente para ser considerada uma boa condutora, porém, ao adicionarmos certos compostos em água, como o cloreto de sódio, formamos uma solução aquosa eletrolítica, ou seja, com boa condutibilidade elétrica.
+    </p>
+    <boxe_02>
+      <boxe_02_titulo1>MAIS</boxe_02_titulo1>
+      <boxe_02_titulo1>Soluções eletrolíticas. </boxe_02_titulo1>
+      <boxe_02_texto>Quer ver na prática o conceito de solução eletrolítica e não eletrolítica? Acesse o vídeo e confira como soluções podem ou não acender uma lâmpada. </boxe_02_texto>
+      <boxe_02_texto>
+        <b>Disponível em: </b>
+        &lt;https://www.youtube.com/watch?v=jKKPFz9IV4E&gt;.
+      </boxe_02_texto>
+      <boxe_02_texto>Acesso em: 3 ago. 2021.</boxe_02_texto>
+    </boxe_02>
+    <secao_01>
+      <secao_01_titulo1>Questão resolvida</secao_01_titulo1>
+      <exercicio_enunciado>
+        1
+        <b>ITA-SP 2018 </b>
+        Para cada uma das dispersões coloidais de natureza definida na tabela abaixo, cite um exemplo prático, explicitando quais são o dispersante e o disperso. Complete a tabela.
+      </exercicio_enunciado>
+      <secao_exercicio>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="5">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Dispersão coloidal</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Natureza</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Exemplo</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Dispersante</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Disperso</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_gravata3>Espuma sólida</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_gravata3>Polímero</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_gravata3>Espuma líquida</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_gravata3>Produto alimentício</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_gravata3>Aerossol líquido</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_gravata3>Fenômeno natural</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_gravata3>Aerossol sólido</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_gravata3>Fenômeno artificial</tabela_gravata3>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016"></Cell>
+        </Table>
+        <b></b>
+      </secao_exercicio>
+      <titulo3>
+        <b>Resolução: </b>
+      </titulo3>
+      <secao_exercicio>
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="5" aid:tcols="5">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Dispersão coloidal</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Natureza</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Exemplo</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Dispersante</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <Tabela_gravata1>Disperso</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Espuma sólida</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Polímero</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Isopor (espuma de poliestireno)</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Poliestireno</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Ar</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Espuma líquida</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Produto alimentício</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Clara em neve ou clara batida</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Clara de ovo</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Ar</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Aerossol líquido</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Fenômeno natural</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Neblina</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Ar</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Água</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Aerossol sólido</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Fenômeno artificial</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Fumaça</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Ar</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="85.03937007874016">
+            <tabela_texto_geral>Fuligem</tabela_texto_geral>
+          </Cell>
+        </Table>
+      </secao_exercicio>
+    </secao_01>
+    <secao_02>
+      <secao_15_titulo1>Aplicando conhecimentos </secao_15_titulo1>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        O que são soluções sólidas? Dê dois exemplos.
+        <exercicios_linhas></exercicios_linhas>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        A maionese é uma emulsão de óleo disperso em gema de ovo. Chamamos de emulsão as dispersões coloidais líquido-líquido, como é o caso. Qual das alternativas apresenta produtos considerados emulsões?
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        Leite e tintas.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Plástico e geleias.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Margarina e detergente.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Refrigerante e pérolas.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Creme de chantili e gel de cabelo.
+      </item_lista>
+      <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+      Entre as soluções citadas a seguir, quais acenderiam uma lâmpada em um sistema, ou seja, quais delas são eletrolíticas?
+      <exercicio_item_romano>
+        <b>I.	</b>
+        Ácido clorídrico e água.
+        <b>II.	</b>
+        Cloreto de potássio e água.
+        <b>III.	</b>
+        Açúcar e água.
+        <b>IV.	</b>
+        Hidróxido de sódio e água.
+      </exercicio_item_romano>
+      <item_lista>
+        <b>a)	</b>
+        Apenas I.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        II e III.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        I, II e III.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        I, II e IV.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Todas.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        As dispersões podem ser classificadas em soluções, dispersões coloidais e suspensões, de acordo com o tamanho de suas partículas. Com base nisso, classifique as dispersões a seguir.
+      </exercicio_enunciado>
+      <exercicio_item_romano>
+        <b>I.	</b>
+        Água e areia.
+        <b>II.	</b>
+        Água e bicarbonato de sódio (fermento).
+        <b>III.	</b>
+        Água e ácido acético (vinagre).
+        <b>IV.	</b>
+        Gelatina.
+      </exercicio_item_romano>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        I. Solução; II. Coloide; III. Solução; IV. Suspensão.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        I. Suspensão; II. Solução; III. Solução; IV. Coloide.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        I. Coloide; II. Solução; III. Coloide; IV. Suspensão
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        I. Suspensão; II. Solução; III. Coloide; IV. Coloide.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        I. Solução; II. Suspensão; III. Solução; IV. Coloide.
+      </secao_exercicio_item>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>Cesgranrio-RJ</b>
+        O ácido clorídrico puro (HC
+        <simbolos>&#8467;</simbolos>
+        ) é um composto que conduz muito mal a eletricidade. A água pura (H
+        <sub>2</sub>
+        O) é um composto que também conduz muito mal a eletricidade; no entanto ao dissolvermos o ácido na água, formamos uma solução que conduz muito bem a eletricidade, o que se deve à:
+      </exercicio_enunciado>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        dissociação da água em H
+        <sub>+</sub>
+        e OH
+        <sub>&#8211;</sub>
+        .
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        ionização do HC
+        <simbolos>&#8467;</simbolos>
+        formando H
+        <sub></sub>
+        <sub>3</sub>
+        O
+        <sub></sub>
+        <sub>+</sub>
+        e C
+        <simbolos>&#8467;</simbolos>
+        <sub>&#8211;</sub>
+        .
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        transferência de elétrons da água para o HC
+        <simbolos>&#8467;</simbolos>
+        .
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        transferência de elétrons do HC
+        <simbolos>&#8467;</simbolos>
+        para a água.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        reação de neutralização do H
+        <sub>+</sub>
+        da água com C
+        <simbolos>&#8467;</simbolos>
+        <sub>&#8211;</sub>
+        do HC
+        <simbolos>&#8467;</simbolos>
+        .
+      </secao_exercicio_item>
+    </secao_02>
+    <secao_03>
+      Consolidando saberes
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>1	</secao_exercicio_numerador>
+        <b>UFU-MG</b>
+      </exercicio_enunciado>
+      <secao_02_texto_citado>
+        <secao_03_texto_citado>O grafitismo é um tipo de manifestação artística surgida nos Estados Unidos, na década de 1970. No Brasil, o grafite chegou ao final dos anos de 1970, em São Paulo. Hoje, o estilo desenvolvido pelos brasileiros é reconhecido entre os melhores do mundo. A tinta mais usada pelos grafiteiros é o spray em lata, que possui, até o final da década de 1980, o clorofluorcarboneto como propelente.</secao_03_texto_citado>
+      </secao_02_texto_citado>
+      <fonte>Disponível em: &lt;http://www.mundoeducacao.com.br/artes/grafite.htm&gt;. Acesso em: 14 jun. 2012. </fonte>
+      <exercicio_enunciado>
+        O
+        <i>spray</i>
+        em lata, utilizado na arte do grafite,
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        possuía, em sua formulação, CFC, que colaborava para prevenir a degradação da camada de ozônio.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        deve ser armazenado em ambientes com incidência direta da luz solar.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        é uma dispersão coloidal, mantida sob pressão, de um líquido em um gás liquefeito.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        possui probabilidade de explodir diretamente proporcional à redução da temperatura.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>2	</secao_exercicio_numerador>
+        <b>UEL-PR</b>
+        A força e a exuberância das cores douradas do amanhecer desempenham um papel fundamental na produção de diversos significados culturais e científicos.
+        <secao_exercicio>Enquanto as atenções se voltam para as cores, um coadjuvante exerce um papel fundamental nesse espetáculo. Trata-se de um sistema coloidal formado por partículas presentes na atmosfera terrestre, que atuam no fenômeno de espalhamento da luz do Sol. </secao_exercicio>
+        Com base no enunciado e nos conhecimentos acerca de coloides, considere as afirmativas a seguir.
+      </exercicio_enunciado>
+      <exercicio_item_romano>
+        <secao_exercicio></secao_exercicio>
+        <b>I.	</b>
+        São uma mistura com partículas que variam de 1 a 1 000 nm.
+        <b>II.	</b>
+        Trata-se de um sistema emulsificante.
+        <b>III.	</b>
+        Consistem em um sistema do tipo aerossol sólido.
+        <b>IV.	</b>
+        Formam uma mistura homogênea monodispersa.
+      </exercicio_item_romano>
+      <exercicio_enunciado>Assinale a alternativa correta. </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        Somente as afirmativas I e II são corretas.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Somente as afirmativas I e III são corretas.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Somente as afirmativas III e IV são corretas.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Somente as afirmativas I, II e IV são corretas.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Somente as afirmativas II, III e IV são corretas.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>3	</secao_exercicio_numerador>
+        <b>Cesgranrio-RJ</b>
+        O colágeno é a proteína mais abundante no corpo humano, fazendo parte da composição de órgãos e tecidos de sustentação. Apesar de não ser comestível, seu aquecimento em água produz uma mistura de outras proteínas comestíveis, denominadas gelatinas. Essas proteínas possuem diâmetros médios entre 1,0 nm e 1.000 nm e, quando em solução aquosa, formam sistemas caracterizados como
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        soluções verdadeiras.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        dispersantes.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        coagulantes.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        homogêneos.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        coloides.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>4	</secao_exercicio_numerador>
+        <b>Unesp </b>
+        Três substâncias puras, X, Y e Z, tiveram suas condutividades elétricas testadas, tanto no estado sólido como no estado líquido, e os dados obtidos encontram-se resumidos na tabela.
+        <Table xmlns:aid="http://ns.adobe.com/AdobeInDesign/4.0/" aid:table="table" aid:trows="4" aid:tcols="3">
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.53272318232947">
+            <Tabela_gravata1>Substância</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.28678801513446">
+            <Tabela_gravata1>Conduz corrente no estado sólido</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.28678801513446">
+            <Tabela_gravata1>Conduz corrente no estado líquido</Tabela_gravata1>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.53272318232947">
+            <tabela_texto_geral>X</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.28678801513446">
+            <tabela_texto_geral>Sim</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.28678801513446">
+            <tabela_texto_geral>Sim</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.53272318232947">
+            <tabela_texto_geral>Y</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.28678801513446">
+            <tabela_texto_geral>Não </tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.28678801513446">
+            <tabela_texto_geral>Sim</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="56.53272318232947">
+            <tabela_texto_geral>Z</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.28678801513446">
+            <tabela_texto_geral>Não</tabela_texto_geral>
+          </Cell>
+          <Cell aid:table="cell" aid:crows="1" aid:ccols="1" aid:ccolwidth="86.28678801513446">
+            <tabela_texto_geral>Não</tabela_texto_geral>
+          </Cell>
+        </Table>
+      </exercicio_enunciado>
+      <exercicio_enunciado>Com base nessas informações, é correto classificar como substância iônica:  </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        Y e Z, apenas.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        X, Y e Z.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        X e Y, apenas.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Y, apenas.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        X, apenas.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>5	</secao_exercicio_numerador>
+        <b>Enem </b>
+        A obtenção de sistemas coloidais estáveis depende das interações entre as partículas dispersas e o meio onde se encontram. Em um sistema coloidal aquoso, cujas partículas são hidrofílicas, a adição de um solvente orgânico miscível em água, como etanol, desestabiliza o coloide, podendo ocorrer a agregação das partículas preliminarmente dispersas.
+      </exercicio_enunciado>
+      <exercicio_enunciado>A desestabilização provocada pelo etanol ocorre porque: </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <secao_exercicio_item>
+        <b>a)	</b>
+        a polaridade da água no sistema coloidal é reduzida.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>b)	</b>
+        as cargas superficiais das partículas coloidais são diminuídas.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>c)	</b>
+        as camadas de solvatação de água nas partículas são diminuídas.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>d)	</b>
+        o processo de miscibilidade da água e do solvente libera calor para o meio.
+      </secao_exercicio_item>
+      <secao_exercicio_item>
+        <b>e)	</b>
+        a intensidade dos movimentos brownianos das partículas coloidais é reduzida.
+      </secao_exercicio_item>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>6	</secao_exercicio_numerador>
+        <b>UFJF/Pism-MG 2016</b>
+        O cientista Svante August Arrhenius estudou o efeito de passagem de corrente elétrica na migração de espécies eletricamente carregadas. Assinale a alternativa que descreve a situação na qual ocorre condução de corrente elétrica.
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        Substância iônica no estado sólido.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        Substância molecular não ionizada em solução.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Substância iônica em solução.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Substância molecular no estado gasoso.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        Substância molecular em estado sólido.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>7	</secao_exercicio_numerador>
+        <b>Famerp-SP 2017</b>
+        A mistura conhecida como soro fisiológico é um exemplo de _________, na qual o ____________ é a água e o ______________ é o ____________ de sódio.
+      </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <exercicio_enunciado>As lacunas do texto são, correta e respectivamente, preenchidas por: </exercicio_enunciado>
+      <secao_exercicio></secao_exercicio>
+      <item_lista>
+        <b>a)	</b>
+        solução &#8211; solvente &#8211; soluto &#8211; cloreto.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        solução &#8211; solvente &#8211; soluto &#8211; bicarbonato.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        solução &#8211; soluto &#8211; solvente &#8211; cloreto.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        suspensão &#8211; solvente &#8211; soluto &#8211; bicarbonato.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        suspensão &#8211; soluto &#8211; solvente &#8211; cloreto.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>8	</secao_exercicio_numerador>
+        <b>PUC-Rio</b>
+        Duas soluções ácidas de mesma concentração são preparadas pela adição de 1 mol de ácido para formar 1 L de solução aquosa. Os terminais de um circuito elétrico interrompido, conectado a uma lâmpada, são mergulhados nas soluções. A primeira solução, de ácido clorídrico, fecha o circuito e faz a lâmpada acender com alta intensidade. Já a segunda solução, de ácido acético, apenas faz a lâmpada brilhar fracamente. Sobre esse experimento e as substâncias envolvidas, indique a afirmativa
+        <b>incorreta:</b>
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        Se a solução de ácido clorídrico fosse diluída com a adição de mais 1 L de água, a lâmpada acenderia com o mesmo brilho observado antes da diluição.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        O ácido clorídrico é um eletrólito mais forte que o ácido acético.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        Os responsáveis pela passagem de corrente elétrica na solução são os íons liberados pelos ácidos quando dissolvidos na água.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        Se os terminais fossem mergulhados na água pura, não haveria acendimento da lâmpada.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        O ácido acético dissolvido em água forma íons menos efetivamente do que o ácido clorídrico dissolvido em água.
+      </item_lista>
+      <exercicio_enunciado>
+        <secao_exercicio_numerador>9	</secao_exercicio_numerador>
+        <b>UFSCar-SP </b>
+        Sal de cozinha (NaC
+        <simbolos>&#8467;</simbolos>
+        ) e açúcar (sacarose) são sólidos brancos solúveis em água. Suas soluções aquosas apresentam comportamentos completamente diferentes quanto à condução de corrente elétrica. É correto afirmar que:
+      </exercicio_enunciado>
+      <item_lista>
+        <b>a)	</b>
+        o cloreto de sódio é um composto iônico e sua solução aquosa conduz corrente elétrica, devido à presença de moléculas de NaC
+        <simbolos>&#8467;</simbolos>
+        . A sacarose é um composto covalente e sua solução aquosa tem viscosidade muito alta, diminuindo a condutividade da água.
+      </item_lista>
+      <item_lista>
+        <b>b)	</b>
+        uma substância como o cloreto de sódio, que em solução aquosa forma íons, é chamada de eletrólito. A solução de sacarose conduz corrente elétrica, devido à formação de ligações de hidrogênio entre as moléculas de sacarose e água.
+      </item_lista>
+      <item_lista>
+        <b>c)	</b>
+        o cloreto de sódio é um composto iônico e suas soluções aquosas conduzem corrente elétrica, devido à presença de íons livres. A sacarose é um composto constituído de moléculas e suas soluções aquosas não conduzem corrente elétrica, pois as moléculas neutras de sacarose não contribuem para o transporte de cargas.
+      </item_lista>
+      <item_lista>
+        <b>d)	</b>
+        a dissolução de sacarose em água leva à quebra das moléculas de sacarose em glicose e frutose e estas moléculas conduzem corrente elétrica. A solução de sal, por sua vez, apresenta condutividade menor que a da água destilada.
+      </item_lista>
+      <item_lista>
+        <b>e)	</b>
+        soluções aquosas de sacarose ou de cloreto de sódio apresentam condutividade elétrica maior do que aquela apresentada pela água pura, pois há formação de soluções eletrolíticas. Os íons formados são os responsáveis pelo transporte de cargas em ambos os casos.
+        <exercicios_linhas></exercicios_linhas>
+      </item_lista>
+    </secao_03>
+  </p>
+</Root>

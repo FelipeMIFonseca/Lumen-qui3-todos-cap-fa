@@ -1,0 +1,2201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-ing-a2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    1
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Dispersões
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="double-columned-content">
+                            <!-- left -->
+                            <div class="double-columned-content-left">
+                                <img src="./assets/img/F002-2020-EM-QUI-1S-L2-FA-U5-C16.png" alt="imagem" class="img-md-1">
+                                <p class="img-credit">
+                                    SDI Productions/iStockphoto.com
+                                    <exercicios_linhas></exercicios_linhas>
+                                </p>
+                            </div>
+                            <!-- right -->
+                            <div class="double-columned-content-right">
+                                <img src="./assets/img/F004-2020-EM-QUI-1S-L2-FA-U5-C16.png" alt="imagem" class="img-littlee">
+                                <p class="img-credit" style="text-align: center;">Yevhenii Orlov/iStockphoto.com </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">O sangue e os aerossóis são exemplos de dispersões coloidais.
+                        </p>
+                        <p class="quote">[...] Os sistemas coloidais vêm sendo utilizados pelas civilizações desde os primórdios da humanidade. Os povos utilizaram géis de produtos naturais como alimento, dispersões de argilas para fabricação de utensílios de cerâmica
+                            e dispersões coloidais de pigmentos para decorar as paredes das cavernas com motivos de animais e de caça. </p>
+                        <p class="quote">[...] </p>
+                        <p class="quote">Sistemas coloidais estão presentes no cotidiano desde as primeiras horas do dia, na higiene pessoal &#8212; sabonete, xampu, pasta de dente e espuma ou creme de barbear &#8212;, maquiagem &#8212; cosméticos &#8212; e no café da
+                            manhã &#8212; leite, café, manteiga, cremes vegetais e geleias de frutas. No caminho para o trabalho, podemos enfrentar neblina, poluição do ar [...]. No almoço, temperos, cremes e maionese para saladas. [...] </p>
+                        <p class="quote-source">JAFELICCI JUNIOR, Miguel; VARANDA, Laudemir C.
+                            <i>Química Nova na Escola</i> . São Paulo, n. 9, p. 9, maio 1999. Disponível em: &lt;http://qnesc.sbq.org.br/online/qnesc09/quimsoc.pdf&gt;. Acesso em: 3 ago. 2021.</p>
+
+
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    Você sabe qual é a definição de coloide?
+                                </li>
+                                <li class="general-text">
+                                    Qual é a diferença entre um coloide e uma solução?
+                                </li>
+                                <li class="general-text">
+                                    Toda dispersão é homogênea?
+                                </li>
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT205
+                                </span> e
+                                <span class='boxe-06-texto'>
+                                  EM13CNT307
+                                </span>.</span>
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="text-content-area">
+
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Soluções</h3>
+                        </div>
+
+                        <p class="general-text">
+                            No livro 1, unidade 1, capítulo 4, aprendemos sobre as misturas e os métodos utilizados para separá-las, bem como os tipos de misturas e suas classificações. Uma
+                            <b>dispersão</b> nada mais é que uma mistura &#8211; a qual pode ser homogênea (apresenta apenas uma fase) ou heterogênea (com duas fases ou mais). Nas dispersões, ocorre a mistura entre um disperso e um dispersante, em que
+                            o disperso está em menor quantidade que o dispersante. Por exemplo, quando misturamos açúcar em água, ele é o disperso, e a água é o dispersante.
+                        </p>
+                        <p class="general-text">As dispersões recebem nomes diferentes de acordo com o tamanho das partículas que estão dispersas. As soluções, ou soluções verdadeiras, são aquelas em que as partículas têm tamanho menor que 1 nm. Um exemplo de solução é a mistura
+                            de água e açúcar. As dispersões coloidais são compostas de partículas que têm de 1 a 1 000 nm, como o creme de barbear. Já as suspensões têm partículas maiores que 1 000 nm, como a mistura de água e areia. </p>
+                        <p class="general-text">
+                            Já vimos que soluções são misturas homogêneas que podem ser constituídas de duas ou mais substâncias, mas apresentam apenas uma fase. Nas soluções, nomeamos seus componentes de
+                            <b>solvente</b> e
+                            <b>soluto</b> . O solvente é geralmente líquido e está em maior quantidade, já o soluto é geralmente sólido e está em menor quantidade. Isso, porém, não significa que uma solução não possa ser sólida ou gasosa. Por esse motivo,
+                            realizamos a classificação das soluções da seguinte maneira:
+                        </p>
+                        <img src="./assets/img/F005-2020-EM-QUI-1S-L2-FA-U5-C16.png" alt="imagem" class="img-md">
+
+                        <p class="img-subtitle">O efeito Tyndall acontece quando as partículas de uma dispersão coloidal interagem com a luz, ocasionando um efeito óptico. Observamos tal fenômeno, ao ver a poeira no ar devido a um raio de luz. Esse efeito também está presente
+                            quando enxergamos partículas no feixe de luz dos faróis do carro na neblina. </p>
+                        <p class="img-credit">gopfaster/iStockphoto.com </p>
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Condução de corrente elétrica </h3>
+                        </div>
+                        <p class="general-text">
+                            Sabemos que substâncias iônicas são formadas por cátions (
+                            <simbolos>+</simbolos>
+                            ) e ânions (
+                            <simbolos>&#8211;</simbolos>
+                            ), como o sal de cozinha (NaC
+                            <simbolos>&#8467;</simbolos>
+                            ), formado pelo cátion Na
+                            <sub>+</sub> e o ânion C
+                            <simbolos>&#8467;</simbolos>
+                            <sub>&#8211;</sub> . Quando dissolvidas em água, essas substâncias liberam seus íons, e as cargas positivas e negativas ficam livres na solução. A presença dessas cargas torna a solução condutora de corrente elétrica, pois
+                            os ânions se movimentam no sentido de um polo positivo, enquanto os cátions caminham no sentido de um polo negativo, gerando, assim, um fluxo de cargas. A água por si só não contém os íons necessários em quantidade suficiente
+                            para ser considerada uma boa condutora, porém, ao adicionarmos certos compostos em água, como o cloreto de sódio, formamos uma solução aquosa eletrolítica, ou seja, com boa condutibilidade elétrica.
+                        </p>
+
+
+
+
+                        <div class="boxe-06-02-cie">
+                            <header>
+                                <img src="assets/icons/06_BOXE_02.svg" alt="Icone">
+                                <strong>Mais</strong>
+                            </header>
+
+                            <section>
+                                <h4 class="boxe-02-titulo1">
+                                    Soluções eletrolíticas.
+                                </h4>
+
+                                <p class="general-text">
+                                    Quer ver na prática o conceito de solução eletrolítica e não eletrolítica? Acesse o vídeo e confira como soluções podem ou não acender uma lâmpada.
+                                </p>
+                                <p class="boxe-02-footer">
+                                    <b>Disponível em: </b> &lt;https://www.youtube.com/watch?v=jKKPFz9IV4E&gt;. <br> Acesso em: 3 ago. 2021.
+                                </p>
+                            </section>
+                        </div>
+
+                        <div class="questao-resolvida">
+                            <div class=" flex-icon header-questao-resolvida">
+                                <img src="./assets/icons/06_BOXE_04.svg" class="icon-boxe"> Questão resolvida
+                            </div>
+
+                            <div class="flex-exercicios">
+                                <p class='exercicio-text'><b>1</b></p>
+                                <p class='exercicio-text'><b>ITA-SP 2018 </b> Para cada uma das dispersões coloidais de natureza definida na tabela abaixo, cite um exemplo prático, explicitando quais são o dispersante e o disperso. Complete a tabela.</p>
+                            </div>
+
+                            <img src="./assets/img/tabela.png" alt="imagem" class="img-md-1">
+
+                            <h3 class="titulo3"><b>Resolução: </b></h3>
+                            <img src="./assets/img/tabela2.png" alt="imagem" class="img-md-1">
+                        </div>
+
+                    </div>
+
+
+                    <!-- Predicting -->
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe"> Aplicando conhecimentos
+                        </div>
+
+
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>1</b></p>
+                            <p class='exercicio-text'>O que são soluções sólidas? Dê dois exemplos.</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>2</b></p>
+                            <p class='exercicio-text'> A maionese é uma emulsão de óleo disperso em gema de ovo. Chamamos de emulsão as dispersões coloidais líquido-líquido, como é o caso. Qual das alternativas apresenta produtos considerados emulsões?</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> Leite e tintas.</li>
+                            <li>Plástico e geleias.</li>
+                            <li>Margarina e detergente.</li>
+                            <li>Refrigerante e pérolas.</li>
+                            <li>Creme de chantili e gel de cabelo.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>3</b></p>
+                            <p class='exercicio-text'>Entre as soluções citadas a seguir, quais acenderiam uma lâmpada em um sistema, ou seja, quais delas são eletrolíticas?</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>Ácido clorídrico e água.</li>
+                            <li>Cloreto de potássio e água.</li>
+                            <li>Açúcar e água.</li>
+                            <li> Hidróxido de sódio e água.</li>
+                        </ol>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Apenas I.</li>
+                            <li>II e III.</li>
+                            <li>I, II e III.</li>
+                            <li>I, II e IV.</li>
+                            <li>Todas.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>4</b></p>
+                            <p class='exercicio-text'>As dispersões podem ser classificadas em soluções, dispersões coloidais e suspensões, de acordo com o tamanho de suas partículas. Com base nisso, classifique as dispersões a seguir.</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>Água e areia.</li>
+                            <li>Água e bicarbonato de sódio (fermento).</li>
+                            <li> Água e ácido acético (vinagre).</li>
+                            <li>Gelatina.</li>
+                        </ol>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> I. Solução; II. Coloide; III. Solução; IV. Suspensão.</li>
+                            <li>I. Suspensão; II. Solução; III. Solução; IV. Coloide.</li>
+                            <li>I. Coloide; II. Solução; III. Coloide; IV. Suspensão</li>
+                            <li>I. Suspensão; II. Solução; III. Coloide; IV. Coloide.</li>
+                            <li>I. Solução; II. Suspensão; III. Solução; IV. Coloide.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>5</b></p>
+                            <p class='exercicio-text'><b>Cesgranrio-RJ</b> O ácido clorídrico puro (HC
+                                <simbolos>&#8467;</simbolos>
+                                ) é um composto que conduz muito mal a eletricidade. A água pura (H
+                                <sub>2</sub> O) é um composto que também conduz muito mal a eletricidade; no entanto ao dissolvermos o ácido na água, formamos uma solução que conduz muito bem a eletricidade, o que se deve à:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> dissociação da água em H
+                                <sub>+</sub> e OH
+                                <sub>&#8211;</sub> .
+                            </li>
+                            <li>ionização do HC
+                                <simbolos>&#8467;</simbolos>
+                                formando H
+                                <sub></sub>
+                                <sub>3</sub> O
+                                <sub></sub>
+                                <sub>+</sub> e C
+                                <simbolos>&#8467;</simbolos>
+                                <sub>&#8211;</sub> .
+                            </li>
+                            <li>transferência de elétrons da água para o HC
+                                <simbolos>&#8467;</simbolos>
+                                .</li>
+                            <li> transferência de elétrons do HC
+                                <simbolos>&#8467;</simbolos>
+                                para a água.</li>
+                            <li> reação de neutralização do H
+                                <sub>+</sub> da água com C
+                                <simbolos>&#8467;</simbolos>
+                                <sub>&#8211;</sub> do HC
+                                <simbolos>&#8467;</simbolos>
+                                .</li>
+                        </ol>
+
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>1</b></p>
+                            <p class='exercicio-text'> <b>UFU-MG</b> O grafitismo é um tipo de manifestação artística surgida nos Estados Unidos, na década de 1970. No Brasil, o grafite chegou ao final dos anos de 1970, em São Paulo. Hoje, o estilo desenvolvido pelos brasileiros
+                                é reconhecido entre os melhores do mundo. A tinta mais usada pelos grafiteiros é o spray em lata, que possui, até o final da década de 1980, o clorofluorcarboneto como propelente.</p>
+                        </div>
+                        <p class="quote-source">Disponível em: &lt;http://www.mundoeducacao.com.br/artes/grafite.htm&gt;. Acesso em: 14 jun. 2012.</p>
+                        <p class="exercicio-text ml"> O
+                            <i>spray</i> em lata, utilizado na arte do grafite,</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>possuía, em sua formulação, CFC, que colaborava para prevenir a degradação da camada de ozônio.</li>
+                            <li>deve ser armazenado em ambientes com incidência direta da luz solar.</li>
+                            <li> é uma dispersão coloidal, mantida sob pressão, de um líquido em um gás liquefeito.</li>
+                            <li>possui probabilidade de explodir diretamente proporcional à redução da temperatura.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>2</b></p>
+                            <p class='exercicio-text'> <b>UEL-PR</b> A força e a exuberância das cores douradas do amanhecer desempenham um papel fundamental na produção de diversos significados culturais e científicos.
+                            </p>
+                        </div>
+                        <p class='exercicio-text ml'>Enquanto as atenções se voltam para as cores, um coadjuvante exerce um papel fundamental nesse espetáculo. Trata-se de um sistema coloidal formado por partículas presentes na atmosfera terrestre, que atuam no fenômeno de espalhamento
+                            da luz do Sol.</p>
+                        <p class='exercicio-text ml'>Com base no enunciado e nos conhecimentos acerca de coloides, considere as afirmativas a seguir.</p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>São uma mistura com partículas que variam de 1 a 1 000 nm.</li>
+                            <li>Trata-se de um sistema emulsificante.</li>
+                            <li>Consistem em um sistema do tipo aerossol sólido.</li>
+                            <li>Formam uma mistura homogênea monodispersa.</li>
+                        </ol>
+                        <p class="exercicio-text ml">Assinale a alternativa correta. </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Somente as afirmativas I e II são corretas.</li>
+                            <li> Somente as afirmativas I e III são corretas.</li>
+                            <li>Somente as afirmativas III e IV são corretas.</li>
+                            <li>Somente as afirmativas I, II e IV são corretas.</li>
+                            <li>Somente as afirmativas II, III e IV são corretas.</li>
+                        </ol>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>3</b></p>
+                            <p class='exercicio-text'><b>Cesgranrio-RJ</b> O colágeno é a proteína mais abundante no corpo humano, fazendo parte da composição de órgãos e tecidos de sustentação. Apesar de não ser comestível, seu aquecimento em água produz uma mistura de outras
+                                proteínas comestíveis, denominadas gelatinas. Essas proteínas possuem diâmetros médios entre 1,0 nm e 1.000 nm e, quando em solução aquosa, formam sistemas caracterizados como</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>soluções verdadeiras.</li>
+                            <li>dispersantes.</li>
+                            <li>coagulantes.</li>
+                            <li>homogêneos.</li>
+                            <li>coloides.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>4</b></p>
+                            <p class='exercicio-text'> <b>Unesp </b> Três substâncias puras, X, Y e Z, tiveram suas condutividades elétricas testadas, tanto no estado sólido como no estado líquido, e os dados obtidos encontram-se resumidos na tabela.</p>
+                        </div>
+                        <img src="./assets/img/4.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Com base nessas informações, é correto classificar como substância iônica:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Y e Z, apenas.</li>
+                            <li>X, Y e Z.</li>
+                            <li>X e Y, apenas.</li>
+                            <li>Y, apenas.</li>
+                            <li>X, apenas.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>5</b></p>
+                            <p class='exercicio-text'><b>Enem </b> A obtenção de sistemas coloidais estáveis depende das interações entre as partículas dispersas e o meio onde se encontram. Em um sistema coloidal aquoso, cujas partículas são hidrofílicas, a adição de um solvente
+                                orgânico miscível em água, como etanol, desestabiliza o coloide, podendo ocorrer a agregação das partículas preliminarmente dispersas.</p>
+                        </div>
+                        <p class="exercicio-text ml">A desestabilização provocada pelo etanol ocorre porque: </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>a polaridade da água no sistema coloidal é reduzida.</li>
+                            <li>as cargas superficiais das partículas coloidais são diminuídas.</li>
+                            <li>as camadas de solvatação de água nas partículas são diminuídas.</li>
+                            <li> o processo de miscibilidade da água e do solvente libera calor para o meio.</li>
+                            <li> a intensidade dos movimentos brownianos das partículas coloidais é reduzida.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>6</b></p>
+                            <p class='exercicio-text'><b>UFJF/Pism-MG 2016</b> O cientista Svante August Arrhenius estudou o efeito de passagem de corrente elétrica na migração de espécies eletricamente carregadas. Assinale a alternativa que descreve a situação na qual ocorre
+                                condução de corrente elétrica.</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> Substância iônica no estado sólido.</li>
+                            <li>Substância molecular não ionizada em solução.</li>
+                            <li>Substância iônica em solução.</li>
+                            <li>Substância molecular no estado gasoso.</li>
+                            <li>Substância molecular em estado sólido.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>7</b></p>
+                            <p class='exercicio-text'> <b>Famerp-SP 2017</b> A mistura conhecida como soro fisiológico é um exemplo de _________, na qual o ____________ é a água e o ______________ é o ____________ de sódio.</p>
+                        </div>
+                        <p class="exercicio-text ml">As lacunas do texto são, correta e respectivamente, preenchidas por:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>solução &#8211; solvente &#8211; soluto &#8211; cloreto.</li>
+                            <li>solução &#8211; solvente &#8211; soluto &#8211; bicarbonato.</li>
+                            <li>solução &#8211; soluto &#8211; solvente &#8211; cloreto.</li>
+                            <li>suspensão &#8211; solvente &#8211; soluto &#8211; bicarbonato.</li>
+                            <li> suspensão &#8211; soluto &#8211; solvente &#8211; cloreto.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>8</b></p>
+                            <p class='exercicio-text'> <b>PUC-Rio</b> Duas soluções ácidas de mesma concentração são preparadas pela adição de 1 mol de ácido para formar 1 L de solução aquosa. Os terminais de um circuito elétrico interrompido, conectado a uma lâmpada, são mergulhados
+                                nas soluções. A primeira solução, de ácido clorídrico, fecha o circuito e faz a lâmpada acender com alta intensidade. Já a segunda solução, de ácido acético, apenas faz a lâmpada brilhar fracamente. Sobre esse experimento
+                                e as substâncias envolvidas, indique a afirmativa
+                                <b>incorreta:</b></p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> Se a solução de ácido clorídrico fosse diluída com a adição de mais 1 L de água, a lâmpada acenderia com o mesmo brilho observado antes da diluição.</li>
+                            <li>O ácido clorídrico é um eletrólito mais forte que o ácido acético.</li>
+                            <li>Os responsáveis pela passagem de corrente elétrica na solução são os íons liberados pelos ácidos quando dissolvidos na água.</li>
+                            <li>Se os terminais fossem mergulhados na água pura, não haveria acendimento da lâmpada.</li>
+                            <li>O ácido acético dissolvido em água forma íons menos efetivamente do que o ácido clorídrico dissolvido em água.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>9</b></p>
+                            <p class='exercicio-text'> <b>UFSCar-SP </b> Sal de cozinha (NaC
+                                <simbolos>&#8467;</simbolos>
+                                ) e açúcar (sacarose) são sólidos brancos solúveis em água. Suas soluções aquosas apresentam comportamentos completamente diferentes quanto à condução de corrente elétrica. É correto afirmar que:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> o cloreto de sódio é um composto iônico e sua solução aquosa conduz corrente elétrica, devido à presença de moléculas de NaC
+                                <simbolos>&#8467;</simbolos>
+                                . A sacarose é um composto covalente e sua solução aquosa tem viscosidade muito alta, diminuindo a condutividade da água.</li>
+                            <li> uma substância como o cloreto de sódio, que em solução aquosa forma íons, é chamada de eletrólito. A solução de sacarose conduz corrente elétrica, devido à formação de ligações de hidrogênio entre as moléculas de sacarose e
+                                água.
+                            </li>
+                            <li>o cloreto de sódio é um composto iônico e suas soluções aquosas conduzem corrente elétrica, devido à presença de íons livres. A sacarose é um composto constituído de moléculas e suas soluções aquosas não conduzem corrente elétrica,
+                                pois as moléculas neutras de sacarose não contribuem para o transporte de cargas.</li>
+                            <li> a dissolução de sacarose em água leva à quebra das moléculas de sacarose em glicose e frutose e estas moléculas conduzem corrente elétrica. A solução de sal, por sua vez, apresenta condutividade menor que a da água destilada.</li>
+                            <li>soluções aquosas de sacarose ou de cloreto de sódio apresentam condutividade elétrica maior do que aquela apresentada pela água pura, pois há formação de soluções eletrolíticas. Os íons formados são os responsáveis pelo transporte
+                                de cargas em ambos os casos.</li>
+                        </ol>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+
+
+
+
+                    <!-- fim -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

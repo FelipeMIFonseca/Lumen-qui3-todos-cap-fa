@@ -1,0 +1,2400 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-quimica-d3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-quimica-d2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-quimica-d2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-quimica-d2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    5
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Pressão máxima de vapor
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/F002-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">Ao nível do mar, a água ferve a 100
+                            <simbolos>º</simbolos>
+                            C.
+                        </p>
+                        <p class="img-credit">
+                            Steven Coling/Shutterstock.com
+                        </p>
+                        <h4 class="titulo4"> Por que sai fumaça do chuveiro se a água não chega a 100
+                            <simbolos>º</simbolos>
+                            C?</h4>
+                        <p class="quote">
+                            Porque a água não precisa chegar a 100
+                            <simbolos>º</simbolos>
+                            C para passar para o estado gasoso. Se a água só virasse vapor a 100
+                            <simbolos>º</simbolos>
+                            C, nunca haveria chuva, pois rios, lagos e mares jamais entrariam em ebulição. O segredo é que, além da ebulição, a água pode passar do estado líquido para o gasoso por duas outras maneiras. A primeira é a calefação, uma mudança quase imediata de estado.
+                            Ela ocorre quando você joga água numa chapa quente, por exemplo. A segunda é a evaporação. Para evaporar, a água precisa estar só um pouco mais quente que o ar. É aí que entra o chuveiro: ele consegue gerar essa diferença de
+                            temperatura para fazer a água virar vapor. As gotinhas que caem a uma temperatura de pelo menos 20
+                            <simbolos>º</simbolos>
+                            C superior à do ambiente têm boas chances de evaporar. Só para exemplificar, num banho [...] quente, com temperatura média em torno dos 45
+                            <simbolos>º</simbolos>
+                            C, cerca de 10% da água se perde em forma de vapor. Em um chuveiro elétrico comum, isso significa que cerca de 1,5 litro passa para o estado gasoso durante uma ducha rápida de apenas cinco minutos.
+                        </p>
+                        <p class="quote">[...] </p>
+                        <p class="quote-source">
+                            TIÓ NETO, Fernando.
+                            <i>Mundo Estranho</i> . São Paulo, ed. 40, p. 38, jun. 2005. Abril Comunicações S. A. Disponível em: &lt;https://super.abril.com.br/mundo-estranho/por-que-sai-fumaca-do-chuveiro-se-a-agua-nao-chega-a-100-oc/&gt;. Acesso em:
+                            24 jun. 2020.
+                        </p>
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    A água entra em ebulição em São Paulo à mesma temperatura que na Cidade do México?
+                                </li>
+                                <li class="general-text">
+                                    O que é uma substância volátil?
+                                </li>
+
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie-hab">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT301
+                                </span>,
+                                <span class='boxe-06-texto'>
+                                  EM13CNT303
+                                </span>e<span class='boxe-06-texto'>
+                                  EM13CNT306
+                                </span>.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="text-content-area">
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Sistemas dispersos</h3>
+                        </div>
+                        <p class="general-text">
+                            Quando analisamos um sistema disperso, temos uma substância X formada por partículas que serão distribuídas uniformemente em toda a extensão de uma substância Y. As substâncias X e Y são denominadas, respectivamente,
+                            <b>disperso</b> e
+                            <b>dispersante</b> .
+                        </p>
+                        <img src="./assets/img/F003-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Solução de água com sal. </p>
+                        <p class="img-credit">Mariyana M/Shutterstock.com </p>
+                        <p class="general-text">Os sistemas dispersos são classificados de acordo com o tamanho das partículas que os constituem, sendo: </p>
+
+                        <ul class="questao-alternativas ml">
+                            <li> <b>&#8226;	Soluções</b> : sistemas formados por partículas (átomos, moléculas ou íons) com tamanho máximo de 1 nanômetro (nm) de diâmetro (1 nm
+                                <simbolos>=</simbolos>
+                                1 ∙ 10
+                                <sub></sub>
+                                <sub>&#8211;9</sub> m); são misturas homogêneas. Exemplos: solução de água com sal, solução de água com álcool, ar filtrado (isento de poeira).</li>
+                            <li> <b>&#8226;	Coloides (ou dispersões coloidais)</b> : sistemas formados por partículas com tamanho entre 1 nm e 1000 nm de diâmetro; são misturas heterogêneas, cujas fases não são diferenciáveis a olho nu, devido ao tamanho das
+                                partículas. Exemplos: sangue (glóbulos, plaquetas e plasma), leite (gordura e água), gelatina (proteínas e água), tintas (pigmentos e solvente) e chantili (creme de leite e ar).</li>
+                            <img src="./assets/img/I001-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                            <p class="img-subtitle">Composição do sangue, um coloide. </p>
+                            <li> <b>&#8226;	Suspensões</b> : sistemas formados por partículas com tamanho superior a 1000 nm de diâmetro; são misturas heterogêneas visíveis a olho nu. Exemplos: areia e água, água turva de uma represa e água e óleo.</li>
+                        </ul>
+                        <p class="general-text">
+                            Estudaremos, nesta unidade, algumas propriedades físicas da água e as modificações causadas quando é adicionado um soluto não volátil, formando uma solução. Entre essas propriedades, estão a temperatura de ebulição, a temperatura de congelamento e a pressão
+                            de vapor. Todas são classificadas como
+                            <b>propriedades coligativas</b> , pois são modificadas na presença de um soluto não volátil. Elas dependem apenas do número de partículas de soluto por molécula de solvente, e não da identidade do soluto.
+                        </p>
+
+                        <img src="./assets/img/F004-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Lodo na água, um exemplo de suspensão. Na imagem, o lodo decantou com o repouso, pois é mais denso que a água. </p>
+                        <p class="img-credit">
+                            LPNkriengsak/Shutterstock.com
+
+                        </p>
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Mudanças de estado físico e diagrama de fases da água </h3>
+                        </div>
+                        <p class="general-text">
+                            Ao aquecermos água em uma panela, ela entra em
+                            <b>ebulição</b> a 100
+                            <simbolos>º</simbolos>
+                            C ao nível do mar, sob pressão de 1 atm, formando bolhas. Uma poça de água seca após um dia de sol devido à
+                            <b>evaporação</b> . Após o preparo de um hambúrguer, a água da torneira muda bruscamente de temperatura ao atingir a chapa quente, mudança de estado físico conhecida como
+                            <b>calefação</b> . Ebulição, evaporação e calefação são exemplos de
+                            <b>vaporização</b> , transformação de uma substância do estado líquido para o estado gasoso. Quando queremos reduzir a temperatura de uma bebida, podemos acrescentar gelo, produzido a partir da
+                            <b>solidificação</b> da água. Se demorarmos para utilizar o gelo, a água sofrerá
+                            <b>fusão</b> , passando para o estado líquido. Se um copo com água e gelo ficar exposto à temperatura ambiente, após certo intervalo de tempo, observaremos gotículas de água em seu exterior, consequência da
+                            <b>condensação</b> do vapor de água presente no ar. Observe o esquema abaixo para recordar as características da água nos três estados físicos da matéria e relembrar os nomes de todas as mudanças de estado físico da matéria:
+                        </p>
+                        <img src="./assets/img/I002-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Características da água nos três estados físicos da matéria e nomenclatura das mudanças de estado. </p>
+                        <p class="general-text">
+                            O estado físico da água (assim como das demais substâncias puras) depende de dois fatores: pressão e temperatura. A água é gasosa acima de 100
+                            <simbolos>º</simbolos>
+                            C, sólida abaixo de 0
+                            <simbolos>º</simbolos>
+                            C e líquida nesse intervalo, considerando uma pressão atmosférica ao nível do mar (1 atm ou 760 mmHg). Alterando a pressão atmosférica, os valores das temperaturas de fusão e ebulição também serão alterados. Assim, analisando um
+                            <b>diagrama de fases</b> , podemos observar qual será o estado físico de uma substância quando submetida a determinados valores de pressão e temperatura. Veja:
+                        </p>
+                        <img src="./assets/img/I003-2020-EM-QUI-2S-L2-FB-U11-C23_b.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Diagrama de fases da água. </p>
+                        <p class="general-text">
+                            Analisando o diagrama, observamos três regiões: a região cinza identifica o estado sólido; a região azul, o estado líquido; a região vermelha, o estado de vapor de água. Um ponto localizado na região azul do diagrama indica que a água estará no estado
+                            líquido; já se o ponto estiver sobre a curva A, pode indicar a mudança do estado sólido para o estado líquido (fusão) ou do estado líquido para o sólido (solidificação). Note, ainda, no diagrama, a existência de um ponto que
+                            indica as condições em que podem existir, simultaneamente, gelo, água líquida e vapor de água, denominado ponto triplo (T). Além disso, a linha que separa as fases líquida e gasosa não continua indefinidamente e finaliza no
+                            chamado
+                            <b>ponto crítico</b> . Nesse estado (fluido supercrítico), as propriedades da água tornam-se completamente diferentes.
+                        </p>
+
+
+
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1"> Temperatura de ebulição e pressão máxima de vapor </h3>
+                        </div>
+                        <p class="general-text">Quando colocamos água em uma panela com tampa de vidro e a levamos ao fogo, observamos o conteúdo da panela facilmente pela tampa no início do aquecimento. Com o avanço do aquecimento, passamos a ter dificuldade em enxergar o conteúdo,
+                            porque gotículas de água estão distribuídas na tampa. Essas gotículas tendem a aumentar até chegarem a uma quantidade máxima. </p>
+                        <p class="general-text">
+                            As gotículas surgem porque parte da água líquida mudou para o estado de vapor com o aquecimento, uma vez que a
+                            <b>temperatura de ebulição</b> da água foi atingida. Assim, podemos dizer que:
+                        </p>
+                        <img src="./assets/img/I004-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">
+                            Um líquido entra em ebulição quando
+                            <i>P</i>
+                            <sub></sub>
+                            <sub>vapor</sub>
+                            <simbolos>=</simbolos>
+                            <i>P</i>
+                            <sub>externa</sub> .
+                        </p>
+                        <p class="teste3"> Um líquido entra em ebulição quando a pressão máxima de seus vapores (P
+                            <sub>vapor</sub> ) se iguala à pressão externa (pressão atmosférica local). A pressão máxima de vapor de determinada substância é a maior pressão que seus vapores exercem em dada temperatura.</p>
+
+                        <p class="general-text">
+                            Em determinado instante, o número de moléculas que passou para o estado gasoso se iguala ao número de moléculas no estado líquido por unidade de tempo. O sistema atinge um estado de
+                            <b>equilíbrio dinâmico</b> entre o líquido e seus vapores.
+                        </p>
+                        <p class="general-text">
+                            Quando a quantidade de vapor dissolvido no ar atmosférico confinado atinge o seu valor máximo, damos o nome de
+                            <b>pressão máxima de vapor</b> à pressão parcial que é exercida por ele. Quanto maior for a pressão máxima de vapor de um líquido, mais
+                            <a href="#lúmen" class="tooltip left" data-title="Volátil:
+                              líquido com baixa temperatura de ebulição, passando facilmente para o estado gasoso em condições ambientes (25
+                              º
+                              C e 1 atm).">
+                                <b>volátil</b>
+                            </a>
+                            será o líquido, pois ele tende a evaporar facilmente.
+                        </p>
+                        <img src="./assets/img/I005-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Equilíbrio dinâmico entre o líquido e seus vapores. </p>
+                        <img src="./assets/img/I006-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Esquema de um recipiente fechado, no qual coexistem em equilíbrio os estados líquido e vapor de água. </p>
+                        <h3 class="titulo2">Fatores que alteram a pressão máxima de vapor </h3>
+                        <p class="general-text">
+                            A pressão máxima de vapor pode ser alterada pela temperatura e pela natureza do líquido. No entanto, ela
+                            <b>não é alterada pela quantidade de líquido</b> . Por exemplo, em um isqueiro a gás, o nível do líquido vai diminuindo conforme o uso do isqueiro, porém a pressão se mantém constante.
+                        </p>
+                        <h3 class="titulo3"> <b>Influência da temperatura  </b></h3>
+                        <p class="general-text">
+                            A temperatura de ebulição de uma substância é influenciada pela pressão externa. Ao nível do mar (pressão de 760 mmHg ou 1 atm, como na cidade do Rio de Janeiro), a água ferve a 100
+                            <simbolos>º</simbolos>
+                            C. Em locais de maior altitude, a pressão exercida pela coluna de ar é menor, sendo menor sua temperatura de ebulição. Na cidade de São Paulo &#8211; localizada a 750 metros de altitude &#8211;, a água ferve por volta de 97,7
+                            <simbolos>º</simbolos>
+                            C; já na cidade de La Paz (Bolívia) &#8211; localizada a 3 600 metros de altitude &#8211;, a água entra em ebulição a 87
+                            <simbolos>º</simbolos>
+                            C; e no Monte Everest &#8211; localizado a 8 848 metros &#8211;, ela ferve a 71
+                            <simbolos>º</simbolos>
+                            C.
+                        </p>
+                        <img src="./assets/img/I007-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-full-width">
+                        <p class="img-subtitle">Esquema que mostra a influência da altitude na pressão atmosférica. </p>
+                        <p class="general-text">Assim, ao variar a pressão externa, a temperatura de ebulição do líquido também muda. Considerando a água, o gráfico da pressão máxima de vapor em função da temperatura pode ser representado da seguinte forma: </p>
+                        <img src="./assets/img/I008-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Influência da altitude sobre à pressão de vapor e a temperatura de ebulição. </p>
+
+                        <div class="boxe-06-02-cie">
+                            <header>
+                                <img src="assets/icons/06_BOXE_02.svg" alt="Icone">
+                                <strong>Mais</strong>
+                            </header>
+
+                            <section>
+                                <h4 class="boxe-02-titulo1">
+                                    Como Funciona: A Panela de Pressão
+                                </h4>
+                                <h5 class="boxe-02-titulo2">
+                                    <b>Oficiencia</b>
+                                </h5>
+                                <p class="general-text">
+                                    O professor de física da UFSCar Luiz Antônio de Oliveira Nunes aborda nesse vídeo o princípio de funcionamento da panela de pressão. Ele também traz curiosidades sobre tipos de panela de pressão desde sua invenção. O vídeo mostra, ainda, uma experiência
+                                    que envolve esse utensílio.
+                                </p>
+                                <p class="boxe-02-footer">
+                                    Disponível em: &#40; &#41;.&lt;https://www.youtube.com/watch?v=MQUzdOh8JHc&gt;. Acesso em: 3 ago. 2021.
+                                </p>
+                            </section>
+                        </div>
+                        <br><br>
+
+                        <div class='questao-resolvida'>
+                            <div class='flex-icon header-questao-resolvida'>
+                                <img src='./assets/icons/06_BOXE_04.svg' class='icon-boxe'>Questão resolvida
+                            </div>
+
+                            <div class="flex-exercicios">
+                                <p class='exercicio-text'><b>1</b></p>
+                                <p class='exercicio-text'><b>UEL-PR </b> Um estudante do Ensino Médio fez a seguinte pergunta ao professor: &#8220;É possível fazer a água entrar em ebulição em temperatura inferior à sua temperatura de ebulição normal (100
+                                    <simbolos>º</simbolos>
+                                    C)? Para responder ao aluno, o professor colocou água até a metade em um balão de fundo redondo e o aqueceu até a água entrar em ebulição. Em seguida, retirou o balão do aquecimento e o tampou com uma rolha, observando, após poucos segundos, o término
+                                    da ebulição da água. Em seguida, virou o balão de cabeça para baixo e passou gelo na superfície do balão, conforme a figura ao lado.</p>
+                            </div>
+                            <p class="exercicio-text ml">Após alguns segundos, a água entrou em ebulição com o auxílio do gelo. O aluno, perplexo, observou, experimentalmente, que sua pergunta tinha sido respondida. </p>
+
+                            <ol class="questao-alternativas ml" type="a">
+                                <li>A partir do texto e da figura, explique o que provocou a ebulição da água com o auxílio do gelo.</li>
+                                <li>O professor, mediante o interesse do aluno, utilizou o mesmo balão para fazer outro experimento. Esperou o balão resfriar até a temperatura de 25
+                                    <simbolos>º</simbolos>
+                                    C e acrescentou uma quantidade de um sal ao balão até saturar a solução, sem corpo de fundo. A massa da solução aquosa salina foi de 200 g e, com a evaporação total da solução, obteve-se um resíduo salino no fundo do balão de 50 g.</li>
+                            </ol>
+                            <p class="exercicio-text ml">A partir do texto, determine a solubilidade do sal em g/100 g de H
+                                <sub>2</sub> O, na mesma temperatura analisada.</p>
+                            <img src="./assets/img/I009-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+
+                            <h3 class="titulo3"><b>Resolução: </b></h3>
+                            <ol class="questao-alternativas ml" type="a">
+                                <li>Ao retirar o balão do aquecimento e fechá-lo com a rolha, houve a interrupção da ebulição, pois a pressão interna do balão impede as moléculas de água de mudarem de estado físico. Quando o fundo do balão entra em contato
+                                    com o gelo, ocorre redução da pressão interna, devido à condensação das moléculas de água. Isso permite que as moléculas no estado líquido passem para o estado de vapor, mesmo que a temperatura seja menor que 100 °C.</li>
+                                <li> Teremos:
+                                    <br> 150 g de H
+                                    <sub>2</sub> O 50 g de sal
+                                    <br> 100 g de H
+                                    <sub>2</sub> O
+                                    <i>x</i>
+                                    <br>
+                                    <i>x</i> = 33,3 g</li>
+                            </ol>
+
+                        </div>
+
+                        <p class="general-text">
+                            Assim, a água poderia ferver à temperatura ambiente desde que a pressão sobre ela diminua bastante.
+                        </p>
+                        <p class="general-text">
+                            Nas panelas de pressão, a pressão interna é superior a 1 atm, e a água ferve em temperaturas superiores a 100
+                            <simbolos>º</simbolos>
+                            C. Assim, os alimentos ficam cozidos mais rapidamente. Esse tipo de panela apresenta uma borracha na tampa cuja função é vedar totalmente o sistema para que ele permaneça fechado, impedindo que o vapor de água formado no aquecimento escape para o exterior.
+                            Assim, a pressão interna da panela aumenta progressivamente até um limite no qual ela começa a empurrar a válvula com pino. Nesse instante, a pressão para de aumentar, pois o vapor formado em excesso passa a ser liberado por
+                            essa válvula.
+                        </p>
+
+
+                        <div class="double-columned-content">
+                            <!-- left -->
+                            <div class="double-columned-content-left">
+                                <img src="./assets/img/F007-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                                <p class="img-credit">Javier Crespo/Shutterstock.com </p>
+                            </div>
+                            <!-- right -->
+                            <div class="double-columned-content-right">
+                                <img src="./assets/img/I010-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                                <p class="img-subtitle">A panela de pressão atinge temperaturas elevadas acima da temperatura de ebulição da água, fazendo com que o alimento seja cozido mais rapidamente. </p>
+                            </div>
+                        </div>
+
+                        <h3 class="titulo3"><b>Influência da natureza do líquido  </b></h3>
+                        <p class="general-text">Alguns líquidos evaporam mais rapidamente do que outros. Líquidos mais voláteis que a água evaporam mais facilmente, apresentando maior pressão de vapor e, ao considerar-se um gráfico da pressão máxima de vapor de água em função
+                            da temperatura, localizam-se acima da curva da água. Líquidos menos voláteis localizam-se abaixo da curva da água. Em um gráfico, basta traçarmos uma reta horizontal a partir da pressão atmosférica que encontraremos a temperatura
+                            de ebulição de uma substância. </p>
+                        <img src="./assets/img/I011-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Variação da pressão de vapor em função da temperatura para diferentes substâncias. </p>
+                        <p class="general-text">
+                            As forças intermoleculares são determinantes na disposição dos líquidos no gráfico. Tanto o éter etílico (T.E.
+                            <simbolos>=</simbolos>
+                            35
+                            <simbolos>º</simbolos>
+                            C) quanto o álcool etílico (T.E.
+                            <simbolos>=</simbolos>
+                            78
+                            <simbolos>º</simbolos>
+                            C) são líquidos mais voláteis que a água (T.E.
+                            <simbolos>=</simbolos>
+                            100
+                            <simbolos>º</simbolos>
+                            C). No entanto, o éter apresenta interações intermoleculares do tipo dipolo permanente, que são menos intensas do que as ligações de hidrogênio presentes no álcool etílico. Quanto mais intensa for a interação intermolecular, mais fortemente as moléculas
+                            são atraídas umas pelas outras e menos volátil será o líquido. Observe que, no gráfico, à temperatura de 35
+                            <simbolos>º</simbolos>
+                            C, a água apresenta menor pressão de vapor, e o éter maior pressão de vapor.
+                        </p>
+
+                    </div>
+
+
+
+                    <!-- Predicting -->
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe"> Aplicando conhecimentos
+                        </div>
+
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"> Identifique o estado físico ou a mudança de estado físico representada no diagrama de fases, nos pontos A, B, C, D e E, e indique o que representa o ponto T.</p>
+                        </div>
+                        <img src="./assets/img/I013-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text">Quais são as três classificações dos sistemas dispersos? Dê duas características de cada um para diferenciá-los.</p>
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"> <b>UFRGS 2018</b> Observe o gráfico abaixo, referente à pressão de vapor de dois líquidos,
+                                <b>A </b> e
+                                <b>B</b> , em função da temperatura.</p>
+                        </div>
+                        <img src="./assets/img/I014-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Considere as afirmações abaixo, sobre o gráfico. </p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>O líquido
+                                <b>B </b> é mais volátil que o líquido
+                                <b>A</b> .
+                            </li>
+                            <li>A temperatura de ebulição de
+                                <b>B</b> , a uma dada pressão, será maior que a de
+                                <b>A</b> .
+                            </li>
+                            <li>Um recipiente contendo somente o líquido
+                                <b>A </b> em equilíbrio com o seu vapor terá mais moléculas na fase vapor que o mesmo recipiente contendo somente o líquido
+                                <b>B </b> em equilíbrio com seu vapor, na mesma temperatura.</li>
+                        </ol>
+                        <p class="exercicio-text ml">Quais estão corretas?</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Apenas I.</li>
+                            <li>Apenas II.</li>
+                            <li>Apenas III.</li>
+                            <li> Apenas II e III.</li>
+                            <li>I, II e III.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text">Uma moradora da cidade de Campinas, localizada no estado de São Paulo, foi passar férias na casa de um amigo que mora em La Paz, na Bolívia. Ao preparar seu café da manhã em Campinas, ela deixaria o ovo cozinhar por 3 minutos
+                                em água fervente para adquirir a consistência desejada. La Paz está localizada a 3 600 metros acima do nível do mar. A visitante deve deixar o ovo cozinhar por mais ou menos tempo em La Paz para que ele fique com a consistência
+                                à qual ela está acostumada? Justifique.</p>
+                        </div>
+                    </div>
+
+                    <div class="text-content-area">
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>1</b></p>
+                            <p class="exercicio-text"> <b>UEG-GO 2015</b> As propriedades físicas dos líquidos podem ser comparadas a partir de um gráfico de pressão de vapor em função da temperatura, como mostrado no gráfico hipotético a seguir para as substâncias A, B, C e D.
+                                Segundo o gráfico, o líquido mais volátil será a substância:</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>A</li>
+                            <li>B</li>
+                            <li>C</li>
+                            <li>D</li>
+                        </ol>
+                        <img src="./assets/img/LUMEN_2021_2S_L3_QUI_E001-alt.png" alt="imagem" class="img-md">
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>2</b></p>
+                            <p class="exercicio-text"><b>Fuvest-SP 2020</b></p>
+                        </div>
+                        <img src="./assets/img/F009-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="quote-source">Disponível em: &lt;https://www.boredpanda.com&gt;. </p>
+                        <p class="exercicio-text ml"> Em Xangai, uma loja especializada em café oferece uma opção diferente para adoçar a bebida. A chamada
+                            <i>sweet little rain </i> consiste em uma xícara de café sobre a qual é pendurado um algodão-doce, material rico em sacarose, o que passa a impressão de existir uma nuvem pairando sobre o café, conforme ilustrado na imagem.</p>
+                        <p class="exercicio-text ml">O café quente é então adicionado na xícara e, passado um tempo, gotículas começam a pingar sobre a bebida, simulando uma chuva doce e reconfortante. A adição de café quente inicia o processo descrito, pois</p>
+                        <p class="exercicio-text ml"><b>Note e adote:</b> Temperatura de fusão da sacarose à pressão ambiente
+                            <simbolos>=</simbolos>
+                            186
+                            <simbolos>º</simbolos>
+                            C;</p>
+                        <p class="exercicio-text ml">Solubilidade da sacarose a 20
+                            <simbolos>º</simbolos>
+                            C
+                            <simbolos>=</simbolos>
+                            1,97 kg/L de água.</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>a temperatura do café é suficiente para liquefazer a sacarose do algodão-doce, fazendo com que este goteje na forma de sacarose líquida.</li>
+                            <li> o vapor de água que sai do café quente irá condensar na superfície do algodão-doce, gotejando na forma de água pura.</li>
+                            <li>a sacarose que evapora do café quente condensa na superfície do algodão-doce e goteja na forma de uma solução de sacarose em água.</li>
+                            <li>o vapor de água encontra o algodão-doce e solubiliza a sacarose, que goteja na forma de uma solução de sacarose em água.</li>
+                            <li>o vapor de água encontra o algodão-doce e vaporiza a sacarose, que goteja na forma de uma solução de sacarose em água.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>3</b></p>
+                            <p class="exercicio-text"> <b>PUC-RS 2016</b> Quando se compara a água do mar com a água destilada, pode-se afirmar que a primeira, em relação à segunda, tem menor __________, mas maior __________.</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> densidade &#8211; ponto de ebulição</li>
+                            <li>condutividade elétrica &#8211; densidade</li>
+                            <li>pressão de vapor &#8211; condutividade elétrica</li>
+                            <li>concentração de íons &#8211; ponto de ebulição</li>
+                            <li>ponto de congelação &#8211; facilidade de vaporização do solvente</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>4</b></p>
+                            <p class="exercicio-text"><b>Fasm-SP 2017</b> Analise a tabela que apresenta a pressão de vapor a 100
+                                <simbolos>º</simbolos>
+                                C para três diferentes substâncias.</p>
+                        </div>
+                        <img src="./assets/img/tabela.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Esboce, no gráfico abaixo, as curvas de pressão de vapor relativas aos álcoois apresentados na tabela. Qual dos dois álcoois é o mais volátil?</li>
+                            <img src="./assets/img/I022-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                            <li> Explique, de acordo com a relação entre as forças intermoleculares e os pontos de ebulição, por que o butan-2-ol apresenta maior pressão de vapor que o hexan-3-ol à mesma temperatura.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>5</b></p>
+                            <p class="exercicio-text"> <b>Unesp</b> Entre 6 e 23 de fevereiro aconteceram os Jogos Olímpicos de Inverno de 2014. Dentre as diversas modalidades esportivas, o
+                                <i>curling</i> é um jogo disputado entre duas equipes sobre uma pista de gelo, seu objetivo consiste em fazer com que uma pedra de granito em forma de disco fique o mais próximo de um alvo circular. Vassouras são utilizadas
+                                pelas equipes para varrer a superfície do gelo na frente da pedra, de modo a influenciar tanto sua direção como sua velocidade. A intensidade da fricção e a pressão aplicada pelos atletas durante o processo de varredura
+                                podem fazer com que a velocidade da pedra mude em até 20% devido à formação de uma película de água líquida entre a pedra e a pista. O gráfico apresenta o diagrama de fases da água.</p>
+                        </div>
+                        <img src="./assets/img/lumen_2022_2s_l3_qui_fa_u2_cap5_q001.png" alt="imagem" class="img-md">
+                        <p class="quote-source">(Tito Miragaia Peruzzo e Eduardo Leite do Canto. Química na abordagem do cotidiano, 2006. Adaptado.) </p>
+                        <p class="exercicio-text ml">Com base nas informações constantes no texto e no gráfico, a seta que representa corretamente a transformação promovida pela varredura é a de número:</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>3.</li>
+                            <li>2.</li>
+                            <li>4.</li>
+                            <li>1.</li>
+                            <li>5.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>6</b></p>
+                            <p class="exercicio-text"> <b>Uece</b> A panela de pressão, inventada pelo físico francês Denis Papin (1647-1712) é um extraordinário utensílio que permite o cozimento mais rápido dos alimentos, economizando combustível.</p>
+                        </div>
+                        <p class="exercicio-text ml">Sobre a panela de pressão e seu funcionamento, pode-se afirmar corretamente que:</p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>é uma aplicação prática da lei de Boyle-Mariotte.</li>
+                            <li>foi inspirada na lei de Dalton das pressões parciais.</li>
+                            <li>aumenta o ponto de ebulição da água contida nos alimentos.</li>
+                            <li> o vapor d&#8217;água represado catalisa o processo de cocção dos alimentos.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>7</b></p>
+                            <p class="exercicio-text"><b>Fuvest-SP 2020</b> Em supermercados, é comum encontrar alimentos chamados de liofilizados, como frutas, legumes e carnes. Alimentos liofilizados continuam próprios para consumo após muito tempo, mesmo sem refrigeração. O
+                                termo &#8220;liofilizado&#8221;, nesses alimentos, refere-se ao processo de congelamento e posterior desidratação por sublimação da água. Para que a sublimação da água ocorra, é necessária uma combinação de condições, como
+                                mostra o gráfico de pressão por temperatura, em que as linhas representam transições de fases.</p>
+                        </div>
+                        <img src="./assets/img/lumen_2022_2s_l3_qui_fa_u2_cap5_q002.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Apesar de ser um processo que requer, industrialmente, uso de certa tecnologia, existem evidências de que os povos pré-colombianos que viviam nas regiões mais altas dos Andes conseguiam liofilizar alimentos, possibilitando estocá-los
+                            por mais tempo.</p>
+                        <p class="exercicio-text ml">Assinale a alternativa que explica como ocorria o processo de liofilização natural:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>A sublimação da água ocorria devido às baixas temperaturas e à alta pressão atmosférica nas montanhas.</li>
+                            <li>Os alimentos, após congelados naturalmente nos períodos frios, eram levados para a parte mais baixa das montanhas, onde a pressão atmosférica era menor, o que possibilitava a sublimação.</li>
+                            <li>Os alimentos eram expostos ao sol para aumentar a temperatura, e a baixa pressão atmosférica local favorecia a solidificação.</li>
+                            <li>As temperaturas eram baixas o suficiente nos períodos frios para congelar os alimentos, e a baixa pressão atmosférica nas altas montanhas possibilitava a sublimação.</li>
+                            <li>Os alimentos, após congelados naturalmente, eram prensados para aumentar a pressão, de forma que a sublimação ocorresse.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>8</b></p>
+                            <p class="exercicio-text"><b>Falbe-SP 2016</b> O gráfico a seguir representa a pressão de vapor de quatro solventes em função da temperatura.</p>
+                        </div>
+                        <img src="./assets/img/lumen_2022_2s_l3_qui_fa_u2_cap5_q003.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Ao analisar o gráfico foram feitas as seguintes observações:</p>
+                        <p class="exercicio-text ml">Apesar de metanol e etanol apresentarem ligações de hidrogênio entre suas moléculas, o etanol tem maior temperatura de ebulição, pois sua massa molecular é maior do que a do metanol. </p>
+                        <p class="exercicio-text ml"> É possível ferver a água a 60
+                            <simbolos>º</simbolos>
+                            C, caso essa substância esteja submetida uma pressão de 20 kPa.</p>
+                        <p class="exercicio-text ml">Pode-se encontrar o dissulfeto de carbono no estado líquido a 50
+                            <simbolos>º</simbolos>
+                            C, caso esteja submetido a uma pressão de 120 kPa.</p>
+                        <p class="exercicio-text ml">Pode-se afirmar que:</p>
+
+
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>somente as afirmações I e II estão corretas.</li>
+                            <li>somente as afirmações I e III estão corretas</li>
+                            <li>somente as afirmações II e III estão corretas</li>
+                            <li>todas as afirmações estão corretas.</li>
+                        </ol>
+
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>9</b></p>
+                            <p class="exercicio-text"> <b>UFRGS 2016</b> Na gastronomia, empregam-se diversos conhecimentos provindos de diferentes áreas da química. Considere os conhecimentos químicos listados no bloco superior abaixo e os processos relacionados à produção e conservação
+                                de alimentos, listados no bloco inferior. Associe adequadamente o bloco inferior ao superior.</p>
+                        </div>
+                        <ol class="questao-alternativsa ml" type="1">
+                            <li>Propriedades coligativas</li>
+                            <li>Coloides</li>
+                            <li>Emulsões</li>
+                            <li>Reversibilidade de reações</li>
+                        </ol>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>( )</b></p>
+                            <p class="exercicio-text">Produção de charque</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>( )</b></p>
+                            <p class="exercicio-text">Preparo de gelatina</p>
+                        </div>
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"><b>( )</b></p>
+                            <p class="exercicio-text">Preparo de maionese</p>
+                        </div>
+                        <p class="exercicio-text ml">A sequência correta de preenchimento dos parênteses, de cima para baixo, é:</p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> 1, 2 e 3.</li>
+                            <li>1, 2 e 4.</li>
+                            <li>2, 3 e 4.</li>
+                            <li>2, 1 e 3.</li>
+                            <li>3, 4 e 2.</li>
+                        </ol>
+                    </div>
+
+
+
+
+                    <div class="text-content-area">
+                        <div class='superacao'>
+                            <p>Superação</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class="exercicio-text"> <b>Unicamp-SP 2020</b> O &#8220;Ebulidor de Franklin&#8221; é um brinquedo constituído de dois bulbos de vidro conectados por um tubo espiralado, preenchido com líquido colorido. Seu uso consiste em encostar a mão na base do
+                                bulbo inferior, fazendo com que o líquido seja aquecido e ascenda para o bulbo superior. Popularmente, a libido de uma pessoa é avaliada com base na quantidade de líquido que ascende. O sucesso de venda, obviamente, é maior
+                                quanto mais positivamente o brinquedo indicar uma &#8220;alta libido&#8221;. Abaixo apresenta-se um gráfico da pressão de vapor em função da temperatura para dois líquidos, A e B, que poderiam ser utilizados para preencher
+                                o &#8220;Ebulidor de Franklin&#8221;.</p>
+                        </div>
+                        <img src="./assets/img/F010-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+
+                        <img src="./assets/img/I025-2020-EM-QUI-2S-L2-FB-U11-C23.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Considerando essas informações, é correto afirmar que a pressão no interior do brinquedo </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> não se altera durante o seu uso, e o ebulidor com o líquido A teria mais sucesso de vendas.</li>
+                            <li> aumenta durante o seu uso, e o ebulidor com o líquido A teria mais sucesso de vendas.</li>
+                            <li>não se altera durante o seu uso, e o ebulidor com o líquido B teria mais sucesso de vendas.</li>
+                            <li>aumenta durante o seu uso, e o ebulidor com o líquido B teria mais sucesso de vendas.</li>
+                        </ol>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- fim -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,2397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumen</title>
+    <style>
+         :root {
+            /* Subjects */
+            --color-lpo-d1: #C51A1B;
+            --color-lpo-d2: #981711;
+            --color-lpo-d3: #E59798;
+            --color-lpo-d4: #F7DCDD;
+            --color-prod-txt-d1: #0F83A6;
+            --color-prod-txt-d2: #005E7C;
+            --color-prod-txt-d3: #92C7D7;
+            --color-prod-txt-d1: #DBECF2;
+            --color-ing-d1: #069891;
+            --color-ing-d2: #015F5B;
+            --color-ing-d3: #069891;
+            --color-ing-d4: #069891;
+            --color-ing-a1: #C8D300;
+            --color-ing-a2: #84A214;
+            --color-ing-a3: #ECF0A6;
+            --color-ing-a4: #F7F9D9;
+            --color-artes-d1: #64428C;
+            --color-artes-d2: #3F1F71;
+            --color-artes-d3: #B9A9CB;
+            --color-artes-d4: #E8E3EE;
+            --color-mat-d1: #1961AC;
+            --color-mat-d2: #033878;
+            --color-mat-d3: #97B7D9;
+            --color-mat-d4: #DCE7F3;
+            --color-bio-d1: #45973D;
+            --color-bio-d2: #306E2B;
+            --color-bio-d3: #ABD0A7;
+            --color-bio-d4: #E3F0E2;
+            --color-quimica-d1: #B80071;
+            --color-quimica-d2: #850343;
+            --color-quimica-d3: #DF8CBF;
+            --color-quimica-d4: #F5D9EA;
+            --color-soc-d1: #C71553;
+            --color-soc-d2: #8B1038;
+            --color-soc-d3: #E695B1;
+            --color-soc-d4: #F7DCE5;
+            --color-soc-a1: #8CCAAE;
+            --color-soc-a2: #208F6D;
+            --color-soc-a3: #D7EDE3;
+            --color-soc-a4: #EEF7F3;
+            --color-fil-d1: #536DA7;
+            --color-fil-d2: #3A4C74;
+            --color-fil-d3: #B1BDD7;
+            --color-fil-d4: #E5E9F2;
+            --color-his-d1: #951B81;
+            --color-his-d2: #6A0F5A;
+            --color-his-d3: #CF98C6;
+            --color-his-d4: #EFDDEC;
+            --color-his-a1: #8CCAAE;
+            --color-his-a2: #208F6D;
+            --color-his-a3: #D7EDE3;
+            --color-his-a4: #EEF7F3;
+            --color-geo-d1: #D85509;
+            --color-geo-d2: #9E2705;
+            --color-geo-d3: #EDB290;
+            --color-geo-d4: #F9E5DA;
+            --color-geo-a1: #8CCAAE;
+            --color-geo-a2: #208F6D;
+            --color-geo-a3: #D7EDE3;
+            --color-geo-a4: #EEF7F3;
+            --color-fis-d1: #00909B;
+            --color-fis-d2: #00666D;
+            --color-fis-d3: #8CCDD2;
+            --color-fis-d4: #D9EEF0;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html,
+        .body-book {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-family: 'proxima_nova_regular', sans-serif;
+            font-size: 16px;
+            background: url("https://livro-digital-development.p4ed.com/assets/icons/lumen/LUMEN_BIO.svg") no-repeat center center fixed;
+            background-size: cover;
+        }
+        
+        @media (max-width: 1080px) {
+            html {
+                font-size: 93.75%;
+                /* 15px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            html {
+                font-size: 87.5%;
+                /* 14px */
+            }
+        }
+        
+        @media (max-width: 900px) {
+            .main {
+                max-width: 692px;
+                width: 692px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                width: 100%;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 26px;
+                z-index: 10;
+                width: 636px;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 52px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        @media (min-width: 901px) {
+            .main {
+                max-width: 876px;
+                width: 876px;
+                height: 100%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+            }
+            .titulo-cap-section {
+                display: flex;
+                position: absolute;
+                top: 52px;
+                left: 68px;
+                z-index: 10;
+                width: 740px;
+            }
+            .ml-25 {
+                margin-left: 25%;
+            }
+            .img-md {
+                margin-top: 1rem;
+                width: 100%;
+            }
+            .img-md-exercicio {
+                min-width: 391px;
+                align-items: center;
+                margin-top: 1rem;
+            }
+            .text-content-area {
+                max-width: 100%;
+                width: 100%;
+                position: relative;
+                padding: 0 68px;
+            }
+            .double-columned-content {
+                max-width: 100%;
+                width: 100%;
+                gap: 24px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 0;
+            }
+        }
+        
+        nav,
+        aside {
+            max-width: 36px;
+            width: 36px;
+            min-height: 100%;
+        }
+        
+        .section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .content-fullwidth-area {
+            max-width: 100%;
+            width: 100%;
+            position: relative;
+        }
+        
+        .general-text {
+            font-size: 18px;
+            margin: 1rem 0;
+            font-family: 'proxima_novalight';
+        }
+        
+        .exercicio-text b {
+            font-family: 'proxima_novabold';
+        }
+        
+        .double-columned-content-left {
+            width: 40%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        .double-columned-content-right {
+            width: 60%;
+            display: flex;
+            flex-flow: column;
+        }
+        
+        button {
+            cursor: pointer;
+            border: none;
+            background: none;
+        }
+        
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+        /* Fonts */
+        
+        @font-face {
+            font-family: 'theserif_extralight';
+            src: url('./assets/fonts/TheSerif/TheSerif-HP2ExLig.otf') format('opentype');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'theserif_semibold';
+            src: url('./assets/fonts/TheSerif/theserif-semibold-plain.ttf') format('truetype');
+            font-weight: normal;
+            font-style: italic;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novablack';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novabold';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_bold-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novalight';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_light-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular_italic';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg_it-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'proxima_novaregular';
+            src: url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff2') format('woff2'), url('./assets/fonts/ProximaNova/proxima_nova_reg-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_regular';
+            src: url('./assets/fonts/Prelo/Prelo-Medium.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Medium.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_bold';
+            src: url('./assets/fonts/Prelo/Prelo-Bold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Bold.woff') format('woff');
+            font-weight: bold;
+            font-style: bold;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_light';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraLight.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraLight.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_extra_bold';
+            src: url('./assets/fonts/Prelo/Prelo-ExtraBold.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-ExtraBold.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        @font-face {
+            font-family: 'Prelo_black';
+            src: url('./assets/fonts/Prelo/Prelo-Black.woff2') format('woff2'), url('./assets/fonts/Prelo/Prelo-Black.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+        }
+        /* Style*/
+        
+        .relative {}
+        
+        .img-banner {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .titulo21 {
+            font-size: 23px;
+        }
+        
+        .tabelasimple {
+            margin-left: 222px;
+        }
+        
+        .img-full-width {
+            width: 100%;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md {
+            max-width: 400px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .max-width-legend {
+            max-width: 300px;
+            margin-left: 68px;
+        }
+        
+        .img-md-200 {
+            max-width: 200px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        
+        .mb-5px {
+            margin-bottom: 5px;
+        }
+        
+        .superacao,
+        .leitura-doc {
+            font-family: "Prelo_extra_bold";
+            font-size: 1.25rem;
+            position: relative;
+            z-index: 0;
+            margin-top: 2rem;
+        }
+        
+        .superacao p,
+        .leitura-doc p {
+            background-color: var(--color-ing-a3);
+            padding: 0.5rem 1.5rem;
+            color: var(--color-ing-a2);
+            width: fit-content;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .superacao::before,
+        .leitura-doc::before {
+            content: "";
+            height: 3px;
+            width: 100%;
+            left: 0;
+            top: 50%;
+            background-color: var(--color-quimica-d1);
+            position: absolute;
+            z-index: -1;
+        }
+        
+        .leitura-doc p {
+            background-color: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            color: #fff;
+        }
+        
+        .leitura-doc::before {
+            background-color: var(--color-quimica-d1);
+        }
+        
+        .texto-citacao {
+            width: min-content;
+            white-space: nowrap;
+            margin-top: 3rem;
+            background: #c8242b;
+            font-family: Prelo_extra_bold;
+            padding: 0.4rem 1rem;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .img-subtitle {
+            text-align: left;
+            font-size: 1rem;
+            font-weight: 300;
+            font-family: "proxima_novalight", sans-serif;
+            letter-spacing: 0px;
+            color: #000000;
+            margin-bottom: 0.5rem;
+            max-width: 740px;
+        }
+        
+        .img-credit {
+            text-align: left;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .font-size-18 {
+            font-size: 18px !important;
+        }
+        
+        .bullet-list-section {
+            border: 2px solid var(--color-quimica-d1);
+            padding-left: 1rem;
+            padding-right: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .bullet-list {
+            margin-left: 1rem;
+        }
+        
+        .boxe-06-02-cie-hab {
+            width: 90%;
+            text-align: left;
+            line-height: 2;
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            margin-top: 1rem;
+        }
+        
+        .img-group {
+            position: relative;
+            display: flex;
+        }
+        
+        .img-group1 {
+            width: 50%;
+        }
+        
+        .desin {
+            width: 50%;
+            height: 50%;
+            margin-left: 16%;
+        }
+        
+        .mantain {
+            width: 45%;
+            height: 50%;
+            margin-left: 37%;
+        }
+        
+        .wear {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .hand {
+            width: 40%;
+            height: 40%;
+            margin-left: 20%;
+        }
+        
+        .wash {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .avoid {
+            width: 40%;
+            height: 40%;
+            margin-left: 40%;
+        }
+        
+        .primeiraimg {
+            width: 100%;
+            top: 0;
+            left: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .segundaimg {
+            width: 100%;
+            right: 0;
+            top: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .terceiraImg {
+            width: 100%;
+            left: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .quartaimg {
+            width: 100%;
+            right: 0;
+            bottom: 0;
+            position: relative;
+            font-size: 9px;
+        }
+        
+        .boxe-06-02-icon {
+            width: 24px;
+        }
+        
+        .boxe-06-texto {
+            background-color: var(--color-quimica-d1);
+            font-weight: bold;
+            color: #fff;
+            padding: 0.25rem 0.5rem;
+        }
+        /* boxe_04 */
+        
+        .boxe-06-04-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            padding: left px;
+            border: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: transparent linear-gradient(90deg, var(--color-quimica-d1) 0%, #bd8432 100%) 0% 0% no-repeat padding-box;
+            border-bottom: 3px solid var(--color-quimica-d1);
+        }
+        
+        .boxe-06-04-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-04-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-04-cie>section {
+            padding: 16px;
+            font-size: 18px;
+            background: #fef2e3;
+            font-weight: 300;
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-04-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-04-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #f9a64a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-04-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-04-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-04-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-04-footer {
+            font-size: 15px;
+        }
+        /* boxe_03 */
+        
+        .boxe-06-03-cie {
+            text-align: left;
+            line-height: 2rem;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .boxe-06-03-cie>header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+            width: 140px;
+        }
+        
+        .praticar {
+            text-align: start;
+            font-weight: bold;
+            color: var(--color-quimica-d1);
+            font-size: 22px;
+            font-style: italic;
+        }
+        
+        .boxe-06-03-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-03-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-03-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-03-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-03-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: var(--color-quimica-d1);
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-03-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 20px;
+            color: #57585a;
+        }
+        
+        .boxe-03-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-03-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-03-footer {
+            font-size: 15px;
+        }
+        /* boxe_02 */
+        
+        .boxe-cap-4-39 {
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 16px;
+            color: #71706f;
+        }
+        
+        .boxe-06-02-cie {
+            text-align: left;
+            line-height: 2;
+            margin-top: 1rem;
+            margin-bottom: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .boxe-06-02-cie>header {
+            width: 96px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            background: var(--color-quimica-d2);
+            border: 3px solid var(--color-quimica-d1);
+            transform: translateY(50%);
+        }
+        
+        .boxe-06-02-cie>header img {
+            width: 32px;
+            box-sizing: content-box;
+        }
+        
+        .boxe-06-02-cie>header strong {
+            font-family: Prelo_extra_bold;
+            font-size: 19px;
+            color: #ffffff;
+        }
+        
+        .boxe-06-02-cie>section {
+            padding: 38px 16px 16px 16px;
+            font-size: 18px;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            font-family: proxima_novalight, sans-serif;
+        }
+        
+        .boxe-06-02-cie>section {
+            line-height: 21px;
+        }
+        
+        .boxe-02-titulo1 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 24px;
+            color: #57585a;
+            margin-bottom: 1rem;
+        }
+        
+        .boxe-02-titulo2 {
+            font-family: Prelo_extra_bold, sans-serif;
+            font-size: 18px;
+            color: #57585a;
+        }
+        
+        .boxe-02-list {
+            padding: 1rem 0;
+            margin-left: 16px;
+        }
+        
+        .boxe-02-list li {
+            line-height: 21px;
+        }
+        
+        .boxe-02-footer {
+            font-size: 15px;
+        }
+        
+        .secao-4-content {
+            display: flex;
+        }
+        
+        .secao-4 {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: #bd8432;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: #fce1bc;
+            margin-top: 3rem;
+            z-index: 1;
+        }
+        
+        .line-secao-4 {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: var(--color-quimica-d1);
+            margin-top: 4.5rem;
+            z-index: 0;
+        }
+        
+        .response-margin-bottom {
+            margin-bottom: 5rem;
+        }
+        
+        .response-margin-left {
+            margin-left: 2rem;
+        }
+        
+        .text-align-right {
+            display: block;
+            text-align: right;
+        }
+        
+        .text-available {
+            display: block;
+            text-align: right;
+            font-size: 13px;
+            margin: 5px;
+        }
+        
+        .titulo1 {
+            text-align: left;
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .titulo2 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.625rem;
+            font-weight: 800;
+            color: var(--color-quimica-d3);
+            font-family: "Prelo_extra_bold", sans-serif;
+        }
+        
+        .list-style-none {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .chapter-description {
+            font-size: 18px;
+            font-family: "proxima_novaregular", sans-serif;
+            transform: translateY(-5%);
+        }
+        
+        .flex-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .flex-justify-evenly {
+            justify-content: space-evenly;
+        }
+        
+        .cap-section {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+            align-items: center;
+            background-color: var(--color-quimica-d1);
+            padding: 8px 8px;
+        }
+        
+        .width-unique-img {
+            width: 300px;
+        }
+        
+        .titulo-cap-background {
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, hsla(177, 92%, 31%, 0.507) 100%);
+            display: flex;
+            align-items: center;
+            flex: 1;
+            padding-left: 16px;
+        }
+        
+        .título-cap {
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: left;
+            font-size: 2.5rem;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+            color: white;
+            width: 75%;
+            line-height: 1.2;
+        }
+        
+        .cap-texto {
+            font-family: "Prelo_light", sans-serif;
+            text-transform: uppercase;
+            color: #fff;
+            font-weight: 600;
+        }
+        
+        .cap-number {
+            font-size: 4rem;
+            font-weight: 800;
+            color: #fff;
+        }
+        
+        .titulo1-section {
+            display: flex;
+            gap: 8px;
+            margin-top: 3rem;
+            align-items: center;
+        }
+        
+        .titulo1-section img {
+            width: 36px;
+        }
+        
+        .titulo3 {
+            margin-top: 3rem;
+            text-align: left;
+            font-size: 1.425rem;
+            font-weight: 800;
+            color: #57585a;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .gloss-link {
+            color: #B80071;
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+        }
+        
+        .gloss-tooltip {
+            background-color: white;
+            border: 3px solid #B80071;
+            border-radius: 4px;
+            max-width: 550px;
+            padding: 0.5rem;
+            transform: translate(10%, -186px);
+            position: absolute;
+            z-index: 10;
+        }
+        
+        .gloss-tooltip::after {
+            content: "";
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #B80071;
+            position: absolute;
+            transform: translate(180px, 11px);
+        }
+        
+        .gloss-tooltip:focus .gloss-tooltip {
+            opacity: 1;
+        }
+        
+        .img-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 280px;
+        }
+        
+        .img-credit-exercicio {
+            min-width: 400px;
+            text-align: center;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+        
+        .img-group-section {
+            display: flex;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .width-05 {
+            width: 50%;
+            margin: 0 auto;
+        }
+        
+        .mt-2rem {
+            margin-top: 2rem;
+        }
+        
+        .table-1-question-7 {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .table-1-question-7>thead>tr>th {
+            text-transform: uppercase;
+            height: min-content;
+            background: var(--color-quimica-d1);
+        }
+        
+        .table-1-question-7>tbody>tr>td {
+            text-align: center;
+            height: min-content;
+            padding: 2px;
+            background: white;
+        }
+        
+        .table-1-question-7>tbody>tr>td:first-child {
+            font-weight: normal;
+        }
+        
+        .table-1-question-7>tfoot>tr>td {
+            border: none;
+            background: white;
+            height: min-content;
+            font-weight: 500;
+            font-size: 13px;
+            text-align: right;
+        }
+        
+        .tabela-gravata {
+            width: 100%;
+            border-collapse: collapse;
+            color: #2b2e34;
+        }
+        
+        th,
+        td {
+            border: 1px solid var(--color-quimica-d1);
+            padding: 8px;
+            height: 60px;
+        }
+        
+        tbody tr td:first-child {
+            font-weight: bold;
+            text-align: center;
+            font-family: "proxima_novaregular";
+        }
+        
+        th {
+            color: white;
+            padding: 8px;
+        }
+        
+        tr.subtitle>th {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        th.subtitle,
+        td.subtitle {
+            color: var(--color-quimica-d1) !important;
+            background: var(--color-quimica-d4) !important;
+            text-transform: none !important;
+        }
+        
+        .tg-0lax {
+            text-align: center;
+            font-family: "proxima_novalight";
+        }
+        
+        .boxe-mt {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(252, 225, 188, 1) 100%);
+            margin: 2rem 0;
+        }
+        
+        .flex-icon {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .boxe-mt-header {
+            display: flex;
+            align-items: center;
+            padding: 1.5rem 1rem 0 1rem;
+            justify-content: space-between;
+            color: #bd8432;
+            font-size: 1.25rem;
+            font-weight: bold;
+            font-family: "Prelo", sans-serif;
+        }
+        
+        .boxe-mt-body {
+            padding: 0 1rem 1rem 1rem;
+        }
+        
+        .icon-boxe {
+            width: 32px;
+        }
+        
+        .text-center {
+            text-align: center;
+        }
+        
+        .questao-resolvida {
+            background-color: #ececec;
+            padding: 3rem 1rem 1rem 1rem;
+            position: relative;
+            margin-top: 3rem;
+        }
+        
+        .margin-questao-resolvida {
+            margin-top: 4rem;
+        }
+        
+        .double-columned-content {
+            padding: 0;
+        }
+        
+        .titulo4 {
+            margin-top: 3rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #000000;
+            font-family: "Prelo_bold", sans-serif;
+        }
+        
+        .questao-resolvida::before {
+            content: " ";
+            width: 200px;
+        }
+        
+        .quote {
+            text-align: right;
+            font-size: 1rem;
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: "proxima_novalight", sans-serif;
+            font-size: 0.625rem;
+            color: #71706f;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+        }
+        
+        .poem {
+            margin: 1rem 0;
+            margin-left: 1.5rem;
+            font-size: 1.05rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .align-horizontal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .ml {
+            margin-left: 1.5rem;
+        }
+        /* .questao-resolvida p {
+margin: 0;
+} */
+        
+        .questao-resolvida .double-columned-content {
+            align-items: initial;
+        }
+        
+        .questao-alternativas {
+            margin-left: 3rem;
+            font-size: 1.125rem;
+        }
+        
+        .questao-alternativas li::marker {
+            color: black;
+            font-size: 1.125rem;
+            font-family: "proxima_novabold";
+        }
+        
+        .questao-alternativas li {
+            font-family: "proxima_novalight";
+            padding: 4px 0;
+            color: #000;
+        }
+        
+        .resposta-list {
+            counter-reset: list;
+            list-style: decimal;
+            list-style: none;
+            position: relative;
+        }
+        
+        .resposta-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            counter-increment: list;
+            content: counter(list, lower-alpha) ") ";
+            position: absolute;
+            left: -1.4em;
+        }
+        
+        .resposta p {
+            color: #707070;
+            font-size: 1.125rem;
+            /* margin: 1rem 0; */
+        }
+        
+        .fake-input-model {
+            padding: 5px;
+            background: white;
+            display: inline-block;
+            height: 35px;
+            width: 71px;
+            border: 1px solid gray;
+            border-radius: 6px;
+        }
+        
+        .resposta .resposta-title {
+            font-family: "proxima_novabold";
+            margin: 1rem 0;
+        }
+        
+        .number-list {
+            list-style: decimal;
+        }
+        
+        .number-list {
+            /*   font-size: 1.25rem;
+font-weight: bold; */
+            list-style-type: none;
+        }
+        
+        .number-list li:before {
+            font-family: "proxima_novabold";
+            font-size: 18px;
+            font-weight: 800;
+            content: counter(level1) " ";
+            /*Instead of ". " */
+            counter-increment: level1;
+        }
+        
+        .flex-question {
+            display: flex;
+            align-items: initial;
+            gap: 1rem;
+        }
+        
+        .header-questao-resolvida {
+            top: -4%;
+            left: 0;
+            position: absolute;
+            max-width: 40%;
+            color: white;
+            font-size: 1.25rem;
+            justify-content: center;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, #B80071 0%, #850343 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .img-with-right-legend {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .img-with-right-legend>div {
+            gap: 10px;
+        }
+        
+        .img-with-right-legend>div img {
+            width: 500px;
+        }
+        
+        .img-with-right-legend>div p {
+            align-self: self-end;
+            flex: 1;
+        }
+        
+        .exercicios {
+            margin-top: 3rem;
+            color: white;
+            font-size: 1.25rem;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background: linear-gradient(90deg, var(--color-quimica-d1) 0%, var(--color-quimica-d2) 100%);
+            padding: 8px;
+            border: 4px solid var(--color-quimica-d1);
+        }
+        
+        .exercicio-text {
+            color: #000;
+            margin-top: 1.5rem;
+            font-size: 1.125rem;
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        .exercicio-text b {
+            color: black;
+        }
+        
+        .flex-exercicios {
+            font-family: "Prelo_regular", sans-serif;
+            display: flex;
+            gap: 1rem;
+            align-items: inherit;
+        }
+        
+        .divisor {
+            height: 2rem;
+            width: 90%;
+            border-bottom: 1px dotted #707070;
+        }
+        
+        .consolidando-saberes {
+            font-family: "Prelo_extra_bold", sans-serif;
+            padding: 0.5rem 1rem;
+            color: var(--color-quimica-d2);
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-weight: 300;
+            border: 3px solid var(--color-quimica-d1);
+            background-color: var(--color-quimica-d3);
+            margin-top: 3rem;
+        }
+        
+        .enem {
+            color: white;
+            font-size: 1.25rem;
+            text-transform: uppercase;
+            font-family: "Prelo_extra_bold", sans-serif;
+            background-color: var(--color-quimica-d2);
+            border: 3px solid #fff;
+            padding: 0.5rem;
+            margin-top: 3rem;
+        }
+        
+        a.tooltip {
+            text-decoration: none;
+            color: var(--color-quimica-d1);
+            font-weight: bold;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            transition: all 0.4s ease;
+            -webkit-transition: all 0.4s ease;
+            background-color: #fff;
+            position: relative;
+        }
+        
+        a.tooltip:before {
+            font-family: "proxima_novalight", sans-serif;
+            content: attr(data-title);
+            background-color: white;
+            border: 3px solid var(--color-quimica-d1);
+            color: black;
+            font-size: 1rem;
+            padding: 10px;
+            box-sizing: border-box;
+            position: absolute;
+            left: 0;
+            bottom: 35px;
+            font-weight: 300;
+            width: 25rem;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.4s ease;
+        }
+        
+        a.tooltip:after {
+            content: "";
+            position: absolute;
+            opacity: 0;
+            width: 0;
+            height: 0;
+            left: 5px;
+            bottom: 25px;
+            border-style: solid;
+            border-width: 0 10px 10px 10px;
+            border-color: transparent transparent var(--color-quimica-d1) transparent;
+            transition: all 0.4s ease;
+            transform: rotateX(180deg);
+        }
+        
+        a.tooltip:focus:after,
+        a.tooltip:focus:before {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        a.left::before {
+            left: -16.25rem !important;
+        }
+        /* Collapse */
+        
+        .wrap-collabsible {
+            margin-bottom: 200px;
+        }
+        
+        input[type="checkbox"] {
+            display: none;
+        }
+        
+        .lbl-toggle-mat {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-align: center;
+            padding: 1rem;
+            background: var(--color-ing-a3);
+            color: #bd8432;
+            height: 3.25rem;
+            cursor: pointer;
+            transition: all 0.25s ease-out;
+        }
+        
+        .collapsible-content-mat {
+            background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, var(--color-ing-a3) 100%);
+            max-height: 0px;
+            overflow: hidden;
+            transition: max-height 0.25s ease-in-out;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat+.collapsible-content-mat {
+            max-height: 100vh;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-add {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat .ion-md-remove {
+            display: block;
+        }
+        
+        .ion-md-remove {
+            display: none;
+        }
+        
+        .toggle-mat:checked+.lbl-toggle-mat {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+        }
+        
+        .collapsible-content-mat .content-inner {
+            padding: 0 1rem;
+        }
+        
+        .content-inner,
+        .text-content-area,
+        .general-text {
+            font-family: "proxima_novalight", sans-serif;
+        }
+        
+        label img {
+            width: 2rem;
+        }
+        
+        .wrap-collabsible h3 {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible h4 {
+            margin: 0;
+            padding: 0;
+            padding-top: 1rem;
+            font-size: 1.125rem;
+            text-align: left;
+        }
+        
+        .wrap-collabsible p {
+            margin: 0;
+            padding: 0;
+            font-size: 1.125rem;
+        }
+        
+        .wrap-collabsible p:not(:first-child) {
+            padding-top: 1rem;
+        }
+        
+        .wrap-collabsible .double-columned-content {
+            align-items: start;
+        }
+        
+        .teste3 {
+            background-color: #ECF0A6;
+        }
+        
+        .teste2 {
+            background-color: #ECF0A6;
+            width: 350px;
+            height: 115px;
+            font-style: italic;
+            font-size: 12px;
+        }
+        
+        .civetCats {
+            background-color: #ECF0A6;
+            height: 60px;
+            width: 230px;
+        }
+        
+        .img-gustave {
+            width: 190px;
+            height: 260px;
+        }
+        
+        .wrap-collabsible .text-credit {
+            padding: 0 !important;
+            margin-bottom: 1rem;
+            font-size: 0.75rem;
+            font-weight: 300;
+            text-align: left;
+        }
+        
+        .wrap-collabsible .img-description {
+            padding-top: 0.5rem !important;
+            font-size: 0.75rem;
+        }
+        
+        .wrap-collabsible ul {
+            margin: 0;
+            padding: 0;
+            padding-left: 1.5rem;
+            padding-top: 0.5rem;
+        }
+        
+        .collapsible-title {
+            padding: 0 !important;
+            font-size: 1.25rem !important;
+            color: var(--color-ing-a2);
+            font-family: "Prelo_bold";
+        }
+        
+        .no-margin {
+            margin: 0 !important;
+        }
+        
+        .no-margin-top {
+            margin-top: 0 !important;
+        }
+        
+        .width-38 {
+            width: 38rem;
+        }
+        
+        .align-self-end {
+            align-self: flex-end;
+        }
+        
+        .height-230 {
+            height: 230px;
+        }
+        
+        .margin-top {
+            margin-top: 3rem;
+        }
+        
+        .margin-top-1 {
+            margin-top: 1rem !important;
+        }
+        
+        .margin-top-7 {
+            margin-top: 7rem;
+        }
+        
+        .titulo-grafico {
+            position: relative;
+            font-size: 1.625rem;
+            text-align: left;
+            font-weight: 800;
+            color: var(--color-quimica-d1);
+            font-family: "Prelo_extra_bold", sans-serif;
+            text-align: center;
+        }
+        
+        .titulo-grafico::before {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-quimica-d2);
+            left: 0;
+            top: -3px;
+        }
+        
+        .titulo-grafico::after {
+            content: "";
+            position: absolute;
+            height: 4px;
+            width: 100%;
+            background: var(--color-quimica-d2);
+            left: 0;
+            bottom: -3px;
+        }
+        
+        .flex-images {
+            display: flex;
+            gap: 1rem;
+            align-items: flex-end;
+        }
+        
+        .align-items-top {
+            align-items: flex-start !important;
+        }
+        
+        .no-gap {
+            gap: 0 !important;
+        }
+        
+        .height-261 {
+            height: 261px;
+        }
+        
+        .height-728 {
+            height: 728px;
+        }
+        
+        .letter-image {
+            display: inline-block;
+            color: #fff;
+            font-weight: 800;
+            display: grid;
+            place-items: center;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #B80071;
+        }
+        /*  */
+        
+        .quote-title {
+            font-size: 24px;
+            font-family: 'theserif_semibold', sans-serif;
+            text-align: center;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .quote {
+            margin-top: 1rem;
+            margin-left: 1.5rem;
+            text-align: left;
+            font-size: 18px;
+            font-family: 'theserif_extralight', sans-serif;
+        }
+        
+        .quote-source {
+            text-align: right;
+            font-family: 'proxima_novalight', sans-serif;
+            font-size: 16px;
+            letter-spacing: 0px;
+            margin-bottom: 2rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin-left: auto;
+        }
+        
+        .img-littlee3 {
+            max-width: 35px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee2 {
+            max-width: 55px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .img-littlee {
+            max-width: 250px;
+            margin: 0 auto;
+            display: inline;
+        }
+        
+        .teste3 {
+            background-color: #DF8CBF;
+        }
+        
+        .img-md-banner {
+            max-width: 400px;
+            display: block;
+            margin-bottom: 0.5rem;
+            margin-top: -20rem;
+            margin-left: auto;
+            margin-right: -5rem;
+        }
+        
+        .img-md-1 {
+            max-width: 500px;
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="body">
+            <div class="main">
+                <div class="section">
+
+                    <div class="content-fullwidth-area">
+                        <div class="titulo-cap-section">
+                            <div class="cap-section">
+                                <span class="cap-texto">Capítulo</span>
+                                <p class="cap-number">
+                                    2
+                                </p>
+                            </div>
+                            <div class="titulo-cap-background">
+                                <h1 class="título-cap">
+                                    Coeficiente de solubilidade
+                                </h1>
+                            </div>
+                        </div>
+                        <img class="img-full-width" src="./assets/img/I001-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem">
+                    </div>
+
+                    <!-- home -->
+                    <div class="text-content-area">
+                        <p class="img-subtitle">A mistura de água e sal é uma mistura homogênea, caracterizada por uma única fase. Já a mistura de água e areia é uma mistura heterogênea, caracterizada por mais de uma fase.
+                        </p>
+                        <p class="quote">[...] </p>
+                        <p class="quote">Podemos ainda observar, na cozinha da nossa casa, que há limite para dissolver o açúcar e o sal na água. Quando exageramos na quantidade, a água ou o suco ficam turvos, porque o açúcar ou o sal não se dissolveram totalmente. A
+                            quantidade de substância que se dissolve em determinada quantidade de solvente varia muito, em função das características das substâncias envolvidas e da compatibilidade entre elas (soluto e solvente). Quando a água é o solvente,
+                            algumas substâncias possuem solubili-dade infinita, ou seja, misturam-se em qualquer proporção com a água. Outras possuem solubilidade limitada; outras, insolúveis. </p>
+                        <p class="quote">[...] </p>
+                        <p class="quote-source">
+                            SANTANA, K.; LIMA E. R.
+                            <i>Utilização de uma atividade experimental para discutir conceitos sobre a solubilidade.</i> Universidade Federal de Sergipe. Itabaiana, 2013. Disponível em: <br> &lt;https://www.google.com/search?q=UTILIZA%C3%87%C3%83O <br> +DE+UMA+ATIVIDADE+EXPERIMENTAL+PARA+DISCUTIR+CONCEITOS+SOBRE
+                            <br>+A+SOLUBILIDADE&amp;oq=UTILIZA%C3%87%C3%83O+DE+UMA+ATIVIDADE+ <br> EXPERIMENTAL+PARA+DISCUTIR+ <br> CONCEITOS+SOBRE+A+SOLUBILIDADE&amp;aqs=chrome..69i57.301j0j9&amp; <br> sourceid=chrome&amp;ie=UTF-8#&gt;. Acesso em: 12 jul. 2021.
+                        </p>
+
+                    </div>
+
+                    <!-- bullet and boxe-2 -->
+                    <div class="text-content-area">
+                        <!-- bullet -->
+                        <div class="bullet-list-section">
+                            <ul class="bullet-list">
+                                <li class="general-text">
+                                    Quanto de açúcar é preciso para tornar a água turva?
+                                </li>
+                                <li class="general-text">
+                                    É possível transformar uma solução saturada em insaturada sem alterar as quantidades de soluto e de solvente?
+                                </li>
+                                <li class="general-text">
+                                    Além da água, que outro solvente tem a capacidade de dissolver muitas substâncias?
+                                </li>
+                            </ul>
+                        </div>
+                        <!--boxe-2  -->
+                        <div class="boxe-06-02-cie-hab">
+                            <img src="./assets/icons/01_titulo1.svg" class="boxe-06-02-icon">
+                            <p class='chapter-description'> Neste capítulo serão abordadas as habilidades
+                                <span class='boxe-06-texto'>
+                                  EM13CNT101
+                                </span> ,
+                                <span class='boxe-06-texto'>
+                                  EM13CNT203
+                                </span>e<span class='boxe-06-texto'>
+                                  EM13CNT307
+                                </span>.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Predicting -->
+
+
+                    <div class="text-content-area">
+                        <div class="titulo1-section">
+                            <img src="./assets/icons/01_titulo1.svg">
+                            <h3 class="titulo1">Solubilidade</h3>
+                        </div>
+
+
+                        <p class="general-text">Quando falamos sobre solubilidade, estamos nos referindo à quan-tidade de um soluto a ser dissolvido por certa quantidade de solvente sob temperatura constante. Ao prepararmos achocolatado para beber em um copo com aproximadamente
+                            300 mL de leite, podemos adicionar diferentes quantidades de achocolatado em pó. A depender da massa de achocolatado adicionada, a bebida poderá apresentar uma quantidade de sólido no fundo do copo. Quando isso acontece, significa
+                            que adicionamos mais sólido do que aquela quantidade de leite conseguia dissolver naquela temperatura; então, para eliminar esse excesso, temos duas alternativas: adicionar mais leite ou alterar a temperatura da solução. </p>
+                        <p class="general-text">
+                            Chamamos de
+                            <b>coeficiente de solubilidade</b> o máximo de soluto que é dissolvido por uma quantidade definida de solvente (na maioria dos casos, definimos a quantidade de solvente em 100 g) a dada temperatura.
+                        </p>
+                        <p class="general-text">
+                            Formamos uma solução
+                            <b>insaturada</b> quando adicionamos menor quantidade de soluto do que aquela que o solvente é capaz de dissolver a dada temperatura. Essa solução será homogênea e não apresentará corpo de chão.
+                        </p>
+                        <p class="general-text">
+                            Se adicionarmos exatamente a quantidade de soluto possível de ser dissolvida pelo solvente naquela temperatura, ou seja, se adicionarmos uma massa de soluto igual àquela indicada em seu coeficiente de solubilidade, produziremos uma solução
+                            <b>saturada</b> e homogênea, sem a presença de precipitado.
+                        </p>
+                        <img src="./assets/img/F001-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Não é possível afirmar se uma solução é saturada ou insaturada a olho nu. </p>
+                        <p class="img-credit">Turtle Rock Scientific/Science Source/Fotoarena</p>
+                        <p class="general-text">
+                            Em determinadas situações, quando adicionamos mais soluto do que o solvente é capaz de dissolver, podemos formar uma solução
+                            <b>supersaturada</b> . Essa solução é instável, e eventualmente o excesso de soluto tende a cristalizar, formando corpo de chão, que precipita no fundo do recipiente. Após a precipitação, a solução resultante se encontra saturada,
+                            como é o caso do achocolatado que citamos.
+                        </p>
+                        <img src="./assets/img/F002-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md">
+                        <p class="img-subtitle">Uma solução supersa-turada tem aspecto homogêneo, mas o soluto dissolvido tende a cristalizar e precipitar. </p>
+                        <p class="img-credit">Turtle Rock Scientific/Science Source/Fotoarena</p>
+                        <p class="general-text">A temperatura é um fator que afeta o coeficiente de solubilidade das substâncias; por isso, é preciso saber a temperatura em que o sistema se encontra para classificar a solução. </p>
+
+                        <div>
+                            <!-- watch out -->
+                            <div class='wrap-collabsible'>
+                                <input id='collapsible-his-3' class='toggle-mat' type='checkbox'>
+                                <label for='collapsible-his-3' class='lbl-toggle-mat'>
+                            <div class='flex-icon'>
+                                <img src='./assets/icons/06_BOXE_17_CT.svg' class='icon-boxe'>
+                                <p class='collapsible-title'>Fique ligado!</p>
+                            </div>
+                            <div class='flex-icon'>
+                                <img src='./assets/icons/arrow-down.svg' class='icon ion-md-add'>
+                                <img src='./assets/icons/arrow-up.svg' class='icon ion-md-remove'>
+                            </div>
+                        </label>
+                                <div class='collapsible-content-mat'>
+                                    <div class='content-inner'>
+                                        <div class='text-content-area'>
+                                            <p class='general-text'>
+                                                <p class='chapter-description general-text'>
+                                                    Podemos determinar facilmente a massa de precipitado em uma solução. Para isso, basta conhecer a massa total de soluto que foi adicionada ao solvente e o
+                                                    <b>coeficiente de solubilidade</b> na temperatura adequada: se adicionarmos 40 g de NaC
+                                                    <simbolos>&#8467;</simbolos>
+                                                    a 100 g de água a 20
+                                                    <simbolos>°</simbolos>
+                                                    C
+                                                    <simbolos>&#8211;</simbolos>
+                                                    sendo o valor do coeficiente de solubilidade do cloreto de sódio nessa temperatura 36 g NaC
+                                                    <simbolos>&#8467;</simbolos>
+                                                    /100 g H
+                                                    <sub></sub>
+                                                    <sub>2</sub> O
+                                                    <simbolos>&#8211;</simbolos>
+                                                    , a massa de precipitado será a quantidade de sal adicionada (40 g) menos o coeficiente de solubilidade (36 g), ou seja, 40 g
+                                                    <simbolos>&#8211;</simbolos>
+                                                    36 g
+                                                    <simbolos>=</simbolos>
+                                                    4 g.
+                                                </p>
+                                        </div>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="questao-resolvida">
+                            <div class=" flex-icon header-questao-resolvida">
+                                <img src="./assets/icons/06_BOXE_04.svg" class="icon-boxe"> Questão resolvida
+                            </div>
+
+
+                            <div class="flex-exercicios">
+                                <p class='exercicio-text'><b>1</b></p>
+                                <p class='exercicio-text'> Sabendo que o coeficiente de solubilidade do cloreto de amônio (NH
+                                    <sub>4</sub> C
+                                    <simbolos>&#8467;</simbolos>
+                                    ) é de 37,2 g/100 g de H
+                                    <sub>2</sub> O a 20
+                                    <simbolos>°</simbolos>
+                                    C e de 55,2 g/100 g de H
+                                    <sub>2</sub> O a 60
+                                    <simbolos>°</simbolos>
+                                    C, uma solução com 200 g de água e 110,4 g de cloreto de amônio a 20
+                                    <simbolos>°</simbolos>
+                                    C é considerada saturada ou insaturada? E a 60
+                                    <simbolos>°</simbolos>
+                                    C?</p>
+                            </div>
+                            <h3 class="titulo3"><b>Resolução:</b></h3>
+                            <p class="exercicio-text">
+                                A 20
+                                <simbolos>°</simbolos>
+                                C:
+                            </p>
+                            <p class="exercicio-text">
+                                100 g água --------- 37,2 g NH
+                                <sub>4</sub> C
+                                <simbolos>&#8467;</simbolos>
+                            </p>
+                            <p class="exercicio-text">
+                                200 g água ---------
+                                <i>x</i>
+                            </p>
+                            <p class="exercicio-text">
+                                <i>x</i>
+                                <simbolos>=</simbolos>
+                                74,4 g NH
+                                <sub>4</sub> C
+                                <simbolos>&#8467;</simbolos>
+                            </p>
+                            <p class="exercicio-text">110,4 g foram adicionados, mas apenas 74,4 g são dissolvidos, então a solução é saturada com corpo de fundo. </p>
+                            <p class="exercicio-text">
+                                A massa de corpo de fundo que precipita é:110,4 g
+                                <simbolos>&#8211;</simbolos>
+                                74,4 g
+                                <simbolos>=</simbolos>
+                                36 g
+                            </p>
+                            <p class="exercicio-text">
+                                A 60
+                                <simbolos>°</simbolos>
+                                C:
+                            </p>
+                            <p class="exercicio-text">
+                                100 g água --------- 55,2 g NH
+                                <sub>4</sub> C
+                                <simbolos>&#8467;</simbolos>
+                            </p>
+                            <p class="exercicio-text">
+                                200 g água ---------
+                                <i>y</i>
+                            </p>
+                            <p class="exercicio-text">
+                                <i>y</i>
+                                <simbolos>=</simbolos>
+                                110,4 g NH
+                                <sub>4</sub> C
+                                <simbolos>&#8467;</simbolos>
+                            </p>
+                            <p class="exercicio-text">110,4 g foram adicionados, e 110,4 g são dissolvidos, então a solução é saturada sem corpo de fundo.</p>
+
+                        </div>
+                        <p class="general-text">Até agora, tratamos de soluções em que o soluto é sólido e o solvente é líquido, mas sabemos que o soluto também pode ser um gás ou um líquido. Quando desejamos dissolver um gás em um solvente líquido, precisamos prestar atenção
+                            não só na temperatura, mas também na pressão do sistema. </p>
+                        <p class="general-text">O aumento de pressão causa maior solubilidade do gás em um líquido; já a diminuição de pressão diminui a solubilidade desse gás no líquido. A temperatura, por sua vez, age de maneira contrária na solubilidade: o aquecimento gera
+                            diminuição da solubilidade dos gases, enquanto temperaturas mais baixas aumentam a solubilidade destes. </p>
+                        <p class="general-text">
+                            A pressão não aumenta nem diminui a solubilidade de sólidos em líquidos; nesses casos, é a temperatura que tem grande influência. Na maioria das vezes, o aumento da temperatura do sistema causa aumento na solubilidade do sólido, principalmente se este
+                            for uma substância iônica. Quando esse comportamento ocorre, a dissolução é
+                            <b>endotérmica</b> , ou seja, favorecida pelo aquecimento. No entanto, também existem substâncias que apresentam diminuição do coeficiente de solubilidade com o aumento da temperatura. Nesse caso, a dissolução é
+                            <b>exotérmica</b> , ou seja, prejudicada pelo aumento da temperatura.
+                        </p>
+                        <p class="general-text">Com essas informações, é possível construir curvas de solubilidade, que demonstram o comportamento da solubilidade com a variação da temperatura, como mostra o gráfico a seguir. </p>
+
+
+                        <div class='titulo-grafico'>
+                            <p>Solubilidade do gás oxigênio em água a várias temperaturas, na pressão atmosférica de 1 atm (760 mmHg)</p>
+                        </div>
+                        <img src="./assets/img/LUMEN_2021_2S_L3_QUI_I001.png" alt="imagem" class="img-md-1">
+                        <p class="img-subtitle">O gráfico mostra que o aumento de temperatura diminui a solubilidade de gás oxigênio em água. Por isso, o aquecimento global é algo tão danoso, pois modifica os padrões de circulação dos oceanos e contribui para a perda de oxigênio
+                            na água. </p>
+                        <p class="quote-source">
+                            Fonte: FIORUCCI, A. BENEDETTI E. A importância do oxigênio dissolvido em sistemas aquáticos.
+                            <i>Química Nova na Escola</i> , n
+                            <simbolos>°</simbolos>
+                            . 22, nov. 2005. Disponível em: &lt;http://qnesc. sbq.org.br/online/qnesc22/a02.png&gt;&gt;. Acesso em: 20 maio 2021.
+                        </p>
+
+                    </div>
+
+
+                    <div class="text-content-area">
+                        <div class=" flex-icon exercicios applying-knowledge">
+                            <img src="./assets/icons/07_SECAO_02.svg" class="icon-boxe"> Aplicando conhecimentos
+                        </div>
+
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>1</b></p>
+                            <p class='exercicio-text'>Considerando que o coeficiente de solubilidade da sacarose (C
+                                <sub>12</sub> H
+                                <sub>22</sub> O
+                                <sub>11</sub> ), a 30
+                                <simbolos>°</simbolos>
+                                C, é 220 g/100 g de H
+                                <sub>2</sub> O, quanto de açúcar devemos adicionar a 250 mL de água para que a solução seja considerada saturada? Dados: densidade da água
+                                <simbolos>=</simbolos>
+                                1 g/mL.</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>450 g</li>
+                            <li>500 g</li>
+                            <li>550 g</li>
+                            <li>600 g</li>
+                            <li>650 g</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>2</b></p>
+                            <p class='exercicio-text'> A solubilidade do gás carbônico (CO
+                                <sub>2</sub> ) em água depende das condições de pressão e de temperatura do sistema. Se observarmos dois lagos, ambos sob a mesma pressão atmosférica, porém um a 15
+                                <simbolos>°</simbolos>
+                                C de temperatura e outro a 30
+                                <simbolos>°</simbolos>
+                                C, em qual dos dois haverá maior quantidade de CO
+                                <sub>2</sub> dissolvido?
+                            </p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>3</b></p>
+                            <p class='exercicio-text'>Observe o gráfico para responder ao que se pede.</p>
+                        </div>
+                        <img src="./assets/img/I003-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">
+                            Foi preparada uma solução saturada de nitrato de potássio e água a 50
+                            <simbolos>°</simbolos>
+                            C, com massa total igual a 500 g. Se essa solução sofrer diminuição da temperatura para 30
+                            <simbolos>°</simbolos>
+                            C, qual será a massa do precipitado formado?
+                        </p>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>4</b></p>
+                            <p class='exercicio-text'> Qual é a diferença entre uma solução supersaturada e uma solução saturada com corpo de chão?</p>
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>5</b></p>
+                            <p class='exercicio-text'><b>Unicamp 2021</b> A forma cristalina de um fármaco é fundamental para seu uso como medicamento. Assim, a indústria farmacêutica, após a síntese de determinado fármaco, deve verificar se ele se apresenta como uma única forma
+                                cristalina ou se é uma mistura polimórfica. Uma das formas de purificar um fármaco nessas condições é utilizar um processo de recristalização: dissolução do material sintetizado, seguida da cristalização da substância desejada.
+                                Observe na tabela abaixo os dados de solubilidade em água de uma dada forma de insulina. A partir dessas informações, caso se queira purificar uma amostra dessa insulina, seria recomendado dissolver essa amostra em quantidade
+                                suficiente de água
+                            </p>
+                            </p>
+                        </div>
+
+                        <img src="./assets/img/tabela.png" alt="imagem" class="img-md">
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> a 35
+                                <simbolos>°</simbolos>
+                                C e resfriar lentamente a solução até 15
+                                <simbolos>°</simbolos>
+                                C, promover uma filtração a 15
+                                <simbolos>°</simbolos>
+                                C e recuperar o sólido; toda a insulina seria recuperada.</li>
+                            <li>a 15
+                                <simbolos>°</simbolos>
+                                C e aquecer lentamente a solução até 35
+                                <simbolos>°</simbolos>
+                                C, promover uma filtração a 35
+                                <simbolos>°</simbolos>
+                                C e recuperar o sólido; uma parte da insulina permaneceria em solução.</li>
+                            <li>a 35
+                                <simbolos>°</simbolos>
+                                C e resfriar lentamente a solução até 15
+                                <simbolos>°</simbolos>
+                                C, promover uma filtração a 15
+                                <simbolos>°</simbolos>
+                                C e recuperar o sólido; uma parte da insulina permaneceria em solução.</li>
+                            <li> a 15
+                                <simbolos>°</simbolos>
+                                C e aquecer lentamente a solução até 35
+                                <simbolos>°</simbolos>
+                                C, promover uma filtração a 35
+                                <simbolos>°</simbolos>
+                                C e recuperar o sólido; toda a insulina seria recuperada.</li>
+                        </ol>
+                    </div>
+
+
+
+                    <div class="text-content-area">
+                        <div class='consolidando-saberes'>
+                            Consolidando saberes
+                        </div>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>1</b></p>
+                            <p class='exercicio-text'><b>Unesp 2017</b> A 20
+                                <simbolos>°</simbolos>
+                                C, a solubilidade do açúcar comum (C
+                                <sub>12</sub> H
+                                <sub>22</sub> O
+                                <sub>11</sub> , massa molar
+                                <simbolos>=</simbolos>
+                                342 g/mol) em água é cerca de 2,0 kg/L, enquanto a do sal comum (NaC
+                                <simbolos>&#8467;</simbolos>
+                                , massa molar
+                                <simbolos>=</simbolos>
+                                58,5 g/mol) é cerca de 0,35 kg/L. A comparação de iguais volumes de soluções saturadas dessas duas substâncias permite afirmar corretamente que, em relação à quantidade total em mol de íons na solução de sal, a quantidade total em mol de moléculas de
+                                soluto dissolvidas na solução de açúcar é, aproximadamente,</p>
+                        </div>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>a mesma.</li>
+                            <li>6 vezes maior.</li>
+                            <li>6 vezes menor.</li>
+                            <li>a metade.</li>
+                            <li>o triplo.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>2</b></p>
+                            <p class='exercicio-text'> <b>UFRGS 2017</b> Observe o gráfico e a tabela abaixo, que representam a curva de solubilidade aquosa (em gramas de soluto por 100 g de água) do nitrato de potássio e do nitrato de sódio em função da temperatura.</p>
+                        </div>
+                        <img src="./assets/img/I004-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md">
+                        <img src="./assets/img/3.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">
+                            Assinale a alternativa que preenche corretamente as lacunas do enunciado a seguir, na ordem em que aparecem. A curva A diz respeito ao ________, e a curva B, ao _________. Considerando duas soluções aquosas saturadas e sem precipitado, uma de KNO
+                            <sub>3</sub> e outra de NaNO
+                            <sub>3</sub> , a 65
+                            <simbolos>°</simbolos>
+                            C, o efeito da diminuição da temperatura acarretará a precipitação de ___________.
+                        </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Nitrato de potássio &#8211; nitrato de sódio &#8211; nitrato de potássio</li>
+                            <li>Nitrato de potássio &#8211; nitrato de sódio &#8211; nitrato de sódio</li>
+                            <li>Nitrato de sódio &#8211; nitrato de potássio &#8211; nitrato de sódio</li>
+                            <li>Nitrato de sódio &#8211; nitrato de potássio &#8211; ambas</li>
+                            <li>Nitrato de potássio &#8211; nitrato de sódio &#8211; ambas</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>3</b></p>
+                            <p class='exercicio-text'><b>Mackenzie-SP 2017</b> A tabela abaixo mostra a solubilidade do sal X, em 100 g de água, em função da temperatura.</p>
+                        </div>
+                        <img src="./assets/img/4.png" alt="imagem" class="img-md">
+                        <p class="exercicio-text ml">Com base nos resultados obtidos, foram feitas as seguintes afirmativas: </p>
+                        <ol class="questao-alternativas ml" type="I">
+                            <li>A solubilização do sal X, em água, é exotérmica.</li>
+                            <li>Ao preparar-se uma solução saturada do sal X, a 60
+                                <simbolos>°</simbolos>
+                                C, em 200 g de água e resfriá-la, sob agitação até 10
+                                <simbolos>°</simbolos>
+                                C, serão precipitados 19 g desse sal.</li>
+                            <li>Uma solução contendo 90 g de sal e 300 g de água, a 50
+                                <simbolos>°</simbolos>
+                                C, apresentará precipitado.</li>
+                        </ol>
+                        <p class="exercicio-text ml">Assim, analisando-se as afirmativas acima, é correto dizer que </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Nenhuma das afirmativas está certa.</li>
+                            <li>Apenas a afirmativa II está certa.</li>
+                            <li>Apenas as afirmativas II e III estão certas.</li>
+                            <li>Apenas as afirmativas I e III estão certas.</li>
+                            <li>Todas as afirmativas estão certas.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>4</b></p>
+                            <p class='exercicio-text'> <b>Unicid-SP 2017</b> O gráfico apresenta as solubilidades dos sais A, B, C, D, E e F em função da temperatura.</p>
+                        </div>
+                        <img src="./assets/img/I005-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md-1">
+                        <p class="quote-source">(www.preuniversitycourses.com. Adaptado.) </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Indique o sal cuja solubilidade em água é menos afetada pelo aumento de temperatura.</li>
+                            <li>Considere uma solução preparada com 33 g dosal B em 50 g de água, a 40
+                                <simbolos>°</simbolos>
+                                C. A mistura resultante apresenta corpo de fundo? Justifique sua resposta.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>5</b></p>
+                            <p class='exercicio-text'><b>IME-RJ 2017</b> A figura a seguir representa as curvas de solubilidade de duas substâncias A e B.</p>
+                        </div>
+                        <img src="./assets/img/I007-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md-1">
+                        <p class="exercicio-text ml">Com base nela, pode-se afirmar que: </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> No ponto 1, as soluções apresentam a mesma temperatura, mas as solubilidades de A e B são diferentes.</li>
+                            <li>A solução da substância A está supersaturada no ponto 2.</li>
+                            <li>As soluções são instáveis no ponto 3.</li>
+                            <li>As curvas de solubilidade não indicam mudanças na estrutura dos solutos.</li>
+                            <li>A solubilidade da substância B segue o perfil esperado para a solubilidade de gases em água.</li>
+                        </ol>
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>6</b></p>
+                            <p class='exercicio-text'><b>Fasm-SP 2016</b> Analise o gráfico que representa a solubilidade do CO
+                                <sub>2</sub> (massa molar 44 g/mol) em água à pressão 1 atm.</p>
+                        </div>
+                        <img src="./assets/img/I009-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md-1">
+                        <p class="quote-source">
+                            (
+                            <i>Química Nova na Escola</i> , vol. 35, 2013.)
+                        </p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>A dissolução do gás carbônico em água é um processo endotérmico ou exotérmico? Justifique sua resposta.</li>
+                            <li>Calcule a quantidade de gás carbônico, em mol, dissolvida em 1 litro de água, a 10
+                                <simbolos>°</simbolos>
+                                C e a 1 atm, saturada com este gás. Apresente os cálculos efetuados.</li>
+                            <li></li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>7</b></p>
+                            <p class='exercicio-text'> <b>UEG-GO </b> Uma solução foi preparada a 30
+                                <simbolos>°</simbolos>
+                                C pela dissolução de 80 g de um sal inorgânico hipotético em 180 g de água. A solubilidade dessa substância se modifica com a variação da temperatura, conforme a tabela a seguir.</p>
+                        </div>
+                        <img src="./assets/img/5.png" alt="imagem" class="img-md-1">
+                        <p class="exercicio-text ml">
+                            Se a solução for resfriada para 20
+                            <simbolos>°</simbolos>
+                            C, a massa, em gramas, do sal que irá precipitar será igual a
+                        </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>48</li>
+                            <li>28</li>
+                            <li>22,4</li>
+                            <li>13,8</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>8</b></p>
+                            <p class='exercicio-text'><b>Uema </b> Um aluno do ensino médio, ao utilizar argumento criativo para classificar uma solução com base em seu coeficiente de solubilidade, apresentou a seguinte resposta:</p>
+                        </div>
+                        <p class="exercicio-text ml">&#8220;Solução insaturada &#8211; limonada com pouco açúcar. </p>
+                        <p class="exercicio-text ml">Solução saturada &#8211; açúcar na medida certa, sente-se um suco de limão adocicado. </p>
+                        <p class="exercicio-text ml">Solução supersaturada &#8211; uma limonada em que não se sente mais o gosto do limão, só do açúcar&#8221;. </p>
+                        <p class="exercicio-text ml">A professora explicou que o coeficiente de solubilidade varia de acordo com o soluto, com a quantidade de solvente e com a temperatura em que se encontra a solução, fazendo uso do gráfico abaixo, cuja curva mostra a quantidade
+                            máxima de soluto dissolvido para uma dada temperatura.</p>
+                        <p class="quote-source">Fonte: Disponível em: &lt;https://br.answers.yahoo.com/question/index?qid=20090217092126AAVruYV&gt;. Acesso em: 18 set. 2014. </p>
+                        <img src="./assets/img/I010-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md-1">
+
+                        <p class="exercicio-text ml">Analise o gráfico utilizado pela professora e explique, com base no conceito do aluno, as situações representadas pelas soluções A e B. Justifique cada situação. </p>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>9</b></p>
+                            <p class='exercicio-text'> <b>UFRGS </b> Um experimento é realizado em duas etapas.</p>
+                        </div>
+                        <p class="exercicio-text ml">
+                            Etapa 1: A 200 mL de água destilada contidos em um copo são adicionadas quantidades crescentes de NaC
+                            <simbolos>&#8467;</simbolos>
+                            . Essa mistura é agitada intensa e vigorosamente, até que se observe a precipitação de cristais de NaC
+                            <simbolos>&#8467;</simbolos>
+                            que não mais solubilizam.
+                        </p>
+                        <p class="exercicio-text ml">
+                            Etapa 2: À mistura obtida na etapa 1 são acrescentados alguns cristais de KMnO
+                            <sub>4</sub> . Após algum tempo, observa-se que a fase líquida adquire uma coloração violácea característica do permanganato de potássio.
+                        </p>
+                        <p class="exercicio-text ml">A análise desse experimento permite concluir que:</p>
+                        <ol class="questao-alternativas  ml" type="a">
+                            <li>A fase líquida obtida ao final da etapa 2 é uma solução supersaturada.</li>
+                            <li>O NaC
+                                <simbolos>&#8467;</simbolos>
+                                e o KMnO
+                                <sub>4</sub> devem apresentar os mesmos valores de coeficiente de solubilidade.</li>
+                            <li> A solubilização do KMnO
+                                <sub>4</sub> na etapa 2 só foi possível porque a solução líquida obtida na etapa 1 estava insaturada.</li>
+                            <li>A solução líquida obtida na etapa 1, embora esteja saturada de NaC
+                                <simbolos>&#8467;</simbolos>
+                                , ainda mantém a possibilidade de solubilizar KMnO
+                                <sub>4</sub> .
+                            </li>
+                            <li> A fase líquida obtida ao final da etapa 2 não pode ser considerada uma solução, porque foram utilizados dois solutos com propriedades diferentes.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>10</b></p>
+                            <p class='exercicio-text'><b>EBMSP-BA 2017</b> O conhecimento da solubilidade de sais em água é importante para a realização de atividades em laboratórios e nos procedimentos médicos que envolvam a utilização desses compostos químicos. A dissolução
+                                dessas substâncias químicas em água é influenciada pela temperatura, como mostra o gráfico que apresenta as curvas de solubilidade do nitrato de potássio, KNO
+                                <sub>3</sub> , do cromato de potássio K
+                                <sub>2</sub> CrO
+                                <sub>4</sub> , do cloreto de sódio, NaC
+                                <simbolos>&#8467;</simbolos>
+                                , e do sulfato de cério, CeSO
+                                <sub>4</sub> .
+                            </p>
+                        </div>
+                        <img src="./assets/img/I006-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md-1">
+                        <p class="exercicio-text ml">A análise do gráfico permite afirmar: </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li> O processo de dissolução dos sais constituídos pelos metais alcalinos, em água, é endotérmico.</li>
+                            <li>A mistura de 120 g de cromato de potássio com 200 g de água forma uma solução saturada a 60
+                                <simbolos>°</simbolos>
+                                C.</li>
+                            <li>O coeficiente de solubilidade do sulfato de cério aumenta com o aquecimento do sistema aquoso.</li>
+                            <li>A solubilidade do nitrato de potássio é maior do que a do cromato de potássio a temperatura de 20
+                                <simbolos>°</simbolos>
+                                C</li>
+                            <li>O nitrato de potássio e o cloreto de sódio apresentam o mesmo coeficiente de solubilidade a 40
+                                <simbolos>°</simbolos>
+                                C.</li>
+                        </ol>
+
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>11</b></p>
+                            <p class='exercicio-text'><b>Acafe-SC 2016</b> O cloreto de potássio é um sal que adicionado ao cloreto de sódio é vendido comercialmente como &#8220;sal light&#8221;, com baixo teor de sódio. Dezoito gramas de cloreto de potássio estão dissolvidos
+                                em 200 g de água e armazenados em um frasco aberto sob temperatura constante de 60
+                                <simbolos>°</simbolos>
+                                C.</p>
+                        </div>
+                        <p class="exercicio-text ml">
+                            Dados: Considere a solubilidade do cloreto de potássio a 60
+                            <simbolos>°</simbolos>
+                            C igual a 45 g/100 g de água. <br> Qual a massa mínima e aproximada de água que deve ser evaporada para iniciar a cristalização do soluto?
+                        </p>
+
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>160 g</li>
+                            <li>120 g</li>
+                            <li>40 g</li>
+                            <li>80 g</li>
+                        </ol>
+                        <div class="flex-exercicios">
+                            <p class='exercicio-text'><b>12</b></p>
+                            <p class='exercicio-text'> <b>UCS-RS 2016</b> Curvas de solubilidade, como as representadas no gráfico abaixo, descrevem como os coeficientes de solubilidade de substâncias químicas, em um determinado solvente, variam em função da temperatura.</p>
+                        </div>
+                        <img src="./assets/img/I008-2020-EM-QUI-1S-L2-FA-U5-C17.png" alt="imagem" class="img-md-1">
+                        <p class="quote-source">
+                            Fonte: BRADY, James E.; RUSSEL, Joel W.; HOLUM, John R.
+                            <i>Química: a matéria e suas transformações</i> . 3. ed. LTC: Rio de Janeiro, V. 1, 2002, p. 385.
+                        </p>
+                        <p class="exercicio-text ml">Considerando as informações apresentadas pelo gráfico acima, assinale a alternativa correta. </p>
+                        <ol class="questao-alternativas ml" type="a">
+                            <li>Todas as substâncias químicas são sais, com exceção da sacarose.</li>
+                            <li>O aumento da temperatura de 10
+                                <simbolos>°</simbolos>
+                                C para 40
+                                <simbolos>°</simbolos>
+                                C favorece a solubilização do sulfato de cério (III) em água.</li>
+                            <li>A massa de nitrato de amônio que permanece em solução, quando a temperatura da água é reduzida de 80
+                                <simbolos>°</simbolos>
+                                C para 40
+                                <simbolos>°</simbolos>
+                                C, é de aproximadamente 100 g.</li>
+                            <li>A dissolução do iodeto de sódio em água é endotérmica.</li>
+                            <li>A 0
+                                <simbolos>°</simbolos>
+                                C, todas as substâncias químicas são insolúveis em água.</li>
+                        </ol>
+
+                    </div>
+
+
+
+                    <!-- fim -->
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
